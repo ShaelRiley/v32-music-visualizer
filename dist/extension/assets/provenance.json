@@ -1,0 +1,63 @@
+{
+  "date": "2026-10-08",
+  "glyphSubset": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31
+  ],
+  "glyphSize": [
+    8,
+    16
+  ],
+  "sources": [
+    {
+      "repository": "https://github.com/ShaelRiley/v64",
+      "commit": "8281e7feb2ecae0ecc436e8ffadc74aaf6600c28"
+    },
+    {
+      "repository": "https://github.com/ShaelRiley/ansi-tube",
+      "commit": "ee08e6659bdb060f0689457ee32b22ff7b4dc664"
+    }
+  ],
+  "hashes": {
+    "parentGlyphAsset": "9a75062711504dc9b2d473cdc261e0a8e34ff349ed9a8e1dc293467e9215da2b",
+    "selectedGlyphAsset": "6344b0c229b1912dbeea31a8d45bc37654ec4f0750d927d97fc21fa12ea689fd",
+    "ansitubeCore": "815c290446384499ab1217ae8a9973177bf24e91d90f70e47cf04038e9865076",
+    "ansitubeContent": "8b1951ef5867d1b9be48bb8016a6c2f3397ad34cf7f94f8bacae5a4796f6b912"
+  },
+  "palettePort": "Exact extracted definitions and functions; bounded eight-entry FIFO cache replaces unlimited cache only.",
+  "specialModes": {
+    "nativeglyph": "No equivalent: these canonical bitmap masks have no intrinsic colors. The option is identified and disabled rather than bypassing depth.",
+    "mooburst": "Palette and luminance treatment retained. Cow bitmap cameo and associated audio are omitted: replacing canonical masks or injecting audio would violate this instrument."
+  },
+  "licensing": "Video64 MIT notice retained. ANSI Tube currently has no LICENSE file; its author Shael Riley explicitly authorized inclusion in Video32 and public publication of this repository. This publication does not change the upstream repository's licensing."
+}

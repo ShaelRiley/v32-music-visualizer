@@ -1,0 +1,7426 @@
+[
+  {
+    "id": "ribbon-01",
+    "name": "Prism Sail",
+    "family": "ribbon",
+    "operators": [
+      "ribbon",
+      "knot"
+    ],
+    "relationships": [
+      "independent",
+      "independent"
+    ],
+    "behaviors": [
+      "fold",
+      "circulate"
+    ],
+    "organization": "layered formation",
+    "scale": "exterior",
+    "camera": "orbit",
+    "audio": [
+      "mid",
+      "onset"
+    ],
+    "description": "An open spectral membrane folds around a circulating knot.",
+    "distinction": "An open spectral membrane folds around a circulating knot. Structural recipe: ribbon.fold@body+knot.circulate@core.",
+    "budget": 8500
+  },
+  {
+    "id": "ribbon-02",
+    "name": "Two Winds",
+    "family": "ribbon",
+    "operators": [
+      "ribbon",
+      "ribbon",
+      "helix"
+    ],
+    "relationships": [
+      "independent",
+      "independent",
+      "independent"
+    ],
+    "behaviors": [
+      "split",
+      "twist",
+      "ripple"
+    ],
+    "organization": "interacting cluster",
+    "scale": "exterior",
+    "camera": "rise",
+    "audio": [
+      "onset",
+      "bass",
+      "mid"
+    ],
+    "description": "Separate sails part to reveal a helical spine.",
+    "distinction": "Separate sails part to reveal a helical spine. Structural recipe: ribbon.split.open@left+ribbon.twist.open@right+helix.ripple@rear.",
+    "budget": 10500
+  },
+  {
+    "id": "ribbon-03",
+    "name": "Chapel of Folds",
+    "family": "ribbon",
+    "operators": [
+      "ribbon",
+      "iris",
+      "strata"
+    ],
+    "relationships": [
+      "independent",
+      "independent",
+      "independent"
+    ],
+    "behaviors": [
+      "fold",
+      "ripple",
+      "still"
+    ],
+    "organization": "interior",
+    "scale": "chamber",
+    "camera": "interior",
+    "audio": [
+      "mid",
+      "bass",
+      "onset"
+    ],
+    "description": "A layered chapel wraps a vibrating aperture above a terraced floor.",
+    "distinction": "A layered chapel wraps a vibrating aperture above a terraced floor. Structural recipe: ribbon.fold@vault+iris.ripple@core+strata.still@floor.",
+    "budget": 10500
+  },
+  {
+    "id": "ribbon-04",
+    "name": "Sewn Horizon",
+    "family": "ribbon",
+    "operators": [
+      "ribbon",
+      "braid"
+    ],
+    "relationships": [
+      "weave",
+      "independent"
+    ],
+    "behaviors": [
+      "twist",
+      "circulate"
+    ],
+    "organization": "layered formation",
+    "scale": "exterior",
+    "camera": "orbit",
+    "audio": [
+      "trend",
+      "mid"
+    ],
+    "description": "A woven membrane catches a braid along its torn horizon.",
+    "distinction": "A woven membrane catches a braid along its torn horizon. Structural recipe: ribbon~weave~weft.twist@body+braid.circulate@rim.",
+    "budget": 8500
+  },
+  {
+    "id": "ribbon-05",
+    "name": "Inside the Sail",
+    "family": "ribbon",
+    "operators": [
+      "ribbon",
+      "rosette"
+    ],
+    "relationships": [
+      "wrap",
+      "independent"
+    ],
+    "behaviors": [
+      "invert",
+      "grow"
+    ],
+    "organization": "layered formation",
+    "scale": "journey",
+    "camera": "passage",
+    "audio": [
+      "trend",
+      "bass"
+    ],
+    "description": "A perforated enclosing sail inverts around a growing blossom.",
+    "distinction": "A perforated enclosing sail inverts around a growing blossom. Structural recipe: ribbon~wrap~shell.invert.pores@vault+rosette.grow@core.",
+    "budget": 8500
+  },
+  {
+    "id": "ribbon-06",
+    "name": "Cutwater",
+    "family": "ribbon",
+    "operators": [
+      "ribbon",
+      "cone"
+    ],
+    "relationships": [
+      "intersect",
+      "independent"
+    ],
+    "behaviors": [
+      "ripple",
+      "split"
+    ],
+    "organization": "layered formation",
+    "scale": "intimate",
+    "camera": "detail",
+    "audio": [
+      "bass",
+      "onset"
+    ],
+    "description": "Conical crossings cut spatial openings through a rippling sail.",
+    "distinction": "Conical crossings cut spatial openings through a rippling sail. Structural recipe: ribbon~intersect~cone.ripple@body+cone.split@cross.",
+    "budget": 8500
+  },
+  {
+    "id": "ribbon-07",
+    "name": "Ribbon Weather",
+    "family": "ribbon",
+    "operators": [
+      "ribbon",
+      "wave",
+      "spiral"
+    ],
+    "relationships": [
+      "independent",
+      "independent",
+      "independent"
+    ],
+    "behaviors": [
+      "collapse",
+      "ripple",
+      "circulate"
+    ],
+    "organization": "layered formation",
+    "scale": "exterior",
+    "camera": "rise",
+    "audio": [
+      "trend",
+      "mid",
+      "bass"
+    ],
+    "description": "Striped overhead fabric falls toward waves and an approaching coil.",
+    "distinction": "Striped overhead fabric falls toward waves and an approaching coil. Structural recipe: ribbon.collapse.bands@ceiling+wave.ripple@floor+spiral.circulate@front.",
+    "budget": 10500
+  },
+  {
+    "id": "ribbon-08",
+    "name": "Sail Nursery",
+    "family": "ribbon",
+    "operators": [
+      "ribbon",
+      "cell",
+      "branch"
+    ],
+    "relationships": [
+      "independent",
+      "independent",
+      "independent"
+    ],
+    "behaviors": [
+      "grow",
+      "split",
+      "twist"
+    ],
+    "organization": "layered formation",
+    "scale": "exterior",
+    "camera": "hold",
+    "audio": [
+      "trend",
+      "onset",
+      "bass"
+    ],
+    "description": "A rear sail shelters cells separating around a branching nucleus.",
+    "distinction": "A rear sail shelters cells separating around a branching nucleus. Structural recipe: ribbon.grow@rear+cell.split@front+branch.twist@core.",
+    "budget": 10500
+  },
+  {
+    "id": "torus-01",
+    "name": "Chromatic Lock",
+    "family": "torus",
+    "operators": [
+      "torus",
+      "iris"
+    ],
+    "relationships": [
+      "independent",
+      "independent"
+    ],
+    "behaviors": [
+      "twist",
+      "ripple"
+    ],
+    "organization": "layered formation",
+    "scale": "exterior",
+    "camera": "orbit",
+    "audio": [
+      "bass",
+      "mid"
+    ],
+    "description": "A thick orbital lock tightens around a ruffled aperture.",
+    "distinction": "A thick orbital lock tightens around a ruffled aperture. Structural recipe: torus.twist@body+iris.ripple@core.",
+    "budget": 8500
+  },
+  {
+    "id": "torus-02",
+    "name": "Double Gate",
+    "family": "torus",
+    "operators": [
+      "torus",
+      "torus",
+      "knot"
+    ],
+    "relationships": [
+      "independent",
+      "independent",
+      "independent"
+    ],
+    "behaviors": [
+      "split",
+      "invert",
+      "circulate"
+    ],
+    "organization": "interacting cluster",
+    "scale": "journey",
+    "camera": "passage",
+    "audio": [
+      "onset",
+      "bass",
+      "mid"
+    ],
+    "description": "Two orbital gates part around a knot in their shared passage.",
+    "distinction": "Two orbital gates part around a knot in their shared passage. Structural recipe: torus.split@left+torus.invert@right+knot.circulate@core.",
+    "budget": 10500
+  },
+  {
+    "id": "torus-03",
+    "name": "Orbital Sanctuary",
+    "family": "torus",
+    "operators": [
+      "torus",
+      "shell",
+      "helix"
+    ],
+    "relationships": [
+      "independent",
+      "independent",
+      "independent"
+    ],
+    "behaviors": [
+      "circulate",
+      "ripple",
+      "twist"
+    ],
+    "organization": "interior",
+    "scale": "chamber",
+    "camera": "interior",
+    "audio": [
+      "trend",
+      "mid",
+      "bass"
+    ],
+    "description": "An orbital enclosure shelters a porous shell and axial filament.",
+    "distinction": "An orbital enclosure shelters a porous shell and axial filament. Structural recipe: torus.circulate@vault+shell.ripple.pores@core+helix.twist@nest.",
+    "budget": 10500
+  },
+  {
+    "id": "torus-04",
+    "name": "Woven Orbit",
+    "family": "torus",
+    "operators": [
+      "torus",
+      "weft"
+    ],
+    "relationships": [
+      "weave",
+      "independent"
+    ],
+    "behaviors": [
+      "fold",
+      "split"
+    ],
+    "organization": "layered formation",
+    "scale": "exterior",
+    "camera": "rise",
+    "audio": [
+      "mid",
+      "onset"
+    ],
+    "description": "Interlaced orbital fabric hangs above a separating woven floor.",
+    "distinction": "Interlaced orbital fabric hangs above a separating woven floor. Structural recipe: torus~weave~weft.fold@body+weft.split@floor.",
+    "budget": 8500
+  },
+  {
+    "id": "torus-05",
+    "name": "The Returning Ring",
+    "family": "torus",
+    "operators": [
+      "torus",
+      "spiral"
+    ],
+    "relationships": [
+      "blend",
+      "independent"
+    ],
+    "behaviors": [
+      "invert",
+      "grow"
+    ],
+    "organization": "layered formation",
+    "scale": "intimate",
+    "camera": "detail",
+    "audio": [
+      "trend",
+      "bass"
+    ],
+    "description": "A ring narrows into a waist while its inner coil unfurls.",
+    "distinction": "A ring narrows into a waist while its inner coil unfurls. Structural recipe: torus~blend~hourglass.invert.open@body+spiral.grow@core.",
+    "budget": 8500
+  },
+  {
+    "id": "torus-06",
+    "name": "Interrupted Circuit",
+    "family": "torus",
+    "operators": [
+      "torus",
+      "arch"
+    ],
+    "relationships": [
+      "intersect",
+      "independent"
+    ],
+    "behaviors": [
+      "ripple",
+      "split"
+    ],
+    "organization": "layered formation",
+    "scale": "exterior",
+    "camera": "orbit",
+    "audio": [
+      "bass",
+      "onset"
+    ],
+    "description": "An arch interrupts an orbital circuit with legible black cuts.",
+    "distinction": "An arch interrupts an orbital circuit with legible black cuts. Structural recipe: torus~intersect~arch.ripple@body+arch.split@cross.",
+    "budget": 8500
+  },
+  {
+    "id": "torus-07",
+    "name": "Three Orbits",
+    "family": "torus",
+    "operators": [
+      "torus",
+      "torus",
+      "lens"
+    ],
+    "relationships": [
+      "independent",
+      "independent",
+      "independent"
+    ],
+    "behaviors": [
+      "circulate",
+      "twist",
+      "ripple"
+    ],
+    "organization": "interacting cluster",
+    "scale": "exterior",
+    "camera": "rise",
+    "audio": [
+      "bass",
+      "mid",
+      "trend"
+    ],
+    "description": "Two distinct orbital planes cross a shallow luminous lens.",
+    "distinction": "Two distinct orbital planes cross a shallow luminous lens. Structural recipe: torus.circulate@left+torus.twist@right+lens.ripple@rear.",
+    "budget": 10500
+  },
+  {
+    "id": "torus-08",
+    "name": "Toroidal Weather",
+    "family": "torus",
+    "operators": [
+      "torus",
+      "wavefront",
+      "vortex"
+    ],
+    "relationships": [
+      "independent",
+      "independent",
+      "independent"
+    ],
+    "behaviors": [
+      "fold",
+      "ripple",
+      "collapse"
+    ],
+    "organization": "layered formation",
+    "scale": "journey",
+    "camera": "passage",
+    "audio": [
+      "mid",
+      "bass",
+      "onset"
+    ],
+    "description": "An orbital canopy folds into annular waves above a collapsing whirl.",
+    "distinction": "An orbital canopy folds into annular waves above a collapsing whirl. Structural recipe: torus.fold.bands@vault+wavefront.ripple@floor+vortex.collapse@core.",
+    "budget": 10500
+  },
+  {
+    "id": "shell-01",
+    "name": "Porous Sun",
+    "family": "shell",
+    "operators": [
+      "shell",
+      "spiral"
+    ],
+    "relationships": [
+      "independent",
+      "independent"
+    ],
+    "behaviors": [
+      "ripple",
+      "circulate"
+    ],
+    "organization": "layered formation",
+    "scale": "exterior",
+    "camera": "orbit",
+    "audio": [
+      "bass",
+      "trend"
+    ],
+    "description": "A porous shell reveals an internal circulating spiral.",
+    "distinction": "A porous shell reveals an internal circulating spiral. Structural recipe: shell.ripple.pores@body+spiral.circulate@core.",
+    "budget": 8500
+  },
+  {
+    "id": "shell-02",
+    "name": "Cloven Planet",
+    "family": "shell",
+    "operators": [
+      "shell",
+      "shell",
+      "weft"
+    ],
+    "relationships": [
+      "independent",
+      "independent",
+      "independent"
+    ],
+    "behaviors": [
+      "split",
+      "invert",
+      "fold"
+    ],
+    "organization": "interacting cluster",
+    "scale": "exterior",
+    "camera": "rise",
+    "audio": [
+      "onset",
+      "mid",
+      "bass"
+    ],
+    "description": "Complementary open shells separate in front of a woven plane.",
+    "distinction": "Complementary open shells separate in front of a woven plane. Structural recipe: shell.split.open@left+shell.invert.open@right+weft.fold@rear.",
+    "budget": 10500
+  },
+  {
+    "id": "shell-03",
+    "name": "Shell Within Shell",
+    "family": "shell",
+    "operators": [
+      "shell",
+      "shell",
+      "iris"
+    ],
+    "relationships": [
+      "independent",
+      "independent",
+      "independent"
+    ],
+    "behaviors": [
+      "grow",
+      "collapse",
+      "ripple"
+    ],
+    "organization": "interior",
+    "scale": "chamber",
+    "camera": "interior",
+    "audio": [
+      "trend",
+      "bass",
+      "onset"
+    ],
+    "description": "Open concentric shells expose an inner ruffled throat.",
+    "distinction": "Open concentric shells expose an inner ruffled throat. Structural recipe: shell.grow.pores@vault+shell.collapse.open@core+iris.ripple@nest.",
+    "budget": 10500
+  },
+  {
+    "id": "shell-04",
+    "name": "Filament Cradle",
+    "family": "shell",
+    "operators": [
+      "shell",
+      "helix"
+    ],
+    "relationships": [
+      "wrap",
+      "independent"
+    ],
+    "behaviors": [
+      "fold",
+      "twist"
+    ],
+    "organization": "layered formation",
+    "scale": "exterior",
+    "camera": "orbit",
+    "audio": [
+      "mid",
+      "bass"
+    ],
+    "description": "A helical field wraps the shell supporting its axial filament.",
+    "distinction": "A helical field wraps the shell supporting its axial filament. Structural recipe: shell~wrap~helix.fold.open@body+helix.twist@core.",
+    "budget": 8500
+  },
+  {
+    "id": "shell-05",
+    "name": "Slow Eversion",
+    "family": "shell",
+    "operators": [
+      "shell",
+      "lens"
+    ],
+    "relationships": [
+      "blend",
+      "independent"
+    ],
+    "behaviors": [
+      "invert",
+      "circulate"
+    ],
+    "organization": "layered formation",
+    "scale": "intimate",
+    "camera": "detail",
+    "audio": [
+      "trend",
+      "mid"
+    ],
+    "description": "A spherical surface everts toward a petaled dish above a lens.",
+    "distinction": "A spherical surface everts toward a petaled dish above a lens. Structural recipe: shell~blend~rosette.invert@body+lens.circulate@floor.",
+    "budget": 8500
+  },
+  {
+    "id": "shell-06",
+    "name": "Punctured Horizon",
+    "family": "shell",
+    "operators": [
+      "shell",
+      "catenoid"
+    ],
+    "relationships": [
+      "intersect",
+      "independent"
+    ],
+    "behaviors": [
+      "ripple",
+      "split"
+    ],
+    "organization": "layered formation",
+    "scale": "journey",
+    "camera": "passage",
+    "audio": [
+      "bass",
+      "onset"
+    ],
+    "description": "A narrow waist pierces a shell and opens a passage.",
+    "distinction": "A narrow waist pierces a shell and opens a passage. Structural recipe: shell~intersect~catenoid.ripple@body+catenoid.split@cross.",
+    "budget": 8500
+  },
+  {
+    "id": "shell-07",
+    "name": "Shell Choir",
+    "family": "shell",
+    "operators": [
+      "shell",
+      "cell",
+      "cone"
+    ],
+    "relationships": [
+      "independent",
+      "independent",
+      "independent"
+    ],
+    "behaviors": [
+      "ripple",
+      "grow",
+      "twist"
+    ],
+    "organization": "interacting cluster",
+    "scale": "exterior",
+    "camera": "hold",
+    "audio": [
+      "mid",
+      "bass",
+      "trend"
+    ],
+    "description": "A resonating shell answers a cell cluster across a conical rear wall.",
+    "distinction": "A resonating shell answers a cell cluster across a conical rear wall. Structural recipe: shell.ripple@left+cell.grow@right+cone.twist@rear.",
+    "budget": 10500
+  },
+  {
+    "id": "shell-08",
+    "name": "Black Pearl Chamber",
+    "family": "shell",
+    "operators": [
+      "shell",
+      "crystal",
+      "knot"
+    ],
+    "relationships": [
+      "independent",
+      "independent",
+      "independent"
+    ],
+    "behaviors": [
+      "collapse",
+      "grow",
+      "circulate"
+    ],
+    "organization": "interior",
+    "scale": "chamber",
+    "camera": "interior",
+    "audio": [
+      "trend",
+      "bass",
+      "onset"
+    ],
+    "description": "A collapsing chamber reveals a crystal held by a circulating knot.",
+    "distinction": "A collapsing chamber reveals a crystal held by a circulating knot. Structural recipe: shell.collapse.pores@vault+crystal.grow@core+knot.circulate@rim.",
+    "budget": 10500
+  },
+  {
+    "id": "helix-01",
+    "name": "Electric Spine",
+    "family": "helix",
+    "operators": [
+      "helix",
+      "iris"
+    ],
+    "relationships": [
+      "independent",
+      "independent"
+    ],
+    "behaviors": [
+      "ripple",
+      "twist"
+    ],
+    "organization": "layered formation",
+    "scale": "exterior",
+    "camera": "rise",
+    "audio": [
+      "bass",
+      "mid"
+    ],
+    "description": "An ascending helical spine passes through a turning aperture.",
+    "distinction": "An ascending helical spine passes through a turning aperture. Structural recipe: helix.ripple@body+iris.twist@cross.",
+    "budget": 8500
+  },
+  {
+    "id": "helix-02",
+    "name": "Counterwound",
+    "family": "helix",
+    "operators": [
+      "helix",
+      "braid",
+      "lens"
+    ],
+    "relationships": [
+      "independent",
+      "independent",
+      "independent"
+    ],
+    "behaviors": [
+      "twist",
+      "circulate",
+      "invert"
+    ],
+    "organization": "interacting cluster",
+    "scale": "exterior",
+    "camera": "orbit",
+    "audio": [
+      "mid",
+      "onset",
+      "trend"
+    ],
+    "description": "A helical column and braid cross opposite sides of a shallow lens.",
+    "distinction": "A helical column and braid cross opposite sides of a shallow lens. Structural recipe: helix.twist@left+braid.circulate@right+lens.invert@rear.",
+    "budget": 10500
+  },
+  {
+    "id": "helix-03",
+    "name": "Spiral Stairwell",
+    "family": "helix",
+    "operators": [
+      "helix",
+      "arch",
+      "wavefront"
+    ],
+    "relationships": [
+      "independent",
+      "independent",
+      "independent"
+    ],
+    "behaviors": [
+      "fold",
+      "still",
+      "ripple"
+    ],
+    "organization": "interior",
+    "scale": "chamber",
+    "camera": "interior",
+    "audio": [
+      "trend",
+      "bass",
+      "onset"
+    ],
+    "description": "A large coiled stairwell winds above an arch and wave throat.",
+    "distinction": "A large coiled stairwell winds above an arch and wave throat. Structural recipe: helix.fold@vault+arch.still@floor+wavefront.ripple@core.",
+    "budget": 10500
+  },
+  {
+    "id": "helix-04",
+    "name": "Helical Cloth",
+    "family": "helix",
+    "operators": [
+      "helix",
+      "ribbon"
+    ],
+    "relationships": [
+      "weave",
+      "independent"
+    ],
+    "behaviors": [
+      "split",
+      "fold"
+    ],
+    "organization": "layered formation",
+    "scale": "journey",
+    "camera": "passage",
+    "audio": [
+      "onset",
+      "mid"
+    ],
+    "description": "A split helical fabric threads through a folded transverse sail.",
+    "distinction": "A split helical fabric threads through a folded transverse sail. Structural recipe: helix~weave~ribbon.split@body+ribbon.fold@cross.",
+    "budget": 8500
+  },
+  {
+    "id": "helix-05",
+    "name": "Axial Unraveling",
+    "family": "helix",
+    "operators": [
+      "helix",
+      "cell"
+    ],
+    "relationships": [
+      "blend",
+      "independent"
+    ],
+    "behaviors": [
+      "grow",
+      "collapse"
+    ],
+    "organization": "layered formation",
+    "scale": "exterior",
+    "camera": "rise",
+    "audio": [
+      "trend",
+      "bass"
+    ],
+    "description": "A coiled axis opens into branching growth over clustered cells.",
+    "distinction": "A coiled axis opens into branching growth over clustered cells. Structural recipe: helix~blend~branch.grow@body+cell.collapse@floor.",
+    "budget": 8500
+  },
+  {
+    "id": "helix-06",
+    "name": "Coil of Absence",
+    "family": "helix",
+    "operators": [
+      "helix",
+      "shell"
+    ],
+    "relationships": [
+      "intersect",
+      "independent"
+    ],
+    "behaviors": [
+      "ripple",
+      "invert"
+    ],
+    "organization": "layered formation",
+    "scale": "intimate",
+    "camera": "detail",
+    "audio": [
+      "bass",
+      "mid"
+    ],
+    "description": "A hollowed helical column turns around an open sphere.",
+    "distinction": "A hollowed helical column turns around an open sphere. Structural recipe: helix~intersect~shell.ripple@body+shell.invert.open@core.",
+    "budget": 8500
+  },
+  {
+    "id": "helix-07",
+    "name": "Thunder Columns",
+    "family": "helix",
+    "operators": [
+      "helix",
+      "helix",
+      "strata"
+    ],
+    "relationships": [
+      "independent",
+      "independent",
+      "independent"
+    ],
+    "behaviors": [
+      "split",
+      "collapse",
+      "fold"
+    ],
+    "organization": "interacting cluster",
+    "scale": "exterior",
+    "camera": "hold",
+    "audio": [
+      "onset",
+      "bass",
+      "trend"
+    ],
+    "description": "Two columns answer impulses against slowly folding terraces.",
+    "distinction": "Two columns answer impulses against slowly folding terraces. Structural recipe: helix.split@left+helix.collapse@right+strata.fold@rear.",
+    "budget": 10500
+  },
+  {
+    "id": "helix-08",
+    "name": "Helical Observatory",
+    "family": "helix",
+    "operators": [
+      "helix",
+      "torus",
+      "crystal"
+    ],
+    "relationships": [
+      "independent",
+      "independent",
+      "independent"
+    ],
+    "behaviors": [
+      "circulate",
+      "ripple",
+      "twist"
+    ],
+    "organization": "interior",
+    "scale": "chamber",
+    "camera": "interior",
+    "audio": [
+      "trend",
+      "mid",
+      "bass"
+    ],
+    "description": "A coiled enclosure surrounds an orbital window and turning crystal.",
+    "distinction": "A coiled enclosure surrounds an orbital window and turning crystal. Structural recipe: helix.circulate@vault+torus.ripple@core+crystal.twist@nest.",
+    "budget": 10500
+  },
+  {
+    "id": "wave-01",
+    "name": "Standing Sea",
+    "family": "wave",
+    "operators": [
+      "wave",
+      "arch"
+    ],
+    "relationships": [
+      "independent",
+      "independent"
+    ],
+    "behaviors": [
+      "ripple",
+      "fold"
+    ],
+    "organization": "layered formation",
+    "scale": "exterior",
+    "camera": "rise",
+    "audio": [
+      "bass",
+      "mid"
+    ],
+    "description": "Crossing waves run toward a folded arch on the horizon.",
+    "distinction": "Crossing waves run toward a folded arch on the horizon. Structural recipe: wave.ripple@body+arch.fold@rear.",
+    "budget": 8500
+  },
+  {
+    "id": "wave-02",
+    "name": "Two Tides",
+    "family": "wave",
+    "operators": [
+      "wave",
+      "wave",
+      "iris"
+    ],
+    "relationships": [
+      "independent",
+      "independent",
+      "independent"
+    ],
+    "behaviors": [
+      "split",
+      "invert",
+      "circulate"
+    ],
+    "organization": "layered formation",
+    "scale": "journey",
+    "camera": "passage",
+    "audio": [
+      "onset",
+      "mid",
+      "trend"
+    ],
+    "description": "Floor and ceiling tides part around an annular window.",
+    "distinction": "Floor and ceiling tides part around an annular window. Structural recipe: wave.split@floor+wave.invert@ceiling+iris.circulate@core.",
+    "budget": 10500
+  },
+  {
+    "id": "wave-03",
+    "name": "Submerged Room",
+    "family": "wave",
+    "operators": [
+      "wave",
+      "strata",
+      "cone"
+    ],
+    "relationships": [
+      "independent",
+      "independent",
+      "independent"
+    ],
+    "behaviors": [
+      "fold",
+      "collapse",
+      "ripple"
+    ],
+    "organization": "interior",
+    "scale": "chamber",
+    "camera": "interior",
+    "audio": [
+      "trend",
+      "bass",
+      "onset"
+    ],
+    "description": "An undulating enclosure meets terraces and a conical far wall.",
+    "distinction": "An undulating enclosure meets terraces and a conical far wall. Structural recipe: wave.fold@vault+strata.collapse@floor+cone.ripple@rear.",
+    "budget": 10500
+  },
+  {
+    "id": "wave-04",
+    "name": "Woven Surf",
+    "family": "wave",
+    "operators": [
+      "wave",
+      "weft"
+    ],
+    "relationships": [
+      "weave",
+      "independent"
+    ],
+    "behaviors": [
+      "twist",
+      "ripple"
+    ],
+    "organization": "layered formation",
+    "scale": "exterior",
+    "camera": "orbit",
+    "audio": [
+      "mid",
+      "bass"
+    ],
+    "description": "Wave fabric weaves through an orthogonal textile sheet.",
+    "distinction": "Wave fabric weaves through an orthogonal textile sheet. Structural recipe: wave~weave~weft.twist@body+weft.ripple@cross.",
+    "budget": 8500
+  },
+  {
+    "id": "wave-05",
+    "name": "The Tide Becomes Trees",
+    "family": "wave",
+    "operators": [
+      "wave",
+      "lens"
+    ],
+    "relationships": [
+      "blend",
+      "independent"
+    ],
+    "behaviors": [
+      "grow",
+      "invert"
+    ],
+    "organization": "layered formation",
+    "scale": "exterior",
+    "camera": "rise",
+    "audio": [
+      "trend",
+      "mid"
+    ],
+    "description": "A wavefield rises into coral over a flattening luminous lens.",
+    "distinction": "A wavefield rises into coral over a flattening luminous lens. Structural recipe: wave~blend~coral.grow@body+lens.invert@floor.",
+    "budget": 8500
+  },
+  {
+    "id": "wave-06",
+    "name": "Wave Window",
+    "family": "wave",
+    "operators": [
+      "wave",
+      "torus"
+    ],
+    "relationships": [
+      "intersect",
+      "independent"
+    ],
+    "behaviors": [
+      "ripple",
+      "split"
+    ],
+    "organization": "layered formation",
+    "scale": "intimate",
+    "camera": "detail",
+    "audio": [
+      "bass",
+      "onset"
+    ],
+    "description": "Orbital cuts turn a wave sheet into a traversable window.",
+    "distinction": "Orbital cuts turn a wave sheet into a traversable window. Structural recipe: wave~intersect~torus.ripple@body+torus.split@cross.",
+    "budget": 8500
+  },
+  {
+    "id": "wave-07",
+    "name": "Broken Seas",
+    "family": "wave",
+    "operators": [
+      "wave",
+      "saddle",
+      "spiral"
+    ],
+    "relationships": [
+      "independent",
+      "independent",
+      "independent"
+    ],
+    "behaviors": [
+      "collapse",
+      "fold",
+      "circulate"
+    ],
+    "organization": "interacting cluster",
+    "scale": "exterior",
+    "camera": "hold",
+    "audio": [
+      "bass",
+      "mid",
+      "trend"
+    ],
+    "description": "A striped sea faces a saddle while a coil moves between them.",
+    "distinction": "A striped sea faces a saddle while a coil moves between them. Structural recipe: wave.collapse.bands@left+saddle.fold@right+spiral.circulate@rear.",
+    "budget": 10500
+  },
+  {
+    "id": "wave-08",
+    "name": "Resonance Basin",
+    "family": "wave",
+    "operators": [
+      "wave",
+      "hourglass",
+      "rosette"
+    ],
+    "relationships": [
+      "independent",
+      "independent",
+      "independent"
+    ],
+    "behaviors": [
+      "ripple",
+      "twist",
+      "grow"
+    ],
+    "organization": "layered formation",
+    "scale": "journey",
+    "camera": "passage",
+    "audio": [
+      "bass",
+      "onset",
+      "trend"
+    ],
+    "description": "Waves collect under a twisting waist and an expanding petaled roof.",
+    "distinction": "Waves collect under a twisting waist and an expanding petaled roof. Structural recipe: wave.ripple@floor+hourglass.twist@core+rosette.grow@ceiling.",
+    "budget": 10500
+  },
+  {
+    "id": "gyroid-01",
+    "name": "Interference Garden",
+    "family": "gyroid",
+    "operators": [
+      "gyroid",
+      "branch"
+    ],
+    "relationships": [
+      "independent",
+      "independent"
+    ],
+    "behaviors": [
+      "ripple",
+      "grow"
+    ],
+    "organization": "layered formation",
+    "scale": "exterior",
+    "camera": "orbit",
+    "audio": [
+      "bass",
+      "trend"
+    ],
+    "description": "An interference membrane rises around a small branching garden.",
+    "distinction": "An interference membrane rises around a small branching garden. Structural recipe: gyroid.ripple@body+branch.grow@core.",
+    "budget": 8500
+  },
+  {
+    "id": "gyroid-02",
+    "name": "Split Labyrinth",
+    "family": "gyroid",
+    "operators": [
+      "gyroid",
+      "scroll",
+      "lens"
+    ],
+    "relationships": [
+      "independent",
+      "independent",
+      "independent"
+    ],
+    "behaviors": [
+      "split",
+      "twist",
+      "circulate"
+    ],
+    "organization": "interacting cluster",
+    "scale": "journey",
+    "camera": "passage",
+    "audio": [
+      "onset",
+      "mid",
+      "bass"
+    ],
+    "description": "A perforated interference wall opens beside a rolled scroll.",
+    "distinction": "A perforated interference wall opens beside a rolled scroll. Structural recipe: gyroid.split.open@left+scroll.twist@right+lens.circulate@rear.",
+    "budget": 10500
+  },
+  {
+    "id": "gyroid-03",
+    "name": "Gyroid Cathedral",
+    "family": "gyroid",
+    "operators": [
+      "gyroid",
+      "iris",
+      "strata"
+    ],
+    "relationships": [
+      "independent",
+      "independent",
+      "independent"
+    ],
+    "behaviors": [
+      "fold",
+      "ripple",
+      "still"
+    ],
+    "organization": "interior",
+    "scale": "chamber",
+    "camera": "interior",
+    "audio": [
+      "trend",
+      "mid",
+      "bass"
+    ],
+    "description": "An open interference canopy forms a chamber with a ruffled far aperture.",
+    "distinction": "An open interference canopy forms a chamber with a ruffled far aperture. Structural recipe: gyroid.fold.pores@vault+iris.ripple@rear+strata.still@floor.",
+    "budget": 10500
+  },
+  {
+    "id": "gyroid-04",
+    "name": "Knotted Interference",
+    "family": "gyroid",
+    "operators": [
+      "gyroid",
+      "knot"
+    ],
+    "relationships": [
+      "wrap",
+      "independent"
+    ],
+    "behaviors": [
+      "twist",
+      "circulate"
+    ],
+    "organization": "layered formation",
+    "scale": "exterior",
+    "camera": "orbit",
+    "audio": [
+      "mid",
+      "bass"
+    ],
+    "description": "A knotted displacement winds through an interference sheet.",
+    "distinction": "A knotted displacement winds through an interference sheet. Structural recipe: gyroid~wrap~knot.twist@body+knot.circulate@core.",
+    "budget": 8500
+  },
+  {
+    "id": "gyroid-05",
+    "name": "Membrane Metabolism",
+    "family": "gyroid",
+    "operators": [
+      "gyroid",
+      "coral"
+    ],
+    "relationships": [
+      "blend",
+      "independent"
+    ],
+    "behaviors": [
+      "grow",
+      "collapse"
+    ],
+    "organization": "layered formation",
+    "scale": "intimate",
+    "camera": "detail",
+    "audio": [
+      "trend",
+      "mid"
+    ],
+    "description": "The interference surface fragments toward clustered cellular growth.",
+    "distinction": "The interference surface fragments toward clustered cellular growth. Structural recipe: gyroid~blend~cell.grow@body+coral.collapse@floor.",
+    "budget": 8500
+  },
+  {
+    "id": "gyroid-06",
+    "name": "Field Aperture",
+    "family": "gyroid",
+    "operators": [
+      "gyroid",
+      "cone"
+    ],
+    "relationships": [
+      "intersect",
+      "independent"
+    ],
+    "behaviors": [
+      "ripple",
+      "invert"
+    ],
+    "organization": "layered formation",
+    "scale": "exterior",
+    "camera": "rise",
+    "audio": [
+      "bass",
+      "onset"
+    ],
+    "description": "Conical intersections cut negative-space corridors into the field.",
+    "distinction": "Conical intersections cut negative-space corridors into the field. Structural recipe: gyroid~intersect~cone.ripple@body+cone.invert@cross.",
+    "budget": 8500
+  },
+  {
+    "id": "gyroid-07",
+    "name": "Two Frequencies",
+    "family": "gyroid",
+    "operators": [
+      "gyroid",
+      "reaction",
+      "helix"
+    ],
+    "relationships": [
+      "independent",
+      "independent",
+      "independent"
+    ],
+    "behaviors": [
+      "circulate",
+      "ripple",
+      "split"
+    ],
+    "organization": "layered formation",
+    "scale": "exterior",
+    "camera": "hold",
+    "audio": [
+      "mid",
+      "bass",
+      "onset"
+    ],
+    "description": "Two dissimilar interference systems exchange pulses around a split coil.",
+    "distinction": "Two dissimilar interference systems exchange pulses around a split coil. Structural recipe: gyroid.circulate.bands@rear+reaction.ripple@front+helix.split@core.",
+    "budget": 10500
+  },
+  {
+    "id": "gyroid-08",
+    "name": "Within Interference",
+    "family": "gyroid",
+    "operators": [
+      "gyroid",
+      "vortex",
+      "wavefront"
+    ],
+    "relationships": [
+      "independent",
+      "independent",
+      "independent"
+    ],
+    "behaviors": [
+      "twist",
+      "fold",
+      "ripple"
+    ],
+    "organization": "interior",
+    "scale": "chamber",
+    "camera": "interior",
+    "audio": [
+      "trend",
+      "mid",
+      "bass"
+    ],
+    "description": "A warped interference room encloses a whirl above traveling wave rings.",
+    "distinction": "A warped interference room encloses a whirl above traveling wave rings. Structural recipe: gyroid.twist.open@vault+vortex.fold@core+wavefront.ripple@floor.",
+    "budget": 10500
+  },
+  {
+    "id": "knot-01",
+    "name": "Threefold Current",
+    "family": "knot",
+    "operators": [
+      "knot",
+      "lens"
+    ],
+    "relationships": [
+      "independent",
+      "independent"
+    ],
+    "behaviors": [
+      "circulate",
+      "ripple"
+    ],
+    "organization": "layered formation",
+    "scale": "exterior",
+    "camera": "orbit",
+    "audio": [
+      "mid",
+      "bass"
+    ],
+    "description": "A trefoil filament circulates around a shallow lens.",
+    "distinction": "A trefoil filament circulates around a shallow lens. Structural recipe: knot.circulate@body+lens.ripple@core.",
+    "budget": 8500
+  },
+  {
+    "id": "knot-02",
+    "name": "Knots in Conversation",
+    "family": "knot",
+    "operators": [
+      "knot",
+      "spiral",
+      "iris"
+    ],
+    "relationships": [
+      "independent",
+      "independent",
+      "independent"
+    ],
+    "behaviors": [
+      "split",
+      "grow",
+      "twist"
+    ],
+    "organization": "interacting cluster",
+    "scale": "exterior",
+    "camera": "rise",
+    "audio": [
+      "onset",
+      "trend",
+      "mid"
+    ],
+    "description": "A parting knot answers an unfurling coil across an aperture.",
+    "distinction": "A parting knot answers an unfurling coil across an aperture. Structural recipe: knot.split@left+spiral.grow@right+iris.twist@rear.",
+    "budget": 10500
+  },
+  {
+    "id": "knot-03",
+    "name": "The Knot Is a Room",
+    "family": "knot",
+    "operators": [
+      "knot",
+      "shell",
+      "arch"
+    ],
+    "relationships": [
+      "independent",
+      "independent",
+      "independent"
+    ],
+    "behaviors": [
+      "fold",
+      "ripple",
+      "still"
+    ],
+    "organization": "interior",
+    "scale": "chamber",
+    "camera": "interior",
+    "audio": [
+      "trend",
+      "mid",
+      "bass"
+    ],
+    "description": "A monumental knot becomes a room around an open shell.",
+    "distinction": "A monumental knot becomes a room around an open shell. Structural recipe: knot.fold@vault+shell.ripple.open@core+arch.still@floor.",
+    "budget": 10500
+  },
+  {
+    "id": "knot-04",
+    "name": "Knitted Knot",
+    "family": "knot",
+    "operators": [
+      "knot",
+      "braid"
+    ],
+    "relationships": [
+      "weave",
+      "independent"
+    ],
+    "behaviors": [
+      "twist",
+      "split"
+    ],
+    "organization": "layered formation",
+    "scale": "intimate",
+    "camera": "detail",
+    "audio": [
+      "mid",
+      "onset"
+    ],
+    "description": "Interlaced filaments articulate a knot and a separating braid.",
+    "distinction": "Interlaced filaments articulate a knot and a separating braid. Structural recipe: knot~weave~braid.twist@body+braid.split@cross.",
+    "budget": 8500
+  },
+  {
+    "id": "knot-05",
+    "name": "Knot Eversion",
+    "family": "knot",
+    "operators": [
+      "knot",
+      "rosette"
+    ],
+    "relationships": [
+      "blend",
+      "independent"
+    ],
+    "behaviors": [
+      "invert",
+      "grow"
+    ],
+    "organization": "layered formation",
+    "scale": "exterior",
+    "camera": "orbit",
+    "audio": [
+      "trend",
+      "bass"
+    ],
+    "description": "A knot opens toward a one-sided strip above a growing rosette.",
+    "distinction": "A knot opens toward a one-sided strip above a growing rosette. Structural recipe: knot~blend~mobius.invert@body+rosette.grow@floor.",
+    "budget": 8500
+  },
+  {
+    "id": "knot-06",
+    "name": "Severed Continuity",
+    "family": "knot",
+    "operators": [
+      "knot",
+      "lens"
+    ],
+    "relationships": [
+      "intersect",
+      "independent"
+    ],
+    "behaviors": [
+      "ripple",
+      "split"
+    ],
+    "organization": "layered formation",
+    "scale": "exterior",
+    "camera": "hold",
+    "audio": [
+      "bass",
+      "onset"
+    ],
+    "description": "A lens cuts a filament’s continuity into spatially readable gaps.",
+    "distinction": "A lens cuts a filament’s continuity into spatially readable gaps. Structural recipe: knot~intersect~lens.ripple@body+lens.split@front.",
+    "budget": 8500
+  },
+  {
+    "id": "knot-07",
+    "name": "Filament Throne",
+    "family": "knot",
+    "operators": [
+      "knot",
+      "crystal",
+      "helix"
+    ],
+    "relationships": [
+      "independent",
+      "independent",
+      "independent"
+    ],
+    "behaviors": [
+      "collapse",
+      "grow",
+      "twist"
+    ],
+    "organization": "interacting cluster",
+    "scale": "exterior",
+    "camera": "rise",
+    "audio": [
+      "trend",
+      "mid",
+      "bass"
+    ],
+    "description": "A collapsing knot frames a crystal beside a helical pillar.",
+    "distinction": "A collapsing knot frames a crystal beside a helical pillar. Structural recipe: knot.collapse@rear+crystal.grow@core+helix.twist@left.",
+    "budget": 10500
+  },
+  {
+    "id": "knot-08",
+    "name": "Braided Passage",
+    "family": "knot",
+    "operators": [
+      "knot",
+      "scroll",
+      "scroll"
+    ],
+    "relationships": [
+      "independent",
+      "independent",
+      "independent"
+    ],
+    "behaviors": [
+      "circulate",
+      "fold",
+      "invert"
+    ],
+    "organization": "interacting cluster",
+    "scale": "journey",
+    "camera": "passage",
+    "audio": [
+      "bass",
+      "mid",
+      "trend"
+    ],
+    "description": "A surrounding knot ties together oppositely rolled passage walls.",
+    "distinction": "A surrounding knot ties together oppositely rolled passage walls. Structural recipe: knot.circulate@vault+scroll.fold@left+scroll.invert@right.",
+    "budget": 10500
+  },
+  {
+    "id": "branch-01",
+    "name": "Lightning Orchard",
+    "family": "branch",
+    "operators": [
+      "branch",
+      "wavefront"
+    ],
+    "relationships": [
+      "independent",
+      "independent"
+    ],
+    "behaviors": [
+      "grow",
+      "ripple"
+    ],
+    "organization": "layered formation",
+    "scale": "exterior",
+    "camera": "rise",
+    "audio": [
+      "trend",
+      "bass"
+    ],
+    "description": "Branches grow over waves traveling across the orchard floor.",
+    "distinction": "Branches grow over waves traveling across the orchard floor. Structural recipe: branch.grow@body+wavefront.ripple@floor.",
+    "budget": 8500
+  },
+  {
+    "id": "branch-02",
+    "name": "Branching Dialogue",
+    "family": "branch",
+    "operators": [
+      "branch",
+      "coral",
+      "lens"
+    ],
+    "relationships": [
+      "independent",
+      "independent",
+      "independent"
+    ],
+    "behaviors": [
+      "split",
+      "twist",
+      "circulate"
+    ],
+    "organization": "interacting cluster",
+    "scale": "exterior",
+    "camera": "orbit",
+    "audio": [
+      "onset",
+      "mid",
+      "bass"
+    ],
+    "description": "A split tree confronts twisting coral across a luminous lens.",
+    "distinction": "A split tree confronts twisting coral across a luminous lens. Structural recipe: branch.split@left+coral.twist@right+lens.circulate@rear.",
+    "budget": 10500
+  },
+  {
+    "id": "branch-03",
+    "name": "Canopy Room",
+    "family": "branch",
+    "operators": [
+      "branch",
+      "strata",
+      "iris"
+    ],
+    "relationships": [
+      "independent",
+      "independent",
+      "independent"
+    ],
+    "behaviors": [
+      "fold",
+      "ripple",
+      "grow"
+    ],
+    "organization": "interior",
+    "scale": "chamber",
+    "camera": "interior",
+    "audio": [
+      "trend",
+      "mid",
+      "bass"
+    ],
+    "description": "An overhead branching canopy opens over a terraced room.",
+    "distinction": "An overhead branching canopy opens over a terraced room. Structural recipe: branch.fold@vault+strata.ripple@floor+iris.grow@core.",
+    "budget": 10500
+  },
+  {
+    "id": "branch-04",
+    "name": "Braided Roots",
+    "family": "branch",
+    "operators": [
+      "branch",
+      "braid"
+    ],
+    "relationships": [
+      "weave",
+      "independent"
+    ],
+    "behaviors": [
+      "twist",
+      "ripple"
+    ],
+    "organization": "layered formation",
+    "scale": "intimate",
+    "camera": "detail",
+    "audio": [
+      "mid",
+      "bass"
+    ],
+    "description": "Interwoven roots connect a branching structure to braided ground.",
+    "distinction": "Interwoven roots connect a branching structure to braided ground. Structural recipe: branch~weave~braid.twist@body+braid.ripple@floor.",
+    "budget": 8500
+  },
+  {
+    "id": "branch-05",
+    "name": "Forest into Cells",
+    "family": "branch",
+    "operators": [
+      "branch",
+      "shell"
+    ],
+    "relationships": [
+      "blend",
+      "independent"
+    ],
+    "behaviors": [
+      "collapse",
+      "grow"
+    ],
+    "organization": "layered formation",
+    "scale": "journey",
+    "camera": "passage",
+    "audio": [
+      "onset",
+      "trend"
+    ],
+    "description": "Branching paths gather into cells before a porous growing enclosure.",
+    "distinction": "Branching paths gather into cells before a porous growing enclosure. Structural recipe: branch~blend~cell.collapse@body+shell.grow.pores@rear.",
+    "budget": 8500
+  },
+  {
+    "id": "branch-06",
+    "name": "Pruned Geometry",
+    "family": "branch",
+    "operators": [
+      "branch",
+      "torus"
+    ],
+    "relationships": [
+      "intersect",
+      "independent"
+    ],
+    "behaviors": [
+      "split",
+      "circulate"
+    ],
+    "organization": "layered formation",
+    "scale": "exterior",
+    "camera": "orbit",
+    "audio": [
+      "onset",
+      "bass"
+    ],
+    "description": "An orbital ring prunes a branching network into discrete regions.",
+    "distinction": "An orbital ring prunes a branching network into discrete regions. Structural recipe: branch~intersect~torus.split@body+torus.circulate@cross.",
+    "budget": 8500
+  },
+  {
+    "id": "branch-07",
+    "name": "Suspended Grove",
+    "family": "branch",
+    "operators": [
+      "branch",
+      "spiral",
+      "cone"
+    ],
+    "relationships": [
+      "independent",
+      "independent",
+      "independent"
+    ],
+    "behaviors": [
+      "circulate",
+      "grow",
+      "fold"
+    ],
+    "organization": "interacting cluster",
+    "scale": "exterior",
+    "camera": "hold",
+    "audio": [
+      "trend",
+      "mid",
+      "bass"
+    ],
+    "description": "A suspended grove passes energy between coil and cone.",
+    "distinction": "A suspended grove passes energy between coil and cone. Structural recipe: branch.circulate@ceiling+spiral.grow@left+cone.fold@right.",
+    "budget": 10500
+  },
+  {
+    "id": "branch-08",
+    "name": "Branch Observatory",
+    "family": "branch",
+    "operators": [
+      "branch",
+      "tesseract",
+      "rosette"
+    ],
+    "relationships": [
+      "independent",
+      "independent",
+      "independent"
+    ],
+    "behaviors": [
+      "ripple",
+      "twist",
+      "invert"
+    ],
+    "organization": "interior",
+    "scale": "chamber",
+    "camera": "interior",
+    "audio": [
+      "mid",
+      "bass",
+      "trend"
+    ],
+    "description": "A branching enclosure frames nested edge geometry above a petaled floor.",
+    "distinction": "A branching enclosure frames nested edge geometry above a petaled floor. Structural recipe: branch.ripple@vault+tesseract.twist@core+rosette.invert@floor.",
+    "budget": 10500
+  },
+  {
+    "id": "cell-01",
+    "name": "Cellular Chorus",
+    "family": "cell",
+    "operators": [
+      "cell",
+      "knot"
+    ],
+    "relationships": [
+      "independent",
+      "independent"
+    ],
+    "behaviors": [
+      "ripple",
+      "circulate"
+    ],
+    "organization": "layered formation",
+    "scale": "exterior",
+    "camera": "orbit",
+    "audio": [
+      "bass",
+      "mid"
+    ],
+    "description": "A cluster of cells resonates around a central filament.",
+    "distinction": "A cluster of cells resonates around a central filament. Structural recipe: cell.ripple@body+knot.circulate@core.",
+    "budget": 8500
+  },
+  {
+    "id": "cell-02",
+    "name": "Mitotic Crossing",
+    "family": "cell",
+    "operators": [
+      "cell",
+      "cell",
+      "weft"
+    ],
+    "relationships": [
+      "independent",
+      "independent",
+      "independent"
+    ],
+    "behaviors": [
+      "split",
+      "grow",
+      "twist"
+    ],
+    "organization": "interacting cluster",
+    "scale": "exterior",
+    "camera": "rise",
+    "audio": [
+      "onset",
+      "trend",
+      "mid"
+    ],
+    "description": "Two cellular clusters part and grow before a woven dividing plane.",
+    "distinction": "Two cellular clusters part and grow before a woven dividing plane. Structural recipe: cell.split@left+cell.grow@right+weft.twist@rear.",
+    "budget": 10500
+  },
+  {
+    "id": "cell-03",
+    "name": "Cellular Habitat",
+    "family": "cell",
+    "operators": [
+      "cell",
+      "shell",
+      "wave"
+    ],
+    "relationships": [
+      "independent",
+      "independent",
+      "independent"
+    ],
+    "behaviors": [
+      "fold",
+      "ripple",
+      "still"
+    ],
+    "organization": "interior",
+    "scale": "chamber",
+    "camera": "interior",
+    "audio": [
+      "trend",
+      "mid",
+      "bass"
+    ],
+    "description": "An enlarged cellular habitat holds a porous nucleus above waves.",
+    "distinction": "An enlarged cellular habitat holds a porous nucleus above waves. Structural recipe: cell.fold@vault+shell.ripple.pores@core+wave.still@floor.",
+    "budget": 10500
+  },
+  {
+    "id": "cell-04",
+    "name": "Cellular Weave",
+    "family": "cell",
+    "operators": [
+      "cell",
+      "helix"
+    ],
+    "relationships": [
+      "weave",
+      "independent"
+    ],
+    "behaviors": [
+      "twist",
+      "circulate"
+    ],
+    "organization": "layered formation",
+    "scale": "intimate",
+    "camera": "detail",
+    "audio": [
+      "mid",
+      "bass"
+    ],
+    "description": "Helical weaving connects distinct cellular compartments.",
+    "distinction": "Helical weaving connects distinct cellular compartments. Structural recipe: cell~weave~helix.twist@body+helix.circulate@cross.",
+    "budget": 8500
+  },
+  {
+    "id": "cell-05",
+    "name": "Cells to Branches",
+    "family": "cell",
+    "operators": [
+      "cell",
+      "iris"
+    ],
+    "relationships": [
+      "blend",
+      "independent"
+    ],
+    "behaviors": [
+      "grow",
+      "collapse"
+    ],
+    "organization": "layered formation",
+    "scale": "exterior",
+    "camera": "orbit",
+    "audio": [
+      "trend",
+      "onset"
+    ],
+    "description": "Cells reorganize into branching paths before a contracting aperture.",
+    "distinction": "Cells reorganize into branching paths before a contracting aperture. Structural recipe: cell~blend~branch.grow@body+iris.collapse@rear.",
+    "budget": 8500
+  },
+  {
+    "id": "cell-06",
+    "name": "Pored Colony",
+    "family": "cell",
+    "operators": [
+      "cell",
+      "cone"
+    ],
+    "relationships": [
+      "intersect",
+      "independent"
+    ],
+    "behaviors": [
+      "ripple",
+      "split"
+    ],
+    "organization": "layered formation",
+    "scale": "journey",
+    "camera": "passage",
+    "audio": [
+      "bass",
+      "onset"
+    ],
+    "description": "Conical cuts expose the hollow organization of a cellular colony.",
+    "distinction": "Conical cuts expose the hollow organization of a cellular colony. Structural recipe: cell~intersect~cone.ripple@body+cone.split@front.",
+    "budget": 8500
+  },
+  {
+    "id": "cell-07",
+    "name": "Clustered Planets",
+    "family": "cell",
+    "operators": [
+      "cell",
+      "superquadric",
+      "spiral"
+    ],
+    "relationships": [
+      "independent",
+      "independent",
+      "independent"
+    ],
+    "behaviors": [
+      "circulate",
+      "invert",
+      "grow"
+    ],
+    "organization": "interacting cluster",
+    "scale": "exterior",
+    "camera": "hold",
+    "audio": [
+      "mid",
+      "trend",
+      "bass"
+    ],
+    "description": "A cellular cluster orbits angular volumes and an unfolding coil.",
+    "distinction": "A cellular cluster orbits angular volumes and an unfolding coil. Structural recipe: cell.circulate@left+superquadric.invert@right+spiral.grow@rear.",
+    "budget": 10500
+  },
+  {
+    "id": "cell-08",
+    "name": "Porous Nests",
+    "family": "cell",
+    "operators": [
+      "cell",
+      "rosette",
+      "braid"
+    ],
+    "relationships": [
+      "independent",
+      "independent",
+      "independent"
+    ],
+    "behaviors": [
+      "collapse",
+      "fold",
+      "twist"
+    ],
+    "organization": "interior",
+    "scale": "chamber",
+    "camera": "interior",
+    "audio": [
+      "trend",
+      "mid",
+      "bass"
+    ],
+    "description": "A perforated nest of cells wraps a rosette and peripheral braid.",
+    "distinction": "A perforated nest of cells wraps a rosette and peripheral braid. Structural recipe: cell.collapse.pores@vault+rosette.fold@core+braid.twist@rim.",
+    "budget": 10500
+  },
+  {
+    "id": "spiral-01",
+    "name": "Coil of Light",
+    "family": "spiral",
+    "operators": [
+      "spiral",
+      "iris"
+    ],
+    "relationships": [
+      "independent",
+      "independent"
+    ],
+    "behaviors": [
+      "grow",
+      "ripple"
+    ],
+    "organization": "layered formation",
+    "scale": "exterior",
+    "camera": "orbit",
+    "audio": [
+      "trend",
+      "bass"
+    ],
+    "description": "An unfurling coil opens around a responsive aperture.",
+    "distinction": "An unfurling coil opens around a responsive aperture. Structural recipe: spiral.grow@body+iris.ripple@core.",
+    "budget": 8500
+  },
+  {
+    "id": "spiral-02",
+    "name": "Opposed Unfurling",
+    "family": "spiral",
+    "operators": [
+      "spiral",
+      "scroll",
+      "helix"
+    ],
+    "relationships": [
+      "independent",
+      "independent",
+      "independent"
+    ],
+    "behaviors": [
+      "split",
+      "invert",
+      "twist"
+    ],
+    "organization": "interacting cluster",
+    "scale": "exterior",
+    "camera": "rise",
+    "audio": [
+      "onset",
+      "mid",
+      "bass"
+    ],
+    "description": "A separating coil opposes an inverted scroll near a helical spine.",
+    "distinction": "A separating coil opposes an inverted scroll near a helical spine. Structural recipe: spiral.split@left+scroll.invert@right+helix.twist@rear.",
+    "budget": 10500
+  },
+  {
+    "id": "spiral-03",
+    "name": "Coiled Vestibule",
+    "family": "spiral",
+    "operators": [
+      "spiral",
+      "arch",
+      "strata"
+    ],
+    "relationships": [
+      "independent",
+      "independent",
+      "independent"
+    ],
+    "behaviors": [
+      "fold",
+      "ripple",
+      "still"
+    ],
+    "organization": "interior",
+    "scale": "chamber",
+    "camera": "interior",
+    "audio": [
+      "trend",
+      "mid",
+      "bass"
+    ],
+    "description": "A vast coiled vestibule encloses an arch above stratified ground.",
+    "distinction": "A vast coiled vestibule encloses an arch above stratified ground. Structural recipe: spiral.fold@vault+arch.ripple@rear+strata.still@floor.",
+    "budget": 10500
+  },
+  {
+    "id": "spiral-04",
+    "name": "Woven Whorl",
+    "family": "spiral",
+    "operators": [
+      "spiral",
+      "ribbon"
+    ],
+    "relationships": [
+      "weave",
+      "independent"
+    ],
+    "behaviors": [
+      "twist",
+      "split"
+    ],
+    "organization": "layered formation",
+    "scale": "intimate",
+    "camera": "detail",
+    "audio": [
+      "mid",
+      "onset"
+    ],
+    "description": "A woven whorl travels through a parting ribbon at the foreground.",
+    "distinction": "A woven whorl travels through a parting ribbon at the foreground. Structural recipe: spiral~weave~ribbon.twist@body+ribbon.split.open@front.",
+    "budget": 8500
+  },
+  {
+    "id": "spiral-05",
+    "name": "Spiral Blossom",
+    "family": "spiral",
+    "operators": [
+      "spiral",
+      "lens"
+    ],
+    "relationships": [
+      "blend",
+      "independent"
+    ],
+    "behaviors": [
+      "grow",
+      "collapse"
+    ],
+    "organization": "layered formation",
+    "scale": "exterior",
+    "camera": "orbit",
+    "audio": [
+      "trend",
+      "bass"
+    ],
+    "description": "An ascending coil gradually becomes a petaled blossom over a lens.",
+    "distinction": "An ascending coil gradually becomes a petaled blossom over a lens. Structural recipe: spiral~blend~rosette.grow@body+lens.collapse@floor.",
+    "budget": 8500
+  },
+  {
+    "id": "spiral-06",
+    "name": "Interrupted Unwinding",
+    "family": "spiral",
+    "operators": [
+      "spiral",
+      "shell"
+    ],
+    "relationships": [
+      "intersect",
+      "independent"
+    ],
+    "behaviors": [
+      "ripple",
+      "invert"
+    ],
+    "organization": "layered formation",
+    "scale": "journey",
+    "camera": "passage",
+    "audio": [
+      "bass",
+      "mid"
+    ],
+    "description": "An open shell cuts a winding corridor through the coil.",
+    "distinction": "An open shell cuts a winding corridor through the coil. Structural recipe: spiral~intersect~shell.ripple@body+shell.invert.open@core.",
+    "budget": 8500
+  },
+  {
+    "id": "spiral-07",
+    "name": "Spiral Constellation",
+    "family": "spiral",
+    "operators": [
+      "spiral",
+      "cell",
+      "crystal"
+    ],
+    "relationships": [
+      "independent",
+      "independent",
+      "independent"
+    ],
+    "behaviors": [
+      "circulate",
+      "grow",
+      "twist"
+    ],
+    "organization": "interacting cluster",
+    "scale": "exterior",
+    "camera": "hold",
+    "audio": [
+      "mid",
+      "trend",
+      "bass"
+    ],
+    "description": "A coil turns between growing cells and a crystalline far wall.",
+    "distinction": "A coil turns between growing cells and a crystalline far wall. Structural recipe: spiral.circulate@left+cell.grow@right+crystal.twist@rear.",
+    "budget": 10500
+  },
+  {
+    "id": "spiral-08",
+    "name": "Coil and Collapse",
+    "family": "spiral",
+    "operators": [
+      "spiral",
+      "vortex",
+      "wavefront"
+    ],
+    "relationships": [
+      "independent",
+      "independent",
+      "independent"
+    ],
+    "behaviors": [
+      "collapse",
+      "fold",
+      "ripple"
+    ],
+    "organization": "layered formation",
+    "scale": "exterior",
+    "camera": "rise",
+    "audio": [
+      "onset",
+      "mid",
+      "bass"
+    ],
+    "description": "A collapsing spiral catches a whirl above spreading wave rings.",
+    "distinction": "A collapsing spiral catches a whirl above spreading wave rings. Structural recipe: spiral.collapse@vault+vortex.fold@core+wavefront.ripple@floor.",
+    "budget": 10500
+  },
+  {
+    "id": "cone-01",
+    "name": "Prismatic Funnel",
+    "family": "cone",
+    "operators": [
+      "cone",
+      "rosette"
+    ],
+    "relationships": [
+      "independent",
+      "independent"
+    ],
+    "behaviors": [
+      "twist",
+      "ripple"
+    ],
+    "organization": "layered formation",
+    "scale": "exterior",
+    "camera": "orbit",
+    "audio": [
+      "bass",
+      "mid"
+    ],
+    "description": "A funnel twists around a petaled throat.",
+    "distinction": "A funnel twists around a petaled throat. Structural recipe: cone.twist@body+rosette.ripple@core.",
+    "budget": 8500
+  },
+  {
+    "id": "cone-02",
+    "name": "Funnel Exchange",
+    "family": "cone",
+    "operators": [
+      "cone",
+      "hourglass",
+      "knot"
+    ],
+    "relationships": [
+      "independent",
+      "independent",
+      "independent"
+    ],
+    "behaviors": [
+      "split",
+      "invert",
+      "circulate"
+    ],
+    "organization": "interacting cluster",
+    "scale": "exterior",
+    "camera": "rise",
+    "audio": [
+      "onset",
+      "mid",
+      "bass"
+    ],
+    "description": "A separating funnel meets an inverted waist and circling filament.",
+    "distinction": "A separating funnel meets an inverted waist and circling filament. Structural recipe: cone.split@left+hourglass.invert@right+knot.circulate@rear.",
+    "budget": 10500
+  },
+  {
+    "id": "cone-03",
+    "name": "Conical Theater",
+    "family": "cone",
+    "operators": [
+      "cone",
+      "iris",
+      "strata"
+    ],
+    "relationships": [
+      "independent",
+      "independent",
+      "independent"
+    ],
+    "behaviors": [
+      "fold",
+      "ripple",
+      "still"
+    ],
+    "organization": "interior",
+    "scale": "chamber",
+    "camera": "interior",
+    "audio": [
+      "trend",
+      "mid",
+      "bass"
+    ],
+    "description": "An open conical theater directs attention to a responsive aperture.",
+    "distinction": "An open conical theater directs attention to a responsive aperture. Structural recipe: cone.fold.open@vault+iris.ripple@core+strata.still@floor.",
+    "budget": 10500
+  },
+  {
+    "id": "cone-04",
+    "name": "Funnel Fabric",
+    "family": "cone",
+    "operators": [
+      "cone",
+      "weft"
+    ],
+    "relationships": [
+      "weave",
+      "independent"
+    ],
+    "behaviors": [
+      "twist",
+      "ripple"
+    ],
+    "organization": "layered formation",
+    "scale": "intimate",
+    "camera": "detail",
+    "audio": [
+      "mid",
+      "bass"
+    ],
+    "description": "Woven strands travel between a funnel and a transverse sheet.",
+    "distinction": "Woven strands travel between a funnel and a transverse sheet. Structural recipe: cone~weave~weft.twist@body+weft.ripple@cross.",
+    "budget": 8500
+  },
+  {
+    "id": "cone-05",
+    "name": "Cone to Vortex",
+    "family": "cone",
+    "operators": [
+      "cone",
+      "lens"
+    ],
+    "relationships": [
+      "blend",
+      "independent"
+    ],
+    "behaviors": [
+      "collapse",
+      "grow"
+    ],
+    "organization": "layered formation",
+    "scale": "journey",
+    "camera": "passage",
+    "audio": [
+      "onset",
+      "trend"
+    ],
+    "description": "The funnel narrows into a whirl above a spreading lens.",
+    "distinction": "The funnel narrows into a whirl above a spreading lens. Structural recipe: cone~blend~vortex.collapse@body+lens.grow@floor.",
+    "budget": 8500
+  },
+  {
+    "id": "cone-06",
+    "name": "Slit Funnel",
+    "family": "cone",
+    "operators": [
+      "cone",
+      "arch"
+    ],
+    "relationships": [
+      "intersect",
+      "independent"
+    ],
+    "behaviors": [
+      "split",
+      "circulate"
+    ],
+    "organization": "layered formation",
+    "scale": "exterior",
+    "camera": "orbit",
+    "audio": [
+      "onset",
+      "bass"
+    ],
+    "description": "Crossing arches open cuts through a separating conical surface.",
+    "distinction": "Crossing arches open cuts through a separating conical surface. Structural recipe: cone~intersect~arch.split@body+arch.circulate@cross.",
+    "budget": 8500
+  },
+  {
+    "id": "cone-07",
+    "name": "Funnel Choir",
+    "family": "cone",
+    "operators": [
+      "cone",
+      "shell",
+      "helix"
+    ],
+    "relationships": [
+      "independent",
+      "independent",
+      "independent"
+    ],
+    "behaviors": [
+      "ripple",
+      "grow",
+      "twist"
+    ],
+    "organization": "interacting cluster",
+    "scale": "exterior",
+    "camera": "hold",
+    "audio": [
+      "bass",
+      "mid",
+      "trend"
+    ],
+    "description": "A striped funnel answers a growing sphere beside a coiled spine.",
+    "distinction": "A striped funnel answers a growing sphere beside a coiled spine. Structural recipe: cone.ripple.bands@left+shell.grow@right+helix.twist@rear.",
+    "budget": 10500
+  },
+  {
+    "id": "cone-08",
+    "name": "Conical Weather",
+    "family": "cone",
+    "operators": [
+      "cone",
+      "wave",
+      "coral"
+    ],
+    "relationships": [
+      "independent",
+      "independent",
+      "independent"
+    ],
+    "behaviors": [
+      "collapse",
+      "fold",
+      "grow"
+    ],
+    "organization": "layered formation",
+    "scale": "exterior",
+    "camera": "rise",
+    "audio": [
+      "onset",
+      "mid",
+      "trend"
+    ],
+    "description": "A conical enclosure collapses above waves and upward coral growth.",
+    "distinction": "A conical enclosure collapses above waves and upward coral growth. Structural recipe: cone.collapse@vault+wave.fold@floor+coral.grow@core.",
+    "budget": 10500
+  },
+  {
+    "id": "saddle-01",
+    "name": "Hyperbolic Sail",
+    "family": "saddle",
+    "operators": [
+      "saddle",
+      "torus"
+    ],
+    "relationships": [
+      "independent",
+      "independent"
+    ],
+    "behaviors": [
+      "fold",
+      "ripple"
+    ],
+    "organization": "layered formation",
+    "scale": "exterior",
+    "camera": "orbit",
+    "audio": [
+      "mid",
+      "bass"
+    ],
+    "description": "A saddle folds through an orbital crossing.",
+    "distinction": "A saddle folds through an orbital crossing. Structural recipe: saddle.fold@body+torus.ripple@cross.",
+    "budget": 8500
+  },
+  {
+    "id": "saddle-02",
+    "name": "Opposing Curvatures",
+    "family": "saddle",
+    "operators": [
+      "saddle",
+      "wave",
+      "iris"
+    ],
+    "relationships": [
+      "independent",
+      "independent",
+      "independent"
+    ],
+    "behaviors": [
+      "split",
+      "invert",
+      "circulate"
+    ],
+    "organization": "interacting cluster",
+    "scale": "exterior",
+    "camera": "rise",
+    "audio": [
+      "onset",
+      "mid",
+      "bass"
+    ],
+    "description": "Opposite curvatures exchange impulses before a rotating aperture.",
+    "distinction": "Opposite curvatures exchange impulses before a rotating aperture. Structural recipe: saddle.split@left+wave.invert@right+iris.circulate@rear.",
+    "budget": 10500
+  },
+  {
+    "id": "saddle-03",
+    "name": "Saddle Chamber",
+    "family": "saddle",
+    "operators": [
+      "saddle",
+      "strata",
+      "arch"
+    ],
+    "relationships": [
+      "independent",
+      "independent",
+      "independent"
+    ],
+    "behaviors": [
+      "twist",
+      "ripple",
+      "still"
+    ],
+    "organization": "interior",
+    "scale": "chamber",
+    "camera": "interior",
+    "audio": [
+      "trend",
+      "mid",
+      "bass"
+    ],
+    "description": "A porous saddle encloses terraces and a distant arch.",
+    "distinction": "A porous saddle encloses terraces and a distant arch. Structural recipe: saddle.twist.pores@vault+strata.ripple@floor+arch.still@rear.",
+    "budget": 10500
+  },
+  {
+    "id": "saddle-04",
+    "name": "Woven Curvature",
+    "family": "saddle",
+    "operators": [
+      "saddle",
+      "braid"
+    ],
+    "relationships": [
+      "weave",
+      "independent"
+    ],
+    "behaviors": [
+      "fold",
+      "twist"
+    ],
+    "organization": "layered formation",
+    "scale": "intimate",
+    "camera": "detail",
+    "audio": [
+      "mid",
+      "bass"
+    ],
+    "description": "Textile strands follow hyperbolic curvature beside a turning braid.",
+    "distinction": "Textile strands follow hyperbolic curvature beside a turning braid. Structural recipe: saddle~weave~weft.fold@body+braid.twist@rim.",
+    "budget": 8500
+  },
+  {
+    "id": "saddle-05",
+    "name": "Saddle Blossom",
+    "family": "saddle",
+    "operators": [
+      "saddle",
+      "lens"
+    ],
+    "relationships": [
+      "blend",
+      "independent"
+    ],
+    "behaviors": [
+      "invert",
+      "grow"
+    ],
+    "organization": "layered formation",
+    "scale": "exterior",
+    "camera": "orbit",
+    "audio": [
+      "trend",
+      "bass"
+    ],
+    "description": "A saddle everts toward petals surrounding an expanding lens.",
+    "distinction": "A saddle everts toward petals surrounding an expanding lens. Structural recipe: saddle~blend~rosette.invert@body+lens.grow@core.",
+    "budget": 8500
+  },
+  {
+    "id": "saddle-06",
+    "name": "Curvature Cut",
+    "family": "saddle",
+    "operators": [
+      "saddle",
+      "cone"
+    ],
+    "relationships": [
+      "intersect",
+      "independent"
+    ],
+    "behaviors": [
+      "ripple",
+      "split"
+    ],
+    "organization": "layered formation",
+    "scale": "journey",
+    "camera": "passage",
+    "audio": [
+      "bass",
+      "onset"
+    ],
+    "description": "A conical cut opens a traveling corridor through the saddle.",
+    "distinction": "A conical cut opens a traveling corridor through the saddle. Structural recipe: saddle~intersect~cone.ripple@body+cone.split@cross.",
+    "budget": 8500
+  },
+  {
+    "id": "saddle-07",
+    "name": "Two Saddles",
+    "family": "saddle",
+    "operators": [
+      "saddle",
+      "saddle",
+      "spiral"
+    ],
+    "relationships": [
+      "independent",
+      "independent",
+      "independent"
+    ],
+    "behaviors": [
+      "circulate",
+      "fold",
+      "grow"
+    ],
+    "organization": "layered formation",
+    "scale": "exterior",
+    "camera": "hold",
+    "audio": [
+      "mid",
+      "trend",
+      "onset"
+    ],
+    "description": "Two differently opened saddles bound an unfolding spiral.",
+    "distinction": "Two differently opened saddles bound an unfolding spiral. Structural recipe: saddle.circulate.bands@floor+saddle.fold.open@ceiling+spiral.grow@core.",
+    "budget": 10500
+  },
+  {
+    "id": "saddle-08",
+    "name": "Saddle Nursery",
+    "family": "saddle",
+    "operators": [
+      "saddle",
+      "branch",
+      "cell"
+    ],
+    "relationships": [
+      "independent",
+      "independent",
+      "independent"
+    ],
+    "behaviors": [
+      "collapse",
+      "grow",
+      "split"
+    ],
+    "organization": "layered formation",
+    "scale": "exterior",
+    "camera": "rise",
+    "audio": [
+      "trend",
+      "bass",
+      "onset"
+    ],
+    "description": "A collapsing saddle shelters branches and separating cellular compartments.",
+    "distinction": "A collapsing saddle shelters branches and separating cellular compartments. Structural recipe: saddle.collapse@rear+branch.grow@core+cell.split@front.",
+    "budget": 10500
+  },
+  {
+    "id": "catenoid-01",
+    "name": "Throat of Color",
+    "family": "catenoid",
+    "operators": [
+      "catenoid",
+      "iris"
+    ],
+    "relationships": [
+      "independent",
+      "independent"
+    ],
+    "behaviors": [
+      "ripple",
+      "twist"
+    ],
+    "organization": "layered formation",
+    "scale": "exterior",
+    "camera": "orbit",
+    "audio": [
+      "bass",
+      "mid"
+    ],
+    "description": "A luminous waist resonates around a turning aperture.",
+    "distinction": "A luminous waist resonates around a turning aperture. Structural recipe: catenoid.ripple@body+iris.twist@core.",
+    "budget": 8500
+  },
+  {
+    "id": "catenoid-02",
+    "name": "Two Throats",
+    "family": "catenoid",
+    "operators": [
+      "catenoid",
+      "hourglass",
+      "weft"
+    ],
+    "relationships": [
+      "independent",
+      "independent",
+      "independent"
+    ],
+    "behaviors": [
+      "split",
+      "invert",
+      "fold"
+    ],
+    "organization": "interacting cluster",
+    "scale": "exterior",
+    "camera": "rise",
+    "audio": [
+      "onset",
+      "mid",
+      "bass"
+    ],
+    "description": "Distinct narrow waists part before a textile membrane.",
+    "distinction": "Distinct narrow waists part before a textile membrane. Structural recipe: catenoid.split@left+hourglass.invert@right+weft.fold@rear.",
+    "budget": 10500
+  },
+  {
+    "id": "catenoid-03",
+    "name": "The Hollow Tower",
+    "family": "catenoid",
+    "operators": [
+      "catenoid",
+      "helix",
+      "strata"
+    ],
+    "relationships": [
+      "independent",
+      "independent",
+      "independent"
+    ],
+    "behaviors": [
+      "fold",
+      "circulate",
+      "still"
+    ],
+    "organization": "interior",
+    "scale": "chamber",
+    "camera": "interior",
+    "audio": [
+      "trend",
+      "mid",
+      "bass"
+    ],
+    "description": "A hollow tower holds a circulating coil above layered ground.",
+    "distinction": "A hollow tower holds a circulating coil above layered ground. Structural recipe: catenoid.fold@vault+helix.circulate@core+strata.still@floor.",
+    "budget": 10500
+  },
+  {
+    "id": "catenoid-04",
+    "name": "Woven Waist",
+    "family": "catenoid",
+    "operators": [
+      "catenoid",
+      "braid"
+    ],
+    "relationships": [
+      "weave",
+      "independent"
+    ],
+    "behaviors": [
+      "twist",
+      "ripple"
+    ],
+    "organization": "layered formation",
+    "scale": "intimate",
+    "camera": "detail",
+    "audio": [
+      "mid",
+      "bass"
+    ],
+    "description": "A braided waist is crossed by a separate resonating filament.",
+    "distinction": "A braided waist is crossed by a separate resonating filament. Structural recipe: catenoid~weave~braid.twist@body+braid.ripple@cross.",
+    "budget": 8500
+  },
+  {
+    "id": "catenoid-05",
+    "name": "Throat to Chamber",
+    "family": "catenoid",
+    "operators": [
+      "catenoid",
+      "rosette"
+    ],
+    "relationships": [
+      "blend",
+      "independent"
+    ],
+    "behaviors": [
+      "grow",
+      "collapse"
+    ],
+    "organization": "layered formation",
+    "scale": "journey",
+    "camera": "passage",
+    "audio": [
+      "trend",
+      "onset"
+    ],
+    "description": "A narrow throat opens toward a chamber around contracting petals.",
+    "distinction": "A narrow throat opens toward a chamber around contracting petals. Structural recipe: catenoid~blend~shell.grow@body+rosette.collapse@core.",
+    "budget": 8500
+  },
+  {
+    "id": "catenoid-06",
+    "name": "Cut Catenoid",
+    "family": "catenoid",
+    "operators": [
+      "catenoid",
+      "torus"
+    ],
+    "relationships": [
+      "intersect",
+      "independent"
+    ],
+    "behaviors": [
+      "split",
+      "circulate"
+    ],
+    "organization": "layered formation",
+    "scale": "exterior",
+    "camera": "orbit",
+    "audio": [
+      "onset",
+      "bass"
+    ],
+    "description": "An orbital crossing makes open incisions in a parting tower.",
+    "distinction": "An orbital crossing makes open incisions in a parting tower. Structural recipe: catenoid~intersect~torus.split@body+torus.circulate@cross.",
+    "budget": 8500
+  },
+  {
+    "id": "catenoid-07",
+    "name": "Throat Choir",
+    "family": "catenoid",
+    "operators": [
+      "catenoid",
+      "cone",
+      "knot"
+    ],
+    "relationships": [
+      "independent",
+      "independent",
+      "independent"
+    ],
+    "behaviors": [
+      "collapse",
+      "fold",
+      "circulate"
+    ],
+    "organization": "interacting cluster",
+    "scale": "exterior",
+    "camera": "hold",
+    "audio": [
+      "bass",
+      "mid",
+      "trend"
+    ],
+    "description": "A striped throat responds across a funnel and far filament.",
+    "distinction": "A striped throat responds across a funnel and far filament. Structural recipe: catenoid.collapse.bands@left+cone.fold@right+knot.circulate@rear.",
+    "budget": 10500
+  },
+  {
+    "id": "catenoid-08",
+    "name": "Interior Resonator",
+    "family": "catenoid",
+    "operators": [
+      "catenoid",
+      "wavefront",
+      "crystal"
+    ],
+    "relationships": [
+      "independent",
+      "independent",
+      "independent"
+    ],
+    "behaviors": [
+      "twist",
+      "ripple",
+      "grow"
+    ],
+    "organization": "interior",
+    "scale": "chamber",
+    "camera": "interior",
+    "audio": [
+      "mid",
+      "bass",
+      "trend"
+    ],
+    "description": "A perforated resonator exposes a crystal above radial waves.",
+    "distinction": "A perforated resonator exposes a crystal above radial waves. Structural recipe: catenoid.twist.pores@vault+wavefront.ripple@floor+crystal.grow@core.",
+    "budget": 10500
+  },
+  {
+    "id": "mobius-01",
+    "name": "One-Sided Promise",
+    "family": "mobius",
+    "operators": [
+      "mobius",
+      "lens"
+    ],
+    "relationships": [
+      "independent",
+      "independent"
+    ],
+    "behaviors": [
+      "twist",
+      "ripple"
+    ],
+    "organization": "layered formation",
+    "scale": "exterior",
+    "camera": "orbit",
+    "audio": [
+      "bass",
+      "mid"
+    ],
+    "description": "A one-sided strip twists around a shallow responsive lens.",
+    "distinction": "A one-sided strip twists around a shallow responsive lens. Structural recipe: mobius.twist@body+lens.ripple@core.",
+    "budget": 8500
+  },
+  {
+    "id": "mobius-02",
+    "name": "Twisted Dialogue",
+    "family": "mobius",
+    "operators": [
+      "mobius",
+      "ribbon",
+      "iris"
+    ],
+    "relationships": [
+      "independent",
+      "independent",
+      "independent"
+    ],
+    "behaviors": [
+      "split",
+      "fold",
+      "circulate"
+    ],
+    "organization": "interacting cluster",
+    "scale": "exterior",
+    "camera": "rise",
+    "audio": [
+      "onset",
+      "mid",
+      "bass"
+    ],
+    "description": "A torn one-sided strip meets a folded sail before an aperture.",
+    "distinction": "A torn one-sided strip meets a folded sail before an aperture. Structural recipe: mobius.split.open@left+ribbon.fold@right+iris.circulate@rear.",
+    "budget": 10500
+  },
+  {
+    "id": "mobius-03",
+    "name": "No Inside Room",
+    "family": "mobius",
+    "operators": [
+      "mobius",
+      "shell",
+      "strata"
+    ],
+    "relationships": [
+      "independent",
+      "independent",
+      "independent"
+    ],
+    "behaviors": [
+      "fold",
+      "ripple",
+      "still"
+    ],
+    "organization": "interior",
+    "scale": "chamber",
+    "camera": "interior",
+    "audio": [
+      "trend",
+      "mid",
+      "bass"
+    ],
+    "description": "A surrounding one-sided strip exposes a shell and floor through its fold.",
+    "distinction": "A surrounding one-sided strip exposes a shell and floor through its fold. Structural recipe: mobius.fold@vault+shell.ripple.open@core+strata.still@floor.",
+    "budget": 10500
+  },
+  {
+    "id": "mobius-04",
+    "name": "Mobius Textile",
+    "family": "mobius",
+    "operators": [
+      "mobius",
+      "braid"
+    ],
+    "relationships": [
+      "weave",
+      "independent"
+    ],
+    "behaviors": [
+      "twist",
+      "split"
+    ],
+    "organization": "layered formation",
+    "scale": "intimate",
+    "camera": "detail",
+    "audio": [
+      "mid",
+      "onset"
+    ],
+    "description": "Interlaced textile strands trace a one-sided loop.",
+    "distinction": "Interlaced textile strands trace a one-sided loop. Structural recipe: mobius~weave~weft.twist@body+braid.split@rim.",
+    "budget": 8500
+  },
+  {
+    "id": "mobius-05",
+    "name": "Strip into Knot",
+    "family": "mobius",
+    "operators": [
+      "mobius",
+      "rosette"
+    ],
+    "relationships": [
+      "blend",
+      "independent"
+    ],
+    "behaviors": [
+      "circulate",
+      "grow"
+    ],
+    "organization": "layered formation",
+    "scale": "exterior",
+    "camera": "orbit",
+    "audio": [
+      "trend",
+      "bass"
+    ],
+    "description": "A one-sided strip gathers into a circulating knot over a blossom.",
+    "distinction": "A one-sided strip gathers into a circulating knot over a blossom. Structural recipe: mobius~blend~knot.circulate@body+rosette.grow@floor.",
+    "budget": 8500
+  },
+  {
+    "id": "mobius-06",
+    "name": "One-Sided Window",
+    "family": "mobius",
+    "operators": [
+      "mobius",
+      "cone"
+    ],
+    "relationships": [
+      "intersect",
+      "independent"
+    ],
+    "behaviors": [
+      "ripple",
+      "invert"
+    ],
+    "organization": "layered formation",
+    "scale": "journey",
+    "camera": "passage",
+    "audio": [
+      "bass",
+      "mid"
+    ],
+    "description": "A conical crossing exposes a one-sided window in the loop.",
+    "distinction": "A conical crossing exposes a one-sided window in the loop. Structural recipe: mobius~intersect~cone.ripple@body+cone.invert@cross.",
+    "budget": 8500
+  },
+  {
+    "id": "mobius-07",
+    "name": "Two Impossible Loops",
+    "family": "mobius",
+    "operators": [
+      "mobius",
+      "klein",
+      "helix"
+    ],
+    "relationships": [
+      "independent",
+      "independent",
+      "independent"
+    ],
+    "behaviors": [
+      "collapse",
+      "invert",
+      "twist"
+    ],
+    "organization": "interacting cluster",
+    "scale": "exterior",
+    "camera": "hold",
+    "audio": [
+      "onset",
+      "trend",
+      "mid"
+    ],
+    "description": "Two unlike looping surfaces share a coiled horizon.",
+    "distinction": "Two unlike looping surfaces share a coiled horizon. Structural recipe: mobius.collapse@left+klein.invert@right+helix.twist@rear.",
+    "budget": 10500
+  },
+  {
+    "id": "mobius-08",
+    "name": "Twisted Sanctuary",
+    "family": "mobius",
+    "operators": [
+      "mobius",
+      "cell",
+      "spiral"
+    ],
+    "relationships": [
+      "independent",
+      "independent",
+      "independent"
+    ],
+    "behaviors": [
+      "grow",
+      "split",
+      "circulate"
+    ],
+    "organization": "interior",
+    "scale": "chamber",
+    "camera": "interior",
+    "audio": [
+      "trend",
+      "onset",
+      "mid"
+    ],
+    "description": "A porous one-sided enclosure contains cells and an orbiting coil.",
+    "distinction": "A porous one-sided enclosure contains cells and an orbiting coil. Structural recipe: mobius.grow.pores@vault+cell.split@core+spiral.circulate@rim.",
+    "budget": 10500
+  },
+  {
+    "id": "klein-01",
+    "name": "Bottle Without Walls",
+    "family": "klein",
+    "operators": [
+      "klein",
+      "iris"
+    ],
+    "relationships": [
+      "independent",
+      "independent"
+    ],
+    "behaviors": [
+      "invert",
+      "ripple"
+    ],
+    "organization": "layered formation",
+    "scale": "exterior",
+    "camera": "orbit",
+    "audio": [
+      "trend",
+      "bass"
+    ],
+    "description": "A self-crossing bottle everts around a ruffled inner opening.",
+    "distinction": "A self-crossing bottle everts around a ruffled inner opening. Structural recipe: klein.invert@body+iris.ripple@core.",
+    "budget": 8500
+  },
+  {
+    "id": "klein-02",
+    "name": "Bottle Dialogue",
+    "family": "klein",
+    "operators": [
+      "klein",
+      "mobius",
+      "lens"
+    ],
+    "relationships": [
+      "independent",
+      "independent",
+      "independent"
+    ],
+    "behaviors": [
+      "split",
+      "twist",
+      "circulate"
+    ],
+    "organization": "interacting cluster",
+    "scale": "exterior",
+    "camera": "rise",
+    "audio": [
+      "onset",
+      "mid",
+      "bass"
+    ],
+    "description": "A bottle and one-sided strip part over a rotating lens.",
+    "distinction": "A bottle and one-sided strip part over a rotating lens. Structural recipe: klein.split@left+mobius.twist@right+lens.circulate@rear.",
+    "budget": 10500
+  },
+  {
+    "id": "klein-03",
+    "name": "Self-Crossing Room",
+    "family": "klein",
+    "operators": [
+      "klein",
+      "shell",
+      "arch"
+    ],
+    "relationships": [
+      "independent",
+      "independent",
+      "independent"
+    ],
+    "behaviors": [
+      "fold",
+      "ripple",
+      "still"
+    ],
+    "organization": "interior",
+    "scale": "chamber",
+    "camera": "interior",
+    "audio": [
+      "trend",
+      "mid",
+      "bass"
+    ],
+    "description": "An open self-crossing enclosure reveals a porous shell and arch.",
+    "distinction": "An open self-crossing enclosure reveals a porous shell and arch. Structural recipe: klein.fold.open@vault+shell.ripple.pores@core+arch.still@floor.",
+    "budget": 10500
+  },
+  {
+    "id": "klein-04",
+    "name": "Bottle Weaving",
+    "family": "klein",
+    "operators": [
+      "klein",
+      "helix"
+    ],
+    "relationships": [
+      "weave",
+      "independent"
+    ],
+    "behaviors": [
+      "twist",
+      "ripple"
+    ],
+    "organization": "layered formation",
+    "scale": "intimate",
+    "camera": "detail",
+    "audio": [
+      "mid",
+      "bass"
+    ],
+    "description": "Helical fabric follows a bottle’s self-crossing surface.",
+    "distinction": "Helical fabric follows a bottle’s self-crossing surface. Structural recipe: klein~weave~helix.twist@body+helix.ripple@cross.",
+    "budget": 8500
+  },
+  {
+    "id": "klein-05",
+    "name": "Bottle into Scroll",
+    "family": "klein",
+    "operators": [
+      "klein",
+      "rosette"
+    ],
+    "relationships": [
+      "blend",
+      "independent"
+    ],
+    "behaviors": [
+      "grow",
+      "invert"
+    ],
+    "organization": "layered formation",
+    "scale": "exterior",
+    "camera": "orbit",
+    "audio": [
+      "trend",
+      "mid"
+    ],
+    "description": "A self-crossing surface unrolls around an everting blossom.",
+    "distinction": "A self-crossing surface unrolls around an everting blossom. Structural recipe: klein~blend~scroll.grow@body+rosette.invert@core.",
+    "budget": 8500
+  },
+  {
+    "id": "klein-06",
+    "name": "Intersecting Bottles",
+    "family": "klein",
+    "operators": [
+      "klein",
+      "catenoid"
+    ],
+    "relationships": [
+      "intersect",
+      "independent"
+    ],
+    "behaviors": [
+      "ripple",
+      "split"
+    ],
+    "organization": "layered formation",
+    "scale": "journey",
+    "camera": "passage",
+    "audio": [
+      "bass",
+      "onset"
+    ],
+    "description": "A narrow waist opens a passage through self-crossing walls.",
+    "distinction": "A narrow waist opens a passage through self-crossing walls. Structural recipe: klein~intersect~catenoid.ripple@body+catenoid.split@cross.",
+    "budget": 8500
+  },
+  {
+    "id": "klein-07",
+    "name": "Bottle Constellation",
+    "family": "klein",
+    "operators": [
+      "klein",
+      "cell",
+      "crystal"
+    ],
+    "relationships": [
+      "independent",
+      "independent",
+      "independent"
+    ],
+    "behaviors": [
+      "circulate",
+      "grow",
+      "twist"
+    ],
+    "organization": "interacting cluster",
+    "scale": "exterior",
+    "camera": "hold",
+    "audio": [
+      "mid",
+      "trend",
+      "bass"
+    ],
+    "description": "A bottle circulates among cells and a crystalline horizon.",
+    "distinction": "A bottle circulates among cells and a crystalline horizon. Structural recipe: klein.circulate@left+cell.grow@right+crystal.twist@rear.",
+    "budget": 10500
+  },
+  {
+    "id": "klein-08",
+    "name": "The Bottle Breathes",
+    "family": "klein",
+    "operators": [
+      "klein",
+      "vortex",
+      "wavefront"
+    ],
+    "relationships": [
+      "independent",
+      "independent",
+      "independent"
+    ],
+    "behaviors": [
+      "collapse",
+      "fold",
+      "ripple"
+    ],
+    "organization": "interior",
+    "scale": "chamber",
+    "camera": "interior",
+    "audio": [
+      "trend",
+      "mid",
+      "bass"
+    ],
+    "description": "A perforated bottle breathes over a whirl and traveling annular waves.",
+    "distinction": "A perforated bottle breathes over a whirl and traveling annular waves. Structural recipe: klein.collapse.pores@vault+vortex.fold@core+wavefront.ripple@floor.",
+    "budget": 10500
+  },
+  {
+    "id": "superquadric-01",
+    "name": "Rounded Citadel",
+    "family": "superquadric",
+    "operators": [
+      "superquadric",
+      "knot"
+    ],
+    "relationships": [
+      "independent",
+      "independent"
+    ],
+    "behaviors": [
+      "ripple",
+      "circulate"
+    ],
+    "organization": "layered formation",
+    "scale": "exterior",
+    "camera": "orbit",
+    "audio": [
+      "bass",
+      "mid"
+    ],
+    "description": "A rounded angular citadel contains a circulating filament.",
+    "distinction": "A rounded angular citadel contains a circulating filament. Structural recipe: superquadric.ripple@body+knot.circulate@core.",
+    "budget": 8500
+  },
+  {
+    "id": "superquadric-02",
+    "name": "Split Citadels",
+    "family": "superquadric",
+    "operators": [
+      "superquadric",
+      "crystal",
+      "weft"
+    ],
+    "relationships": [
+      "independent",
+      "independent",
+      "independent"
+    ],
+    "behaviors": [
+      "split",
+      "grow",
+      "fold"
+    ],
+    "organization": "interacting cluster",
+    "scale": "exterior",
+    "camera": "rise",
+    "audio": [
+      "onset",
+      "trend",
+      "mid"
+    ],
+    "description": "An open citadel confronts a growing crystal across a woven wall.",
+    "distinction": "An open citadel confronts a growing crystal across a woven wall. Structural recipe: superquadric.split.open@left+crystal.grow@right+weft.fold@rear.",
+    "budget": 10500
+  },
+  {
+    "id": "superquadric-03",
+    "name": "Soft Geometry Room",
+    "family": "superquadric",
+    "operators": [
+      "superquadric",
+      "shell",
+      "strata"
+    ],
+    "relationships": [
+      "independent",
+      "independent",
+      "independent"
+    ],
+    "behaviors": [
+      "fold",
+      "ripple",
+      "still"
+    ],
+    "organization": "interior",
+    "scale": "chamber",
+    "camera": "interior",
+    "audio": [
+      "trend",
+      "mid",
+      "bass"
+    ],
+    "description": "Porous angular walls surround a spherical core above strata.",
+    "distinction": "Porous angular walls surround a spherical core above strata. Structural recipe: superquadric.fold.pores@vault+shell.ripple@core+strata.still@floor.",
+    "budget": 10500
+  },
+  {
+    "id": "superquadric-04",
+    "name": "Angular Textile",
+    "family": "superquadric",
+    "operators": [
+      "superquadric",
+      "ribbon"
+    ],
+    "relationships": [
+      "weave",
+      "independent"
+    ],
+    "behaviors": [
+      "twist",
+      "split"
+    ],
+    "organization": "layered formation",
+    "scale": "intimate",
+    "camera": "detail",
+    "audio": [
+      "mid",
+      "onset"
+    ],
+    "description": "Woven sails articulate a rounded angular volume.",
+    "distinction": "Woven sails articulate a rounded angular volume. Structural recipe: superquadric~weave~ribbon.twist@body+ribbon.split@cross.",
+    "budget": 8500
+  },
+  {
+    "id": "superquadric-05",
+    "name": "Citadel Eversion",
+    "family": "superquadric",
+    "operators": [
+      "superquadric",
+      "rosette"
+    ],
+    "relationships": [
+      "blend",
+      "independent"
+    ],
+    "behaviors": [
+      "invert",
+      "grow"
+    ],
+    "organization": "layered formation",
+    "scale": "exterior",
+    "camera": "orbit",
+    "audio": [
+      "trend",
+      "bass"
+    ],
+    "description": "An angular volume flattens into a lens above petaled growth.",
+    "distinction": "An angular volume flattens into a lens above petaled growth. Structural recipe: superquadric~blend~lens.invert@body+rosette.grow@floor.",
+    "budget": 8500
+  },
+  {
+    "id": "superquadric-06",
+    "name": "Citadel Gate",
+    "family": "superquadric",
+    "operators": [
+      "superquadric",
+      "arch"
+    ],
+    "relationships": [
+      "intersect",
+      "independent"
+    ],
+    "behaviors": [
+      "ripple",
+      "split"
+    ],
+    "organization": "layered formation",
+    "scale": "journey",
+    "camera": "passage",
+    "audio": [
+      "bass",
+      "onset"
+    ],
+    "description": "An arch cuts a gate through the citadel’s rounded walls.",
+    "distinction": "An arch cuts a gate through the citadel’s rounded walls. Structural recipe: superquadric~intersect~arch.ripple@body+arch.split@front.",
+    "budget": 8500
+  },
+  {
+    "id": "superquadric-07",
+    "name": "Angular Choir",
+    "family": "superquadric",
+    "operators": [
+      "superquadric",
+      "cell",
+      "helix"
+    ],
+    "relationships": [
+      "independent",
+      "independent",
+      "independent"
+    ],
+    "behaviors": [
+      "circulate",
+      "grow",
+      "twist"
+    ],
+    "organization": "interacting cluster",
+    "scale": "exterior",
+    "camera": "hold",
+    "audio": [
+      "mid",
+      "trend",
+      "bass"
+    ],
+    "description": "Striped angular masses answer growing cells beside a coiled spine.",
+    "distinction": "Striped angular masses answer growing cells beside a coiled spine. Structural recipe: superquadric.circulate.bands@left+cell.grow@right+helix.twist@rear.",
+    "budget": 10500
+  },
+  {
+    "id": "superquadric-08",
+    "name": "The Citadel Opens",
+    "family": "superquadric",
+    "operators": [
+      "superquadric",
+      "tesseract",
+      "spiral"
+    ],
+    "relationships": [
+      "independent",
+      "independent",
+      "independent"
+    ],
+    "behaviors": [
+      "collapse",
+      "fold",
+      "grow"
+    ],
+    "organization": "interior",
+    "scale": "chamber",
+    "camera": "interior",
+    "audio": [
+      "onset",
+      "trend",
+      "mid"
+    ],
+    "description": "An open collapsing citadel reveals edge geometry and a peripheral coil.",
+    "distinction": "An open collapsing citadel reveals edge geometry and a peripheral coil. Structural recipe: superquadric.collapse.open@vault+tesseract.fold@core+spiral.grow@rim.",
+    "budget": 10500
+  },
+  {
+    "id": "rosette-01",
+    "name": "Spectral Bloom",
+    "family": "rosette",
+    "operators": [
+      "rosette",
+      "iris"
+    ],
+    "relationships": [
+      "independent",
+      "independent"
+    ],
+    "behaviors": [
+      "grow",
+      "ripple"
+    ],
+    "organization": "layered formation",
+    "scale": "exterior",
+    "camera": "orbit",
+    "audio": [
+      "trend",
+      "bass"
+    ],
+    "description": "A petaled surface unfurls around a resonating aperture.",
+    "distinction": "A petaled surface unfurls around a resonating aperture. Structural recipe: rosette.grow@body+iris.ripple@core.",
+    "budget": 8500
+  },
+  {
+    "id": "rosette-02",
+    "name": "Petal Dialogue",
+    "family": "rosette",
+    "operators": [
+      "rosette",
+      "rosette",
+      "helix"
+    ],
+    "relationships": [
+      "independent",
+      "independent",
+      "independent"
+    ],
+    "behaviors": [
+      "split",
+      "invert",
+      "twist"
+    ],
+    "organization": "interacting cluster",
+    "scale": "exterior",
+    "camera": "rise",
+    "audio": [
+      "onset",
+      "mid",
+      "bass"
+    ],
+    "description": "An intact blossom answers inverted separate petals beside a coil.",
+    "distinction": "An intact blossom answers inverted separate petals beside a coil. Structural recipe: rosette.split@left+rosette.invert.petals@right+helix.twist@rear.",
+    "budget": 10500
+  },
+  {
+    "id": "rosette-03",
+    "name": "Petaled Sanctuary",
+    "family": "rosette",
+    "operators": [
+      "rosette",
+      "shell",
+      "strata"
+    ],
+    "relationships": [
+      "independent",
+      "independent",
+      "independent"
+    ],
+    "behaviors": [
+      "fold",
+      "ripple",
+      "still"
+    ],
+    "organization": "interior",
+    "scale": "chamber",
+    "camera": "interior",
+    "audio": [
+      "trend",
+      "mid",
+      "bass"
+    ],
+    "description": "A folded petaled roof encloses a porous nucleus over stratified ground.",
+    "distinction": "A folded petaled roof encloses a porous nucleus over stratified ground. Structural recipe: rosette.fold@vault+shell.ripple.pores@core+strata.still@floor.",
+    "budget": 10500
+  },
+  {
+    "id": "rosette-04",
+    "name": "Petal Fabric",
+    "family": "rosette",
+    "operators": [
+      "rosette",
+      "braid"
+    ],
+    "relationships": [
+      "weave",
+      "independent"
+    ],
+    "behaviors": [
+      "twist",
+      "circulate"
+    ],
+    "organization": "layered formation",
+    "scale": "intimate",
+    "camera": "detail",
+    "audio": [
+      "mid",
+      "bass"
+    ],
+    "description": "Textile strands travel across petals and into a peripheral braid.",
+    "distinction": "Textile strands travel across petals and into a peripheral braid. Structural recipe: rosette~weave~weft.twist@body+braid.circulate@rim.",
+    "budget": 8500
+  },
+  {
+    "id": "rosette-05",
+    "name": "Bloom into Coral",
+    "family": "rosette",
+    "operators": [
+      "rosette",
+      "lens"
+    ],
+    "relationships": [
+      "blend",
+      "independent"
+    ],
+    "behaviors": [
+      "grow",
+      "collapse"
+    ],
+    "organization": "layered formation",
+    "scale": "exterior",
+    "camera": "orbit",
+    "audio": [
+      "trend",
+      "onset"
+    ],
+    "description": "A radial blossom rises toward coral above a contracting lens.",
+    "distinction": "A radial blossom rises toward coral above a contracting lens. Structural recipe: rosette~blend~coral.grow@body+lens.collapse@floor.",
+    "budget": 8500
+  },
+  {
+    "id": "rosette-06",
+    "name": "Petal Aperture",
+    "family": "rosette",
+    "operators": [
+      "rosette",
+      "cone"
+    ],
+    "relationships": [
+      "intersect",
+      "independent"
+    ],
+    "behaviors": [
+      "ripple",
+      "split"
+    ],
+    "organization": "layered formation",
+    "scale": "journey",
+    "camera": "passage",
+    "audio": [
+      "bass",
+      "onset"
+    ],
+    "description": "A funnel opens cuts into the petaled surface.",
+    "distinction": "A funnel opens cuts into the petaled surface. Structural recipe: rosette~intersect~cone.ripple@body+cone.split@cross.",
+    "budget": 8500
+  },
+  {
+    "id": "rosette-07",
+    "name": "Blossom Weather",
+    "family": "rosette",
+    "operators": [
+      "rosette",
+      "wave",
+      "spiral"
+    ],
+    "relationships": [
+      "independent",
+      "independent",
+      "independent"
+    ],
+    "behaviors": [
+      "collapse",
+      "fold",
+      "circulate"
+    ],
+    "organization": "layered formation",
+    "scale": "exterior",
+    "camera": "hold",
+    "audio": [
+      "trend",
+      "mid",
+      "bass"
+    ],
+    "description": "A striped collapsing blossom hangs over waves and an inner coil.",
+    "distinction": "A striped collapsing blossom hangs over waves and an inner coil. Structural recipe: rosette.collapse.bands@ceiling+wave.fold@floor+spiral.circulate@core.",
+    "budget": 10500
+  },
+  {
+    "id": "rosette-08",
+    "name": "Petaled Nursery",
+    "family": "rosette",
+    "operators": [
+      "rosette",
+      "cell",
+      "branch"
+    ],
+    "relationships": [
+      "independent",
+      "independent",
+      "independent"
+    ],
+    "behaviors": [
+      "ripple",
+      "split",
+      "grow"
+    ],
+    "organization": "layered formation",
+    "scale": "exterior",
+    "camera": "rise",
+    "audio": [
+      "bass",
+      "onset",
+      "trend"
+    ],
+    "description": "A resonating blossom shelters separating cells and branching growth.",
+    "distinction": "A resonating blossom shelters separating cells and branching growth. Structural recipe: rosette.ripple@rear+cell.split@front+branch.grow@core.",
+    "budget": 10500
+  },
+  {
+    "id": "lattice-01",
+    "name": "Crystal Scaffold",
+    "family": "lattice",
+    "operators": [
+      "lattice",
+      "shell"
+    ],
+    "relationships": [
+      "independent",
+      "independent"
+    ],
+    "behaviors": [
+      "ripple",
+      "grow"
+    ],
+    "organization": "layered formation",
+    "scale": "exterior",
+    "camera": "orbit",
+    "audio": [
+      "bass",
+      "trend"
+    ],
+    "description": "A resonating scaffold holds a perforated spherical core.",
+    "distinction": "A resonating scaffold holds a perforated spherical core. Structural recipe: lattice.ripple@body+shell.grow.pores@core.",
+    "budget": 8500
+  },
+  {
+    "id": "lattice-02",
+    "name": "Scaffold Exchange",
+    "family": "lattice",
+    "operators": [
+      "lattice",
+      "tesseract",
+      "lens"
+    ],
+    "relationships": [
+      "independent",
+      "independent",
+      "independent"
+    ],
+    "behaviors": [
+      "split",
+      "twist",
+      "circulate"
+    ],
+    "organization": "interacting cluster",
+    "scale": "exterior",
+    "camera": "rise",
+    "audio": [
+      "onset",
+      "mid",
+      "bass"
+    ],
+    "description": "An orthogonal scaffold parts beside nested turning edges.",
+    "distinction": "An orthogonal scaffold parts beside nested turning edges. Structural recipe: lattice.split@left+tesseract.twist@right+lens.circulate@rear.",
+    "budget": 10500
+  },
+  {
+    "id": "lattice-03",
+    "name": "Grid Cathedral",
+    "family": "lattice",
+    "operators": [
+      "lattice",
+      "arch",
+      "strata"
+    ],
+    "relationships": [
+      "independent",
+      "independent",
+      "independent"
+    ],
+    "behaviors": [
+      "fold",
+      "ripple",
+      "still"
+    ],
+    "organization": "interior",
+    "scale": "chamber",
+    "camera": "interior",
+    "audio": [
+      "trend",
+      "mid",
+      "bass"
+    ],
+    "description": "A folded scaffold becomes a room above an arched horizon.",
+    "distinction": "A folded scaffold becomes a room above an arched horizon. Structural recipe: lattice.fold@vault+arch.ripple@rear+strata.still@floor.",
+    "budget": 10500
+  },
+  {
+    "id": "lattice-04",
+    "name": "Woven Scaffold",
+    "family": "lattice",
+    "operators": [
+      "lattice",
+      "braid"
+    ],
+    "relationships": [
+      "weave",
+      "independent"
+    ],
+    "behaviors": [
+      "twist",
+      "ripple"
+    ],
+    "organization": "layered formation",
+    "scale": "intimate",
+    "camera": "detail",
+    "audio": [
+      "mid",
+      "bass"
+    ],
+    "description": "A braid interlaces the scaffold and its crossing filament.",
+    "distinction": "A braid interlaces the scaffold and its crossing filament. Structural recipe: lattice~weave~braid.twist@body+braid.ripple@cross.",
+    "budget": 8500
+  },
+  {
+    "id": "lattice-05",
+    "name": "Scaffold into Forest",
+    "family": "lattice",
+    "operators": [
+      "lattice",
+      "rosette"
+    ],
+    "relationships": [
+      "blend",
+      "independent"
+    ],
+    "behaviors": [
+      "grow",
+      "invert"
+    ],
+    "organization": "layered formation",
+    "scale": "exterior",
+    "camera": "orbit",
+    "audio": [
+      "trend",
+      "mid"
+    ],
+    "description": "Orthogonal lines soften into branching growth over inverted petals.",
+    "distinction": "Orthogonal lines soften into branching growth over inverted petals. Structural recipe: lattice~blend~branch.grow@body+rosette.invert@floor.",
+    "budget": 8500
+  },
+  {
+    "id": "lattice-06",
+    "name": "Scaffold Window",
+    "family": "lattice",
+    "operators": [
+      "lattice",
+      "torus"
+    ],
+    "relationships": [
+      "intersect",
+      "independent"
+    ],
+    "behaviors": [
+      "ripple",
+      "split"
+    ],
+    "organization": "layered formation",
+    "scale": "journey",
+    "camera": "passage",
+    "audio": [
+      "bass",
+      "onset"
+    ],
+    "description": "Orbital cuts open a window through orthogonal lines.",
+    "distinction": "Orbital cuts open a window through orthogonal lines. Structural recipe: lattice~intersect~torus.ripple@body+torus.split@front.",
+    "budget": 8500
+  },
+  {
+    "id": "lattice-07",
+    "name": "Layered Scaffolds",
+    "family": "lattice",
+    "operators": [
+      "lattice",
+      "reaction",
+      "helix"
+    ],
+    "relationships": [
+      "independent",
+      "independent",
+      "independent"
+    ],
+    "behaviors": [
+      "collapse",
+      "ripple",
+      "twist"
+    ],
+    "organization": "layered formation",
+    "scale": "exterior",
+    "camera": "hold",
+    "audio": [
+      "onset",
+      "mid",
+      "bass"
+    ],
+    "description": "A collapsing scaffold meets patterned interference around an axial coil.",
+    "distinction": "A collapsing scaffold meets patterned interference around an axial coil. Structural recipe: lattice.collapse@rear+reaction.ripple@front+helix.twist@core.",
+    "budget": 10500
+  },
+  {
+    "id": "lattice-08",
+    "name": "Nested Scaffolding",
+    "family": "lattice",
+    "operators": [
+      "lattice",
+      "superquadric",
+      "spiral"
+    ],
+    "relationships": [
+      "independent",
+      "independent",
+      "independent"
+    ],
+    "behaviors": [
+      "circulate",
+      "grow",
+      "fold"
+    ],
+    "organization": "interior",
+    "scale": "chamber",
+    "camera": "interior",
+    "audio": [
+      "trend",
+      "mid",
+      "bass"
+    ],
+    "description": "A surrounding scaffold rotates around an angular core and folded coil.",
+    "distinction": "A surrounding scaffold rotates around an angular core and folded coil. Structural recipe: lattice.circulate@vault+superquadric.grow@core+spiral.fold@nest.",
+    "budget": 10500
+  },
+  {
+    "id": "vortex-01",
+    "name": "Spectral Maelstrom",
+    "family": "vortex",
+    "operators": [
+      "vortex",
+      "iris"
+    ],
+    "relationships": [
+      "independent",
+      "independent"
+    ],
+    "behaviors": [
+      "circulate",
+      "ripple"
+    ],
+    "organization": "layered formation",
+    "scale": "exterior",
+    "camera": "orbit",
+    "audio": [
+      "bass",
+      "mid"
+    ],
+    "description": "A circulating whirl runs through a responsive annular throat.",
+    "distinction": "A circulating whirl runs through a responsive annular throat. Structural recipe: vortex.circulate@body+iris.ripple@core.",
+    "budget": 8500
+  },
+  {
+    "id": "vortex-02",
+    "name": "Two Whirls",
+    "family": "vortex",
+    "operators": [
+      "vortex",
+      "cone",
+      "knot"
+    ],
+    "relationships": [
+      "independent",
+      "independent",
+      "independent"
+    ],
+    "behaviors": [
+      "split",
+      "invert",
+      "twist"
+    ],
+    "organization": "interacting cluster",
+    "scale": "exterior",
+    "camera": "rise",
+    "audio": [
+      "onset",
+      "mid",
+      "bass"
+    ],
+    "description": "A split whirl faces an inverted funnel and distant knot.",
+    "distinction": "A split whirl faces an inverted funnel and distant knot. Structural recipe: vortex.split@left+cone.invert@right+knot.twist@rear.",
+    "budget": 10500
+  },
+  {
+    "id": "vortex-03",
+    "name": "Whirl Chamber",
+    "family": "vortex",
+    "operators": [
+      "vortex",
+      "wavefront",
+      "shell"
+    ],
+    "relationships": [
+      "independent",
+      "independent",
+      "independent"
+    ],
+    "behaviors": [
+      "fold",
+      "ripple",
+      "grow"
+    ],
+    "organization": "interior",
+    "scale": "chamber",
+    "camera": "interior",
+    "audio": [
+      "trend",
+      "mid",
+      "bass"
+    ],
+    "description": "A whirl becomes a chamber around a growing shell above waves.",
+    "distinction": "A whirl becomes a chamber around a growing shell above waves. Structural recipe: vortex.fold@vault+wavefront.ripple@floor+shell.grow.pores@core.",
+    "budget": 10500
+  },
+  {
+    "id": "vortex-04",
+    "name": "Vortex Textile",
+    "family": "vortex",
+    "operators": [
+      "vortex",
+      "ribbon"
+    ],
+    "relationships": [
+      "weave",
+      "independent"
+    ],
+    "behaviors": [
+      "twist",
+      "split"
+    ],
+    "organization": "layered formation",
+    "scale": "intimate",
+    "camera": "detail",
+    "audio": [
+      "mid",
+      "onset"
+    ],
+    "description": "Woven sails trace the whirl’s circulating curvature.",
+    "distinction": "Woven sails trace the whirl’s circulating curvature. Structural recipe: vortex~weave~ribbon.twist@body+ribbon.split@cross.",
+    "budget": 8500
+  },
+  {
+    "id": "vortex-05",
+    "name": "Whirl into Waist",
+    "family": "vortex",
+    "operators": [
+      "vortex",
+      "rosette"
+    ],
+    "relationships": [
+      "blend",
+      "independent"
+    ],
+    "behaviors": [
+      "collapse",
+      "grow"
+    ],
+    "organization": "layered formation",
+    "scale": "journey",
+    "camera": "passage",
+    "audio": [
+      "onset",
+      "trend"
+    ],
+    "description": "A whirl narrows toward an hourglass above a growing blossom.",
+    "distinction": "A whirl narrows toward an hourglass above a growing blossom. Structural recipe: vortex~blend~hourglass.collapse@body+rosette.grow@floor.",
+    "budget": 8500
+  },
+  {
+    "id": "vortex-06",
+    "name": "Broken Circulation",
+    "family": "vortex",
+    "operators": [
+      "vortex",
+      "arch"
+    ],
+    "relationships": [
+      "intersect",
+      "independent"
+    ],
+    "behaviors": [
+      "ripple",
+      "split"
+    ],
+    "organization": "layered formation",
+    "scale": "exterior",
+    "camera": "orbit",
+    "audio": [
+      "bass",
+      "onset"
+    ],
+    "description": "An arch breaks the whirl’s circulation into visible spatial gaps.",
+    "distinction": "An arch breaks the whirl’s circulation into visible spatial gaps. Structural recipe: vortex~intersect~arch.ripple@body+arch.split@front.",
+    "budget": 8500
+  },
+  {
+    "id": "vortex-07",
+    "name": "Vortex Weather",
+    "family": "vortex",
+    "operators": [
+      "vortex",
+      "wave",
+      "coral"
+    ],
+    "relationships": [
+      "independent",
+      "independent",
+      "independent"
+    ],
+    "behaviors": [
+      "collapse",
+      "fold",
+      "grow"
+    ],
+    "organization": "layered formation",
+    "scale": "exterior",
+    "camera": "hold",
+    "audio": [
+      "onset",
+      "mid",
+      "trend"
+    ],
+    "description": "A striped whirl collapses into waves and coral growth.",
+    "distinction": "A striped whirl collapses into waves and coral growth. Structural recipe: vortex.collapse.bands@ceiling+wave.fold@floor+coral.grow@core.",
+    "budget": 10500
+  },
+  {
+    "id": "vortex-08",
+    "name": "Coiled Observatory",
+    "family": "vortex",
+    "operators": [
+      "vortex",
+      "torus",
+      "crystal"
+    ],
+    "relationships": [
+      "independent",
+      "independent",
+      "independent"
+    ],
+    "behaviors": [
+      "grow",
+      "twist",
+      "ripple"
+    ],
+    "organization": "interior",
+    "scale": "chamber",
+    "camera": "interior",
+    "audio": [
+      "trend",
+      "mid",
+      "bass"
+    ],
+    "description": "A perforated whirl surrounds a turning orbit and crystalline resonator.",
+    "distinction": "A perforated whirl surrounds a turning orbit and crystalline resonator. Structural recipe: vortex.grow.pores@vault+torus.twist@core+crystal.ripple@nest.",
+    "budget": 10500
+  },
+  {
+    "id": "strata-01",
+    "name": "Layered Aurora",
+    "family": "strata",
+    "operators": [
+      "strata",
+      "spiral"
+    ],
+    "relationships": [
+      "independent",
+      "independent"
+    ],
+    "behaviors": [
+      "fold",
+      "circulate"
+    ],
+    "organization": "layered formation",
+    "scale": "exterior",
+    "camera": "rise",
+    "audio": [
+      "trend",
+      "mid"
+    ],
+    "description": "Separate shelves fold around a circulating coil.",
+    "distinction": "Separate shelves fold around a circulating coil. Structural recipe: strata.fold@body+spiral.circulate@core.",
+    "budget": 8500
+  },
+  {
+    "id": "strata-02",
+    "name": "Terrace Exchange",
+    "family": "strata",
+    "operators": [
+      "strata",
+      "wave",
+      "iris"
+    ],
+    "relationships": [
+      "independent",
+      "independent",
+      "independent"
+    ],
+    "behaviors": [
+      "split",
+      "invert",
+      "twist"
+    ],
+    "organization": "interacting cluster",
+    "scale": "exterior",
+    "camera": "orbit",
+    "audio": [
+      "onset",
+      "mid",
+      "bass"
+    ],
+    "description": "Stratified shelves and an inverted wavefield exchange impulses.",
+    "distinction": "Stratified shelves and an inverted wavefield exchange impulses. Structural recipe: strata.split@left+wave.invert@right+iris.twist@rear.",
+    "budget": 10500
+  },
+  {
+    "id": "strata-03",
+    "name": "Terraced Chamber",
+    "family": "strata",
+    "operators": [
+      "strata",
+      "arch",
+      "cell"
+    ],
+    "relationships": [
+      "independent",
+      "independent",
+      "independent"
+    ],
+    "behaviors": [
+      "ripple",
+      "fold",
+      "grow"
+    ],
+    "organization": "interior",
+    "scale": "chamber",
+    "camera": "interior",
+    "audio": [
+      "bass",
+      "mid",
+      "trend"
+    ],
+    "description": "Resonating terraces form a room around cells and an arch.",
+    "distinction": "Resonating terraces form a room around cells and an arch. Structural recipe: strata.ripple@vault+arch.fold@rear+cell.grow@core.",
+    "budget": 10500
+  },
+  {
+    "id": "strata-04",
+    "name": "Terrace Textile",
+    "family": "strata",
+    "operators": [
+      "strata",
+      "braid"
+    ],
+    "relationships": [
+      "weave",
+      "independent"
+    ],
+    "behaviors": [
+      "twist",
+      "ripple"
+    ],
+    "organization": "layered formation",
+    "scale": "intimate",
+    "camera": "detail",
+    "audio": [
+      "mid",
+      "bass"
+    ],
+    "description": "Woven currents cross shelves at distinct heights.",
+    "distinction": "Woven currents cross shelves at distinct heights. Structural recipe: strata~weave~weft.twist@body+braid.ripple@cross.",
+    "budget": 8500
+  },
+  {
+    "id": "strata-05",
+    "name": "Strata into Scrolls",
+    "family": "strata",
+    "operators": [
+      "strata",
+      "lens"
+    ],
+    "relationships": [
+      "blend",
+      "independent"
+    ],
+    "behaviors": [
+      "grow",
+      "collapse"
+    ],
+    "organization": "layered formation",
+    "scale": "journey",
+    "camera": "passage",
+    "audio": [
+      "trend",
+      "onset"
+    ],
+    "description": "Shelves unroll toward scrolls above a contracting lens.",
+    "distinction": "Shelves unroll toward scrolls above a contracting lens. Structural recipe: strata~blend~scroll.grow@body+lens.collapse@floor.",
+    "budget": 8500
+  },
+  {
+    "id": "strata-06",
+    "name": "Terraced Gate",
+    "family": "strata",
+    "operators": [
+      "strata",
+      "cone"
+    ],
+    "relationships": [
+      "intersect",
+      "independent"
+    ],
+    "behaviors": [
+      "ripple",
+      "split"
+    ],
+    "organization": "layered formation",
+    "scale": "exterior",
+    "camera": "rise",
+    "audio": [
+      "bass",
+      "onset"
+    ],
+    "description": "A separating cone opens an axial gate through the terraces.",
+    "distinction": "A separating cone opens an axial gate through the terraces. Structural recipe: strata~intersect~cone.ripple@body+cone.split@core.",
+    "budget": 8500
+  },
+  {
+    "id": "strata-07",
+    "name": "Two Horizons",
+    "family": "strata",
+    "operators": [
+      "strata",
+      "saddle",
+      "helix"
+    ],
+    "relationships": [
+      "independent",
+      "independent",
+      "independent"
+    ],
+    "behaviors": [
+      "collapse",
+      "fold",
+      "circulate"
+    ],
+    "organization": "interacting cluster",
+    "scale": "exterior",
+    "camera": "hold",
+    "audio": [
+      "onset",
+      "trend",
+      "mid"
+    ],
+    "description": "Layered horizons exchange movement through a saddle and side coil.",
+    "distinction": "Layered horizons exchange movement through a saddle and side coil. Structural recipe: strata.collapse.bands@rear+saddle.fold@front+helix.circulate@left.",
+    "budget": 10500
+  },
+  {
+    "id": "strata-08",
+    "name": "Terraced Nursery",
+    "family": "strata",
+    "operators": [
+      "strata",
+      "branch",
+      "rosette"
+    ],
+    "relationships": [
+      "independent",
+      "independent",
+      "independent"
+    ],
+    "behaviors": [
+      "circulate",
+      "grow",
+      "invert"
+    ],
+    "organization": "interior",
+    "scale": "chamber",
+    "camera": "interior",
+    "audio": [
+      "trend",
+      "mid",
+      "bass"
+    ],
+    "description": "A revolving terraced enclosure frames roots and inverted petals.",
+    "distinction": "A revolving terraced enclosure frames roots and inverted petals. Structural recipe: strata.circulate@vault+branch.grow@floor+rosette.invert@core.",
+    "budget": 10500
+  },
+  {
+    "id": "iris-01",
+    "name": "Luminous Aperture",
+    "family": "iris",
+    "operators": [
+      "iris",
+      "shell"
+    ],
+    "relationships": [
+      "independent",
+      "independent"
+    ],
+    "behaviors": [
+      "ripple",
+      "grow"
+    ],
+    "organization": "layered formation",
+    "scale": "exterior",
+    "camera": "orbit",
+    "audio": [
+      "bass",
+      "trend"
+    ],
+    "description": "A ruffled aperture frames a growing spherical core.",
+    "distinction": "A ruffled aperture frames a growing spherical core. Structural recipe: iris.ripple@body+shell.grow@core.",
+    "budget": 8500
+  },
+  {
+    "id": "iris-02",
+    "name": "Paired Openings",
+    "family": "iris",
+    "operators": [
+      "iris",
+      "torus",
+      "weft"
+    ],
+    "relationships": [
+      "independent",
+      "independent",
+      "independent"
+    ],
+    "behaviors": [
+      "split",
+      "twist",
+      "fold"
+    ],
+    "organization": "interacting cluster",
+    "scale": "exterior",
+    "camera": "rise",
+    "audio": [
+      "onset",
+      "mid",
+      "bass"
+    ],
+    "description": "A separating aperture and turning orbit expose a woven background.",
+    "distinction": "A separating aperture and turning orbit expose a woven background. Structural recipe: iris.split@left+torus.twist@right+weft.fold@rear.",
+    "budget": 10500
+  },
+  {
+    "id": "iris-03",
+    "name": "Iris Chamber",
+    "family": "iris",
+    "operators": [
+      "iris",
+      "cone",
+      "strata"
+    ],
+    "relationships": [
+      "independent",
+      "independent",
+      "independent"
+    ],
+    "behaviors": [
+      "fold",
+      "ripple",
+      "still"
+    ],
+    "organization": "interior",
+    "scale": "chamber",
+    "camera": "interior",
+    "audio": [
+      "trend",
+      "mid",
+      "bass"
+    ],
+    "description": "A ruffled enclosure directs attention through a conical throat.",
+    "distinction": "A ruffled enclosure directs attention through a conical throat. Structural recipe: iris.fold@vault+cone.ripple@core+strata.still@floor.",
+    "budget": 10500
+  },
+  {
+    "id": "iris-04",
+    "name": "Woven Opening",
+    "family": "iris",
+    "operators": [
+      "iris",
+      "braid"
+    ],
+    "relationships": [
+      "weave",
+      "independent"
+    ],
+    "behaviors": [
+      "twist",
+      "circulate"
+    ],
+    "organization": "layered formation",
+    "scale": "intimate",
+    "camera": "detail",
+    "audio": [
+      "mid",
+      "bass"
+    ],
+    "description": "Braids interlace a ruffled aperture and its outer edge.",
+    "distinction": "Braids interlace a ruffled aperture and its outer edge. Structural recipe: iris~weave~braid.twist@body+braid.circulate@rim.",
+    "budget": 8500
+  },
+  {
+    "id": "iris-05",
+    "name": "Aperture Blossom",
+    "family": "iris",
+    "operators": [
+      "iris",
+      "lens"
+    ],
+    "relationships": [
+      "blend",
+      "independent"
+    ],
+    "behaviors": [
+      "grow",
+      "invert"
+    ],
+    "organization": "layered formation",
+    "scale": "exterior",
+    "camera": "orbit",
+    "audio": [
+      "trend",
+      "mid"
+    ],
+    "description": "An aperture opens into petals above an inverted shallow lens.",
+    "distinction": "An aperture opens into petals above an inverted shallow lens. Structural recipe: iris~blend~rosette.grow@body+lens.invert@floor.",
+    "budget": 8500
+  },
+  {
+    "id": "iris-06",
+    "name": "Interrupted Iris",
+    "family": "iris",
+    "operators": [
+      "iris",
+      "arch"
+    ],
+    "relationships": [
+      "intersect",
+      "independent"
+    ],
+    "behaviors": [
+      "ripple",
+      "split"
+    ],
+    "organization": "layered formation",
+    "scale": "journey",
+    "camera": "passage",
+    "audio": [
+      "bass",
+      "onset"
+    ],
+    "description": "An arch cuts spatial interruptions into a ruffled opening.",
+    "distinction": "An arch cuts spatial interruptions into a ruffled opening. Structural recipe: iris~intersect~arch.ripple@body+arch.split@cross.",
+    "budget": 8500
+  },
+  {
+    "id": "iris-07",
+    "name": "Ringed Weather",
+    "family": "iris",
+    "operators": [
+      "iris",
+      "wavefront",
+      "vortex"
+    ],
+    "relationships": [
+      "independent",
+      "independent",
+      "independent"
+    ],
+    "behaviors": [
+      "collapse",
+      "ripple",
+      "fold"
+    ],
+    "organization": "layered formation",
+    "scale": "exterior",
+    "camera": "hold",
+    "audio": [
+      "onset",
+      "bass",
+      "mid"
+    ],
+    "description": "A striped aperture collapses over annular waves and a central whirl.",
+    "distinction": "A striped aperture collapses over annular waves and a central whirl. Structural recipe: iris.collapse.bands@ceiling+wavefront.ripple@floor+vortex.fold@core.",
+    "budget": 10500
+  },
+  {
+    "id": "iris-08",
+    "name": "Through the Iris",
+    "family": "iris",
+    "operators": [
+      "iris",
+      "crystal",
+      "helix"
+    ],
+    "relationships": [
+      "independent",
+      "independent",
+      "independent"
+    ],
+    "behaviors": [
+      "circulate",
+      "grow",
+      "twist"
+    ],
+    "organization": "interior",
+    "scale": "chamber",
+    "camera": "interior",
+    "audio": [
+      "trend",
+      "mid",
+      "bass"
+    ],
+    "description": "A surrounding aperture rotates around crystal growth and a far coil.",
+    "distinction": "A surrounding aperture rotates around crystal growth and a far coil. Structural recipe: iris.circulate@vault+crystal.grow@core+helix.twist@rear.",
+    "budget": 10500
+  },
+  {
+    "id": "coral-01",
+    "name": "Coral of Light",
+    "family": "coral",
+    "operators": [
+      "coral",
+      "wave"
+    ],
+    "relationships": [
+      "independent",
+      "independent"
+    ],
+    "behaviors": [
+      "grow",
+      "ripple"
+    ],
+    "organization": "layered formation",
+    "scale": "exterior",
+    "camera": "rise",
+    "audio": [
+      "trend",
+      "bass"
+    ],
+    "description": "Curving branches grow above rippling ground.",
+    "distinction": "Curving branches grow above rippling ground. Structural recipe: coral.grow@body+wave.ripple@floor.",
+    "budget": 8500
+  },
+  {
+    "id": "coral-02",
+    "name": "Coral Dialogue",
+    "family": "coral",
+    "operators": [
+      "coral",
+      "branch",
+      "lens"
+    ],
+    "relationships": [
+      "independent",
+      "independent",
+      "independent"
+    ],
+    "behaviors": [
+      "split",
+      "twist",
+      "circulate"
+    ],
+    "organization": "interacting cluster",
+    "scale": "exterior",
+    "camera": "orbit",
+    "audio": [
+      "onset",
+      "mid",
+      "bass"
+    ],
+    "description": "Parting coral faces a twisting tree across a shallow lens.",
+    "distinction": "Parting coral faces a twisting tree across a shallow lens. Structural recipe: coral.split@left+branch.twist@right+lens.circulate@rear.",
+    "budget": 10500
+  },
+  {
+    "id": "coral-03",
+    "name": "Coral Grotto",
+    "family": "coral",
+    "operators": [
+      "coral",
+      "shell",
+      "strata"
+    ],
+    "relationships": [
+      "independent",
+      "independent",
+      "independent"
+    ],
+    "behaviors": [
+      "fold",
+      "ripple",
+      "still"
+    ],
+    "organization": "interior",
+    "scale": "chamber",
+    "camera": "interior",
+    "audio": [
+      "trend",
+      "mid",
+      "bass"
+    ],
+    "description": "Curving overhead branches enclose a porous nucleus and terraces.",
+    "distinction": "Curving overhead branches enclose a porous nucleus and terraces. Structural recipe: coral.fold@vault+shell.ripple.pores@core+strata.still@floor.",
+    "budget": 10500
+  },
+  {
+    "id": "coral-04",
+    "name": "Coral Weaving",
+    "family": "coral",
+    "operators": [
+      "coral",
+      "helix"
+    ],
+    "relationships": [
+      "weave",
+      "independent"
+    ],
+    "behaviors": [
+      "twist",
+      "ripple"
+    ],
+    "organization": "layered formation",
+    "scale": "intimate",
+    "camera": "detail",
+    "audio": [
+      "mid",
+      "bass"
+    ],
+    "description": "Helical filaments interlace curving coral branches.",
+    "distinction": "Helical filaments interlace curving coral branches. Structural recipe: coral~weave~helix.twist@body+helix.ripple@cross.",
+    "budget": 8500
+  },
+  {
+    "id": "coral-05",
+    "name": "Coral Colony",
+    "family": "coral",
+    "operators": [
+      "coral",
+      "rosette"
+    ],
+    "relationships": [
+      "blend",
+      "independent"
+    ],
+    "behaviors": [
+      "grow",
+      "collapse"
+    ],
+    "organization": "layered formation",
+    "scale": "exterior",
+    "camera": "orbit",
+    "audio": [
+      "trend",
+      "onset"
+    ],
+    "description": "Branch tips gather into cells above contracting petals.",
+    "distinction": "Branch tips gather into cells above contracting petals. Structural recipe: coral~blend~cell.grow@body+rosette.collapse@floor.",
+    "budget": 8500
+  },
+  {
+    "id": "coral-06",
+    "name": "Coral Portal",
+    "family": "coral",
+    "operators": [
+      "coral",
+      "torus"
+    ],
+    "relationships": [
+      "intersect",
+      "independent"
+    ],
+    "behaviors": [
+      "split",
+      "circulate"
+    ],
+    "organization": "layered formation",
+    "scale": "journey",
+    "camera": "passage",
+    "audio": [
+      "onset",
+      "bass"
+    ],
+    "description": "Orbital intersections open a portal through a coral grove.",
+    "distinction": "Orbital intersections open a portal through a coral grove. Structural recipe: coral~intersect~torus.split@body+torus.circulate@front.",
+    "budget": 8500
+  },
+  {
+    "id": "coral-07",
+    "name": "Suspended Reef",
+    "family": "coral",
+    "operators": [
+      "coral",
+      "spiral",
+      "cone"
+    ],
+    "relationships": [
+      "independent",
+      "independent",
+      "independent"
+    ],
+    "behaviors": [
+      "circulate",
+      "grow",
+      "fold"
+    ],
+    "organization": "interacting cluster",
+    "scale": "exterior",
+    "camera": "hold",
+    "audio": [
+      "trend",
+      "mid",
+      "bass"
+    ],
+    "description": "A revolving suspended reef exchanges motion with coil and funnel.",
+    "distinction": "A revolving suspended reef exchanges motion with coil and funnel. Structural recipe: coral.circulate@ceiling+spiral.grow@left+cone.fold@right.",
+    "budget": 10500
+  },
+  {
+    "id": "coral-08",
+    "name": "Coral Observatory",
+    "family": "coral",
+    "operators": [
+      "coral",
+      "tesseract",
+      "iris"
+    ],
+    "relationships": [
+      "independent",
+      "independent",
+      "independent"
+    ],
+    "behaviors": [
+      "ripple",
+      "twist",
+      "invert"
+    ],
+    "organization": "interior",
+    "scale": "chamber",
+    "camera": "interior",
+    "audio": [
+      "mid",
+      "bass",
+      "trend"
+    ],
+    "description": "A resonating reef surrounds nested edges above an inverted aperture.",
+    "distinction": "A resonating reef surrounds nested edges above an inverted aperture. Structural recipe: coral.ripple@vault+tesseract.twist@core+iris.invert@floor.",
+    "budget": 10500
+  },
+  {
+    "id": "lens-01",
+    "name": "Suspended Lens",
+    "family": "lens",
+    "operators": [
+      "lens",
+      "knot"
+    ],
+    "relationships": [
+      "independent",
+      "independent"
+    ],
+    "behaviors": [
+      "ripple",
+      "circulate"
+    ],
+    "organization": "layered formation",
+    "scale": "exterior",
+    "camera": "orbit",
+    "audio": [
+      "bass",
+      "mid"
+    ],
+    "description": "A thin luminous lens is held by a peripheral circulating filament.",
+    "distinction": "A thin luminous lens is held by a peripheral circulating filament. Structural recipe: lens.ripple@body+knot.circulate@rim.",
+    "budget": 8500
+  },
+  {
+    "id": "lens-02",
+    "name": "Lens Exchange",
+    "family": "lens",
+    "operators": [
+      "lens",
+      "lens",
+      "helix"
+    ],
+    "relationships": [
+      "independent",
+      "independent",
+      "independent"
+    ],
+    "behaviors": [
+      "split",
+      "invert",
+      "twist"
+    ],
+    "organization": "interacting cluster",
+    "scale": "exterior",
+    "camera": "rise",
+    "audio": [
+      "onset",
+      "mid",
+      "bass"
+    ],
+    "description": "Two lenses part and invert beside a helical far axis.",
+    "distinction": "Two lenses part and invert beside a helical far axis. Structural recipe: lens.split@left+lens.invert@right+helix.twist@rear.",
+    "budget": 10500
+  },
+  {
+    "id": "lens-03",
+    "name": "Lenticular Room",
+    "family": "lens",
+    "operators": [
+      "lens",
+      "shell",
+      "strata"
+    ],
+    "relationships": [
+      "independent",
+      "independent",
+      "independent"
+    ],
+    "behaviors": [
+      "fold",
+      "ripple",
+      "still"
+    ],
+    "organization": "interior",
+    "scale": "chamber",
+    "camera": "interior",
+    "audio": [
+      "trend",
+      "mid",
+      "bass"
+    ],
+    "description": "A folded shallow enclosure exposes a porous core and layered floor.",
+    "distinction": "A folded shallow enclosure exposes a porous core and layered floor. Structural recipe: lens.fold@vault+shell.ripple.pores@core+strata.still@floor.",
+    "budget": 10500
+  },
+  {
+    "id": "lens-04",
+    "name": "Lenticular Textile",
+    "family": "lens",
+    "operators": [
+      "lens",
+      "braid"
+    ],
+    "relationships": [
+      "weave",
+      "independent"
+    ],
+    "behaviors": [
+      "twist",
+      "split"
+    ],
+    "organization": "layered formation",
+    "scale": "intimate",
+    "camera": "detail",
+    "audio": [
+      "mid",
+      "onset"
+    ],
+    "description": "Interlaced textile marks span a lens and separating braid.",
+    "distinction": "Interlaced textile marks span a lens and separating braid. Structural recipe: lens~weave~weft.twist@body+braid.split@cross.",
+    "budget": 8500
+  },
+  {
+    "id": "lens-05",
+    "name": "Lens into Shell",
+    "family": "lens",
+    "operators": [
+      "lens",
+      "rosette"
+    ],
+    "relationships": [
+      "blend",
+      "independent"
+    ],
+    "behaviors": [
+      "grow",
+      "invert"
+    ],
+    "organization": "layered formation",
+    "scale": "exterior",
+    "camera": "orbit",
+    "audio": [
+      "trend",
+      "mid"
+    ],
+    "description": "A shallow lens inflates into a shell above inverted petals.",
+    "distinction": "A shallow lens inflates into a shell above inverted petals. Structural recipe: lens~blend~shell.grow@body+rosette.invert@floor.",
+    "budget": 8500
+  },
+  {
+    "id": "lens-06",
+    "name": "Cut Lens",
+    "family": "lens",
+    "operators": [
+      "lens",
+      "cone"
+    ],
+    "relationships": [
+      "intersect",
+      "independent"
+    ],
+    "behaviors": [
+      "ripple",
+      "split"
+    ],
+    "organization": "layered formation",
+    "scale": "journey",
+    "camera": "passage",
+    "audio": [
+      "bass",
+      "onset"
+    ],
+    "description": "A conical intersection cuts an axial opening through the lens.",
+    "distinction": "A conical intersection cuts an axial opening through the lens. Structural recipe: lens~intersect~cone.ripple@body+cone.split@front.",
+    "budget": 8500
+  },
+  {
+    "id": "lens-07",
+    "name": "Lenticular Constellation",
+    "family": "lens",
+    "operators": [
+      "lens",
+      "cell",
+      "crystal"
+    ],
+    "relationships": [
+      "independent",
+      "independent",
+      "independent"
+    ],
+    "behaviors": [
+      "circulate",
+      "grow",
+      "twist"
+    ],
+    "organization": "interacting cluster",
+    "scale": "exterior",
+    "camera": "hold",
+    "audio": [
+      "mid",
+      "trend",
+      "bass"
+    ],
+    "description": "A lens circulates across cells and a turning crystalline horizon.",
+    "distinction": "A lens circulates across cells and a turning crystalline horizon. Structural recipe: lens.circulate@left+cell.grow@right+crystal.twist@rear.",
+    "budget": 10500
+  },
+  {
+    "id": "lens-08",
+    "name": "Lens Observatory",
+    "family": "lens",
+    "operators": [
+      "lens",
+      "iris",
+      "spiral"
+    ],
+    "relationships": [
+      "independent",
+      "independent",
+      "independent"
+    ],
+    "behaviors": [
+      "collapse",
+      "fold",
+      "grow"
+    ],
+    "organization": "interior",
+    "scale": "chamber",
+    "camera": "interior",
+    "audio": [
+      "onset",
+      "trend",
+      "mid"
+    ],
+    "description": "A porous contracting lens reveals an aperture and unfolded coil.",
+    "distinction": "A porous contracting lens reveals an aperture and unfolded coil. Structural recipe: lens.collapse.pores@vault+iris.fold@core+spiral.grow@nest.",
+    "budget": 10500
+  },
+  {
+    "id": "hourglass-01",
+    "name": "Spectral Waist",
+    "family": "hourglass",
+    "operators": [
+      "hourglass",
+      "iris"
+    ],
+    "relationships": [
+      "independent",
+      "independent"
+    ],
+    "behaviors": [
+      "ripple",
+      "twist"
+    ],
+    "organization": "layered formation",
+    "scale": "exterior",
+    "camera": "orbit",
+    "audio": [
+      "bass",
+      "mid"
+    ],
+    "description": "A narrowing volume resonates around a turning aperture.",
+    "distinction": "A narrowing volume resonates around a turning aperture. Structural recipe: hourglass.ripple@body+iris.twist@core.",
+    "budget": 8500
+  },
+  {
+    "id": "hourglass-02",
+    "name": "Waisted Dialogue",
+    "family": "hourglass",
+    "operators": [
+      "hourglass",
+      "catenoid",
+      "knot"
+    ],
+    "relationships": [
+      "independent",
+      "independent",
+      "independent"
+    ],
+    "behaviors": [
+      "split",
+      "invert",
+      "circulate"
+    ],
+    "organization": "interacting cluster",
+    "scale": "exterior",
+    "camera": "rise",
+    "audio": [
+      "onset",
+      "mid",
+      "bass"
+    ],
+    "description": "Two unlike waisted constructions separate over a filament horizon.",
+    "distinction": "Two unlike waisted constructions separate over a filament horizon. Structural recipe: hourglass.split@left+catenoid.invert@right+knot.circulate@rear.",
+    "budget": 10500
+  },
+  {
+    "id": "hourglass-03",
+    "name": "Hourglass Room",
+    "family": "hourglass",
+    "operators": [
+      "hourglass",
+      "helix",
+      "strata"
+    ],
+    "relationships": [
+      "independent",
+      "independent",
+      "independent"
+    ],
+    "behaviors": [
+      "fold",
+      "ripple",
+      "still"
+    ],
+    "organization": "interior",
+    "scale": "chamber",
+    "camera": "interior",
+    "audio": [
+      "trend",
+      "mid",
+      "bass"
+    ],
+    "description": "An open waisted room encloses a helical resonator above terraces.",
+    "distinction": "An open waisted room encloses a helical resonator above terraces. Structural recipe: hourglass.fold.open@vault+helix.ripple@core+strata.still@floor.",
+    "budget": 10500
+  },
+  {
+    "id": "hourglass-04",
+    "name": "Waisted Textile",
+    "family": "hourglass",
+    "operators": [
+      "hourglass",
+      "braid"
+    ],
+    "relationships": [
+      "weave",
+      "independent"
+    ],
+    "behaviors": [
+      "twist",
+      "ripple"
+    ],
+    "organization": "layered formation",
+    "scale": "intimate",
+    "camera": "detail",
+    "audio": [
+      "mid",
+      "bass"
+    ],
+    "description": "Braids articulate a narrow waist and its transverse filament.",
+    "distinction": "Braids articulate a narrow waist and its transverse filament. Structural recipe: hourglass~weave~braid.twist@body+braid.ripple@cross.",
+    "budget": 8500
+  },
+  {
+    "id": "hourglass-05",
+    "name": "Waist into Whirl",
+    "family": "hourglass",
+    "operators": [
+      "hourglass",
+      "rosette"
+    ],
+    "relationships": [
+      "blend",
+      "independent"
+    ],
+    "behaviors": [
+      "collapse",
+      "grow"
+    ],
+    "organization": "layered formation",
+    "scale": "journey",
+    "camera": "passage",
+    "audio": [
+      "onset",
+      "trend"
+    ],
+    "description": "A waisted chamber tightens into a whirl above a petaled floor.",
+    "distinction": "A waisted chamber tightens into a whirl above a petaled floor. Structural recipe: hourglass~blend~vortex.collapse@body+rosette.grow@floor.",
+    "budget": 8500
+  },
+  {
+    "id": "hourglass-06",
+    "name": "Waisted Gate",
+    "family": "hourglass",
+    "operators": [
+      "hourglass",
+      "torus"
+    ],
+    "relationships": [
+      "intersect",
+      "independent"
+    ],
+    "behaviors": [
+      "ripple",
+      "split"
+    ],
+    "organization": "layered formation",
+    "scale": "exterior",
+    "camera": "orbit",
+    "audio": [
+      "bass",
+      "onset"
+    ],
+    "description": "Orbital cuts expose an opening through the constricted volume.",
+    "distinction": "Orbital cuts expose an opening through the constricted volume. Structural recipe: hourglass~intersect~torus.ripple@body+torus.split@front.",
+    "budget": 8500
+  },
+  {
+    "id": "hourglass-07",
+    "name": "Hourglass Weather",
+    "family": "hourglass",
+    "operators": [
+      "hourglass",
+      "wave",
+      "coral"
+    ],
+    "relationships": [
+      "independent",
+      "independent",
+      "independent"
+    ],
+    "behaviors": [
+      "collapse",
+      "fold",
+      "grow"
+    ],
+    "organization": "layered formation",
+    "scale": "exterior",
+    "camera": "hold",
+    "audio": [
+      "onset",
+      "mid",
+      "trend"
+    ],
+    "description": "A striped waisted canopy collapses toward waves and curving growth.",
+    "distinction": "A striped waisted canopy collapses toward waves and curving growth. Structural recipe: hourglass.collapse.bands@ceiling+wave.fold@floor+coral.grow@core.",
+    "budget": 10500
+  },
+  {
+    "id": "hourglass-08",
+    "name": "Waist Observatory",
+    "family": "hourglass",
+    "operators": [
+      "hourglass",
+      "crystal",
+      "spiral"
+    ],
+    "relationships": [
+      "independent",
+      "independent",
+      "independent"
+    ],
+    "behaviors": [
+      "circulate",
+      "grow",
+      "twist"
+    ],
+    "organization": "interior",
+    "scale": "chamber",
+    "camera": "interior",
+    "audio": [
+      "trend",
+      "mid",
+      "bass"
+    ],
+    "description": "A perforated revolving waist surrounds a crystal and turning coil.",
+    "distinction": "A perforated revolving waist surrounds a crystal and turning coil. Structural recipe: hourglass.circulate.pores@vault+crystal.grow@core+spiral.twist@nest.",
+    "budget": 10500
+  },
+  {
+    "id": "tesseract-01",
+    "name": "Nested Edges",
+    "family": "tesseract",
+    "operators": [
+      "tesseract",
+      "shell"
+    ],
+    "relationships": [
+      "independent",
+      "independent"
+    ],
+    "behaviors": [
+      "twist",
+      "ripple"
+    ],
+    "organization": "layered formation",
+    "scale": "exterior",
+    "camera": "orbit",
+    "audio": [
+      "mid",
+      "bass"
+    ],
+    "description": "Nested edge cages turn around a porous resonating sphere.",
+    "distinction": "Nested edge cages turn around a porous resonating sphere. Structural recipe: tesseract.twist@body+shell.ripple.pores@core.",
+    "budget": 8500
+  },
+  {
+    "id": "tesseract-02",
+    "name": "Edge Exchange",
+    "family": "tesseract",
+    "operators": [
+      "tesseract",
+      "lattice",
+      "lens"
+    ],
+    "relationships": [
+      "independent",
+      "independent",
+      "independent"
+    ],
+    "behaviors": [
+      "split",
+      "circulate",
+      "invert"
+    ],
+    "organization": "interacting cluster",
+    "scale": "exterior",
+    "camera": "rise",
+    "audio": [
+      "onset",
+      "mid",
+      "bass"
+    ],
+    "description": "Nested edges separate beside an orthogonal scaffold and shallow lens.",
+    "distinction": "Nested edges separate beside an orthogonal scaffold and shallow lens. Structural recipe: tesseract.split@left+lattice.circulate@right+lens.invert@rear.",
+    "budget": 10500
+  },
+  {
+    "id": "tesseract-03",
+    "name": "Edge Cathedral",
+    "family": "tesseract",
+    "operators": [
+      "tesseract",
+      "iris",
+      "strata"
+    ],
+    "relationships": [
+      "independent",
+      "independent",
+      "independent"
+    ],
+    "behaviors": [
+      "fold",
+      "ripple",
+      "still"
+    ],
+    "organization": "interior",
+    "scale": "chamber",
+    "camera": "interior",
+    "audio": [
+      "trend",
+      "mid",
+      "bass"
+    ],
+    "description": "A folded edge cage defines an open room around an aperture.",
+    "distinction": "A folded edge cage defines an open room around an aperture. Structural recipe: tesseract.fold@vault+iris.ripple@core+strata.still@floor.",
+    "budget": 10500
+  },
+  {
+    "id": "tesseract-04",
+    "name": "Edge Weaving",
+    "family": "tesseract",
+    "operators": [
+      "tesseract",
+      "braid"
+    ],
+    "relationships": [
+      "weave",
+      "independent"
+    ],
+    "behaviors": [
+      "twist",
+      "split"
+    ],
+    "organization": "layered formation",
+    "scale": "intimate",
+    "camera": "detail",
+    "audio": [
+      "mid",
+      "onset"
+    ],
+    "description": "Braided strands interlace nested edge geometry.",
+    "distinction": "Braided strands interlace nested edge geometry. Structural recipe: tesseract~weave~braid.twist@body+braid.split@cross.",
+    "budget": 8500
+  },
+  {
+    "id": "tesseract-05",
+    "name": "Edges into Roots",
+    "family": "tesseract",
+    "operators": [
+      "tesseract",
+      "rosette"
+    ],
+    "relationships": [
+      "blend",
+      "independent"
+    ],
+    "behaviors": [
+      "grow",
+      "invert"
+    ],
+    "organization": "layered formation",
+    "scale": "exterior",
+    "camera": "orbit",
+    "audio": [
+      "trend",
+      "mid"
+    ],
+    "description": "Nested edges reorganize as roots above inverted petals.",
+    "distinction": "Nested edges reorganize as roots above inverted petals. Structural recipe: tesseract~blend~branch.grow@body+rosette.invert@floor.",
+    "budget": 8500
+  },
+  {
+    "id": "tesseract-06",
+    "name": "Edge Window",
+    "family": "tesseract",
+    "operators": [
+      "tesseract",
+      "cone"
+    ],
+    "relationships": [
+      "intersect",
+      "independent"
+    ],
+    "behaviors": [
+      "ripple",
+      "split"
+    ],
+    "organization": "layered formation",
+    "scale": "journey",
+    "camera": "passage",
+    "audio": [
+      "bass",
+      "onset"
+    ],
+    "description": "Conical intersections open corridors between nested cages.",
+    "distinction": "Conical intersections open corridors between nested cages. Structural recipe: tesseract~intersect~cone.ripple@body+cone.split@front.",
+    "budget": 8500
+  },
+  {
+    "id": "tesseract-07",
+    "name": "Scaffold Constellation",
+    "family": "tesseract",
+    "operators": [
+      "tesseract",
+      "superquadric",
+      "helix"
+    ],
+    "relationships": [
+      "independent",
+      "independent",
+      "independent"
+    ],
+    "behaviors": [
+      "circulate",
+      "grow",
+      "twist"
+    ],
+    "organization": "interacting cluster",
+    "scale": "exterior",
+    "camera": "hold",
+    "audio": [
+      "mid",
+      "trend",
+      "bass"
+    ],
+    "description": "An edge cage orbits angular growth and a distant coiled spine.",
+    "distinction": "An edge cage orbits angular growth and a distant coiled spine. Structural recipe: tesseract.circulate@left+superquadric.grow@right+helix.twist@rear.",
+    "budget": 10500
+  },
+  {
+    "id": "tesseract-08",
+    "name": "Within the Cage",
+    "family": "tesseract",
+    "operators": [
+      "tesseract",
+      "crystal",
+      "spiral"
+    ],
+    "relationships": [
+      "independent",
+      "independent",
+      "independent"
+    ],
+    "behaviors": [
+      "collapse",
+      "ripple",
+      "fold"
+    ],
+    "organization": "interior",
+    "scale": "chamber",
+    "camera": "interior",
+    "audio": [
+      "onset",
+      "bass",
+      "mid"
+    ],
+    "description": "A contracting edge cage reveals crystal resonance and a folded peripheral coil.",
+    "distinction": "A contracting edge cage reveals crystal resonance and a folded peripheral coil. Structural recipe: tesseract.collapse@vault+crystal.ripple@core+spiral.fold@rim.",
+    "budget": 10500
+  },
+  {
+    "id": "crystal-01",
+    "name": "Prismatic Spire",
+    "family": "crystal",
+    "operators": [
+      "crystal",
+      "iris"
+    ],
+    "relationships": [
+      "independent",
+      "independent"
+    ],
+    "behaviors": [
+      "grow",
+      "ripple"
+    ],
+    "organization": "layered formation",
+    "scale": "exterior",
+    "camera": "rise",
+    "audio": [
+      "trend",
+      "bass"
+    ],
+    "description": "A faceted spire grows around a ruffled aperture.",
+    "distinction": "A faceted spire grows around a ruffled aperture. Structural recipe: crystal.grow@body+iris.ripple@core.",
+    "budget": 8500
+  },
+  {
+    "id": "crystal-02",
+    "name": "Crystal Dialogue",
+    "family": "crystal",
+    "operators": [
+      "crystal",
+      "superquadric",
+      "lens"
+    ],
+    "relationships": [
+      "independent",
+      "independent",
+      "independent"
+    ],
+    "behaviors": [
+      "split",
+      "twist",
+      "circulate"
+    ],
+    "organization": "interacting cluster",
+    "scale": "exterior",
+    "camera": "orbit",
+    "audio": [
+      "onset",
+      "mid",
+      "bass"
+    ],
+    "description": "A parting spire answers a rounded angular volume above a lens.",
+    "distinction": "A parting spire answers a rounded angular volume above a lens. Structural recipe: crystal.split@left+superquadric.twist@right+lens.circulate@rear.",
+    "budget": 10500
+  },
+  {
+    "id": "crystal-03",
+    "name": "Crystal Chamber",
+    "family": "crystal",
+    "operators": [
+      "crystal",
+      "shell",
+      "strata"
+    ],
+    "relationships": [
+      "independent",
+      "independent",
+      "independent"
+    ],
+    "behaviors": [
+      "fold",
+      "ripple",
+      "still"
+    ],
+    "organization": "interior",
+    "scale": "chamber",
+    "camera": "interior",
+    "audio": [
+      "trend",
+      "mid",
+      "bass"
+    ],
+    "description": "A perforated faceted enclosure frames a core and stratified ground.",
+    "distinction": "A perforated faceted enclosure frames a core and stratified ground. Structural recipe: crystal.fold.pores@vault+shell.ripple@core+strata.still@floor.",
+    "budget": 10500
+  },
+  {
+    "id": "crystal-04",
+    "name": "Crystal Textile",
+    "family": "crystal",
+    "operators": [
+      "crystal",
+      "ribbon"
+    ],
+    "relationships": [
+      "weave",
+      "independent"
+    ],
+    "behaviors": [
+      "twist",
+      "split"
+    ],
+    "organization": "layered formation",
+    "scale": "intimate",
+    "camera": "detail",
+    "audio": [
+      "mid",
+      "onset"
+    ],
+    "description": "Textile membranes interlace a faceted crystalline body.",
+    "distinction": "Textile membranes interlace a faceted crystalline body. Structural recipe: crystal~weave~ribbon.twist@body+ribbon.split@cross.",
+    "budget": 8500
+  },
+  {
+    "id": "crystal-05",
+    "name": "Crystal into Coral",
+    "family": "crystal",
+    "operators": [
+      "crystal",
+      "rosette"
+    ],
+    "relationships": [
+      "blend",
+      "independent"
+    ],
+    "behaviors": [
+      "grow",
+      "invert"
+    ],
+    "organization": "layered formation",
+    "scale": "exterior",
+    "camera": "orbit",
+    "audio": [
+      "trend",
+      "mid"
+    ],
+    "description": "A spire opens into curving branches over inverted petals.",
+    "distinction": "A spire opens into curving branches over inverted petals. Structural recipe: crystal~blend~coral.grow@body+rosette.invert@floor.",
+    "budget": 8500
+  },
+  {
+    "id": "crystal-06",
+    "name": "Crystal Gate",
+    "family": "crystal",
+    "operators": [
+      "crystal",
+      "arch"
+    ],
+    "relationships": [
+      "intersect",
+      "independent"
+    ],
+    "behaviors": [
+      "ripple",
+      "split"
+    ],
+    "organization": "layered formation",
+    "scale": "journey",
+    "camera": "passage",
+    "audio": [
+      "bass",
+      "onset"
+    ],
+    "description": "An arch cuts a wide gateway through a resonating crystal.",
+    "distinction": "An arch cuts a wide gateway through a resonating crystal. Structural recipe: crystal~intersect~arch.ripple@body+arch.split@front.",
+    "budget": 8500
+  },
+  {
+    "id": "crystal-07",
+    "name": "Crystalline Choir",
+    "family": "crystal",
+    "operators": [
+      "crystal",
+      "cell",
+      "helix"
+    ],
+    "relationships": [
+      "independent",
+      "independent",
+      "independent"
+    ],
+    "behaviors": [
+      "circulate",
+      "grow",
+      "twist"
+    ],
+    "organization": "interacting cluster",
+    "scale": "exterior",
+    "camera": "hold",
+    "audio": [
+      "mid",
+      "trend",
+      "bass"
+    ],
+    "description": "A striped spire answers cells near a turning helical axis.",
+    "distinction": "A striped spire answers cells near a turning helical axis. Structural recipe: crystal.circulate.bands@left+cell.grow@right+helix.twist@rear.",
+    "budget": 10500
+  },
+  {
+    "id": "crystal-08",
+    "name": "Inside the Spire",
+    "family": "crystal",
+    "operators": [
+      "crystal",
+      "tesseract",
+      "spiral"
+    ],
+    "relationships": [
+      "independent",
+      "independent",
+      "independent"
+    ],
+    "behaviors": [
+      "collapse",
+      "fold",
+      "grow"
+    ],
+    "organization": "interior",
+    "scale": "chamber",
+    "camera": "interior",
+    "audio": [
+      "onset",
+      "trend",
+      "mid"
+    ],
+    "description": "An open collapsing crystal reveals nested edges and a growing coil.",
+    "distinction": "An open collapsing crystal reveals nested edges and a growing coil. Structural recipe: crystal.collapse.open@vault+tesseract.fold@core+spiral.grow@rim.",
+    "budget": 10500
+  },
+  {
+    "id": "scroll-01",
+    "name": "Rolled Horizon",
+    "family": "scroll",
+    "operators": [
+      "scroll",
+      "iris"
+    ],
+    "relationships": [
+      "independent",
+      "independent"
+    ],
+    "behaviors": [
+      "fold",
+      "ripple"
+    ],
+    "organization": "layered formation",
+    "scale": "exterior",
+    "camera": "orbit",
+    "audio": [
+      "mid",
+      "bass"
+    ],
+    "description": "A rolled membrane folds around a resonating aperture.",
+    "distinction": "A rolled membrane folds around a resonating aperture. Structural recipe: scroll.fold@body+iris.ripple@core.",
+    "budget": 8500
+  },
+  {
+    "id": "scroll-02",
+    "name": "Opposite Scrolls",
+    "family": "scroll",
+    "operators": [
+      "scroll",
+      "scroll",
+      "helix"
+    ],
+    "relationships": [
+      "independent",
+      "independent",
+      "independent"
+    ],
+    "behaviors": [
+      "split",
+      "invert",
+      "twist"
+    ],
+    "organization": "interacting cluster",
+    "scale": "exterior",
+    "camera": "rise",
+    "audio": [
+      "onset",
+      "mid",
+      "bass"
+    ],
+    "description": "Oppositely opened scrolls part beside a helical spine.",
+    "distinction": "Oppositely opened scrolls part beside a helical spine. Structural recipe: scroll.split.open@left+scroll.invert@right+helix.twist@rear.",
+    "budget": 10500
+  },
+  {
+    "id": "scroll-03",
+    "name": "Scroll Chamber",
+    "family": "scroll",
+    "operators": [
+      "scroll",
+      "arch",
+      "strata"
+    ],
+    "relationships": [
+      "independent",
+      "independent",
+      "independent"
+    ],
+    "behaviors": [
+      "twist",
+      "ripple",
+      "still"
+    ],
+    "organization": "interior",
+    "scale": "chamber",
+    "camera": "interior",
+    "audio": [
+      "trend",
+      "mid",
+      "bass"
+    ],
+    "description": "A rolled chamber wraps an arched far wall above terraces.",
+    "distinction": "A rolled chamber wraps an arched far wall above terraces. Structural recipe: scroll.twist@vault+arch.ripple@rear+strata.still@floor.",
+    "budget": 10500
+  },
+  {
+    "id": "scroll-04",
+    "name": "Scroll Weaving",
+    "family": "scroll",
+    "operators": [
+      "scroll",
+      "braid"
+    ],
+    "relationships": [
+      "weave",
+      "independent"
+    ],
+    "behaviors": [
+      "fold",
+      "circulate"
+    ],
+    "organization": "layered formation",
+    "scale": "intimate",
+    "camera": "detail",
+    "audio": [
+      "mid",
+      "bass"
+    ],
+    "description": "Interlaced textiles run along the scroll and its braided rim.",
+    "distinction": "Interlaced textiles run along the scroll and its braided rim. Structural recipe: scroll~weave~weft.fold@body+braid.circulate@rim.",
+    "budget": 8500
+  },
+  {
+    "id": "scroll-05",
+    "name": "Scroll to Sail",
+    "family": "scroll",
+    "operators": [
+      "scroll",
+      "rosette"
+    ],
+    "relationships": [
+      "blend",
+      "independent"
+    ],
+    "behaviors": [
+      "grow",
+      "invert"
+    ],
+    "organization": "layered formation",
+    "scale": "exterior",
+    "camera": "orbit",
+    "audio": [
+      "trend",
+      "mid"
+    ],
+    "description": "A rolled membrane opens into a sail over inverted petals.",
+    "distinction": "A rolled membrane opens into a sail over inverted petals. Structural recipe: scroll~blend~ribbon.grow@body+rosette.invert@floor.",
+    "budget": 8500
+  },
+  {
+    "id": "scroll-06",
+    "name": "Scroll Window",
+    "family": "scroll",
+    "operators": [
+      "scroll",
+      "cone"
+    ],
+    "relationships": [
+      "intersect",
+      "independent"
+    ],
+    "behaviors": [
+      "ripple",
+      "split"
+    ],
+    "organization": "layered formation",
+    "scale": "journey",
+    "camera": "passage",
+    "audio": [
+      "bass",
+      "onset"
+    ],
+    "description": "Conical incisions open a window through the rolled membrane.",
+    "distinction": "Conical incisions open a window through the rolled membrane. Structural recipe: scroll~intersect~cone.ripple@body+cone.split@front.",
+    "budget": 8500
+  },
+  {
+    "id": "scroll-07",
+    "name": "Scroll Weather",
+    "family": "scroll",
+    "operators": [
+      "scroll",
+      "wave",
+      "spiral"
+    ],
+    "relationships": [
+      "independent",
+      "independent",
+      "independent"
+    ],
+    "behaviors": [
+      "collapse",
+      "fold",
+      "circulate"
+    ],
+    "organization": "layered formation",
+    "scale": "exterior",
+    "camera": "hold",
+    "audio": [
+      "onset",
+      "trend",
+      "mid"
+    ],
+    "description": "A striped rolled roof collapses over waves and a rotating coil.",
+    "distinction": "A striped rolled roof collapses over waves and a rotating coil. Structural recipe: scroll.collapse.bands@ceiling+wave.fold@floor+spiral.circulate@core.",
+    "budget": 10500
+  },
+  {
+    "id": "scroll-08",
+    "name": "Rolled Observatory",
+    "family": "scroll",
+    "operators": [
+      "scroll",
+      "crystal",
+      "iris"
+    ],
+    "relationships": [
+      "independent",
+      "independent",
+      "independent"
+    ],
+    "behaviors": [
+      "grow",
+      "ripple",
+      "twist"
+    ],
+    "organization": "interior",
+    "scale": "chamber",
+    "camera": "interior",
+    "audio": [
+      "trend",
+      "mid",
+      "bass"
+    ],
+    "description": "A perforated scroll surrounds a crystal and turning inner aperture.",
+    "distinction": "A perforated scroll surrounds a crystal and turning inner aperture. Structural recipe: scroll.grow.pores@vault+crystal.ripple@core+iris.twist@nest.",
+    "budget": 10500
+  },
+  {
+    "id": "wavefront-01",
+    "name": "Rings of Arrival",
+    "family": "wavefront",
+    "operators": [
+      "wavefront",
+      "cone"
+    ],
+    "relationships": [
+      "independent",
+      "independent"
+    ],
+    "behaviors": [
+      "ripple",
+      "twist"
+    ],
+    "organization": "layered formation",
+    "scale": "exterior",
+    "camera": "orbit",
+    "audio": [
+      "bass",
+      "mid"
+    ],
+    "description": "Traveling radial waves enter a turning funnel.",
+    "distinction": "Traveling radial waves enter a turning funnel. Structural recipe: wavefront.ripple@body+cone.twist@core.",
+    "budget": 8500
+  },
+  {
+    "id": "wavefront-02",
+    "name": "Opposed Fronts",
+    "family": "wavefront",
+    "operators": [
+      "wavefront",
+      "wave",
+      "iris"
+    ],
+    "relationships": [
+      "independent",
+      "independent",
+      "independent"
+    ],
+    "behaviors": [
+      "split",
+      "invert",
+      "circulate"
+    ],
+    "organization": "interacting cluster",
+    "scale": "exterior",
+    "camera": "rise",
+    "audio": [
+      "onset",
+      "mid",
+      "bass"
+    ],
+    "description": "Radial and sheetlike waves exchange impulses at opposite sides.",
+    "distinction": "Radial and sheetlike waves exchange impulses at opposite sides. Structural recipe: wavefront.split@left+wave.invert@right+iris.circulate@rear.",
+    "budget": 10500
+  },
+  {
+    "id": "wavefront-03",
+    "name": "Resonance Chamber",
+    "family": "wavefront",
+    "operators": [
+      "wavefront",
+      "shell",
+      "strata"
+    ],
+    "relationships": [
+      "independent",
+      "independent",
+      "independent"
+    ],
+    "behaviors": [
+      "fold",
+      "ripple",
+      "still"
+    ],
+    "organization": "interior",
+    "scale": "chamber",
+    "camera": "interior",
+    "audio": [
+      "trend",
+      "mid",
+      "bass"
+    ],
+    "description": "Radial waves form an enclosing chamber around a porous sphere.",
+    "distinction": "Radial waves form an enclosing chamber around a porous sphere. Structural recipe: wavefront.fold@vault+shell.ripple.pores@core+strata.still@floor.",
+    "budget": 10500
+  },
+  {
+    "id": "wavefront-04",
+    "name": "Woven Front",
+    "family": "wavefront",
+    "operators": [
+      "wavefront",
+      "braid"
+    ],
+    "relationships": [
+      "weave",
+      "independent"
+    ],
+    "behaviors": [
+      "twist",
+      "ripple"
+    ],
+    "organization": "layered formation",
+    "scale": "intimate",
+    "camera": "detail",
+    "audio": [
+      "mid",
+      "bass"
+    ],
+    "description": "Woven strands cross the traveling radial fronts.",
+    "distinction": "Woven strands cross the traveling radial fronts. Structural recipe: wavefront~weave~weft.twist@body+braid.ripple@cross.",
+    "budget": 8500
+  },
+  {
+    "id": "wavefront-05",
+    "name": "Wave Blossom",
+    "family": "wavefront",
+    "operators": [
+      "wavefront",
+      "lens"
+    ],
+    "relationships": [
+      "blend",
+      "independent"
+    ],
+    "behaviors": [
+      "grow",
+      "collapse"
+    ],
+    "organization": "layered formation",
+    "scale": "exterior",
+    "camera": "orbit",
+    "audio": [
+      "trend",
+      "onset"
+    ],
+    "description": "Radial fronts open into petals over a contracting lens.",
+    "distinction": "Radial fronts open into petals over a contracting lens. Structural recipe: wavefront~blend~rosette.grow@body+lens.collapse@floor.",
+    "budget": 8500
+  },
+  {
+    "id": "wavefront-06",
+    "name": "Wavefront Window",
+    "family": "wavefront",
+    "operators": [
+      "wavefront",
+      "arch"
+    ],
+    "relationships": [
+      "intersect",
+      "independent"
+    ],
+    "behaviors": [
+      "ripple",
+      "split"
+    ],
+    "organization": "layered formation",
+    "scale": "journey",
+    "camera": "passage",
+    "audio": [
+      "bass",
+      "onset"
+    ],
+    "description": "An arch opens a passage through traveling concentric fronts.",
+    "distinction": "An arch opens a passage through traveling concentric fronts. Structural recipe: wavefront~intersect~arch.ripple@body+arch.split@front.",
+    "budget": 8500
+  },
+  {
+    "id": "wavefront-07",
+    "name": "Ringed Constellation",
+    "family": "wavefront",
+    "operators": [
+      "wavefront",
+      "cell",
+      "crystal"
+    ],
+    "relationships": [
+      "independent",
+      "independent",
+      "independent"
+    ],
+    "behaviors": [
+      "circulate",
+      "grow",
+      "twist"
+    ],
+    "organization": "interacting cluster",
+    "scale": "exterior",
+    "camera": "hold",
+    "audio": [
+      "mid",
+      "trend",
+      "bass"
+    ],
+    "description": "Radial waves turn among cells and a distant crystalline spire.",
+    "distinction": "Radial waves turn among cells and a distant crystalline spire. Structural recipe: wavefront.circulate@left+cell.grow@right+crystal.twist@rear.",
+    "budget": 10500
+  },
+  {
+    "id": "wavefront-08",
+    "name": "Inside the Front",
+    "family": "wavefront",
+    "operators": [
+      "wavefront",
+      "vortex",
+      "helix"
+    ],
+    "relationships": [
+      "independent",
+      "independent",
+      "independent"
+    ],
+    "behaviors": [
+      "collapse",
+      "fold",
+      "twist"
+    ],
+    "organization": "interior",
+    "scale": "chamber",
+    "camera": "interior",
+    "audio": [
+      "onset",
+      "mid",
+      "bass"
+    ],
+    "description": "A striped annular enclosure collapses around a whirl and far coil.",
+    "distinction": "A striped annular enclosure collapses around a whirl and far coil. Structural recipe: wavefront.collapse.bands@vault+vortex.fold@core+helix.twist@rear.",
+    "budget": 10500
+  },
+  {
+    "id": "braid-01",
+    "name": "Three-Strand Current",
+    "family": "braid",
+    "operators": [
+      "braid",
+      "iris"
+    ],
+    "relationships": [
+      "independent",
+      "independent"
+    ],
+    "behaviors": [
+      "circulate",
+      "ripple"
+    ],
+    "organization": "layered formation",
+    "scale": "exterior",
+    "camera": "rise",
+    "audio": [
+      "mid",
+      "bass"
+    ],
+    "description": "Three strands circulate through a transverse ruffled aperture.",
+    "distinction": "Three strands circulate through a transverse ruffled aperture. Structural recipe: braid.circulate@body+iris.ripple@cross.",
+    "budget": 8500
+  },
+  {
+    "id": "braid-02",
+    "name": "Braided Dialogue",
+    "family": "braid",
+    "operators": [
+      "braid",
+      "helix",
+      "lens"
+    ],
+    "relationships": [
+      "independent",
+      "independent",
+      "independent"
+    ],
+    "behaviors": [
+      "split",
+      "twist",
+      "invert"
+    ],
+    "organization": "interacting cluster",
+    "scale": "exterior",
+    "camera": "orbit",
+    "audio": [
+      "onset",
+      "mid",
+      "bass"
+    ],
+    "description": "A separating braid answers a coil before an inverted lens.",
+    "distinction": "A separating braid answers a coil before an inverted lens. Structural recipe: braid.split@left+helix.twist@right+lens.invert@rear.",
+    "budget": 10500
+  },
+  {
+    "id": "braid-03",
+    "name": "Braided Hall",
+    "family": "braid",
+    "operators": [
+      "braid",
+      "arch",
+      "strata"
+    ],
+    "relationships": [
+      "independent",
+      "independent",
+      "independent"
+    ],
+    "behaviors": [
+      "fold",
+      "ripple",
+      "still"
+    ],
+    "organization": "interior",
+    "scale": "chamber",
+    "camera": "interior",
+    "audio": [
+      "trend",
+      "mid",
+      "bass"
+    ],
+    "description": "A large braided enclosure forms a hall around an arch.",
+    "distinction": "A large braided enclosure forms a hall around an arch. Structural recipe: braid.fold@vault+arch.ripple@rear+strata.still@floor.",
+    "budget": 10500
+  },
+  {
+    "id": "braid-04",
+    "name": "Braid upon Braid",
+    "family": "braid",
+    "operators": [
+      "braid",
+      "knot"
+    ],
+    "relationships": [
+      "weave",
+      "independent"
+    ],
+    "behaviors": [
+      "twist",
+      "circulate"
+    ],
+    "organization": "layered formation",
+    "scale": "intimate",
+    "camera": "detail",
+    "audio": [
+      "mid",
+      "bass"
+    ],
+    "description": "Knotted weaving interlaces the braid and its outer filament.",
+    "distinction": "Knotted weaving interlaces the braid and its outer filament. Structural recipe: braid~weave~knot.twist@body+knot.circulate@rim.",
+    "budget": 8500
+  },
+  {
+    "id": "braid-05",
+    "name": "Braid into Roots",
+    "family": "braid",
+    "operators": [
+      "braid",
+      "rosette"
+    ],
+    "relationships": [
+      "blend",
+      "independent"
+    ],
+    "behaviors": [
+      "grow",
+      "invert"
+    ],
+    "organization": "layered formation",
+    "scale": "exterior",
+    "camera": "rise",
+    "audio": [
+      "trend",
+      "mid"
+    ],
+    "description": "Interlaced strands open into roots above inverted petals.",
+    "distinction": "Interlaced strands open into roots above inverted petals. Structural recipe: braid~blend~branch.grow@body+rosette.invert@floor.",
+    "budget": 8500
+  },
+  {
+    "id": "braid-06",
+    "name": "Braided Gate",
+    "family": "braid",
+    "operators": [
+      "braid",
+      "torus"
+    ],
+    "relationships": [
+      "intersect",
+      "independent"
+    ],
+    "behaviors": [
+      "ripple",
+      "split"
+    ],
+    "organization": "layered formation",
+    "scale": "journey",
+    "camera": "passage",
+    "audio": [
+      "bass",
+      "onset"
+    ],
+    "description": "An orbital crossing creates open cuts in a braid.",
+    "distinction": "An orbital crossing creates open cuts in a braid. Structural recipe: braid~intersect~torus.ripple@body+torus.split@cross.",
+    "budget": 8500
+  },
+  {
+    "id": "braid-07",
+    "name": "Braided Weather",
+    "family": "braid",
+    "operators": [
+      "braid",
+      "wave",
+      "coral"
+    ],
+    "relationships": [
+      "independent",
+      "independent",
+      "independent"
+    ],
+    "behaviors": [
+      "collapse",
+      "fold",
+      "grow"
+    ],
+    "organization": "layered formation",
+    "scale": "exterior",
+    "camera": "hold",
+    "audio": [
+      "onset",
+      "mid",
+      "trend"
+    ],
+    "description": "A braid collapses between overhead fabric and curving growth.",
+    "distinction": "A braid collapses between overhead fabric and curving growth. Structural recipe: braid.collapse@ceiling+wave.fold@floor+coral.grow@core.",
+    "budget": 10500
+  },
+  {
+    "id": "braid-08",
+    "name": "Braided Observatory",
+    "family": "braid",
+    "operators": [
+      "braid",
+      "shell",
+      "spiral"
+    ],
+    "relationships": [
+      "independent",
+      "independent",
+      "independent"
+    ],
+    "behaviors": [
+      "grow",
+      "ripple",
+      "twist"
+    ],
+    "organization": "interior",
+    "scale": "chamber",
+    "camera": "interior",
+    "audio": [
+      "trend",
+      "mid",
+      "bass"
+    ],
+    "description": "Enlarged interlaced strands enclose a porous sphere and inner coil.",
+    "distinction": "Enlarged interlaced strands enclose a porous sphere and inner coil. Structural recipe: braid.grow@vault+shell.ripple.pores@core+spiral.twist@nest.",
+    "budget": 10500
+  },
+  {
+    "id": "arch-01",
+    "name": "Spectral Gateway",
+    "family": "arch",
+    "operators": [
+      "arch",
+      "knot"
+    ],
+    "relationships": [
+      "independent",
+      "independent"
+    ],
+    "behaviors": [
+      "ripple",
+      "circulate"
+    ],
+    "organization": "layered formation",
+    "scale": "exterior",
+    "camera": "orbit",
+    "audio": [
+      "bass",
+      "mid"
+    ],
+    "description": "A resonating arch opens around a circulating filament.",
+    "distinction": "A resonating arch opens around a circulating filament. Structural recipe: arch.ripple@body+knot.circulate@core.",
+    "budget": 8500
+  },
+  {
+    "id": "arch-02",
+    "name": "Paired Portals",
+    "family": "arch",
+    "operators": [
+      "arch",
+      "arch",
+      "weft"
+    ],
+    "relationships": [
+      "independent",
+      "independent",
+      "independent"
+    ],
+    "behaviors": [
+      "split",
+      "invert",
+      "fold"
+    ],
+    "organization": "interacting cluster",
+    "scale": "exterior",
+    "camera": "rise",
+    "audio": [
+      "onset",
+      "mid",
+      "bass"
+    ],
+    "description": "Two differently oriented portals part before a textile wall.",
+    "distinction": "Two differently oriented portals part before a textile wall. Structural recipe: arch.split@left+arch.invert@right+weft.fold@rear.",
+    "budget": 10500
+  },
+  {
+    "id": "arch-03",
+    "name": "Arched Sanctuary",
+    "family": "arch",
+    "operators": [
+      "arch",
+      "shell",
+      "strata"
+    ],
+    "relationships": [
+      "independent",
+      "independent",
+      "independent"
+    ],
+    "behaviors": [
+      "fold",
+      "ripple",
+      "still"
+    ],
+    "organization": "interior",
+    "scale": "chamber",
+    "camera": "interior",
+    "audio": [
+      "trend",
+      "mid",
+      "bass"
+    ],
+    "description": "A vast arch shelters a porous sphere above terraces.",
+    "distinction": "A vast arch shelters a porous sphere above terraces. Structural recipe: arch.fold@vault+shell.ripple.pores@core+strata.still@floor.",
+    "budget": 10500
+  },
+  {
+    "id": "arch-04",
+    "name": "Woven Portal",
+    "family": "arch",
+    "operators": [
+      "arch",
+      "ribbon"
+    ],
+    "relationships": [
+      "weave",
+      "independent"
+    ],
+    "behaviors": [
+      "twist",
+      "split"
+    ],
+    "organization": "layered formation",
+    "scale": "intimate",
+    "camera": "detail",
+    "audio": [
+      "mid",
+      "onset"
+    ],
+    "description": "Textile strands cross a portal’s curved fabric.",
+    "distinction": "Textile strands cross a portal’s curved fabric. Structural recipe: arch~weave~ribbon.twist@body+ribbon.split@cross.",
+    "budget": 8500
+  },
+  {
+    "id": "arch-05",
+    "name": "Arch into Orbit",
+    "family": "arch",
+    "operators": [
+      "arch",
+      "rosette"
+    ],
+    "relationships": [
+      "blend",
+      "independent"
+    ],
+    "behaviors": [
+      "grow",
+      "invert"
+    ],
+    "organization": "layered formation",
+    "scale": "exterior",
+    "camera": "orbit",
+    "audio": [
+      "trend",
+      "mid"
+    ],
+    "description": "An open arch closes toward an orbit above inverted petals.",
+    "distinction": "An open arch closes toward an orbit above inverted petals. Structural recipe: arch~blend~torus.grow@body+rosette.invert@floor.",
+    "budget": 8500
+  },
+  {
+    "id": "arch-06",
+    "name": "Portal Interruption",
+    "family": "arch",
+    "operators": [
+      "arch",
+      "cone"
+    ],
+    "relationships": [
+      "intersect",
+      "independent"
+    ],
+    "behaviors": [
+      "ripple",
+      "split"
+    ],
+    "organization": "layered formation",
+    "scale": "journey",
+    "camera": "passage",
+    "audio": [
+      "bass",
+      "onset"
+    ],
+    "description": "A conical crossing interrupts an arched portal with black gaps.",
+    "distinction": "A conical crossing interrupts an arched portal with black gaps. Structural recipe: arch~intersect~cone.ripple@body+cone.split@front.",
+    "budget": 8500
+  },
+  {
+    "id": "arch-07",
+    "name": "Portal Constellation",
+    "family": "arch",
+    "operators": [
+      "arch",
+      "cell",
+      "crystal"
+    ],
+    "relationships": [
+      "independent",
+      "independent",
+      "independent"
+    ],
+    "behaviors": [
+      "circulate",
+      "grow",
+      "twist"
+    ],
+    "organization": "interacting cluster",
+    "scale": "exterior",
+    "camera": "hold",
+    "audio": [
+      "mid",
+      "trend",
+      "bass"
+    ],
+    "description": "An arch rotates among cells and a distant crystalline spire.",
+    "distinction": "An arch rotates among cells and a distant crystalline spire. Structural recipe: arch.circulate@left+cell.grow@right+crystal.twist@rear.",
+    "budget": 10500
+  },
+  {
+    "id": "arch-08",
+    "name": "Beyond the Arch",
+    "family": "arch",
+    "operators": [
+      "arch",
+      "vortex",
+      "helix"
+    ],
+    "relationships": [
+      "independent",
+      "independent",
+      "independent"
+    ],
+    "behaviors": [
+      "collapse",
+      "fold",
+      "twist"
+    ],
+    "organization": "interior",
+    "scale": "chamber",
+    "camera": "interior",
+    "audio": [
+      "onset",
+      "mid",
+      "bass"
+    ],
+    "description": "An open collapsing gateway reveals a whirl and helical far wall.",
+    "distinction": "An open collapsing gateway reveals a whirl and helical far wall. Structural recipe: arch.collapse.open@vault+vortex.fold@core+helix.twist@rear.",
+    "budget": 10500
+  },
+  {
+    "id": "reaction-01",
+    "name": "Interference Quilt",
+    "family": "reaction",
+    "operators": [
+      "reaction",
+      "iris"
+    ],
+    "relationships": [
+      "independent",
+      "independent"
+    ],
+    "behaviors": [
+      "ripple",
+      "twist"
+    ],
+    "organization": "layered formation",
+    "scale": "exterior",
+    "camera": "orbit",
+    "audio": [
+      "bass",
+      "mid"
+    ],
+    "description": "A nonlinear interference quilt vibrates around an aperture.",
+    "distinction": "A nonlinear interference quilt vibrates around an aperture. Structural recipe: reaction.ripple@body+iris.twist@core.",
+    "budget": 8500
+  },
+  {
+    "id": "reaction-02",
+    "name": "Reaction Dialogue",
+    "family": "reaction",
+    "operators": [
+      "reaction",
+      "gyroid",
+      "lens"
+    ],
+    "relationships": [
+      "independent",
+      "independent",
+      "independent"
+    ],
+    "behaviors": [
+      "split",
+      "fold",
+      "invert"
+    ],
+    "organization": "interacting cluster",
+    "scale": "exterior",
+    "camera": "rise",
+    "audio": [
+      "onset",
+      "mid",
+      "bass"
+    ],
+    "description": "Two unlike patterned sheets exchange impulses above a lens.",
+    "distinction": "Two unlike patterned sheets exchange impulses above a lens. Structural recipe: reaction.split@left+gyroid.fold@right+lens.invert@rear.",
+    "budget": 10500
+  },
+  {
+    "id": "reaction-03",
+    "name": "Patterned Room",
+    "family": "reaction",
+    "operators": [
+      "reaction",
+      "arch",
+      "strata"
+    ],
+    "relationships": [
+      "independent",
+      "independent",
+      "independent"
+    ],
+    "behaviors": [
+      "fold",
+      "ripple",
+      "still"
+    ],
+    "organization": "interior",
+    "scale": "chamber",
+    "camera": "interior",
+    "audio": [
+      "trend",
+      "mid",
+      "bass"
+    ],
+    "description": "A perforated interference canopy creates a room around an arch.",
+    "distinction": "A perforated interference canopy creates a room around an arch. Structural recipe: reaction.fold.pores@vault+arch.ripple@rear+strata.still@floor.",
+    "budget": 10500
+  },
+  {
+    "id": "reaction-04",
+    "name": "Reaction Weave",
+    "family": "reaction",
+    "operators": [
+      "reaction",
+      "braid"
+    ],
+    "relationships": [
+      "weave",
+      "independent"
+    ],
+    "behaviors": [
+      "twist",
+      "ripple"
+    ],
+    "organization": "layered formation",
+    "scale": "intimate",
+    "camera": "detail",
+    "audio": [
+      "mid",
+      "bass"
+    ],
+    "description": "Woven strands interact with a nonlinear patterned surface.",
+    "distinction": "Woven strands interact with a nonlinear patterned surface. Structural recipe: reaction~weave~weft.twist@body+braid.ripple@cross.",
+    "budget": 8500
+  },
+  {
+    "id": "reaction-05",
+    "name": "Pattern into Cells",
+    "family": "reaction",
+    "operators": [
+      "reaction",
+      "rosette"
+    ],
+    "relationships": [
+      "blend",
+      "independent"
+    ],
+    "behaviors": [
+      "grow",
+      "collapse"
+    ],
+    "organization": "layered formation",
+    "scale": "exterior",
+    "camera": "orbit",
+    "audio": [
+      "trend",
+      "onset"
+    ],
+    "description": "Interference patches gather into cells above contracting petals.",
+    "distinction": "Interference patches gather into cells above contracting petals. Structural recipe: reaction~blend~cell.grow@body+rosette.collapse@floor.",
+    "budget": 8500
+  },
+  {
+    "id": "reaction-06",
+    "name": "Reaction Window",
+    "family": "reaction",
+    "operators": [
+      "reaction",
+      "cone"
+    ],
+    "relationships": [
+      "intersect",
+      "independent"
+    ],
+    "behaviors": [
+      "ripple",
+      "split"
+    ],
+    "organization": "layered formation",
+    "scale": "journey",
+    "camera": "passage",
+    "audio": [
+      "bass",
+      "onset"
+    ],
+    "description": "A conical intersection opens cuts through the patterned quilt.",
+    "distinction": "A conical intersection opens cuts through the patterned quilt. Structural recipe: reaction~intersect~cone.ripple@body+cone.split@front.",
+    "budget": 8500
+  },
+  {
+    "id": "reaction-07",
+    "name": "Patterned Weather",
+    "family": "reaction",
+    "operators": [
+      "reaction",
+      "wave",
+      "coral"
+    ],
+    "relationships": [
+      "independent",
+      "independent",
+      "independent"
+    ],
+    "behaviors": [
+      "collapse",
+      "fold",
+      "grow"
+    ],
+    "organization": "layered formation",
+    "scale": "exterior",
+    "camera": "hold",
+    "audio": [
+      "onset",
+      "mid",
+      "trend"
+    ],
+    "description": "A striped pattern collapses toward waves and branching growth.",
+    "distinction": "A striped pattern collapses toward waves and branching growth. Structural recipe: reaction.collapse.bands@ceiling+wave.fold@floor+coral.grow@core.",
+    "budget": 10500
+  },
+  {
+    "id": "reaction-08",
+    "name": "Inside the Pattern",
+    "family": "reaction",
+    "operators": [
+      "reaction",
+      "crystal",
+      "spiral"
+    ],
+    "relationships": [
+      "independent",
+      "independent",
+      "independent"
+    ],
+    "behaviors": [
+      "circulate",
+      "grow",
+      "twist"
+    ],
+    "organization": "interior",
+    "scale": "chamber",
+    "camera": "interior",
+    "audio": [
+      "trend",
+      "mid",
+      "bass"
+    ],
+    "description": "A revolving open pattern surrounds a crystal and turning coil.",
+    "distinction": "A revolving open pattern surrounds a crystal and turning coil. Structural recipe: reaction.circulate.open@vault+crystal.grow@core+spiral.twist@nest.",
+    "budget": 10500
+  },
+  {
+    "id": "weft-01",
+    "name": "Woven Light",
+    "family": "weft",
+    "operators": [
+      "weft",
+      "knot"
+    ],
+    "relationships": [
+      "independent",
+      "independent"
+    ],
+    "behaviors": [
+      "fold",
+      "circulate"
+    ],
+    "organization": "layered formation",
+    "scale": "exterior",
+    "camera": "orbit",
+    "audio": [
+      "mid",
+      "bass"
+    ],
+    "description": "Separate textile filaments fold beside a peripheral knot.",
+    "distinction": "Separate textile filaments fold beside a peripheral knot. Structural recipe: weft.fold@body+knot.circulate@rim.",
+    "budget": 8500
+  },
+  {
+    "id": "weft-02",
+    "name": "Warp and Weft",
+    "family": "weft",
+    "operators": [
+      "weft",
+      "weft",
+      "iris"
+    ],
+    "relationships": [
+      "independent",
+      "independent",
+      "independent"
+    ],
+    "behaviors": [
+      "split",
+      "twist",
+      "ripple"
+    ],
+    "organization": "interacting cluster",
+    "scale": "exterior",
+    "camera": "rise",
+    "audio": [
+      "onset",
+      "mid",
+      "bass"
+    ],
+    "description": "Perpendicular textile systems part and twist before an aperture.",
+    "distinction": "Perpendicular textile systems part and twist before an aperture. Structural recipe: weft.split@left+weft.twist@cross+iris.ripple@rear.",
+    "budget": 10500
+  },
+  {
+    "id": "weft-03",
+    "name": "Textile Chamber",
+    "family": "weft",
+    "operators": [
+      "weft",
+      "arch",
+      "strata"
+    ],
+    "relationships": [
+      "independent",
+      "independent",
+      "independent"
+    ],
+    "behaviors": [
+      "fold",
+      "ripple",
+      "still"
+    ],
+    "organization": "interior",
+    "scale": "chamber",
+    "camera": "interior",
+    "audio": [
+      "trend",
+      "mid",
+      "bass"
+    ],
+    "description": "A folded overhead textile opens a room over layered ground.",
+    "distinction": "A folded overhead textile opens a room over layered ground. Structural recipe: weft.fold@vault+arch.ripple@rear+strata.still@floor.",
+    "budget": 10500
+  },
+  {
+    "id": "weft-04",
+    "name": "Double Weaving",
+    "family": "weft",
+    "operators": [
+      "weft",
+      "braid"
+    ],
+    "relationships": [
+      "weave",
+      "independent"
+    ],
+    "behaviors": [
+      "twist",
+      "ripple"
+    ],
+    "organization": "layered formation",
+    "scale": "intimate",
+    "camera": "detail",
+    "audio": [
+      "mid",
+      "bass"
+    ],
+    "description": "A braid interlaces the textile’s filaments and its crossing plane.",
+    "distinction": "A braid interlaces the textile’s filaments and its crossing plane. Structural recipe: weft~weave~braid.twist@body+braid.ripple@cross.",
+    "budget": 8500
+  },
+  {
+    "id": "weft-05",
+    "name": "Textile into Sail",
+    "family": "weft",
+    "operators": [
+      "weft",
+      "rosette"
+    ],
+    "relationships": [
+      "blend",
+      "independent"
+    ],
+    "behaviors": [
+      "grow",
+      "invert"
+    ],
+    "organization": "layered formation",
+    "scale": "exterior",
+    "camera": "orbit",
+    "audio": [
+      "trend",
+      "mid"
+    ],
+    "description": "Separate textile strands gather into a sail above inverted petals.",
+    "distinction": "Separate textile strands gather into a sail above inverted petals. Structural recipe: weft~blend~ribbon.grow@body+rosette.invert@floor.",
+    "budget": 8500
+  },
+  {
+    "id": "weft-06",
+    "name": "Textile Window",
+    "family": "weft",
+    "operators": [
+      "weft",
+      "torus"
+    ],
+    "relationships": [
+      "intersect",
+      "independent"
+    ],
+    "behaviors": [
+      "ripple",
+      "split"
+    ],
+    "organization": "layered formation",
+    "scale": "journey",
+    "camera": "passage",
+    "audio": [
+      "bass",
+      "onset"
+    ],
+    "description": "An orbital intersection exposes open spatial cuts in a textile.",
+    "distinction": "An orbital intersection exposes open spatial cuts in a textile. Structural recipe: weft~intersect~torus.ripple@body+torus.split@front.",
+    "budget": 8500
+  },
+  {
+    "id": "weft-07",
+    "name": "Fabric Weather",
+    "family": "weft",
+    "operators": [
+      "weft",
+      "wave",
+      "spiral"
+    ],
+    "relationships": [
+      "independent",
+      "independent",
+      "independent"
+    ],
+    "behaviors": [
+      "collapse",
+      "fold",
+      "circulate"
+    ],
+    "organization": "layered formation",
+    "scale": "exterior",
+    "camera": "hold",
+    "audio": [
+      "onset",
+      "trend",
+      "mid"
+    ],
+    "description": "A striped textile roof collapses over waves and an inner coil.",
+    "distinction": "A striped textile roof collapses over waves and an inner coil. Structural recipe: weft.collapse.bands@ceiling+wave.fold@floor+spiral.circulate@core.",
+    "budget": 10500
+  },
+  {
+    "id": "weft-08",
+    "name": "Woven Observatory",
+    "family": "weft",
+    "operators": [
+      "weft",
+      "shell",
+      "crystal"
+    ],
+    "relationships": [
+      "independent",
+      "independent",
+      "independent"
+    ],
+    "behaviors": [
+      "circulate",
+      "ripple",
+      "grow"
+    ],
+    "organization": "interior",
+    "scale": "chamber",
+    "camera": "interior",
+    "audio": [
+      "trend",
+      "mid",
+      "bass"
+    ],
+    "description": "A revolving textile enclosure surrounds a porous sphere and crystal.",
+    "distinction": "A revolving textile enclosure surrounds a porous sphere and crystal. Structural recipe: weft.circulate@vault+shell.ripple.pores@core+crystal.grow@nest.",
+    "budget": 10500
+  }
+]

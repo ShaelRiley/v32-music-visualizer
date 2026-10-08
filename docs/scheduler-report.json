@@ -1,0 +1,10 @@
+{
+  "environment": "deterministic scheduler simulation",
+  "selections": 3600,
+  "seconds": 162233.1942590489,
+  "librarySeconds": 81118.05724366335,
+  "discoverySeconds": 81115.13701538555,
+  "authoredShare": 0.5000090000948669,
+  "maxStreak": 2,
+  "completeLibraryCycles": 7
+}

@@ -1,0 +1,1 @@
+Actual-renderer snapshots of representative generated worlds from the seeded Discovery validation. Reproduce them with `npm run gallery`; the generator and renderer are bundled source, not a remote service.

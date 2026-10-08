@@ -1,0 +1,1 @@
+Actual-renderer snapshots and four-stage sampled animations for all 256 authored presets. The filenames use the catalog's stable IDs. Open `previews/index.html` to browse the full atlas with descriptions.

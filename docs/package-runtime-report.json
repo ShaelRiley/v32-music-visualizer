@@ -1,0 +1,17 @@
+{
+  "servedDirectory": "dist/extension",
+  "environment": "Headless Chromium 151.0.7922.34; software SwiftShader; web-served build, not MV3 capture",
+  "errors": [],
+  "finite": {
+    "marks": 8500,
+    "artistBaseBudget": 8500,
+    "presets": 256,
+    "invalid": 0,
+    "glError": 0
+  },
+  "trueColor": {
+    "colors": 3866,
+    "finiteLookupBypassed": true,
+    "glError": 0
+  }
+}

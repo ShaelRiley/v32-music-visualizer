@@ -1,0 +1,67 @@
+{
+  "environment": {
+    "browser": "151.0.7922.34",
+    "backend": "software SwiftShader, headless, no hardware performance claim"
+  },
+  "cadence": [
+    {
+      "name": "Low",
+      "budget": 4500,
+      "scale": 0.7,
+      "marks": 4500,
+      "internalResolution": [
+        896,
+        503
+      ],
+      "samples": 60,
+      "frameIntervalMedianMs": 50.099999999999454,
+      "frameIntervalP95Ms": 116.59999999999945,
+      "maxMs": 116.69999999999982,
+      "intervalsOver16_7ms": 60,
+      "intervalsOver33_3ms": 60
+    },
+    {
+      "name": "Balanced",
+      "budget": 9000,
+      "scale": 0.9,
+      "marks": 9000,
+      "internalResolution": [
+        1152,
+        648
+      ],
+      "samples": 60,
+      "frameIntervalMedianMs": 133.40000000000146,
+      "frameIntervalP95Ms": 200,
+      "maxMs": 216.70000000000073,
+      "intervalsOver16_7ms": 60,
+      "intervalsOver33_3ms": 60
+    },
+    {
+      "name": "High",
+      "budget": 16000,
+      "scale": 1,
+      "marks": 16000,
+      "internalResolution": [
+        1280,
+        720
+      ],
+      "samples": 60,
+      "frameIntervalMedianMs": 166.8000000000029,
+      "frameIntervalP95Ms": 266.7000000000007,
+      "maxMs": 350,
+      "intervalsOver16_7ms": 60,
+      "intervalsOver33_3ms": 60
+    }
+  ],
+  "transitions": {
+    "samples": 64,
+    "method": "scene replacement plus first rendered frame and synchronous readback",
+    "medianMs": 51.899999998509884,
+    "p95Ms": 77.80000000074506,
+    "maxMs": 96.60000000149012,
+    "maxTrackedLayerResources": 30,
+    "resourcesMatchLayerBound": true,
+    "finalTrackedLayerResources": 25
+  },
+  "target60fpsVerified": false
+}

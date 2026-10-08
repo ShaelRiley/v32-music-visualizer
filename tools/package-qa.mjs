@@ -1,0 +1,17 @@
+import assert from 'node:assert/strict';
+import {createRequire} from 'node:module';
+import {writeFile} from 'node:fs/promises';
+import {server} from './serve.mjs';
+const require=createRequire(import.meta.url),{chromium}=require(process.env.CODEX_PRIMARY_RUNTIME_NODE_MODULES?process.env.CODEX_PRIMARY_RUNTIME_NODE_MODULES+'/playwright':'playwright');
+const browser=await chromium.launch({executablePath:process.env.V32_BROWSER||undefined,headless:true,args:['--no-sandbox','--enable-unsafe-swiftshader']});
+const page=await browser.newPage({viewport:{width:1280,height:720}}),errors=[];page.on('pageerror',e=>errors.push(e.message));
+const report={servedDirectory:process.argv[2]||'.',environment:'Headless Chromium '+await browser.version()+'; software SwiftShader; web-served build, not MV3 capture',errors};
+try{
+ await page.goto('http://localhost:4173/visualizer.html?dev=1');await page.waitForFunction(()=>window.__V32?.renderer.paletteReady);await page.evaluate(()=>window.__V32.pause());
+ report.finite=await page.evaluate(()=>{
+  const a=window.__V32,r=a.renderer;r.resize(640,360);r.render(4,{bass:.6,mid:.4,treble:.3,onset:.7,trend:.55},{...a.settings,budget:10000});const pixels=r.pixels(),allowed=new Set(r.palette.map(c=>c[0]*65536+c[1]*256+c[2]));allowed.add(0);let invalid=0;for(let i=0;i<pixels.length;i+=4)if(!allowed.has(pixels[i]*65536+pixels[i+1]*256+pixels[i+2]))invalid++;return {marks:r.markCount,artistBaseBudget:r.scene.budget,presets:a.presets.length,invalid,glError:r.gl.getError()};
+ });assert.equal(report.finite.presets,256);assert.equal(report.finite.marks,8500);assert.equal(report.finite.invalid,0);assert.equal(report.finite.glError,0);
+ await page.evaluate(()=>{const a=window.__V32;a.settings.depth='truecolor';a.renderer.setPalette(a.settings);});await page.waitForFunction(()=>window.__V32.renderer.paletteReady);
+ report.trueColor=await page.evaluate(()=>{const a=window.__V32,r=a.renderer;r.render(4.1,{bass:.6,mid:.4,treble:.3,onset:.7,trend:.55},{...a.settings,budget:10000});const pixels=r.pixels(),colors=new Set();for(let i=0;i<pixels.length;i+=4)colors.add(pixels[i]*65536+pixels[i+1]*256+pixels[i+2]);return {colors:colors.size,finiteLookupBypassed:r.colorTreatment.trueColor,glError:r.gl.getError()};});assert(report.trueColor.finiteLookupBypassed);assert(report.trueColor.colors>256);assert.equal(report.trueColor.glError,0);assert.equal(errors.length,0);console.log(report);
+}catch(e){report.failure=e.message;console.error(e);process.exitCode=1;}
+await writeFile('docs/package-runtime-report.json',JSON.stringify(report,null,2));await browser.close();server.close();

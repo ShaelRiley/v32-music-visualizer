@@ -1,0 +1,1 @@
+These four lossless contact sheets cover all 256 authored presets, with their stable IDs. They were captured from the actual Video32 renderer. The interactive static atlas is one folder up, at `previews/index.html`.

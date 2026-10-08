@@ -1,0 +1,11 @@
+{
+  "environment": "Headless Chromium 151.0.7922.34; software SwiftShader",
+  "errors": [],
+  "persistedDiscoveryModeAndPalette": true,
+  "savedFavoriteRetained": true,
+  "exportImportRecoveredWorld": true,
+  "invalidImportPreservedWorld": true,
+  "pauseFreezesVisualsWhileFileContinues": true,
+  "holdFlagPreservesAnimation": true,
+  "historyBound": 40
+}

@@ -1,0 +1,873 @@
+{
+  "environment": "Headless Chromium 151.0.7922.34 / software SwiftShader",
+  "inputCount": 512,
+  "checks": [
+    {
+      "palette": "standard",
+      "depth": "truecolor",
+      "mismatch": 0,
+      "maxDifference": 0,
+      "offPalette": 0,
+      "glError": 0
+    },
+    {
+      "palette": "standard",
+      "depth": 16,
+      "mismatch": 0,
+      "maxDifference": 0,
+      "offPalette": 0,
+      "glError": 0
+    },
+    {
+      "palette": "cga",
+      "depth": "truecolor",
+      "mismatch": 0,
+      "maxDifference": 0,
+      "offPalette": 0,
+      "glError": 0
+    },
+    {
+      "palette": "cga",
+      "depth": 16,
+      "mismatch": 0,
+      "maxDifference": 0,
+      "offPalette": 0,
+      "glError": 0
+    },
+    {
+      "palette": "ega",
+      "depth": "truecolor",
+      "mismatch": 0,
+      "maxDifference": 0,
+      "offPalette": 0,
+      "glError": 0
+    },
+    {
+      "palette": "ega",
+      "depth": 16,
+      "mismatch": 0,
+      "maxDifference": 0,
+      "offPalette": 0,
+      "glError": 0
+    },
+    {
+      "palette": "vga",
+      "depth": "truecolor",
+      "mismatch": 0,
+      "maxDifference": 0,
+      "offPalette": 0,
+      "glError": 0
+    },
+    {
+      "palette": "vga",
+      "depth": 16,
+      "mismatch": 0,
+      "maxDifference": 0,
+      "offPalette": 0,
+      "glError": 0
+    },
+    {
+      "palette": "svga",
+      "depth": "truecolor",
+      "mismatch": 0,
+      "maxDifference": 0,
+      "offPalette": 0,
+      "glError": 0
+    },
+    {
+      "palette": "svga",
+      "depth": 16,
+      "mismatch": 0,
+      "maxDifference": 0,
+      "offPalette": 0,
+      "glError": 0
+    },
+    {
+      "palette": "sunburst",
+      "depth": "truecolor",
+      "mismatch": 0,
+      "maxDifference": 0,
+      "offPalette": 0,
+      "glError": 0
+    },
+    {
+      "palette": "sunburst",
+      "depth": 16,
+      "mismatch": 0,
+      "maxDifference": 0,
+      "offPalette": 0,
+      "glError": 0
+    },
+    {
+      "palette": "moonburst",
+      "depth": "truecolor",
+      "mismatch": 0,
+      "maxDifference": 0,
+      "offPalette": 0,
+      "glError": 0
+    },
+    {
+      "palette": "moonburst",
+      "depth": 16,
+      "mismatch": 0,
+      "maxDifference": 0,
+      "offPalette": 0,
+      "glError": 0
+    },
+    {
+      "palette": "mooburst",
+      "depth": "truecolor",
+      "mismatch": 0,
+      "maxDifference": 0,
+      "offPalette": 0,
+      "glError": 0
+    },
+    {
+      "palette": "mooburst",
+      "depth": 16,
+      "mismatch": 0,
+      "maxDifference": 0,
+      "offPalette": 0,
+      "glError": 0
+    },
+    {
+      "palette": "ruby",
+      "depth": "truecolor",
+      "mismatch": 0,
+      "maxDifference": 0,
+      "offPalette": 0,
+      "glError": 0
+    },
+    {
+      "palette": "ruby",
+      "depth": 16,
+      "mismatch": 0,
+      "maxDifference": 0,
+      "offPalette": 0,
+      "glError": 0
+    },
+    {
+      "palette": "enchantedforest",
+      "depth": "truecolor",
+      "mismatch": 0,
+      "maxDifference": 0,
+      "offPalette": 0,
+      "glError": 0
+    },
+    {
+      "palette": "enchantedforest",
+      "depth": 16,
+      "mismatch": 0,
+      "maxDifference": 0,
+      "offPalette": 0,
+      "glError": 0
+    },
+    {
+      "palette": "nightburst",
+      "depth": "truecolor",
+      "mismatch": 0,
+      "maxDifference": 0,
+      "offPalette": 0,
+      "glError": 0
+    },
+    {
+      "palette": "nightburst",
+      "depth": 16,
+      "mismatch": 0,
+      "maxDifference": 0,
+      "offPalette": 0,
+      "glError": 0
+    },
+    {
+      "palette": "snowburst",
+      "depth": "truecolor",
+      "mismatch": 0,
+      "maxDifference": 0,
+      "offPalette": 0,
+      "glError": 0
+    },
+    {
+      "palette": "snowburst",
+      "depth": 16,
+      "mismatch": 0,
+      "maxDifference": 0,
+      "offPalette": 0,
+      "glError": 0
+    },
+    {
+      "palette": "cyberburst",
+      "depth": "truecolor",
+      "mismatch": 0,
+      "maxDifference": 0,
+      "offPalette": 0,
+      "glError": 0
+    },
+    {
+      "palette": "cyberburst",
+      "depth": 16,
+      "mismatch": 0,
+      "maxDifference": 0,
+      "offPalette": 0,
+      "glError": 0
+    },
+    {
+      "palette": "grapeburst",
+      "depth": "truecolor",
+      "mismatch": 0,
+      "maxDifference": 0,
+      "offPalette": 0,
+      "glError": 0
+    },
+    {
+      "palette": "grapeburst",
+      "depth": 16,
+      "mismatch": 0,
+      "maxDifference": 0,
+      "offPalette": 0,
+      "glError": 0
+    },
+    {
+      "palette": "candyburst",
+      "depth": "truecolor",
+      "mismatch": 0,
+      "maxDifference": 0,
+      "offPalette": 0,
+      "glError": 0
+    },
+    {
+      "palette": "candyburst",
+      "depth": 16,
+      "mismatch": 0,
+      "maxDifference": 0,
+      "offPalette": 0,
+      "glError": 0
+    },
+    {
+      "palette": "chromaburst",
+      "depth": "truecolor",
+      "mismatch": 0,
+      "maxDifference": 0,
+      "offPalette": 0,
+      "glError": 0
+    },
+    {
+      "palette": "chromaburst",
+      "depth": 16,
+      "mismatch": 0,
+      "maxDifference": 0,
+      "offPalette": 0,
+      "glError": 0
+    },
+    {
+      "palette": "soulburst",
+      "depth": "truecolor",
+      "mismatch": 0,
+      "maxDifference": 0,
+      "offPalette": 0,
+      "glError": 0
+    },
+    {
+      "palette": "soulburst",
+      "depth": 16,
+      "mismatch": 0,
+      "maxDifference": 0,
+      "offPalette": 0,
+      "glError": 0
+    },
+    {
+      "palette": "blackwhite",
+      "depth": "truecolor",
+      "mismatch": 0,
+      "maxDifference": 0,
+      "offPalette": 0,
+      "glError": 0
+    },
+    {
+      "palette": "blackwhite",
+      "depth": 16,
+      "mismatch": 0,
+      "maxDifference": 0,
+      "offPalette": 0,
+      "glError": 0
+    },
+    {
+      "palette": "cyan",
+      "depth": "truecolor",
+      "mismatch": 0,
+      "maxDifference": 0,
+      "offPalette": 0,
+      "glError": 0
+    },
+    {
+      "palette": "cyan",
+      "depth": 16,
+      "mismatch": 0,
+      "maxDifference": 0,
+      "offPalette": 0,
+      "glError": 0
+    },
+    {
+      "palette": "yellow",
+      "depth": "truecolor",
+      "mismatch": 0,
+      "maxDifference": 0,
+      "offPalette": 0,
+      "glError": 0
+    },
+    {
+      "palette": "yellow",
+      "depth": 16,
+      "mismatch": 0,
+      "maxDifference": 0,
+      "offPalette": 0,
+      "glError": 0
+    },
+    {
+      "palette": "green",
+      "depth": "truecolor",
+      "mismatch": 0,
+      "maxDifference": 0,
+      "offPalette": 0,
+      "glError": 0
+    },
+    {
+      "palette": "green",
+      "depth": 16,
+      "mismatch": 0,
+      "maxDifference": 0,
+      "offPalette": 0,
+      "glError": 0
+    },
+    {
+      "palette": "red",
+      "depth": "truecolor",
+      "mismatch": 0,
+      "maxDifference": 0,
+      "offPalette": 0,
+      "glError": 0
+    },
+    {
+      "palette": "red",
+      "depth": 16,
+      "mismatch": 0,
+      "maxDifference": 0,
+      "offPalette": 0,
+      "glError": 0
+    },
+    {
+      "palette": "purple",
+      "depth": "truecolor",
+      "mismatch": 0,
+      "maxDifference": 0,
+      "offPalette": 0,
+      "glError": 0
+    },
+    {
+      "palette": "purple",
+      "depth": 16,
+      "mismatch": 0,
+      "maxDifference": 0,
+      "offPalette": 0,
+      "glError": 0
+    },
+    {
+      "palette": "blue",
+      "depth": "truecolor",
+      "mismatch": 0,
+      "maxDifference": 0,
+      "offPalette": 0,
+      "glError": 0
+    },
+    {
+      "palette": "blue",
+      "depth": 16,
+      "mismatch": 0,
+      "maxDifference": 0,
+      "offPalette": 0,
+      "glError": 0
+    },
+    {
+      "palette": "pink",
+      "depth": "truecolor",
+      "mismatch": 0,
+      "maxDifference": 0,
+      "offPalette": 0,
+      "glError": 0
+    },
+    {
+      "palette": "pink",
+      "depth": 16,
+      "mismatch": 0,
+      "maxDifference": 0,
+      "offPalette": 0,
+      "glError": 0
+    },
+    {
+      "palette": "orange",
+      "depth": "truecolor",
+      "mismatch": 0,
+      "maxDifference": 0,
+      "offPalette": 0,
+      "glError": 0
+    },
+    {
+      "palette": "orange",
+      "depth": 16,
+      "mismatch": 0,
+      "maxDifference": 0,
+      "offPalette": 0,
+      "glError": 0
+    },
+    {
+      "palette": "amber",
+      "depth": "truecolor",
+      "mismatch": 0,
+      "maxDifference": 0,
+      "offPalette": 0,
+      "glError": 0
+    },
+    {
+      "palette": "amber",
+      "depth": 16,
+      "mismatch": 0,
+      "maxDifference": 0,
+      "offPalette": 0,
+      "glError": 0
+    },
+    {
+      "palette": "ice",
+      "depth": "truecolor",
+      "mismatch": 0,
+      "maxDifference": 0,
+      "offPalette": 0,
+      "glError": 0
+    },
+    {
+      "palette": "ice",
+      "depth": 16,
+      "mismatch": 0,
+      "maxDifference": 0,
+      "offPalette": 0,
+      "glError": 0
+    },
+    {
+      "palette": "toxic",
+      "depth": "truecolor",
+      "mismatch": 0,
+      "maxDifference": 0,
+      "offPalette": 0,
+      "glError": 0
+    },
+    {
+      "palette": "toxic",
+      "depth": 16,
+      "mismatch": 0,
+      "maxDifference": 0,
+      "offPalette": 0,
+      "glError": 0
+    },
+    {
+      "palette": "sepia",
+      "depth": "truecolor",
+      "mismatch": 0,
+      "maxDifference": 0,
+      "offPalette": 0,
+      "glError": 0
+    },
+    {
+      "palette": "sepia",
+      "depth": 16,
+      "mismatch": 0,
+      "maxDifference": 0,
+      "offPalette": 0,
+      "glError": 0
+    },
+    {
+      "palette": "nes",
+      "depth": "truecolor",
+      "mismatch": 0,
+      "maxDifference": 0,
+      "offPalette": 0,
+      "glError": 0
+    },
+    {
+      "palette": "nes",
+      "depth": 16,
+      "mismatch": 0,
+      "maxDifference": 0,
+      "offPalette": 0,
+      "glError": 0
+    },
+    {
+      "palette": "sms",
+      "depth": "truecolor",
+      "mismatch": 0,
+      "maxDifference": 0,
+      "offPalette": 0,
+      "glError": 0
+    },
+    {
+      "palette": "sms",
+      "depth": 16,
+      "mismatch": 0,
+      "maxDifference": 0,
+      "offPalette": 0,
+      "glError": 0
+    },
+    {
+      "palette": "genesis",
+      "depth": "truecolor",
+      "mismatch": 0,
+      "maxDifference": 0,
+      "offPalette": 0,
+      "glError": 0
+    },
+    {
+      "palette": "genesis",
+      "depth": 16,
+      "mismatch": 0,
+      "maxDifference": 0,
+      "offPalette": 0,
+      "glError": 0
+    },
+    {
+      "palette": "c64",
+      "depth": "truecolor",
+      "mismatch": 0,
+      "maxDifference": 0,
+      "offPalette": 0,
+      "glError": 0
+    },
+    {
+      "palette": "c64",
+      "depth": 16,
+      "mismatch": 0,
+      "maxDifference": 0,
+      "offPalette": 0,
+      "glError": 0
+    },
+    {
+      "palette": "apple2e",
+      "depth": "truecolor",
+      "mismatch": 1,
+      "maxDifference": 1,
+      "offPalette": 0,
+      "glError": 0
+    },
+    {
+      "palette": "apple2e",
+      "depth": 16,
+      "mismatch": 0,
+      "maxDifference": 0,
+      "offPalette": 0,
+      "glError": 0
+    },
+    {
+      "palette": "apple2green",
+      "depth": "truecolor",
+      "mismatch": 0,
+      "maxDifference": 0,
+      "offPalette": 0,
+      "glError": 0
+    },
+    {
+      "palette": "apple2green",
+      "depth": 16,
+      "mismatch": 0,
+      "maxDifference": 0,
+      "offPalette": 0,
+      "glError": 0
+    },
+    {
+      "palette": "gbdmg",
+      "depth": "truecolor",
+      "mismatch": 0,
+      "maxDifference": 0,
+      "offPalette": 0,
+      "glError": 0
+    },
+    {
+      "palette": "gbdmg",
+      "depth": 16,
+      "mismatch": 0,
+      "maxDifference": 0,
+      "offPalette": 0,
+      "glError": 0
+    },
+    {
+      "palette": "virtualb",
+      "depth": "truecolor",
+      "mismatch": 0,
+      "maxDifference": 0,
+      "offPalette": 0,
+      "glError": 0
+    },
+    {
+      "palette": "virtualb",
+      "depth": 16,
+      "mismatch": 0,
+      "maxDifference": 0,
+      "offPalette": 0,
+      "glError": 0
+    },
+    {
+      "palette": "snes",
+      "depth": "truecolor",
+      "mismatch": 0,
+      "maxDifference": 0,
+      "offPalette": 0,
+      "glError": 0
+    },
+    {
+      "palette": "snes",
+      "depth": 16,
+      "mismatch": 0,
+      "maxDifference": 0,
+      "offPalette": 0,
+      "glError": 0
+    },
+    {
+      "palette": "vexitrexi",
+      "depth": "truecolor",
+      "mismatch": 0,
+      "maxDifference": 0,
+      "offPalette": 0,
+      "glError": 0
+    },
+    {
+      "palette": "vexitrexi",
+      "depth": 16,
+      "mismatch": 0,
+      "maxDifference": 0,
+      "offPalette": 0,
+      "glError": 0
+    },
+    {
+      "palette": "zedexspectral",
+      "depth": "truecolor",
+      "mismatch": 0,
+      "maxDifference": 0,
+      "offPalette": 0,
+      "glError": 0
+    },
+    {
+      "palette": "zedexspectral",
+      "depth": 16,
+      "mismatch": 0,
+      "maxDifference": 0,
+      "offPalette": 0,
+      "glError": 0
+    },
+    {
+      "palette": "atari2600",
+      "depth": "truecolor",
+      "mismatch": 0,
+      "maxDifference": 0,
+      "offPalette": 0,
+      "glError": 0
+    },
+    {
+      "palette": "atari2600",
+      "depth": 16,
+      "mismatch": 0,
+      "maxDifference": 0,
+      "offPalette": 0,
+      "glError": 0
+    },
+    {
+      "palette": "atari5200",
+      "depth": "truecolor",
+      "mismatch": 0,
+      "maxDifference": 0,
+      "offPalette": 0,
+      "glError": 0
+    },
+    {
+      "palette": "atari5200",
+      "depth": 16,
+      "mismatch": 0,
+      "maxDifference": 0,
+      "offPalette": 0,
+      "glError": 0
+    },
+    {
+      "palette": "trash80",
+      "depth": "truecolor",
+      "mismatch": 0,
+      "maxDifference": 0,
+      "offPalette": 0,
+      "glError": 0
+    },
+    {
+      "palette": "trash80",
+      "depth": 16,
+      "mismatch": 0,
+      "maxDifference": 0,
+      "offPalette": 0,
+      "glError": 0
+    },
+    {
+      "palette": "oldtv",
+      "depth": "truecolor",
+      "mismatch": 0,
+      "maxDifference": 0,
+      "offPalette": 0,
+      "glError": 0
+    },
+    {
+      "palette": "oldtv",
+      "depth": 16,
+      "mismatch": 0,
+      "maxDifference": 0,
+      "offPalette": 0,
+      "glError": 0
+    },
+    {
+      "palette": "eighties",
+      "depth": "truecolor",
+      "mismatch": 0,
+      "maxDifference": 0,
+      "offPalette": 0,
+      "glError": 0
+    },
+    {
+      "palette": "eighties",
+      "depth": 16,
+      "mismatch": 0,
+      "maxDifference": 0,
+      "offPalette": 0,
+      "glError": 0
+    },
+    {
+      "palette": "space",
+      "depth": "truecolor",
+      "mismatch": 0,
+      "maxDifference": 0,
+      "offPalette": 0,
+      "glError": 0
+    },
+    {
+      "palette": "space",
+      "depth": 16,
+      "mismatch": 0,
+      "maxDifference": 0,
+      "offPalette": 0,
+      "glError": 0
+    },
+    {
+      "palette": "psychedelic",
+      "depth": "truecolor",
+      "mismatch": 0,
+      "maxDifference": 0,
+      "offPalette": 0,
+      "glError": 0
+    },
+    {
+      "palette": "psychedelic",
+      "depth": 16,
+      "mismatch": 0,
+      "maxDifference": 0,
+      "offPalette": 0,
+      "glError": 0
+    },
+    {
+      "palette": "caveman",
+      "depth": "truecolor",
+      "mismatch": 0,
+      "maxDifference": 0,
+      "offPalette": 0,
+      "glError": 0
+    },
+    {
+      "palette": "caveman",
+      "depth": 16,
+      "mismatch": 0,
+      "maxDifference": 0,
+      "offPalette": 0,
+      "glError": 0
+    },
+    {
+      "palette": "oceania",
+      "depth": "truecolor",
+      "mismatch": 0,
+      "maxDifference": 0,
+      "offPalette": 0,
+      "glError": 0
+    },
+    {
+      "palette": "oceania",
+      "depth": 16,
+      "mismatch": 0,
+      "maxDifference": 0,
+      "offPalette": 0,
+      "glError": 0
+    },
+    {
+      "palette": "metallics",
+      "depth": "truecolor",
+      "mismatch": 0,
+      "maxDifference": 0,
+      "offPalette": 0,
+      "glError": 0
+    },
+    {
+      "palette": "metallics",
+      "depth": 16,
+      "mismatch": 0,
+      "maxDifference": 0,
+      "offPalette": 0,
+      "glError": 0
+    },
+    {
+      "palette": "silvergold",
+      "depth": "truecolor",
+      "mismatch": 0,
+      "maxDifference": 0,
+      "offPalette": 0,
+      "glError": 0
+    },
+    {
+      "palette": "silvergold",
+      "depth": 16,
+      "mismatch": 0,
+      "maxDifference": 0,
+      "offPalette": 0,
+      "glError": 0
+    },
+    {
+      "palette": "supercomic",
+      "depth": "truecolor",
+      "mismatch": 0,
+      "maxDifference": 0,
+      "offPalette": 0,
+      "glError": 0
+    },
+    {
+      "palette": "supercomic",
+      "depth": 16,
+      "mismatch": 0,
+      "maxDifference": 0,
+      "offPalette": 0,
+      "glError": 0
+    },
+    {
+      "palette": "hyperreal",
+      "depth": "truecolor",
+      "mismatch": 0,
+      "maxDifference": 0,
+      "offPalette": 0,
+      "glError": 0
+    },
+    {
+      "palette": "hyperreal",
+      "depth": 16,
+      "mismatch": 0,
+      "maxDifference": 0,
+      "offPalette": 0,
+      "glError": 0
+    }
+  ],
+  "errors": [],
+  "exactMatches": 55295,
+  "totalComparisons": 55296
+}

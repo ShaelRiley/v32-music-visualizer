@@ -1,0 +1,19 @@
+✔ 20 capture start/stop cycles have one stereo monitor connection and release every resource (3.108956ms)
+✔ Source termination cleans up and reports the ended source (4.12043ms)
+✔ Failed local-file playback releases its graph and pauses its element (0.746903ms)
+✔ Canonical 32 masks, ordering, blank, source aspect and byte identity (37.165469ms)
+✔ Full palette registry, depth, grading and 5-bit lookup parity (12644.543612ms)
+✔ Authored catalog has 256 distinct structural compositions in 32 families (134.535463ms)
+✔ 1,000 reproducible Discovery seeds: graph variety and bounded evolving state (704.375076ms)
+✔ Scene import rejects executable-looking IDs, oversized graphs and invalid numbers (0.908539ms)
+✔ Time-balanced mixed playback preserves complete library traversals and bounded streaks (2.622851ms)
+✔ Audio fixtures: silence, quiet noise, bass, transients, irregular rhythms and stereo changes (79.40079ms)
+✔ MV3 routing preserves the selected source, reuses its viewer and closes offscreen ownership (4.820162ms)
+ℹ tests 11
+ℹ suites 0
+ℹ pass 11
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 13732.441727

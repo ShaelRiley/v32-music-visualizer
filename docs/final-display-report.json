@@ -1,0 +1,143 @@
+[
+  {
+    "deviceScaleFactor": 1,
+    "internalRatio": 0.55,
+    "finalScreenshot": [
+      1280,
+      720
+    ],
+    "colors": 21,
+    "invalid": 0
+  },
+  {
+    "deviceScaleFactor": 1,
+    "internalRatio": 0.7,
+    "finalScreenshot": [
+      1280,
+      720
+    ],
+    "colors": 21,
+    "invalid": 0
+  },
+  {
+    "deviceScaleFactor": 1,
+    "internalRatio": 0.9,
+    "finalScreenshot": [
+      1280,
+      720
+    ],
+    "colors": 21,
+    "invalid": 0
+  },
+  {
+    "deviceScaleFactor": 1,
+    "internalRatio": 1,
+    "finalScreenshot": [
+      1280,
+      720
+    ],
+    "colors": 21,
+    "invalid": 0
+  },
+  {
+    "deviceScaleFactor": 1,
+    "type": "palette-change-at-fixed-time",
+    "palette": "blackwhite",
+    "depth": 3,
+    "invalid": 0
+  },
+  {
+    "deviceScaleFactor": 1.25,
+    "internalRatio": 0.55,
+    "finalScreenshot": [
+      1600,
+      900
+    ],
+    "colors": 21,
+    "invalid": 0
+  },
+  {
+    "deviceScaleFactor": 1.25,
+    "internalRatio": 0.7,
+    "finalScreenshot": [
+      1600,
+      900
+    ],
+    "colors": 21,
+    "invalid": 0
+  },
+  {
+    "deviceScaleFactor": 1.25,
+    "internalRatio": 0.9,
+    "finalScreenshot": [
+      1600,
+      900
+    ],
+    "colors": 21,
+    "invalid": 0
+  },
+  {
+    "deviceScaleFactor": 1.25,
+    "internalRatio": 1,
+    "finalScreenshot": [
+      1600,
+      900
+    ],
+    "colors": 21,
+    "invalid": 0
+  },
+  {
+    "deviceScaleFactor": 1.25,
+    "type": "palette-change-at-fixed-time",
+    "palette": "blackwhite",
+    "depth": 3,
+    "invalid": 0
+  },
+  {
+    "deviceScaleFactor": 2,
+    "internalRatio": 0.55,
+    "finalScreenshot": [
+      2560,
+      1440
+    ],
+    "colors": 21,
+    "invalid": 0
+  },
+  {
+    "deviceScaleFactor": 2,
+    "internalRatio": 0.7,
+    "finalScreenshot": [
+      2560,
+      1440
+    ],
+    "colors": 21,
+    "invalid": 0
+  },
+  {
+    "deviceScaleFactor": 2,
+    "internalRatio": 0.9,
+    "finalScreenshot": [
+      2560,
+      1440
+    ],
+    "colors": 21,
+    "invalid": 0
+  },
+  {
+    "deviceScaleFactor": 2,
+    "internalRatio": 1,
+    "finalScreenshot": [
+      2560,
+      1440
+    ],
+    "colors": 21,
+    "invalid": 0
+  },
+  {
+    "deviceScaleFactor": 2,
+    "type": "palette-change-at-fixed-time",
+    "palette": "blackwhite",
+    "depth": 3,
+    "invalid": 0
+  }
+]

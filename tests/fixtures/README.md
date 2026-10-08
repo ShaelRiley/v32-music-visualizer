@@ -1,0 +1,1 @@
+`generated-stereo.wav` is a generated stereo Web Audio test fixture created by `tools/audio-fixture.mjs`. It contains synthesized test tones and transients, rather than a copyrighted song. The browser harness can regenerate it.

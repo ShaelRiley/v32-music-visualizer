@@ -1,0 +1,2842 @@
+{
+  "environment": {
+    "browser": "151.0.7922.34",
+    "viewport": [
+      1280,
+      720
+    ],
+    "kind": "headless Chromium, software SwiftShader; no physical GPU or listening test",
+    "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver)"
+  },
+  "errors": [],
+  "warnings": [
+    "[.WebGL-0x1bc400158a00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels",
+    "[.WebGL-0x1bc400158a00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels",
+    "[.WebGL-0x1bc400158a00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels",
+    "[.WebGL-0x1bc400158a00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels (this message will no longer repeat)"
+  ],
+  "presets": [
+    {
+      "id": "ribbon-01",
+      "visibleFraction": 0.037821180555555556,
+      "colors": 21,
+      "glyphForms": 22,
+      "changedStages": 3,
+      "resources": 15
+    },
+    {
+      "id": "ribbon-02",
+      "visibleFraction": 0.05220052083333333,
+      "colors": 21,
+      "glyphForms": 21,
+      "changedStages": 3,
+      "resources": 20
+    },
+    {
+      "id": "ribbon-03",
+      "visibleFraction": 0.10680121527777778,
+      "colors": 21,
+      "glyphForms": 21,
+      "changedStages": 3,
+      "resources": 20
+    },
+    {
+      "id": "ribbon-04",
+      "visibleFraction": 0.06691840277777777,
+      "colors": 21,
+      "glyphForms": 21,
+      "changedStages": 3,
+      "resources": 15
+    },
+    {
+      "id": "ribbon-05",
+      "visibleFraction": 0.08957899305555556,
+      "colors": 21,
+      "glyphForms": 21,
+      "changedStages": 3,
+      "resources": 15
+    },
+    {
+      "id": "ribbon-06",
+      "visibleFraction": 0.17221354166666666,
+      "colors": 21,
+      "glyphForms": 21,
+      "changedStages": 3,
+      "resources": 15
+    },
+    {
+      "id": "ribbon-07",
+      "visibleFraction": 0.06615017361111111,
+      "colors": 21,
+      "glyphForms": 22,
+      "changedStages": 3,
+      "resources": 20
+    },
+    {
+      "id": "ribbon-08",
+      "visibleFraction": 0.03947482638888889,
+      "colors": 21,
+      "glyphForms": 22,
+      "changedStages": 3,
+      "resources": 20
+    },
+    {
+      "id": "torus-01",
+      "visibleFraction": 0.053624131944444445,
+      "colors": 21,
+      "glyphForms": 22,
+      "changedStages": 3,
+      "resources": 15
+    },
+    {
+      "id": "torus-02",
+      "visibleFraction": 0.07442708333333334,
+      "colors": 21,
+      "glyphForms": 21,
+      "changedStages": 3,
+      "resources": 20
+    },
+    {
+      "id": "torus-03",
+      "visibleFraction": 0.06676649305555556,
+      "colors": 21,
+      "glyphForms": 21,
+      "changedStages": 3,
+      "resources": 20
+    },
+    {
+      "id": "torus-04",
+      "visibleFraction": 0.0620703125,
+      "colors": 21,
+      "glyphForms": 22,
+      "changedStages": 3,
+      "resources": 15
+    },
+    {
+      "id": "torus-05",
+      "visibleFraction": 0.15042534722222223,
+      "colors": 21,
+      "glyphForms": 21,
+      "changedStages": 3,
+      "resources": 15
+    },
+    {
+      "id": "torus-06",
+      "visibleFraction": 0.050794270833333335,
+      "colors": 21,
+      "glyphForms": 22,
+      "changedStages": 3,
+      "resources": 15
+    },
+    {
+      "id": "torus-07",
+      "visibleFraction": 0.062265625,
+      "colors": 21,
+      "glyphForms": 21,
+      "changedStages": 3,
+      "resources": 20
+    },
+    {
+      "id": "torus-08",
+      "visibleFraction": 0.08547309027777777,
+      "colors": 21,
+      "glyphForms": 22,
+      "changedStages": 3,
+      "resources": 20
+    },
+    {
+      "id": "shell-01",
+      "visibleFraction": 0.04467013888888889,
+      "colors": 21,
+      "glyphForms": 21,
+      "changedStages": 3,
+      "resources": 15
+    },
+    {
+      "id": "shell-02",
+      "visibleFraction": 0.045013020833333334,
+      "colors": 21,
+      "glyphForms": 22,
+      "changedStages": 3,
+      "resources": 20
+    },
+    {
+      "id": "shell-03",
+      "visibleFraction": 0.03243489583333333,
+      "colors": 20,
+      "glyphForms": 21,
+      "changedStages": 3,
+      "resources": 20
+    },
+    {
+      "id": "shell-04",
+      "visibleFraction": 0.03863715277777778,
+      "colors": 21,
+      "glyphForms": 21,
+      "changedStages": 3,
+      "resources": 15
+    },
+    {
+      "id": "shell-05",
+      "visibleFraction": 0.21309027777777778,
+      "colors": 21,
+      "glyphForms": 21,
+      "changedStages": 3,
+      "resources": 15
+    },
+    {
+      "id": "shell-06",
+      "visibleFraction": 0.09368489583333334,
+      "colors": 21,
+      "glyphForms": 22,
+      "changedStages": 3,
+      "resources": 15
+    },
+    {
+      "id": "shell-07",
+      "visibleFraction": 0.04293836805555556,
+      "colors": 21,
+      "glyphForms": 22,
+      "changedStages": 3,
+      "resources": 20
+    },
+    {
+      "id": "shell-08",
+      "visibleFraction": 0.0756640625,
+      "colors": 21,
+      "glyphForms": 21,
+      "changedStages": 3,
+      "resources": 20
+    },
+    {
+      "id": "helix-01",
+      "visibleFraction": 0.05071180555555556,
+      "colors": 21,
+      "glyphForms": 21,
+      "changedStages": 3,
+      "resources": 15
+    },
+    {
+      "id": "helix-02",
+      "visibleFraction": 0.062890625,
+      "colors": 21,
+      "glyphForms": 21,
+      "changedStages": 3,
+      "resources": 20
+    },
+    {
+      "id": "helix-03",
+      "visibleFraction": 0.05439670138888889,
+      "colors": 21,
+      "glyphForms": 22,
+      "changedStages": 3,
+      "resources": 20
+    },
+    {
+      "id": "helix-04",
+      "visibleFraction": 0.09326388888888888,
+      "colors": 21,
+      "glyphForms": 22,
+      "changedStages": 3,
+      "resources": 15
+    },
+    {
+      "id": "helix-05",
+      "visibleFraction": 0.05740885416666667,
+      "colors": 21,
+      "glyphForms": 22,
+      "changedStages": 3,
+      "resources": 15
+    },
+    {
+      "id": "helix-06",
+      "visibleFraction": 0.1319357638888889,
+      "colors": 19,
+      "glyphForms": 21,
+      "changedStages": 3,
+      "resources": 15
+    },
+    {
+      "id": "helix-07",
+      "visibleFraction": 0.048671875,
+      "colors": 21,
+      "glyphForms": 22,
+      "changedStages": 3,
+      "resources": 20
+    },
+    {
+      "id": "helix-08",
+      "visibleFraction": 0.03334635416666667,
+      "colors": 21,
+      "glyphForms": 22,
+      "changedStages": 3,
+      "resources": 20
+    },
+    {
+      "id": "wave-01",
+      "visibleFraction": 0.06827690972222222,
+      "colors": 21,
+      "glyphForms": 21,
+      "changedStages": 3,
+      "resources": 15
+    },
+    {
+      "id": "wave-02",
+      "visibleFraction": 0.13793402777777777,
+      "colors": 21,
+      "glyphForms": 15,
+      "changedStages": 3,
+      "resources": 20
+    },
+    {
+      "id": "wave-03",
+      "visibleFraction": 0.10572916666666667,
+      "colors": 21,
+      "glyphForms": 21,
+      "changedStages": 3,
+      "resources": 20
+    },
+    {
+      "id": "wave-04",
+      "visibleFraction": 0.06990885416666667,
+      "colors": 21,
+      "glyphForms": 21,
+      "changedStages": 3,
+      "resources": 15
+    },
+    {
+      "id": "wave-05",
+      "visibleFraction": 0.06009114583333333,
+      "colors": 21,
+      "glyphForms": 20,
+      "changedStages": 3,
+      "resources": 15
+    },
+    {
+      "id": "wave-06",
+      "visibleFraction": 0.25659288194444446,
+      "colors": 21,
+      "glyphForms": 22,
+      "changedStages": 3,
+      "resources": 15
+    },
+    {
+      "id": "wave-07",
+      "visibleFraction": 0.027604166666666666,
+      "colors": 21,
+      "glyphForms": 21,
+      "changedStages": 3,
+      "resources": 20
+    },
+    {
+      "id": "wave-08",
+      "visibleFraction": 0.09527777777777778,
+      "colors": 21,
+      "glyphForms": 19,
+      "changedStages": 3,
+      "resources": 20
+    },
+    {
+      "id": "gyroid-01",
+      "visibleFraction": 0.06145399305555556,
+      "colors": 21,
+      "glyphForms": 21,
+      "changedStages": 3,
+      "resources": 15
+    },
+    {
+      "id": "gyroid-02",
+      "visibleFraction": 0.06898871527777778,
+      "colors": 21,
+      "glyphForms": 21,
+      "changedStages": 3,
+      "resources": 20
+    },
+    {
+      "id": "gyroid-03",
+      "visibleFraction": 0.10543402777777777,
+      "colors": 21,
+      "glyphForms": 18,
+      "changedStages": 3,
+      "resources": 20
+    },
+    {
+      "id": "gyroid-04",
+      "visibleFraction": 0.05623263888888889,
+      "colors": 21,
+      "glyphForms": 22,
+      "changedStages": 3,
+      "resources": 15
+    },
+    {
+      "id": "gyroid-05",
+      "visibleFraction": 0.18858072916666666,
+      "colors": 21,
+      "glyphForms": 21,
+      "changedStages": 3,
+      "resources": 15
+    },
+    {
+      "id": "gyroid-06",
+      "visibleFraction": 0.06484809027777778,
+      "colors": 21,
+      "glyphForms": 19,
+      "changedStages": 3,
+      "resources": 15
+    },
+    {
+      "id": "gyroid-07",
+      "visibleFraction": 0.03265625,
+      "colors": 21,
+      "glyphForms": 21,
+      "changedStages": 3,
+      "resources": 20
+    },
+    {
+      "id": "gyroid-08",
+      "visibleFraction": 0.07453559027777777,
+      "colors": 21,
+      "glyphForms": 22,
+      "changedStages": 3,
+      "resources": 20
+    },
+    {
+      "id": "knot-01",
+      "visibleFraction": 0.03930989583333333,
+      "colors": 21,
+      "glyphForms": 21,
+      "changedStages": 3,
+      "resources": 15
+    },
+    {
+      "id": "knot-02",
+      "visibleFraction": 0.05384548611111111,
+      "colors": 21,
+      "glyphForms": 22,
+      "changedStages": 3,
+      "resources": 20
+    },
+    {
+      "id": "knot-03",
+      "visibleFraction": 0.07682291666666667,
+      "colors": 21,
+      "glyphForms": 22,
+      "changedStages": 3,
+      "resources": 20
+    },
+    {
+      "id": "knot-04",
+      "visibleFraction": 0.23761284722222223,
+      "colors": 21,
+      "glyphForms": 21,
+      "changedStages": 3,
+      "resources": 15
+    },
+    {
+      "id": "knot-05",
+      "visibleFraction": 0.051918402777777775,
+      "colors": 21,
+      "glyphForms": 20,
+      "changedStages": 3,
+      "resources": 15
+    },
+    {
+      "id": "knot-06",
+      "visibleFraction": 0.04473958333333333,
+      "colors": 21,
+      "glyphForms": 21,
+      "changedStages": 3,
+      "resources": 15
+    },
+    {
+      "id": "knot-07",
+      "visibleFraction": 0.047803819444444444,
+      "colors": 21,
+      "glyphForms": 21,
+      "changedStages": 3,
+      "resources": 20
+    },
+    {
+      "id": "knot-08",
+      "visibleFraction": 0.12035590277777777,
+      "colors": 21,
+      "glyphForms": 21,
+      "changedStages": 3,
+      "resources": 20
+    },
+    {
+      "id": "branch-01",
+      "visibleFraction": 0.05755208333333333,
+      "colors": 21,
+      "glyphForms": 18,
+      "changedStages": 3,
+      "resources": 15
+    },
+    {
+      "id": "branch-02",
+      "visibleFraction": 0.050347222222222224,
+      "colors": 21,
+      "glyphForms": 21,
+      "changedStages": 3,
+      "resources": 20
+    },
+    {
+      "id": "branch-03",
+      "visibleFraction": 0.07743489583333334,
+      "colors": 21,
+      "glyphForms": 19,
+      "changedStages": 3,
+      "resources": 20
+    },
+    {
+      "id": "branch-04",
+      "visibleFraction": 0.16667100694444445,
+      "colors": 21,
+      "glyphForms": 21,
+      "changedStages": 3,
+      "resources": 15
+    },
+    {
+      "id": "branch-05",
+      "visibleFraction": 0.060186631944444444,
+      "colors": 21,
+      "glyphForms": 22,
+      "changedStages": 3,
+      "resources": 15
+    },
+    {
+      "id": "branch-06",
+      "visibleFraction": 0.051566840277777776,
+      "colors": 21,
+      "glyphForms": 21,
+      "changedStages": 3,
+      "resources": 15
+    },
+    {
+      "id": "branch-07",
+      "visibleFraction": 0.04877170138888889,
+      "colors": 21,
+      "glyphForms": 21,
+      "changedStages": 3,
+      "resources": 20
+    },
+    {
+      "id": "branch-08",
+      "visibleFraction": 0.0637890625,
+      "colors": 21,
+      "glyphForms": 21,
+      "changedStages": 3,
+      "resources": 20
+    },
+    {
+      "id": "cell-01",
+      "visibleFraction": 0.042634548611111114,
+      "colors": 21,
+      "glyphForms": 21,
+      "changedStages": 3,
+      "resources": 15
+    },
+    {
+      "id": "cell-02",
+      "visibleFraction": 0.05085069444444444,
+      "colors": 21,
+      "glyphForms": 21,
+      "changedStages": 3,
+      "resources": 20
+    },
+    {
+      "id": "cell-03",
+      "visibleFraction": 0.10549913194444445,
+      "colors": 21,
+      "glyphForms": 22,
+      "changedStages": 3,
+      "resources": 20
+    },
+    {
+      "id": "cell-04",
+      "visibleFraction": 0.2205902777777778,
+      "colors": 21,
+      "glyphForms": 22,
+      "changedStages": 3,
+      "resources": 15
+    },
+    {
+      "id": "cell-05",
+      "visibleFraction": 0.04775607638888889,
+      "colors": 21,
+      "glyphForms": 22,
+      "changedStages": 3,
+      "resources": 15
+    },
+    {
+      "id": "cell-06",
+      "visibleFraction": 0.10898871527777777,
+      "colors": 21,
+      "glyphForms": 22,
+      "changedStages": 3,
+      "resources": 15
+    },
+    {
+      "id": "cell-07",
+      "visibleFraction": 0.03937934027777778,
+      "colors": 21,
+      "glyphForms": 22,
+      "changedStages": 3,
+      "resources": 20
+    },
+    {
+      "id": "cell-08",
+      "visibleFraction": 0.07071180555555556,
+      "colors": 21,
+      "glyphForms": 22,
+      "changedStages": 3,
+      "resources": 20
+    },
+    {
+      "id": "spiral-01",
+      "visibleFraction": 0.046089409722222224,
+      "colors": 21,
+      "glyphForms": 22,
+      "changedStages": 3,
+      "resources": 15
+    },
+    {
+      "id": "spiral-02",
+      "visibleFraction": 0.05760850694444444,
+      "colors": 21,
+      "glyphForms": 22,
+      "changedStages": 3,
+      "resources": 20
+    },
+    {
+      "id": "spiral-03",
+      "visibleFraction": 0.11321614583333334,
+      "colors": 21,
+      "glyphForms": 21,
+      "changedStages": 3,
+      "resources": 20
+    },
+    {
+      "id": "spiral-04",
+      "visibleFraction": 0.24562065972222222,
+      "colors": 21,
+      "glyphForms": 22,
+      "changedStages": 3,
+      "resources": 15
+    },
+    {
+      "id": "spiral-05",
+      "visibleFraction": 0.053138020833333334,
+      "colors": 21,
+      "glyphForms": 21,
+      "changedStages": 3,
+      "resources": 15
+    },
+    {
+      "id": "spiral-06",
+      "visibleFraction": 0.05708767361111111,
+      "colors": 21,
+      "glyphForms": 21,
+      "changedStages": 3,
+      "resources": 15
+    },
+    {
+      "id": "spiral-07",
+      "visibleFraction": 0.03690538194444445,
+      "colors": 21,
+      "glyphForms": 21,
+      "changedStages": 3,
+      "resources": 20
+    },
+    {
+      "id": "spiral-08",
+      "visibleFraction": 0.08170138888888889,
+      "colors": 21,
+      "glyphForms": 21,
+      "changedStages": 3,
+      "resources": 20
+    },
+    {
+      "id": "cone-01",
+      "visibleFraction": 0.04671875,
+      "colors": 21,
+      "glyphForms": 17,
+      "changedStages": 3,
+      "resources": 15
+    },
+    {
+      "id": "cone-02",
+      "visibleFraction": 0.05845052083333333,
+      "colors": 21,
+      "glyphForms": 21,
+      "changedStages": 3,
+      "resources": 20
+    },
+    {
+      "id": "cone-03",
+      "visibleFraction": 0.09063802083333333,
+      "colors": 21,
+      "glyphForms": 20,
+      "changedStages": 3,
+      "resources": 20
+    },
+    {
+      "id": "cone-04",
+      "visibleFraction": 0.21131510416666666,
+      "colors": 21,
+      "glyphForms": 21,
+      "changedStages": 3,
+      "resources": 15
+    },
+    {
+      "id": "cone-05",
+      "visibleFraction": 0.10256076388888889,
+      "colors": 21,
+      "glyphForms": 21,
+      "changedStages": 3,
+      "resources": 15
+    },
+    {
+      "id": "cone-06",
+      "visibleFraction": 0.05693142361111111,
+      "colors": 21,
+      "glyphForms": 21,
+      "changedStages": 3,
+      "resources": 15
+    },
+    {
+      "id": "cone-07",
+      "visibleFraction": 0.04090277777777778,
+      "colors": 21,
+      "glyphForms": 22,
+      "changedStages": 3,
+      "resources": 20
+    },
+    {
+      "id": "cone-08",
+      "visibleFraction": 0.07549913194444445,
+      "colors": 21,
+      "glyphForms": 21,
+      "changedStages": 3,
+      "resources": 20
+    },
+    {
+      "id": "saddle-01",
+      "visibleFraction": 0.0594140625,
+      "colors": 21,
+      "glyphForms": 20,
+      "changedStages": 3,
+      "resources": 15
+    },
+    {
+      "id": "saddle-02",
+      "visibleFraction": 0.06778211805555556,
+      "colors": 21,
+      "glyphForms": 22,
+      "changedStages": 3,
+      "resources": 20
+    },
+    {
+      "id": "saddle-03",
+      "visibleFraction": 0.10878472222222223,
+      "colors": 21,
+      "glyphForms": 21,
+      "changedStages": 3,
+      "resources": 20
+    },
+    {
+      "id": "saddle-04",
+      "visibleFraction": 0.20554253472222223,
+      "colors": 21,
+      "glyphForms": 22,
+      "changedStages": 3,
+      "resources": 15
+    },
+    {
+      "id": "saddle-05",
+      "visibleFraction": 0.0279296875,
+      "colors": 21,
+      "glyphForms": 21,
+      "changedStages": 3,
+      "resources": 15
+    },
+    {
+      "id": "saddle-06",
+      "visibleFraction": 0.08533420138888889,
+      "colors": 21,
+      "glyphForms": 19,
+      "changedStages": 3,
+      "resources": 15
+    },
+    {
+      "id": "saddle-07",
+      "visibleFraction": 0.044231770833333336,
+      "colors": 21,
+      "glyphForms": 19,
+      "changedStages": 3,
+      "resources": 20
+    },
+    {
+      "id": "saddle-08",
+      "visibleFraction": 0.04843315972222222,
+      "colors": 21,
+      "glyphForms": 22,
+      "changedStages": 3,
+      "resources": 20
+    },
+    {
+      "id": "catenoid-01",
+      "visibleFraction": 0.04773871527777778,
+      "colors": 21,
+      "glyphForms": 22,
+      "changedStages": 3,
+      "resources": 15
+    },
+    {
+      "id": "catenoid-02",
+      "visibleFraction": 0.06048177083333333,
+      "colors": 21,
+      "glyphForms": 21,
+      "changedStages": 3,
+      "resources": 20
+    },
+    {
+      "id": "catenoid-03",
+      "visibleFraction": 0.09297743055555556,
+      "colors": 21,
+      "glyphForms": 21,
+      "changedStages": 3,
+      "resources": 20
+    },
+    {
+      "id": "catenoid-04",
+      "visibleFraction": 0.20657118055555557,
+      "colors": 21,
+      "glyphForms": 21,
+      "changedStages": 3,
+      "resources": 15
+    },
+    {
+      "id": "catenoid-05",
+      "visibleFraction": 0.027647569444444443,
+      "colors": 21,
+      "glyphForms": 21,
+      "changedStages": 3,
+      "resources": 15
+    },
+    {
+      "id": "catenoid-06",
+      "visibleFraction": 0.06365885416666667,
+      "colors": 21,
+      "glyphForms": 21,
+      "changedStages": 3,
+      "resources": 15
+    },
+    {
+      "id": "catenoid-07",
+      "visibleFraction": 0.0390234375,
+      "colors": 21,
+      "glyphForms": 21,
+      "changedStages": 3,
+      "resources": 20
+    },
+    {
+      "id": "catenoid-08",
+      "visibleFraction": 0.06900607638888889,
+      "colors": 21,
+      "glyphForms": 21,
+      "changedStages": 3,
+      "resources": 20
+    },
+    {
+      "id": "mobius-01",
+      "visibleFraction": 0.041141493055555554,
+      "colors": 21,
+      "glyphForms": 20,
+      "changedStages": 3,
+      "resources": 15
+    },
+    {
+      "id": "mobius-02",
+      "visibleFraction": 0.05545572916666667,
+      "colors": 21,
+      "glyphForms": 22,
+      "changedStages": 3,
+      "resources": 20
+    },
+    {
+      "id": "mobius-03",
+      "visibleFraction": 0.13767361111111112,
+      "colors": 21,
+      "glyphForms": 21,
+      "changedStages": 3,
+      "resources": 20
+    },
+    {
+      "id": "mobius-04",
+      "visibleFraction": 0.2576345486111111,
+      "colors": 21,
+      "glyphForms": 21,
+      "changedStages": 3,
+      "resources": 15
+    },
+    {
+      "id": "mobius-05",
+      "visibleFraction": 0.052404513888888886,
+      "colors": 21,
+      "glyphForms": 21,
+      "changedStages": 3,
+      "resources": 15
+    },
+    {
+      "id": "mobius-06",
+      "visibleFraction": 0.060282118055555556,
+      "colors": 21,
+      "glyphForms": 18,
+      "changedStages": 3,
+      "resources": 15
+    },
+    {
+      "id": "mobius-07",
+      "visibleFraction": 0.04128472222222222,
+      "colors": 21,
+      "glyphForms": 22,
+      "changedStages": 3,
+      "resources": 20
+    },
+    {
+      "id": "mobius-08",
+      "visibleFraction": 0.10100260416666666,
+      "colors": 21,
+      "glyphForms": 20,
+      "changedStages": 3,
+      "resources": 20
+    },
+    {
+      "id": "klein-01",
+      "visibleFraction": 0.040655381944444444,
+      "colors": 21,
+      "glyphForms": 23,
+      "changedStages": 3,
+      "resources": 15
+    },
+    {
+      "id": "klein-02",
+      "visibleFraction": 0.0530859375,
+      "colors": 21,
+      "glyphForms": 21,
+      "changedStages": 3,
+      "resources": 20
+    },
+    {
+      "id": "klein-03",
+      "visibleFraction": 0.053033854166666665,
+      "colors": 21,
+      "glyphForms": 22,
+      "changedStages": 3,
+      "resources": 20
+    },
+    {
+      "id": "klein-04",
+      "visibleFraction": 0.21247829861111112,
+      "colors": 21,
+      "glyphForms": 21,
+      "changedStages": 3,
+      "resources": 15
+    },
+    {
+      "id": "klein-05",
+      "visibleFraction": 0.03080295138888889,
+      "colors": 21,
+      "glyphForms": 22,
+      "changedStages": 3,
+      "resources": 15
+    },
+    {
+      "id": "klein-06",
+      "visibleFraction": 0.08361545138888889,
+      "colors": 21,
+      "glyphForms": 23,
+      "changedStages": 3,
+      "resources": 15
+    },
+    {
+      "id": "klein-07",
+      "visibleFraction": 0.03755642361111111,
+      "colors": 21,
+      "glyphForms": 21,
+      "changedStages": 3,
+      "resources": 20
+    },
+    {
+      "id": "klein-08",
+      "visibleFraction": 0.08675347222222222,
+      "colors": 21,
+      "glyphForms": 22,
+      "changedStages": 3,
+      "resources": 20
+    },
+    {
+      "id": "superquadric-01",
+      "visibleFraction": 0.04876736111111111,
+      "colors": 21,
+      "glyphForms": 21,
+      "changedStages": 3,
+      "resources": 15
+    },
+    {
+      "id": "superquadric-02",
+      "visibleFraction": 0.05381076388888889,
+      "colors": 21,
+      "glyphForms": 22,
+      "changedStages": 3,
+      "resources": 20
+    },
+    {
+      "id": "superquadric-03",
+      "visibleFraction": 0.08907986111111112,
+      "colors": 21,
+      "glyphForms": 21,
+      "changedStages": 3,
+      "resources": 20
+    },
+    {
+      "id": "superquadric-04",
+      "visibleFraction": 0.2907248263888889,
+      "colors": 21,
+      "glyphForms": 21,
+      "changedStages": 3,
+      "resources": 15
+    },
+    {
+      "id": "superquadric-05",
+      "visibleFraction": 0.06775173611111111,
+      "colors": 21,
+      "glyphForms": 21,
+      "changedStages": 3,
+      "resources": 15
+    },
+    {
+      "id": "superquadric-06",
+      "visibleFraction": 0.08922309027777778,
+      "colors": 21,
+      "glyphForms": 22,
+      "changedStages": 3,
+      "resources": 15
+    },
+    {
+      "id": "superquadric-07",
+      "visibleFraction": 0.038046875,
+      "colors": 21,
+      "glyphForms": 22,
+      "changedStages": 3,
+      "resources": 20
+    },
+    {
+      "id": "superquadric-08",
+      "visibleFraction": 0.05610677083333333,
+      "colors": 21,
+      "glyphForms": 22,
+      "changedStages": 3,
+      "resources": 20
+    },
+    {
+      "id": "rosette-01",
+      "visibleFraction": 0.03404947916666667,
+      "colors": 21,
+      "glyphForms": 17,
+      "changedStages": 3,
+      "resources": 15
+    },
+    {
+      "id": "rosette-02",
+      "visibleFraction": 0.047552083333333335,
+      "colors": 21,
+      "glyphForms": 22,
+      "changedStages": 3,
+      "resources": 20
+    },
+    {
+      "id": "rosette-03",
+      "visibleFraction": 0.12108506944444444,
+      "colors": 21,
+      "glyphForms": 21,
+      "changedStages": 3,
+      "resources": 20
+    },
+    {
+      "id": "rosette-04",
+      "visibleFraction": 0.17902777777777779,
+      "colors": 21,
+      "glyphForms": 22,
+      "changedStages": 3,
+      "resources": 15
+    },
+    {
+      "id": "rosette-05",
+      "visibleFraction": 0.05632378472222222,
+      "colors": 21,
+      "glyphForms": 22,
+      "changedStages": 3,
+      "resources": 15
+    },
+    {
+      "id": "rosette-06",
+      "visibleFraction": 0.059032118055555555,
+      "colors": 21,
+      "glyphForms": 20,
+      "changedStages": 3,
+      "resources": 15
+    },
+    {
+      "id": "rosette-07",
+      "visibleFraction": 0.04774305555555555,
+      "colors": 21,
+      "glyphForms": 21,
+      "changedStages": 3,
+      "resources": 20
+    },
+    {
+      "id": "rosette-08",
+      "visibleFraction": 0.048736979166666666,
+      "colors": 21,
+      "glyphForms": 21,
+      "changedStages": 3,
+      "resources": 20
+    },
+    {
+      "id": "lattice-01",
+      "visibleFraction": 0.051605902777777775,
+      "colors": 21,
+      "glyphForms": 21,
+      "changedStages": 3,
+      "resources": 15
+    },
+    {
+      "id": "lattice-02",
+      "visibleFraction": 0.062135416666666665,
+      "colors": 21,
+      "glyphForms": 20,
+      "changedStages": 3,
+      "resources": 20
+    },
+    {
+      "id": "lattice-03",
+      "visibleFraction": 0.09836805555555556,
+      "colors": 21,
+      "glyphForms": 21,
+      "changedStages": 3,
+      "resources": 20
+    },
+    {
+      "id": "lattice-04",
+      "visibleFraction": 0.21421006944444446,
+      "colors": 21,
+      "glyphForms": 21,
+      "changedStages": 3,
+      "resources": 15
+    },
+    {
+      "id": "lattice-05",
+      "visibleFraction": 0.059518229166666665,
+      "colors": 21,
+      "glyphForms": 19,
+      "changedStages": 3,
+      "resources": 15
+    },
+    {
+      "id": "lattice-06",
+      "visibleFraction": 0.11563368055555556,
+      "colors": 21,
+      "glyphForms": 21,
+      "changedStages": 3,
+      "resources": 15
+    },
+    {
+      "id": "lattice-07",
+      "visibleFraction": 0.03647569444444444,
+      "colors": 21,
+      "glyphForms": 22,
+      "changedStages": 3,
+      "resources": 20
+    },
+    {
+      "id": "lattice-08",
+      "visibleFraction": 0.03990017361111111,
+      "colors": 21,
+      "glyphForms": 21,
+      "changedStages": 3,
+      "resources": 20
+    },
+    {
+      "id": "vortex-01",
+      "visibleFraction": 0.05065104166666667,
+      "colors": 21,
+      "glyphForms": 16,
+      "changedStages": 3,
+      "resources": 15
+    },
+    {
+      "id": "vortex-02",
+      "visibleFraction": 0.06078125,
+      "colors": 21,
+      "glyphForms": 22,
+      "changedStages": 3,
+      "resources": 20
+    },
+    {
+      "id": "vortex-03",
+      "visibleFraction": 0.08351128472222222,
+      "colors": 21,
+      "glyphForms": 22,
+      "changedStages": 3,
+      "resources": 20
+    },
+    {
+      "id": "vortex-04",
+      "visibleFraction": 0.2932855902777778,
+      "colors": 21,
+      "glyphForms": 21,
+      "changedStages": 3,
+      "resources": 15
+    },
+    {
+      "id": "vortex-05",
+      "visibleFraction": 0.08370225694444444,
+      "colors": 21,
+      "glyphForms": 21,
+      "changedStages": 3,
+      "resources": 15
+    },
+    {
+      "id": "vortex-06",
+      "visibleFraction": 0.057738715277777776,
+      "colors": 21,
+      "glyphForms": 20,
+      "changedStages": 3,
+      "resources": 15
+    },
+    {
+      "id": "vortex-07",
+      "visibleFraction": 0.05056857638888889,
+      "colors": 21,
+      "glyphForms": 20,
+      "changedStages": 3,
+      "resources": 20
+    },
+    {
+      "id": "vortex-08",
+      "visibleFraction": 0.056731770833333334,
+      "colors": 21,
+      "glyphForms": 21,
+      "changedStages": 3,
+      "resources": 20
+    },
+    {
+      "id": "strata-01",
+      "visibleFraction": 0.07166666666666667,
+      "colors": 21,
+      "glyphForms": 21,
+      "changedStages": 3,
+      "resources": 15
+    },
+    {
+      "id": "strata-02",
+      "visibleFraction": 0.08703993055555556,
+      "colors": 21,
+      "glyphForms": 20,
+      "changedStages": 3,
+      "resources": 20
+    },
+    {
+      "id": "strata-03",
+      "visibleFraction": 0.08391059027777778,
+      "colors": 21,
+      "glyphForms": 23,
+      "changedStages": 3,
+      "resources": 20
+    },
+    {
+      "id": "strata-04",
+      "visibleFraction": 0.3156814236111111,
+      "colors": 21,
+      "glyphForms": 21,
+      "changedStages": 3,
+      "resources": 15
+    },
+    {
+      "id": "strata-05",
+      "visibleFraction": 0.10789496527777778,
+      "colors": 21,
+      "glyphForms": 20,
+      "changedStages": 3,
+      "resources": 15
+    },
+    {
+      "id": "strata-06",
+      "visibleFraction": 0.0670876736111111,
+      "colors": 21,
+      "glyphForms": 19,
+      "changedStages": 3,
+      "resources": 15
+    },
+    {
+      "id": "strata-07",
+      "visibleFraction": 0.036883680555555555,
+      "colors": 21,
+      "glyphForms": 19,
+      "changedStages": 3,
+      "resources": 20
+    },
+    {
+      "id": "strata-08",
+      "visibleFraction": 0.08141927083333333,
+      "colors": 21,
+      "glyphForms": 18,
+      "changedStages": 3,
+      "resources": 20
+    },
+    {
+      "id": "iris-01",
+      "visibleFraction": 0.047413194444444445,
+      "colors": 21,
+      "glyphForms": 21,
+      "changedStages": 3,
+      "resources": 15
+    },
+    {
+      "id": "iris-02",
+      "visibleFraction": 0.06436631944444444,
+      "colors": 21,
+      "glyphForms": 22,
+      "changedStages": 3,
+      "resources": 20
+    },
+    {
+      "id": "iris-03",
+      "visibleFraction": 0.12298611111111112,
+      "colors": 21,
+      "glyphForms": 19,
+      "changedStages": 3,
+      "resources": 20
+    },
+    {
+      "id": "iris-04",
+      "visibleFraction": 0.1788237847222222,
+      "colors": 21,
+      "glyphForms": 22,
+      "changedStages": 3,
+      "resources": 15
+    },
+    {
+      "id": "iris-05",
+      "visibleFraction": 0.0691015625,
+      "colors": 21,
+      "glyphForms": 19,
+      "changedStages": 3,
+      "resources": 15
+    },
+    {
+      "id": "iris-06",
+      "visibleFraction": 0.06752604166666666,
+      "colors": 21,
+      "glyphForms": 20,
+      "changedStages": 3,
+      "resources": 15
+    },
+    {
+      "id": "iris-07",
+      "visibleFraction": 0.055026041666666664,
+      "colors": 21,
+      "glyphForms": 19,
+      "changedStages": 3,
+      "resources": 20
+    },
+    {
+      "id": "iris-08",
+      "visibleFraction": 0.090078125,
+      "colors": 21,
+      "glyphForms": 20,
+      "changedStages": 3,
+      "resources": 20
+    },
+    {
+      "id": "coral-01",
+      "visibleFraction": 0.07010850694444444,
+      "colors": 21,
+      "glyphForms": 21,
+      "changedStages": 3,
+      "resources": 15
+    },
+    {
+      "id": "coral-02",
+      "visibleFraction": 0.05095920138888889,
+      "colors": 21,
+      "glyphForms": 22,
+      "changedStages": 3,
+      "resources": 20
+    },
+    {
+      "id": "coral-03",
+      "visibleFraction": 0.09672309027777778,
+      "colors": 21,
+      "glyphForms": 21,
+      "changedStages": 3,
+      "resources": 20
+    },
+    {
+      "id": "coral-04",
+      "visibleFraction": 0.20979166666666665,
+      "colors": 21,
+      "glyphForms": 22,
+      "changedStages": 3,
+      "resources": 15
+    },
+    {
+      "id": "coral-05",
+      "visibleFraction": 0.04802083333333333,
+      "colors": 21,
+      "glyphForms": 22,
+      "changedStages": 3,
+      "resources": 15
+    },
+    {
+      "id": "coral-06",
+      "visibleFraction": 0.10305989583333333,
+      "colors": 21,
+      "glyphForms": 22,
+      "changedStages": 3,
+      "resources": 15
+    },
+    {
+      "id": "coral-07",
+      "visibleFraction": 0.049166666666666664,
+      "colors": 21,
+      "glyphForms": 21,
+      "changedStages": 3,
+      "resources": 20
+    },
+    {
+      "id": "coral-08",
+      "visibleFraction": 0.07689670138888889,
+      "colors": 21,
+      "glyphForms": 21,
+      "changedStages": 3,
+      "resources": 20
+    },
+    {
+      "id": "lens-01",
+      "visibleFraction": 0.06473958333333334,
+      "colors": 21,
+      "glyphForms": 21,
+      "changedStages": 3,
+      "resources": 15
+    },
+    {
+      "id": "lens-02",
+      "visibleFraction": 0.05743923611111111,
+      "colors": 21,
+      "glyphForms": 21,
+      "changedStages": 3,
+      "resources": 20
+    },
+    {
+      "id": "lens-03",
+      "visibleFraction": 0.12529079861111111,
+      "colors": 21,
+      "glyphForms": 21,
+      "changedStages": 3,
+      "resources": 20
+    },
+    {
+      "id": "lens-04",
+      "visibleFraction": 0.24003038194444445,
+      "colors": 21,
+      "glyphForms": 21,
+      "changedStages": 3,
+      "resources": 15
+    },
+    {
+      "id": "lens-05",
+      "visibleFraction": 0.06279947916666667,
+      "colors": 21,
+      "glyphForms": 21,
+      "changedStages": 3,
+      "resources": 15
+    },
+    {
+      "id": "lens-06",
+      "visibleFraction": 0.09515625,
+      "colors": 21,
+      "glyphForms": 20,
+      "changedStages": 3,
+      "resources": 15
+    },
+    {
+      "id": "lens-07",
+      "visibleFraction": 0.03515625,
+      "colors": 21,
+      "glyphForms": 21,
+      "changedStages": 3,
+      "resources": 20
+    },
+    {
+      "id": "lens-08",
+      "visibleFraction": 0.05827256944444444,
+      "colors": 21,
+      "glyphForms": 21,
+      "changedStages": 3,
+      "resources": 20
+    },
+    {
+      "id": "hourglass-01",
+      "visibleFraction": 0.04981336805555556,
+      "colors": 21,
+      "glyphForms": 22,
+      "changedStages": 3,
+      "resources": 15
+    },
+    {
+      "id": "hourglass-02",
+      "visibleFraction": 0.05963975694444444,
+      "colors": 21,
+      "glyphForms": 21,
+      "changedStages": 3,
+      "resources": 20
+    },
+    {
+      "id": "hourglass-03",
+      "visibleFraction": 0.09188802083333333,
+      "colors": 21,
+      "glyphForms": 21,
+      "changedStages": 3,
+      "resources": 20
+    },
+    {
+      "id": "hourglass-04",
+      "visibleFraction": 0.2122482638888889,
+      "colors": 21,
+      "glyphForms": 21,
+      "changedStages": 3,
+      "resources": 15
+    },
+    {
+      "id": "hourglass-05",
+      "visibleFraction": 0.08658420138888889,
+      "colors": 21,
+      "glyphForms": 20,
+      "changedStages": 3,
+      "resources": 15
+    },
+    {
+      "id": "hourglass-06",
+      "visibleFraction": 0.07253038194444444,
+      "colors": 21,
+      "glyphForms": 21,
+      "changedStages": 3,
+      "resources": 15
+    },
+    {
+      "id": "hourglass-07",
+      "visibleFraction": 0.04794704861111111,
+      "colors": 21,
+      "glyphForms": 22,
+      "changedStages": 3,
+      "resources": 20
+    },
+    {
+      "id": "hourglass-08",
+      "visibleFraction": 0.047552083333333335,
+      "colors": 21,
+      "glyphForms": 19,
+      "changedStages": 3,
+      "resources": 20
+    },
+    {
+      "id": "tesseract-01",
+      "visibleFraction": 0.05399305555555556,
+      "colors": 21,
+      "glyphForms": 21,
+      "changedStages": 3,
+      "resources": 15
+    },
+    {
+      "id": "tesseract-02",
+      "visibleFraction": 0.059904513888888886,
+      "colors": 21,
+      "glyphForms": 21,
+      "changedStages": 3,
+      "resources": 20
+    },
+    {
+      "id": "tesseract-03",
+      "visibleFraction": 0.08462673611111111,
+      "colors": 21,
+      "glyphForms": 22,
+      "changedStages": 3,
+      "resources": 20
+    },
+    {
+      "id": "tesseract-04",
+      "visibleFraction": 0.19991753472222223,
+      "colors": 21,
+      "glyphForms": 21,
+      "changedStages": 3,
+      "resources": 15
+    },
+    {
+      "id": "tesseract-05",
+      "visibleFraction": 0.06036458333333333,
+      "colors": 21,
+      "glyphForms": 21,
+      "changedStages": 3,
+      "resources": 15
+    },
+    {
+      "id": "tesseract-06",
+      "visibleFraction": 0.12057291666666667,
+      "colors": 21,
+      "glyphForms": 20,
+      "changedStages": 3,
+      "resources": 15
+    },
+    {
+      "id": "tesseract-07",
+      "visibleFraction": 0.04732204861111111,
+      "colors": 21,
+      "glyphForms": 22,
+      "changedStages": 3,
+      "resources": 20
+    },
+    {
+      "id": "tesseract-08",
+      "visibleFraction": 0.06190972222222222,
+      "colors": 21,
+      "glyphForms": 21,
+      "changedStages": 3,
+      "resources": 20
+    },
+    {
+      "id": "crystal-01",
+      "visibleFraction": 0.036293402777777775,
+      "colors": 21,
+      "glyphForms": 22,
+      "changedStages": 3,
+      "resources": 15
+    },
+    {
+      "id": "crystal-02",
+      "visibleFraction": 0.060386284722222225,
+      "colors": 21,
+      "glyphForms": 20,
+      "changedStages": 3,
+      "resources": 20
+    },
+    {
+      "id": "crystal-03",
+      "visibleFraction": 0.09185763888888888,
+      "colors": 21,
+      "glyphForms": 21,
+      "changedStages": 3,
+      "resources": 20
+    },
+    {
+      "id": "crystal-04",
+      "visibleFraction": 0.2636371527777778,
+      "colors": 21,
+      "glyphForms": 21,
+      "changedStages": 3,
+      "resources": 15
+    },
+    {
+      "id": "crystal-05",
+      "visibleFraction": 0.053971354166666666,
+      "colors": 21,
+      "glyphForms": 20,
+      "changedStages": 3,
+      "resources": 15
+    },
+    {
+      "id": "crystal-06",
+      "visibleFraction": 0.0744921875,
+      "colors": 21,
+      "glyphForms": 22,
+      "changedStages": 3,
+      "resources": 15
+    },
+    {
+      "id": "crystal-07",
+      "visibleFraction": 0.03959635416666667,
+      "colors": 21,
+      "glyphForms": 22,
+      "changedStages": 3,
+      "resources": 20
+    },
+    {
+      "id": "crystal-08",
+      "visibleFraction": 0.059418402777777775,
+      "colors": 21,
+      "glyphForms": 22,
+      "changedStages": 3,
+      "resources": 20
+    },
+    {
+      "id": "scroll-01",
+      "visibleFraction": 0.03721354166666667,
+      "colors": 21,
+      "glyphForms": 22,
+      "changedStages": 3,
+      "resources": 15
+    },
+    {
+      "id": "scroll-02",
+      "visibleFraction": 0.05600694444444444,
+      "colors": 21,
+      "glyphForms": 21,
+      "changedStages": 3,
+      "resources": 20
+    },
+    {
+      "id": "scroll-03",
+      "visibleFraction": 0.08914496527777778,
+      "colors": 21,
+      "glyphForms": 21,
+      "changedStages": 3,
+      "resources": 20
+    },
+    {
+      "id": "scroll-04",
+      "visibleFraction": 0.13496527777777778,
+      "colors": 21,
+      "glyphForms": 22,
+      "changedStages": 3,
+      "resources": 15
+    },
+    {
+      "id": "scroll-05",
+      "visibleFraction": 0.05249565972222222,
+      "colors": 21,
+      "glyphForms": 21,
+      "changedStages": 3,
+      "resources": 15
+    },
+    {
+      "id": "scroll-06",
+      "visibleFraction": 0.10567708333333334,
+      "colors": 21,
+      "glyphForms": 19,
+      "changedStages": 3,
+      "resources": 15
+    },
+    {
+      "id": "scroll-07",
+      "visibleFraction": 0.04845486111111111,
+      "colors": 21,
+      "glyphForms": 21,
+      "changedStages": 3,
+      "resources": 20
+    },
+    {
+      "id": "scroll-08",
+      "visibleFraction": 0.02976996527777778,
+      "colors": 21,
+      "glyphForms": 20,
+      "changedStages": 3,
+      "resources": 20
+    },
+    {
+      "id": "wavefront-01",
+      "visibleFraction": 0.044969618055555556,
+      "colors": 21,
+      "glyphForms": 19,
+      "changedStages": 3,
+      "resources": 15
+    },
+    {
+      "id": "wavefront-02",
+      "visibleFraction": 0.074921875,
+      "colors": 21,
+      "glyphForms": 21,
+      "changedStages": 3,
+      "resources": 20
+    },
+    {
+      "id": "wavefront-03",
+      "visibleFraction": 0.11144097222222223,
+      "colors": 21,
+      "glyphForms": 21,
+      "changedStages": 3,
+      "resources": 20
+    },
+    {
+      "id": "wavefront-04",
+      "visibleFraction": 0.23145399305555556,
+      "colors": 21,
+      "glyphForms": 21,
+      "changedStages": 3,
+      "resources": 15
+    },
+    {
+      "id": "wavefront-05",
+      "visibleFraction": 0.06516493055555556,
+      "colors": 21,
+      "glyphForms": 21,
+      "changedStages": 3,
+      "resources": 15
+    },
+    {
+      "id": "wavefront-06",
+      "visibleFraction": 0.08456163194444444,
+      "colors": 21,
+      "glyphForms": 20,
+      "changedStages": 3,
+      "resources": 15
+    },
+    {
+      "id": "wavefront-07",
+      "visibleFraction": 0.03850694444444445,
+      "colors": 21,
+      "glyphForms": 21,
+      "changedStages": 3,
+      "resources": 20
+    },
+    {
+      "id": "wavefront-08",
+      "visibleFraction": 0.06732204861111112,
+      "colors": 21,
+      "glyphForms": 21,
+      "changedStages": 3,
+      "resources": 20
+    },
+    {
+      "id": "braid-01",
+      "visibleFraction": 0.05200520833333333,
+      "colors": 21,
+      "glyphForms": 21,
+      "changedStages": 3,
+      "resources": 15
+    },
+    {
+      "id": "braid-02",
+      "visibleFraction": 0.062374131944444446,
+      "colors": 21,
+      "glyphForms": 21,
+      "changedStages": 3,
+      "resources": 20
+    },
+    {
+      "id": "braid-03",
+      "visibleFraction": 0.09470486111111111,
+      "colors": 21,
+      "glyphForms": 23,
+      "changedStages": 3,
+      "resources": 20
+    },
+    {
+      "id": "braid-04",
+      "visibleFraction": 0.2505642361111111,
+      "colors": 21,
+      "glyphForms": 21,
+      "changedStages": 3,
+      "resources": 15
+    },
+    {
+      "id": "braid-05",
+      "visibleFraction": 0.05342881944444444,
+      "colors": 21,
+      "glyphForms": 20,
+      "changedStages": 3,
+      "resources": 15
+    },
+    {
+      "id": "braid-06",
+      "visibleFraction": 0.09102864583333334,
+      "colors": 21,
+      "glyphForms": 22,
+      "changedStages": 3,
+      "resources": 15
+    },
+    {
+      "id": "braid-07",
+      "visibleFraction": 0.056688368055555556,
+      "colors": 21,
+      "glyphForms": 22,
+      "changedStages": 3,
+      "resources": 20
+    },
+    {
+      "id": "braid-08",
+      "visibleFraction": 0.0357421875,
+      "colors": 21,
+      "glyphForms": 22,
+      "changedStages": 3,
+      "resources": 20
+    },
+    {
+      "id": "arch-01",
+      "visibleFraction": 0.039713541666666664,
+      "colors": 21,
+      "glyphForms": 21,
+      "changedStages": 3,
+      "resources": 15
+    },
+    {
+      "id": "arch-02",
+      "visibleFraction": 0.047686631944444446,
+      "colors": 21,
+      "glyphForms": 20,
+      "changedStages": 3,
+      "resources": 20
+    },
+    {
+      "id": "arch-03",
+      "visibleFraction": 0.10314236111111111,
+      "colors": 21,
+      "glyphForms": 22,
+      "changedStages": 3,
+      "resources": 20
+    },
+    {
+      "id": "arch-04",
+      "visibleFraction": 0.25947916666666665,
+      "colors": 21,
+      "glyphForms": 22,
+      "changedStages": 3,
+      "resources": 15
+    },
+    {
+      "id": "arch-05",
+      "visibleFraction": 0.05321614583333333,
+      "colors": 21,
+      "glyphForms": 21,
+      "changedStages": 3,
+      "resources": 15
+    },
+    {
+      "id": "arch-06",
+      "visibleFraction": 0.11258680555555556,
+      "colors": 21,
+      "glyphForms": 20,
+      "changedStages": 3,
+      "resources": 15
+    },
+    {
+      "id": "arch-07",
+      "visibleFraction": 0.03730902777777778,
+      "colors": 21,
+      "glyphForms": 22,
+      "changedStages": 3,
+      "resources": 20
+    },
+    {
+      "id": "arch-08",
+      "visibleFraction": 0.08290798611111111,
+      "colors": 21,
+      "glyphForms": 22,
+      "changedStages": 3,
+      "resources": 20
+    },
+    {
+      "id": "reaction-01",
+      "visibleFraction": 0.04217447916666667,
+      "colors": 21,
+      "glyphForms": 21,
+      "changedStages": 3,
+      "resources": 15
+    },
+    {
+      "id": "reaction-02",
+      "visibleFraction": 0.059583333333333335,
+      "colors": 21,
+      "glyphForms": 21,
+      "changedStages": 3,
+      "resources": 20
+    },
+    {
+      "id": "reaction-03",
+      "visibleFraction": 0.10921875,
+      "colors": 21,
+      "glyphForms": 21,
+      "changedStages": 3,
+      "resources": 20
+    },
+    {
+      "id": "reaction-04",
+      "visibleFraction": 0.23582465277777778,
+      "colors": 21,
+      "glyphForms": 21,
+      "changedStages": 3,
+      "resources": 15
+    },
+    {
+      "id": "reaction-05",
+      "visibleFraction": 0.051953125,
+      "colors": 21,
+      "glyphForms": 22,
+      "changedStages": 3,
+      "resources": 15
+    },
+    {
+      "id": "reaction-06",
+      "visibleFraction": 0.10487413194444445,
+      "colors": 21,
+      "glyphForms": 20,
+      "changedStages": 3,
+      "resources": 15
+    },
+    {
+      "id": "reaction-07",
+      "visibleFraction": 0.04833767361111111,
+      "colors": 21,
+      "glyphForms": 22,
+      "changedStages": 3,
+      "resources": 20
+    },
+    {
+      "id": "reaction-08",
+      "visibleFraction": 0.039049479166666665,
+      "colors": 21,
+      "glyphForms": 21,
+      "changedStages": 3,
+      "resources": 20
+    },
+    {
+      "id": "weft-01",
+      "visibleFraction": 0.06258246527777778,
+      "colors": 21,
+      "glyphForms": 22,
+      "changedStages": 3,
+      "resources": 15
+    },
+    {
+      "id": "weft-02",
+      "visibleFraction": 0.0525,
+      "colors": 21,
+      "glyphForms": 23,
+      "changedStages": 3,
+      "resources": 20
+    },
+    {
+      "id": "weft-03",
+      "visibleFraction": 0.10087673611111111,
+      "colors": 21,
+      "glyphForms": 23,
+      "changedStages": 3,
+      "resources": 20
+    },
+    {
+      "id": "weft-04",
+      "visibleFraction": 0.22805555555555557,
+      "colors": 21,
+      "glyphForms": 23,
+      "changedStages": 3,
+      "resources": 15
+    },
+    {
+      "id": "weft-05",
+      "visibleFraction": 0.055230034722222224,
+      "colors": 21,
+      "glyphForms": 21,
+      "changedStages": 3,
+      "resources": 15
+    },
+    {
+      "id": "weft-06",
+      "visibleFraction": 0.10860243055555556,
+      "colors": 21,
+      "glyphForms": 21,
+      "changedStages": 3,
+      "resources": 15
+    },
+    {
+      "id": "weft-07",
+      "visibleFraction": 0.0508984375,
+      "colors": 21,
+      "glyphForms": 21,
+      "changedStages": 3,
+      "resources": 20
+    },
+    {
+      "id": "weft-08",
+      "visibleFraction": 0.04011284722222222,
+      "colors": 21,
+      "glyphForms": 22,
+      "changedStages": 3,
+      "resources": 20
+    }
+  ],
+  "discovery": [
+    {
+      "seed": "qa-0",
+      "id": "discovery-qa-0-0",
+      "visibleFraction": 0.046371527777777775,
+      "glyphForms": 21
+    },
+    {
+      "seed": "qa-1",
+      "id": "discovery-qa-1-0",
+      "visibleFraction": 0.049401041666666666,
+      "glyphForms": 22
+    },
+    {
+      "seed": "qa-2",
+      "id": "discovery-qa-2-0",
+      "visibleFraction": 0.04709635416666667,
+      "glyphForms": 21
+    },
+    {
+      "seed": "qa-3",
+      "id": "discovery-qa-3-0",
+      "visibleFraction": 0.052395833333333336,
+      "glyphForms": 20
+    },
+    {
+      "seed": "qa-4",
+      "id": "discovery-qa-4-0",
+      "visibleFraction": 0.05315104166666667,
+      "glyphForms": 23
+    },
+    {
+      "seed": "qa-5",
+      "id": "discovery-qa-5-0",
+      "visibleFraction": 0.05322482638888889,
+      "glyphForms": 21
+    },
+    {
+      "seed": "qa-6",
+      "id": "discovery-qa-6-0",
+      "visibleFraction": 0.04084635416666667,
+      "glyphForms": 22
+    },
+    {
+      "seed": "qa-7",
+      "id": "discovery-qa-7-0",
+      "visibleFraction": 0.04641927083333333,
+      "glyphForms": 21
+    },
+    {
+      "seed": "qa-8",
+      "id": "discovery-qa-8-0",
+      "visibleFraction": 0.08741319444444444,
+      "glyphForms": 22
+    },
+    {
+      "seed": "qa-9",
+      "id": "discovery-qa-9-1",
+      "visibleFraction": 0.07878472222222223,
+      "glyphForms": 21
+    },
+    {
+      "seed": "qa-10",
+      "id": "discovery-qa-10-0",
+      "visibleFraction": 0.042078993055555555,
+      "glyphForms": 21
+    },
+    {
+      "seed": "qa-11",
+      "id": "discovery-qa-11-0",
+      "visibleFraction": 0.10043402777777778,
+      "glyphForms": 21
+    },
+    {
+      "seed": "qa-12",
+      "id": "discovery-qa-12-0",
+      "visibleFraction": 0.1270659722222222,
+      "glyphForms": 23
+    },
+    {
+      "seed": "qa-13",
+      "id": "discovery-qa-13-0",
+      "visibleFraction": 0.037404513888888886,
+      "glyphForms": 21
+    },
+    {
+      "seed": "qa-14",
+      "id": "discovery-qa-14-0",
+      "visibleFraction": 0.05170138888888889,
+      "glyphForms": 22
+    },
+    {
+      "seed": "qa-15",
+      "id": "discovery-qa-15-0",
+      "visibleFraction": 0.04282118055555555,
+      "glyphForms": 22
+    },
+    {
+      "seed": "qa-16",
+      "id": "discovery-qa-16-0",
+      "visibleFraction": 0.0920920138888889,
+      "glyphForms": 23
+    },
+    {
+      "seed": "qa-17",
+      "id": "discovery-qa-17-0",
+      "visibleFraction": 0.04482638888888889,
+      "glyphForms": 23
+    },
+    {
+      "seed": "qa-18",
+      "id": "discovery-qa-18-0",
+      "visibleFraction": 0.04885850694444444,
+      "glyphForms": 21
+    },
+    {
+      "seed": "qa-19",
+      "id": "discovery-qa-19-0",
+      "visibleFraction": 0.03624131944444445,
+      "glyphForms": 22
+    },
+    {
+      "seed": "qa-20",
+      "id": "discovery-qa-20-0",
+      "visibleFraction": 0.06547743055555555,
+      "glyphForms": 21
+    },
+    {
+      "seed": "qa-21",
+      "id": "discovery-qa-21-0",
+      "visibleFraction": 0.07391927083333333,
+      "glyphForms": 21
+    },
+    {
+      "seed": "qa-22",
+      "id": "discovery-qa-22-0",
+      "visibleFraction": 0.08251736111111112,
+      "glyphForms": 21
+    },
+    {
+      "seed": "qa-23",
+      "id": "discovery-qa-23-0",
+      "visibleFraction": 0.041315104166666665,
+      "glyphForms": 22
+    },
+    {
+      "seed": "qa-24",
+      "id": "discovery-qa-24-0",
+      "visibleFraction": 0.05393229166666667,
+      "glyphForms": 22
+    },
+    {
+      "seed": "qa-25",
+      "id": "discovery-qa-25-0",
+      "visibleFraction": 0.07575086805555556,
+      "glyphForms": 21
+    },
+    {
+      "seed": "qa-26",
+      "id": "discovery-qa-26-1",
+      "visibleFraction": 0.06124565972222222,
+      "glyphForms": 22
+    },
+    {
+      "seed": "qa-27",
+      "id": "discovery-qa-27-0",
+      "visibleFraction": 0.11059461805555555,
+      "glyphForms": 22
+    },
+    {
+      "seed": "qa-28",
+      "id": "discovery-qa-28-0",
+      "visibleFraction": 0.0375,
+      "glyphForms": 20
+    },
+    {
+      "seed": "qa-29",
+      "id": "discovery-qa-29-0",
+      "visibleFraction": 0.028012152777777778,
+      "glyphForms": 20
+    },
+    {
+      "seed": "qa-30",
+      "id": "discovery-qa-30-0",
+      "visibleFraction": 0.04841579861111111,
+      "glyphForms": 21
+    },
+    {
+      "seed": "qa-31",
+      "id": "discovery-qa-31-0",
+      "visibleFraction": 0.06750434027777778,
+      "glyphForms": 21
+    }
+  ],
+  "paletteChecks": [
+    {
+      "palette": "standard",
+      "depth": 16,
+      "invalid": 0,
+      "colors": 13
+    },
+    {
+      "palette": "cga",
+      "depth": 16,
+      "invalid": 0,
+      "colors": 11
+    },
+    {
+      "palette": "ega",
+      "depth": 16,
+      "invalid": 0,
+      "colors": 12
+    },
+    {
+      "palette": "vga",
+      "depth": 16,
+      "invalid": 0,
+      "colors": 13
+    },
+    {
+      "palette": "svga",
+      "depth": 16,
+      "invalid": 0,
+      "colors": 13
+    },
+    {
+      "palette": "sunburst",
+      "depth": 16,
+      "invalid": 0,
+      "colors": 15
+    },
+    {
+      "palette": "moonburst",
+      "depth": 16,
+      "invalid": 0,
+      "colors": 15
+    },
+    {
+      "palette": "mooburst",
+      "depth": 16,
+      "invalid": 0,
+      "colors": 14
+    },
+    {
+      "palette": "ruby",
+      "depth": 16,
+      "invalid": 0,
+      "colors": 13
+    },
+    {
+      "palette": "enchantedforest",
+      "depth": 16,
+      "invalid": 0,
+      "colors": 14
+    },
+    {
+      "palette": "nightburst",
+      "depth": 16,
+      "invalid": 0,
+      "colors": 14
+    },
+    {
+      "palette": "snowburst",
+      "depth": 16,
+      "invalid": 0,
+      "colors": 16
+    },
+    {
+      "palette": "cyberburst",
+      "depth": 16,
+      "invalid": 0,
+      "colors": 14
+    },
+    {
+      "palette": "grapeburst",
+      "depth": 16,
+      "invalid": 0,
+      "colors": 15
+    },
+    {
+      "palette": "candyburst",
+      "depth": 16,
+      "invalid": 0,
+      "colors": 15
+    },
+    {
+      "palette": "chromaburst",
+      "depth": 16,
+      "invalid": 0,
+      "colors": 14
+    },
+    {
+      "palette": "soulburst",
+      "depth": 16,
+      "invalid": 0,
+      "colors": 15
+    },
+    {
+      "palette": "blackwhite",
+      "depth": 16,
+      "invalid": 0,
+      "colors": 13
+    },
+    {
+      "palette": "cyan",
+      "depth": 16,
+      "invalid": 0,
+      "colors": 13
+    },
+    {
+      "palette": "yellow",
+      "depth": 16,
+      "invalid": 0,
+      "colors": 14
+    },
+    {
+      "palette": "green",
+      "depth": 16,
+      "invalid": 0,
+      "colors": 13
+    },
+    {
+      "palette": "red",
+      "depth": 16,
+      "invalid": 0,
+      "colors": 13
+    },
+    {
+      "palette": "purple",
+      "depth": 16,
+      "invalid": 0,
+      "colors": 14
+    },
+    {
+      "palette": "blue",
+      "depth": 16,
+      "invalid": 0,
+      "colors": 14
+    },
+    {
+      "palette": "pink",
+      "depth": 16,
+      "invalid": 0,
+      "colors": 13
+    },
+    {
+      "palette": "orange",
+      "depth": 16,
+      "invalid": 0,
+      "colors": 13
+    },
+    {
+      "palette": "amber",
+      "depth": 16,
+      "invalid": 0,
+      "colors": 13
+    },
+    {
+      "palette": "ice",
+      "depth": 16,
+      "invalid": 0,
+      "colors": 14
+    },
+    {
+      "palette": "toxic",
+      "depth": 16,
+      "invalid": 0,
+      "colors": 13
+    },
+    {
+      "palette": "sepia",
+      "depth": 16,
+      "invalid": 0,
+      "colors": 15
+    },
+    {
+      "palette": "nes",
+      "depth": 16,
+      "invalid": 0,
+      "colors": 12
+    },
+    {
+      "palette": "sms",
+      "depth": 16,
+      "invalid": 0,
+      "colors": 10
+    },
+    {
+      "palette": "genesis",
+      "depth": 16,
+      "invalid": 0,
+      "colors": 12
+    },
+    {
+      "palette": "c64",
+      "depth": 16,
+      "invalid": 0,
+      "colors": 13
+    },
+    {
+      "palette": "apple2e",
+      "depth": 16,
+      "invalid": 0,
+      "colors": 12
+    },
+    {
+      "palette": "apple2green",
+      "depth": 16,
+      "invalid": 0,
+      "colors": 14
+    },
+    {
+      "palette": "gbdmg",
+      "depth": 16,
+      "invalid": 0,
+      "colors": 11
+    },
+    {
+      "palette": "virtualb",
+      "depth": 16,
+      "invalid": 0,
+      "colors": 12
+    },
+    {
+      "palette": "snes",
+      "depth": 16,
+      "invalid": 0,
+      "colors": 13
+    },
+    {
+      "palette": "vexitrexi",
+      "depth": 16,
+      "invalid": 0,
+      "colors": 13
+    },
+    {
+      "palette": "zedexspectral",
+      "depth": 16,
+      "invalid": 0,
+      "colors": 12
+    },
+    {
+      "palette": "atari2600",
+      "depth": 16,
+      "invalid": 0,
+      "colors": 13
+    },
+    {
+      "palette": "atari5200",
+      "depth": 16,
+      "invalid": 0,
+      "colors": 13
+    },
+    {
+      "palette": "trash80",
+      "depth": 16,
+      "invalid": 0,
+      "colors": 13
+    },
+    {
+      "palette": "oldtv",
+      "depth": 16,
+      "invalid": 0,
+      "colors": 15
+    },
+    {
+      "palette": "eighties",
+      "depth": 16,
+      "invalid": 0,
+      "colors": 12
+    },
+    {
+      "palette": "space",
+      "depth": 16,
+      "invalid": 0,
+      "colors": 16
+    },
+    {
+      "palette": "psychedelic",
+      "depth": 16,
+      "invalid": 0,
+      "colors": 9
+    },
+    {
+      "palette": "caveman",
+      "depth": 16,
+      "invalid": 0,
+      "colors": 12
+    },
+    {
+      "palette": "oceania",
+      "depth": 16,
+      "invalid": 0,
+      "colors": 13
+    },
+    {
+      "palette": "metallics",
+      "depth": 16,
+      "invalid": 0,
+      "colors": 16
+    },
+    {
+      "palette": "silvergold",
+      "depth": 16,
+      "invalid": 0,
+      "colors": 14
+    },
+    {
+      "palette": "supercomic",
+      "depth": 16,
+      "invalid": 0,
+      "colors": 12
+    },
+    {
+      "palette": "hyperreal",
+      "depth": 16,
+      "invalid": 0,
+      "colors": 12
+    },
+    {
+      "palette": "standard",
+      "depth": 2,
+      "colors": 2,
+      "invalid": 0
+    },
+    {
+      "palette": "standard",
+      "depth": 3,
+      "colors": 3,
+      "invalid": 0
+    },
+    {
+      "palette": "standard",
+      "depth": 4,
+      "colors": 4,
+      "invalid": 0
+    },
+    {
+      "palette": "standard",
+      "depth": 6,
+      "colors": 6,
+      "invalid": 0
+    },
+    {
+      "palette": "standard",
+      "depth": 8,
+      "colors": 8,
+      "invalid": 0
+    },
+    {
+      "palette": "standard",
+      "depth": 12,
+      "colors": 10,
+      "invalid": 0
+    },
+    {
+      "palette": "standard",
+      "depth": 16,
+      "colors": 13,
+      "invalid": 0
+    },
+    {
+      "palette": "standard",
+      "depth": 24,
+      "colors": 16,
+      "invalid": 0
+    },
+    {
+      "palette": "standard",
+      "depth": 32,
+      "colors": 21,
+      "invalid": 0
+    },
+    {
+      "palette": "standard",
+      "depth": 48,
+      "colors": 30,
+      "invalid": 0
+    },
+    {
+      "palette": "standard",
+      "depth": 64,
+      "colors": 36,
+      "invalid": 0
+    },
+    {
+      "palette": "standard",
+      "depth": 96,
+      "colors": 44,
+      "invalid": 0
+    },
+    {
+      "palette": "standard",
+      "depth": 128,
+      "colors": 52,
+      "invalid": 0
+    },
+    {
+      "palette": "standard",
+      "depth": 256,
+      "colors": 77,
+      "invalid": 0
+    }
+  ],
+  "gpuCpuChecks": [
+    {
+      "operator": "ribbon",
+      "maxCoordinateError": 0.00030423032730042543
+    },
+    {
+      "operator": "torus",
+      "maxCoordinateError": 0.000554204099630029
+    },
+    {
+      "operator": "shell",
+      "maxCoordinateError": 0.0003685929291111778
+    },
+    {
+      "operator": "helix",
+      "maxCoordinateError": 0.00016260917259192098
+    },
+    {
+      "operator": "wave",
+      "maxCoordinateError": 0.0000801944916495323
+    },
+    {
+      "operator": "gyroid",
+      "maxCoordinateError": 0.0001717715684693144
+    },
+    {
+      "operator": "knot",
+      "maxCoordinateError": 0.0001624871776935155
+    },
+    {
+      "operator": "branch",
+      "maxCoordinateError": 0.00005505899755206545
+    },
+    {
+      "operator": "cell",
+      "maxCoordinateError": 0.00025659116653775627
+    },
+    {
+      "operator": "spiral",
+      "maxCoordinateError": 0.0003083792952922604
+    },
+    {
+      "operator": "cone",
+      "maxCoordinateError": 0.00023756138137420724
+    },
+    {
+      "operator": "saddle",
+      "maxCoordinateError": 0.00004425855041023663
+    },
+    {
+      "operator": "catenoid",
+      "maxCoordinateError": 0.00019606822223239284
+    },
+    {
+      "operator": "mobius",
+      "maxCoordinateError": 0.0005759748150915289
+    },
+    {
+      "operator": "klein",
+      "maxCoordinateError": 0.00017662891929792757
+    },
+    {
+      "operator": "superquadric",
+      "maxCoordinateError": 0.0001689258528739801
+    },
+    {
+      "operator": "rosette",
+      "maxCoordinateError": 0.00023644334731875993
+    },
+    {
+      "operator": "lattice",
+      "maxCoordinateError": 0.00013386679078342123
+    },
+    {
+      "operator": "vortex",
+      "maxCoordinateError": 0.00017146272949708496
+    },
+    {
+      "operator": "strata",
+      "maxCoordinateError": 0.00007673116917245038
+    },
+    {
+      "operator": "iris",
+      "maxCoordinateError": 0.00021499093934096436
+    },
+    {
+      "operator": "coral",
+      "maxCoordinateError": 0.00020535939229349154
+    },
+    {
+      "operator": "lens",
+      "maxCoordinateError": 0.0003684264870817966
+    },
+    {
+      "operator": "hourglass",
+      "maxCoordinateError": 0.00020247415940510827
+    },
+    {
+      "operator": "tesseract",
+      "maxCoordinateError": 0.0002530156694708907
+    },
+    {
+      "operator": "crystal",
+      "maxCoordinateError": 0.00018359616736329798
+    },
+    {
+      "operator": "scroll",
+      "maxCoordinateError": 0.00018408842924899638
+    },
+    {
+      "operator": "wavefront",
+      "maxCoordinateError": 0.00025133846376124147
+    },
+    {
+      "operator": "braid",
+      "maxCoordinateError": 0.00006309688199190866
+    },
+    {
+      "operator": "arch",
+      "maxCoordinateError": 0.00026813180109463985
+    },
+    {
+      "operator": "reaction",
+      "maxCoordinateError": 0.0001279494691763805
+    },
+    {
+      "operator": "weft",
+      "maxCoordinateError": 0.00005185055979844977
+    }
+  ],
+  "audio": {
+    "first": {
+      "source": "file",
+      "playing": true,
+      "time": 1.402667
+    },
+    "second": {
+      "source": "file",
+      "playing": true,
+      "time": 2.120492
+    },
+    "stopped": "idle"
+  },
+  "ui": {
+    "catalogCount": 256,
+    "savedCount": 1,
+    "resize": true,
+    "fullscreen": false
+  },
+  "performance": {
+    "samples": 60,
+    "marks": 10000,
+    "resolution": [
+      1280,
+      720
+    ],
+    "method": "render plus synchronous 1-pixel GPU readback; includes diagnostic overhead",
+    "completedFrameMedianMs": 107,
+    "completedFrameP95Ms": 165.69999999925494,
+    "maxMs": 179.80000000074506,
+    "framesOver16_7ms": 60,
+    "framesOver33_3ms": 60,
+    "target60fpsVerified": false
+  },
+  "formComparison": {
+    "fixedCanonicalGlyph": 7,
+    "normalVisibleFraction": 0.037788628472222224,
+    "fixedVisibleFraction": 0.09847764756944444,
+    "different": true
+  }
+}

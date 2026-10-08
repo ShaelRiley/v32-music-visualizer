@@ -1,0 +1,332 @@
+[
+  {
+    "id": "standard",
+    "name": "Standard",
+    "group": "Core",
+    "available": true
+  },
+  {
+    "id": "nativeglyph",
+    "name": "Native Glyph",
+    "group": "Core",
+    "available": false
+  },
+  {
+    "id": "cga",
+    "name": "CGA",
+    "group": "Core",
+    "available": true
+  },
+  {
+    "id": "ega",
+    "name": "EGA",
+    "group": "Core",
+    "available": true
+  },
+  {
+    "id": "vga",
+    "name": "VGA",
+    "group": "Core",
+    "available": true
+  },
+  {
+    "id": "svga",
+    "name": "SVGA",
+    "group": "Core",
+    "available": true
+  },
+  {
+    "id": "sunburst",
+    "name": "Sunburst",
+    "group": "Burst Family",
+    "available": true
+  },
+  {
+    "id": "moonburst",
+    "name": "Moonburst",
+    "group": "Burst Family",
+    "available": true
+  },
+  {
+    "id": "mooburst",
+    "name": "MooBurst\ud83d\udc04",
+    "group": "Burst Family",
+    "available": true
+  },
+  {
+    "id": "ruby",
+    "name": "Ruby",
+    "group": "Burst Family",
+    "available": true
+  },
+  {
+    "id": "enchantedforest",
+    "name": "Enchanted Forest",
+    "group": "Burst Family",
+    "available": true
+  },
+  {
+    "id": "nightburst",
+    "name": "Nightburst",
+    "group": "Burst Family",
+    "available": true
+  },
+  {
+    "id": "snowburst",
+    "name": "Snowburst",
+    "group": "Burst Family",
+    "available": true
+  },
+  {
+    "id": "cyberburst",
+    "name": "Cyberburst",
+    "group": "Burst Family",
+    "available": true
+  },
+  {
+    "id": "grapeburst",
+    "name": "Grapeburst",
+    "group": "Burst Family",
+    "available": true
+  },
+  {
+    "id": "candyburst",
+    "name": "Candyburst",
+    "group": "Burst Family",
+    "available": true
+  },
+  {
+    "id": "chromaburst",
+    "name": "Chromaburst",
+    "group": "Burst Family",
+    "available": true
+  },
+  {
+    "id": "soulburst",
+    "name": "Soulburst",
+    "group": "Burst Family",
+    "available": true
+  },
+  {
+    "id": "blackwhite",
+    "name": "Black & White",
+    "group": "Monochrome",
+    "available": true
+  },
+  {
+    "id": "cyan",
+    "name": "Cyan",
+    "group": "Monochrome",
+    "available": true
+  },
+  {
+    "id": "yellow",
+    "name": "Yellow",
+    "group": "Monochrome",
+    "available": true
+  },
+  {
+    "id": "green",
+    "name": "Green",
+    "group": "Monochrome",
+    "available": true
+  },
+  {
+    "id": "red",
+    "name": "Red",
+    "group": "Monochrome",
+    "available": true
+  },
+  {
+    "id": "purple",
+    "name": "Purple",
+    "group": "Monochrome",
+    "available": true
+  },
+  {
+    "id": "blue",
+    "name": "Blue",
+    "group": "Monochrome",
+    "available": true
+  },
+  {
+    "id": "pink",
+    "name": "Pink",
+    "group": "Monochrome",
+    "available": true
+  },
+  {
+    "id": "orange",
+    "name": "Orange",
+    "group": "Monochrome",
+    "available": true
+  },
+  {
+    "id": "amber",
+    "name": "Amber",
+    "group": "Monochrome",
+    "available": true
+  },
+  {
+    "id": "ice",
+    "name": "Ice",
+    "group": "Monochrome",
+    "available": true
+  },
+  {
+    "id": "toxic",
+    "name": "Toxic",
+    "group": "Monochrome",
+    "available": true
+  },
+  {
+    "id": "sepia",
+    "name": "Sepia",
+    "group": "Monochrome",
+    "available": true
+  },
+  {
+    "id": "nes",
+    "name": "NES",
+    "group": "Old Hardware",
+    "available": true
+  },
+  {
+    "id": "sms",
+    "name": "SMS",
+    "group": "Old Hardware",
+    "available": true
+  },
+  {
+    "id": "genesis",
+    "name": "Genesis",
+    "group": "Old Hardware",
+    "available": true
+  },
+  {
+    "id": "c64",
+    "name": "C64",
+    "group": "Old Hardware",
+    "available": true
+  },
+  {
+    "id": "apple2e",
+    "name": "Apple IIe",
+    "group": "Old Hardware",
+    "available": true
+  },
+  {
+    "id": "apple2green",
+    "name": "Apple II Mono Green",
+    "group": "Old Hardware",
+    "available": true
+  },
+  {
+    "id": "gbdmg",
+    "name": "GB DMG",
+    "group": "Old Hardware",
+    "available": true
+  },
+  {
+    "id": "virtualb",
+    "name": "Virtual B",
+    "group": "Old Hardware",
+    "available": true
+  },
+  {
+    "id": "snes",
+    "name": "SNES",
+    "group": "Old Hardware",
+    "available": true
+  },
+  {
+    "id": "vexitrexi",
+    "name": "Vexi Trexi",
+    "group": "Old Hardware",
+    "available": true
+  },
+  {
+    "id": "zedexspectral",
+    "name": "S Zed Ex Spectral",
+    "group": "Old Hardware",
+    "available": true
+  },
+  {
+    "id": "atari2600",
+    "name": "Atari 2600",
+    "group": "Old Hardware",
+    "available": true
+  },
+  {
+    "id": "atari5200",
+    "name": "Atari 5200",
+    "group": "Old Hardware",
+    "available": true
+  },
+  {
+    "id": "trash80",
+    "name": "Trash 80",
+    "group": "Old Hardware",
+    "available": true
+  },
+  {
+    "id": "oldtv",
+    "name": "Old TV",
+    "group": "Creative",
+    "available": true
+  },
+  {
+    "id": "eighties",
+    "name": "1980s",
+    "group": "Creative",
+    "available": true
+  },
+  {
+    "id": "space",
+    "name": "Space",
+    "group": "Creative",
+    "available": true
+  },
+  {
+    "id": "psychedelic",
+    "name": "Psychedelic",
+    "group": "Creative",
+    "available": true
+  },
+  {
+    "id": "caveman",
+    "name": "Caveman",
+    "group": "Creative",
+    "available": true
+  },
+  {
+    "id": "oceania",
+    "name": "Oceania",
+    "group": "Creative",
+    "available": true
+  },
+  {
+    "id": "metallics",
+    "name": "Metallics",
+    "group": "Creative",
+    "available": true
+  },
+  {
+    "id": "silvergold",
+    "name": "Silver and Gold",
+    "group": "Creative",
+    "available": true
+  },
+  {
+    "id": "supercomic",
+    "name": "Super Comic",
+    "group": "Creative",
+    "available": true
+  },
+  {
+    "id": "hyperreal",
+    "name": "Hyper Real",
+    "group": "Creative",
+    "available": true
+  }
+]
