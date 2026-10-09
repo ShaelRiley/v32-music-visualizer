@@ -51,7 +51,7 @@
       "id": "vr-sphere-164530402",
       "ready": true,
       "marks": 8000,
-      "lit": 14380,
+      "lit": 7243,
       "invalid": 0,
       "changed": true,
       "glError": 0
@@ -60,7 +60,7 @@
       "id": "vr-sphere-334093731",
       "ready": true,
       "marks": 8000,
-      "lit": 24011,
+      "lit": 8334,
       "invalid": 0,
       "changed": true,
       "glError": 0
@@ -69,7 +69,7 @@
       "id": "vr-sphere-261558222",
       "ready": true,
       "marks": 8000,
-      "lit": 23976,
+      "lit": 11178,
       "invalid": 0,
       "changed": true,
       "glError": 0
@@ -78,9 +78,9 @@
   "shuffle": {
     "banks": [
       "regular",
-      "video",
-      "regular",
       "spaces",
+      "regular",
+      "video",
       "regular"
     ],
     "discovery": false

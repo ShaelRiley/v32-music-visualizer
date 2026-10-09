@@ -40,7 +40,7 @@ vec3 shape(int op,vec2 uv){return shapeTime(op,uv,clock);}
 mat3 turn(vec3 r){float a=cos(r.x),b=sin(r.x),c=cos(r.y),d=sin(r.y),e=cos(r.z),f=sin(r.z);return mat3(e,f,0.,-f,e,0.,0.,0.,1.)*mat3(c,0.,d,0.,1.,0.,-d,0.,c)*mat3(1.,0.,0.,0.,a,b,0.,-b,a);}
 vec3 surfaceAt(vec2 uv,vec3 delta) {
  vec3 p=(spaceMode==1?fabric(uv,0):shape(op,uv))+delta;float phase=clock*.38+phaseOffset;
- if(spaceMode==2){float a=(uv.x-.5)*3.14159265,b=(.5-uv.y)*3.14159265;p=2.4*vec3(sin(a)*cos(b),sin(b),-cos(a)*cos(b))+delta;}
+ if(spaceMode==2){float a=(uv.x-.5)*TAU,b=(.5-uv.y)*3.14159265;p=2.4*vec3(sin(a)*cos(b),sin(b),-cos(a)*cos(b))+delta;}
  if(spaceMode==0){
  if(relation>0){vec3 q=shape(partner,uv);
   if(relation==1)p=mix(p,q,.25+.25*sin(phase));

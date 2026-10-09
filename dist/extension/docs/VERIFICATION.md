@@ -1,8 +1,33 @@
-# Verification — Video32 0.2.0
+# Verification — Video32 0.2.1
+
+## Current panorama and capture repair
+
+Verified on 2026-10-09 with Node 24.19.0 and Chromium headless shell 151.0.7922.34. Graphics use software SwiftShader. Started from published 0.2.0 commit `2ede9b7e442d9983f7e698c7f21b774ac5fc716f`.
+
+| Area | Current evidence and result |
+| --- | --- |
+| Node suite | **24 tests passed**, zero failures. Covers unchanged canonical glyph bytes, palette parity, preset IDs, source hashes, full-circle cameras, native audio ownership, fixed-format tracks, processing bypasses, failure cleanup and MV3 routing. |
+| Full source coverage | All 256 bundled fabrics decode to 256×576 pixels (nine 256×64 frames), with glyph IDs 0–31 and verified derived hashes. First and last frames compared with every complete source panorama: 512 frames, **8,388,608 matching RGB565 cells**, every source longitude retained. Original source acquisition hashes and CRCs remain pinned. |
+| Complete sphere rendering | **256 studies × four cardinal headings = 1,024 lossless renderer checks**, zero off-palette pixels, invalid glyph IDs or JavaScript/WebGL errors. A full turn produces the same image; the rear view differs; source-frame progression changes the drawing. Rendering stays at the 8,000-mark cap. |
+| Source fades | `vr-sphere-259085942` has a genuine dark source fade already present in 0.2.0. Its source frames 4–5 contain only Void after matching. Runtime preserves the fade; its preview shows four headings of the opening frame. No scene detail was invented to make the test nonempty. |
+| Native captured playback | A real stereo MediaStream plays through a native audio element at volume 1, unmuted, with analysis on a separate graph. Six synthetic tones (35, 220, 1,000, 2,700, 9,000 and 13,000 Hz) had **0 dB measured level difference** between direct and monitored streams. The other-channel level was more than 130 dB lower at those tones. Analysis continued, and Stop released the player and track. This measures digital tone fidelity, not physical listening, phase alignment or full Chrome tabCapture permission behavior. |
+| Audio lifecycle | Twenty capture cycles use one native monitor, no captured Web Audio destination route, explicit processing bypasses and stream-format retention. Monitor failure, rejected processing settings and source termination release resources. Fixed unprocessed streams are not unnecessarily reconfigured. |
+| UI regression | Retention, saved favorites, JSON export/import, invalid import handling, local-file playback, Pause, Hold, history limit and all three bank startup modes passed with the revised runtime. |
+| Built runtime | Web-served `dist/extension` passed 768-entry catalog, finite-color output, True Color, default bank alternation, source credits and representative source fabrics from every polygon category and the complete video bank. This does not exercise MV3 permissions. |
+| Installable ZIP | All 122 entries and CRCs match the unpacked 0.2.1 runtime byte for byte. The recorded hash is checked again by the repository packaging job. |
+| Preview atlas | Four video PNG sheets and four animated sheets regenerated from the complete sphere at headings 0°, 90°, 180° and 270°. Eight studies also appear in the lossless four-heading comparison `previews/spatial/full-360.png`. Polygon and regular preview images are retained. |
+
+The previous captured playback route was a direct Web Audio source-to-destination connection in an AudioContext with the browser's default latency and sample rate. Chrome redirects ordinary tab playback when capture starts, so that relay determines the heard output. This repair uses one native media player, requests speech processing off, checks reported settings, and isolates analysis from playback. The reported tinny/warbly artifact was not reproduced on the user's hardware; its precise cause remains unconfirmed. The digital measurements do not establish that processing was enabled in the previous version or guarantee a particular hardware driver result.
+
+Current evidence: `node-test-results.txt`, `panorama-source-report.json`, `panorama-report.json`, `audio-fidelity-report.json` and `ui-report.json`. The package checks below are refreshed for this version. Reports for unchanged visual systems remain version 0.2.0 measurements.
+
+## Retained 0.2.0 visual verification
+
+The following measurements document the prior visual revision. In particular, old video framing/stage measurements and the old audio ownership route are historical; the current full-sphere and capture evidence is above.
 
 Verified on 2026-10-08–09 in a Linux execution container with Node 24.19.0, Playwright 1.62.1, Sharp 0.35.4 and Chromium headless shell 151.0.7922.34. Graphics were ANGLE/Vulkan **software SwiftShader**, without a physical GPU or listening device. Browser tests use the development adapter and diagnostic drawing-buffer readbacks.
 
-The published 0.1.0 baseline was commit `2a01390ee0cca552951c5fa62b7d73bbd7fc2115`; remote main had not advanced when inspected. The user installed it, confirmed that it works, and liked it. This establishes a working user baseline, while particular capture routes, physical stereo, cleanup, native fullscreen and sustained Steam Deck performance remain separately qualified observations. Baseline audio ownership and MV3 source routing were preserved.
+The published 0.1.0 baseline was commit `2a01390ee0cca552951c5fa62b7d73bbd7fc2115`; remote main had not advanced when inspected. The user installed it, confirmed that it works, and liked it. This establishes a working user baseline, while particular capture routes, physical stereo, cleanup, native fullscreen and sustained Steam Deck performance remain separately qualified observations. The 0.2.0 revision preserved baseline audio ownership and MV3 source routing; 0.2.1 changes captured playback as documented above.
 
 ## Completed checks
 
@@ -56,11 +81,11 @@ Across 64 regular/Discovery replacements, replacement plus the first low-cost fr
 
 ## Artwork, licensing and video scope
 
-The atlas covers all 768 presets. Twelve PNG sheets identify every preset; eight animated spatial sheets sample three stages. Regular individual previews sample four stages. Spatial individual thumbnails are reproducible intermediates excluded from the source archive. The 12-second MP4 uses 96 actual rendered frames at eight samples per second with simulated music. It is an inspection video, not an achieved-FPS recording or palette-count test; MP4 and WebP compression can add colors, including in sheets assembled from WebP previews. Palette proofs use original lossless artwork and screenshots.
+The atlas covers all 768 presets. Twelve PNG sheets identify every preset; polygon animated sheets sample three stages and current video sheets show four viewing headings. Regular individual previews sample four stages. Spatial individual thumbnails are reproducible intermediates excluded from the source archive. The 12-second MP4 uses 96 actual rendered frames at eight samples per second with simulated music. It is an inspection video, not an achieved-FPS recording or palette-count test; MP4 and WebP compression can add colors, including in sheets assembled from WebP previews. Palette proofs use original lossless artwork and screenshots.
 
 The fixed-glyph comparison substitutes canonical Full Block, index 7, while retaining the world, features, time and camera. Its fabric and porosity differ from the normal composed forms. Structural fingerprints and visual inspections do not mathematically certify artistic uniqueness.
 
-The request for **256 native VR180 movies is not fulfilled** by this bank. Native VR180 media found during research was gated and was not downloaded. The supplied 256 studies come from licensed 360° sequences viewed through a 180° hemisphere. Each study uses nine consecutive source frames and an artistic slow forward/reverse loop; the dataset does not provide source cadence. There is no full-length movie, stereo, inferred depth or six-degree-of-freedom reconstruction. RGB565 is the source-color representation before treatment. Original licence families and available source metadata are retained, without a claim of an independent current-page rights audit.
+The user revised the video request to complete 360° studies. All 256 now retain the complete panorama. Native VR180 media found during earlier research was gated and was not downloaded. Each study uses nine consecutive source frames and an artistic slow forward/reverse loop; the dataset does not provide source cadence. There is no full-length movie, stereo, inferred depth or six-degree-of-freedom reconstruction. RGB565 is the source-color representation before treatment. Original licence families and available source metadata are retained, without a claim of an independent current-page rights audit.
 
 Polygon tours use mapped exterior building masses, static open game level geometry, fixed model neighborhoods and measured elevation. The Louvre entry is not a scanned interior or museum walkthrough. Source-derived data and previews retain their separate licences. See [SPATIAL-SOURCES.md](SPATIAL-SOURCES.md), [NOTICES.md](NOTICES.md) and the bundled source page for credits, hashes, adaptations and regeneration.
 
@@ -88,6 +113,9 @@ npm run verify:display
 npm run verify:ui
 npm run verify:revision
 npm run verify:spatial
+npm run verify:panorama
+npm run verify:audio
+python3 tools/verify-vr-coverage.py /path/to/video32-source-frames
 npm run measure
 npm run gallery
 npm run build
@@ -98,4 +126,4 @@ python3 tools/zip-qa.py --record
 
 Set `V32_BROWSER` to an existing compatible Chromium executable when needed. Each browser harness starts a local server; run them sequentially. Chromium, Playwright, Sharp and optional importer Python dependencies are absent from runtime installation. Normal builds use retained local assets and require no source download. The packaging workflow uses pinned checkout/setup-node actions and Node 24.19.0 to regenerate large archives from the verified committed runtime; it compares the output with the recorded ZIP SHA-256 before committing. This is a publication transport path, not a runtime requirement.
 
-Raw reports: `node-test-results.txt`, `discovery-report.json`, `scheduler-report.json`, `browser-report.json`, `color-gpu-report.json`, `final-display-report.json`, `ui-report.json`, `revision-report.json`, `baseline-framing-report.json`, `spatial-report.json`, `performance-report.json`, `package-runtime-report.json`, `zip-report.json` and `preset-inventory.json`. Upstream commit/hash provenance is in `assets/provenance.json`; source-derived manifests and retained acquisition records provide data proofs.
+Raw reports: `panorama-report.json`, `panorama-source-report.json`, `audio-fidelity-report.json`, `node-test-results.txt`, `discovery-report.json`, `scheduler-report.json`, `browser-report.json`, `color-gpu-report.json`, `final-display-report.json`, `ui-report.json`, `revision-report.json`, `baseline-framing-report.json`, `spatial-report.json`, `performance-report.json`, `package-runtime-report.json`, `zip-report.json` and `preset-inventory.json`. Upstream commit/hash provenance is in `assets/provenance.json`; source-derived manifests and retained acquisition records provide data proofs.

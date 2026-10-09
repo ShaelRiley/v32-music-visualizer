@@ -1,0 +1,9 @@
+{
+  "scope": "All 256 derived fabrics decoded; first and last source frames compared cell by cell across the full longitude and latitude.",
+  "studies": 256,
+  "sourceFramesCompared": 512,
+  "cellsCompared": 8388608,
+  "sourceLongitudes": 2048,
+  "errors": [],
+  "pass": true
+}

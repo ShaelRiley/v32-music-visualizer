@@ -1,6 +1,6 @@
 {
   "name": "v32-music-visualizer",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "private": true,
   "type": "module",
   "license": "MIT",
@@ -19,7 +19,9 @@
     "measure": "node tools/performance.mjs",
     "gallery": "node tools/gallery.mjs",
     "package": "node tools/package.mjs",
-    "verify:spatial": "node tools/spatial-qa.mjs"
+    "verify:spatial": "node tools/spatial-qa.mjs",
+    "verify:panorama": "node tools/panorama-qa.mjs",
+    "verify:audio": "node tools/audio-fidelity-qa.mjs"
   },
   "devDependencies": {
     "playwright": "1.62.1",

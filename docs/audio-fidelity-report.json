@@ -1,0 +1,71 @@
+{
+  "scope": "Synthetic stereo PCM through a real native media-element monitor and a separate analysis graph. No physical listening or Chrome tabCapture permission test.",
+  "browser": "151.0.7922.34",
+  "result": {
+    "measurements": [
+      {
+        "channel": 0,
+        "frequency": 35,
+        "referenceDB": -32.021629333496094,
+        "monitorDB": -32.021629333496094,
+        "deltaDB": 0,
+        "otherChannelDB": -179.41612243652344
+      },
+      {
+        "channel": 0,
+        "frequency": 1000,
+        "referenceDB": -32.45817565917969,
+        "monitorDB": -32.45817565917969,
+        "deltaDB": 0,
+        "otherChannelDB": -164.5671844482422
+      },
+      {
+        "channel": 0,
+        "frequency": 9000,
+        "referenceDB": -31.971988677978516,
+        "monitorDB": -31.971988677978516,
+        "deltaDB": 0,
+        "otherChannelDB": -185.5164794921875
+      },
+      {
+        "channel": 1,
+        "frequency": 220,
+        "referenceDB": -32.12410354614258,
+        "monitorDB": -32.12410354614258,
+        "deltaDB": 0,
+        "otherChannelDB": -180.773681640625
+      },
+      {
+        "channel": 1,
+        "frequency": 2700,
+        "referenceDB": -32.14656448364258,
+        "monitorDB": -32.14656448364258,
+        "deltaDB": 0,
+        "otherChannelDB": -205.49478149414062
+      },
+      {
+        "channel": 1,
+        "frequency": 13000,
+        "referenceDB": -32.45728302001953,
+        "monitorDB": -32.45728302001953,
+        "deltaDB": 0,
+        "otherChannelDB": -166.53009033203125
+      }
+    ],
+    "features": 42,
+    "volume": 1,
+    "muted": false,
+    "playing": true,
+    "format": {
+      "channelCount": 2,
+      "deviceId": "WebAudio-5433af52-b83b-411b-b4c4-cfa44103bfc1",
+      "latency": 0.01,
+      "sampleRate": 48000,
+      "sampleSize": 16
+    },
+    "analysisSampleRate": 48000,
+    "playerReleased": true,
+    "trackReleased": true
+  },
+  "pass": true
+}

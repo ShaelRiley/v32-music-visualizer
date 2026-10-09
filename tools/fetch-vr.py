@@ -12,8 +12,16 @@ parser=argparse.ArgumentParser();parser.add_argument('output',type=Path);args=pa
 base='https://huggingface.co/datasets/FAU-LMS/UGC360/resolve/'+record['datasetCommit']+'/'
 def acquire(source):
  meta=source['metadata'];folder=args.output/meta['video_id'];folder.mkdir(exist_ok=True)
- if (folder/'source.json').exists():return
- frames=source['frames'];assert len({f['disk'] for f in frames})==1
+ frames=source['frames']
+ if (folder/'source.json').exists():
+  missing=[]
+  for f in frames:
+   try:
+    with Image.open(folder/Path(f['path']).name) as image:image.load()
+   except (OSError,ValueError):missing.append(f)
+  if not missing:return
+  frames=missing
+ assert len({f['disk'] for f in frames})==1
  start=min(f['offset'] for f in frames);end=max(f['offset']+f['size']+1024 for f in frames)
  request=urllib.request.Request(base+record['archiveParts'][frames[0]['disk']],headers={'Range':f'bytes={start}-{end-1}'})
  with urllib.request.urlopen(request,timeout=90) as response:
@@ -24,7 +32,11 @@ def acquire(source):
   if h[0]!=b'PK\x03\x04':raise ValueError('Invalid source header')
   begin=at+30+h[-2]+h[-1];packed=data[begin:begin+f['size']];raw=zlib.decompress(packed,-15) if f['method']==8 else packed
   if len(raw)!=f['raw'] or hashlib.sha256(raw).hexdigest()!=f['sha256'] or f'{zlib.crc32(raw)&0xffffffff:08x}'!=f['archiveCRC32']:raise ValueError('Source frame integrity mismatch')
-  Image.open(io.BytesIO(raw)).convert('RGB').resize((1024,512),Image.Resampling.LANCZOS).save(folder/Path(f['path']).name)
+  image=Image.open(io.BytesIO(raw)).convert('RGB').resize((1024,512),Image.Resampling.LANCZOS)
+  png=io.BytesIO();image.save(png,format='PNG');encoded=png.getvalue()
+  with Image.open(io.BytesIO(encoded)) as check:check.load()
+  destination=folder/Path(f['path']).name;temporary=destination.with_suffix('.pending')
+  temporary.write_bytes(encoded);temporary.replace(destination)
  (folder/'source.json').write_text(json.dumps(meta,indent=2))
 with ThreadPoolExecutor(max_workers=4) as pool:
  for i,_ in enumerate(pool.map(acquire,record['sources'])):

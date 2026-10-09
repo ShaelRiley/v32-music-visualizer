@@ -1,32 +1,37 @@
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
 
-> v32-music-visualizer@0.2.0 test
+> v32-music-visualizer@0.2.1 test
 > node --test tests/*.test.mjs
 
-✔ 20 capture start/stop cycles have one stereo monitor connection and release every resource (6.099779ms)
-✔ Source termination cleans up and reports the ended source (3.508129ms)
-✔ Failed local-file playback releases its graph and pauses its element (1.146368ms)
-✔ Canonical 32 masks, ordering, blank, source aspect and byte identity (49.708222ms)
-✔ Full palette registry, depth, grading and 5-bit lookup parity (12520.057049ms)
-✔ Authored catalog has 256 distinct structural compositions in 32 families (355.28862ms)
-✔ 1,000 reproducible Discovery seeds: graph variety and bounded evolving state (3721.118397ms)
-✔ Scene import rejects executable-looking IDs, oversized graphs and invalid numbers (0.890259ms)
-✔ Time-balanced mixed playback preserves complete library traversals and bounded streaks (2.548353ms)
-✔ Audio fixtures: silence, quiet noise, bass, transients, irregular rhythms and stereo changes (75.825361ms)
-✔ MV3 routing preserves the selected source, reuses its viewer and closes offscreen ownership (5.480771ms)
-✔ Authored shuffle defaults and optional palette shuffle traverse the applicable collection without adjacent repeats (1.530521ms)
-✔ Sustained music moves every effect and most samples, even onset-only layers between beats (22.258641ms)
-✔ Long strands and sheets flex internally rather than moving only as rigid segments (9.342696ms)
-✔ Scene imports normalize color roles and settings migrate only known defaults (1.58964ms)
-✔ Camera framing stays bounded and keeps every authored world visible across aspect ratios (449.619072ms)
-✔ Curated palettes have distinct color paths and bounded, unique finite artwork colors (146.221115ms)
-✔ 256 polygon tours retain source proofs, valid surface classes and distinct closed camera rails (341.887749ms)
-✔ 256 spherical studies are distinct licensed source videos, with matched canonical forms and local assets (107.819987ms)
-✔ Default authored shuffle alternates regular and spatial scenes, traverses every bank and restores canceled selections (5.93575ms)
-ℹ tests 20
+✔ 20 capture cycles use one unity native player, no Web Audio monitor, and release every resource (4.090396ms)
+✔ Source termination cleans up and reports the ended source (4.207583ms)
+✔ Tab capture avoids mixed legacy/modern dictionaries and refuses active speech processing (0.741243ms)
+✔ Fixed unprocessed tracks require no reconfiguration and retain their original channel format (0.17828ms)
+✔ A native playback failure stops capture and restores ordinary source playback (0.440337ms)
+✔ Failed local-file playback releases its graph and pauses its element (0.327997ms)
+✔ Canonical 32 masks, ordering, blank, source aspect and byte identity (43.448073ms)
+✔ Full palette registry, depth, grading and 5-bit lookup parity (14765.612604ms)
+✔ Authored catalog has 256 distinct structural compositions in 32 families (446.408416ms)
+✔ 1,000 reproducible Discovery seeds: graph variety and bounded evolving state (4484.68037ms)
+✔ Scene import rejects executable-looking IDs, oversized graphs and invalid numbers (0.914705ms)
+✔ Time-balanced mixed playback preserves complete library traversals and bounded streaks (2.512486ms)
+✔ Audio fixtures: silence, quiet noise, bass, transients, irregular rhythms and stereo changes (110.732257ms)
+✔ MV3 routing preserves the selected source, reuses its viewer and closes offscreen ownership (4.587409ms)
+✔ Authored shuffle defaults and optional palette shuffle traverse the applicable collection without adjacent repeats (1.283454ms)
+✔ Sustained music moves every effect and most samples, even onset-only layers between beats (13.687283ms)
+✔ Long strands and sheets flex internally rather than moving only as rigid segments (6.487126ms)
+✔ Scene imports normalize color roles and settings migrate only known defaults (2.470252ms)
+✔ Camera framing stays bounded and keeps every authored world visible across aspect ratios (369.954688ms)
+✔ Curated palettes have distinct color paths and bounded, unique finite artwork colors (136.862108ms)
+✔ 256 polygon tours retain source proofs, valid surface classes and distinct closed camera rails (292.705809ms)
+✔ 256 spherical studies are distinct licensed source videos, with matched canonical forms and local assets (146.517926ms)
+✔ Spherical cameras can see behind their opening direction and complete a seamless turn (1.684482ms)
+✔ Default authored shuffle alternates regular and spatial scenes, traverses every bank and restores canceled selections (10.361225ms)
+ℹ tests 24
 ℹ suites 0
-ℹ pass 20
+ℹ pass 24
 ℹ fail 0
 ℹ cancelled 0
 ℹ skipped 0
 ℹ todo 0
-ℹ duration_ms 16905.698664
+ℹ duration_ms 20032.01822

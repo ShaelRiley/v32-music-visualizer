@@ -12,7 +12,7 @@ uniform vec4 features,mapping;uniform vec3 scaling,offset,rotation;uniform mat4 
 uniform int op,partner,relation,effect,cut,spaceMode,colorRole;uniform float spaceWarp;uniform vec2 spaceHeight;uniform sampler2D spaceFabric,videoFabric;uniform vec4 domain;uniform vec2 viewport;
 uniform float hueOffset,sampleCount;uniform int fixedGlyph;
 uniform highp usampler2D forms;uniform sampler2D descriptors;
-vec2 sampleUV(float i){if(spaceMode==2){int at=(int(i)*4093)%8192;return (vec2(at%128,at/128)+.5)/vec2(128,64);}return spaceMode==1?vec2((i+.5)/8192.,fract(.5+i*.569840296)):domain.xy+fract(vec2(.5)+i*vec2(.754877666,.569840296))*domain.zw;}
+vec2 sampleUV(float i){if(spaceMode==2){int at=(int(i)*7919)%16384;return (vec2(at%256,at/256)+.5)/vec2(256,64);}return spaceMode==1?vec2((i+.5)/8192.,fract(.5+i*.569840296)):domain.xy+fract(vec2(.5)+i*vec2(.754877666,.569840296))*domain.zw;}
 vec3 fabric(vec2 uv,int field){int at=int(clamp(floor(uv.x*8192.),0.,8191.))*2+field;return texelFetch(spaceFabric,ivec2(at%256,at/256),0).xyz;}
 float material(vec2 uv){int at=int(clamp(floor(uv.x*8192.),0.,8191.))*2+1;return texelFetch(spaceFabric,ivec2(at%256,at/256),0).w;}
 `;
@@ -43,7 +43,7 @@ vec3 videoRGB(vec3 packed){int code=int(round(packed.g*255.))*256+int(round(pack
 void main(){
  vec2 uv=sampleUV(float(gl_VertexID));
  if(spaceMode==2){
-  float cycle=mod(clock*.45,16.),frame=cycle<8.?cycle:16.-cycle;int lo=int(floor(frame)),hi=min(8,lo+1);ivec2 at=ivec2(floor(uv*vec2(128,64)));
+  float cycle=mod(clock*.45,16.),frame=cycle<8.?cycle:16.-cycle;int lo=int(floor(frame)),hi=min(8,lo+1);ivec2 at=ivec2(floor(uv*vec2(256,64)));
   vec3 a=texelFetch(videoFabric,at+ivec2(0,lo*64),0).rgb,b=texelFetch(videoFabric,at+ivec2(0,hi*64),0).rgb;
   int best=int(round(a.r*255.));bool change=previous.y<0.||clock<previous.y||clock-previous.y>.16+stability*.20;
   nextState=change?vec2(float(best),clock):previous;worldPosition=surface(uv);
@@ -137,7 +137,7 @@ export class GlyphRenderer {
   this.makeTexture(2,gl.RGBA32F,gl.RGBA,gl.FLOAT,32,2,forms.info);
   this.toneTexture=this.makeTexture(4,gl.RGBA8,gl.RGBA,gl.UNSIGNED_BYTE,256,1,new Uint8Array(1024));
   this.spaceTexture=this.makeTexture(5,gl.RGBA32F,gl.RGBA,gl.FLOAT,256,64,new Float32Array(65536));this.spaceCache=new SpaceCache();this.spaceRequest=0;this.spaceReady=true;
-  this.videoTexture=this.makeTexture(6,gl.RGB8,gl.RGB,gl.UNSIGNED_BYTE,128,576,new Uint8Array(128*576*3));this.videoCache=new VideoCache();
+  this.videoTexture=this.makeTexture(6,gl.RGB8,gl.RGB,gl.UNSIGNED_BYTE,256,576,new Uint8Array(256*576*3));this.videoCache=new VideoCache();
   this.colorTexture=gl.createTexture();gl.activeTexture(gl.TEXTURE3);gl.bindTexture(gl.TEXTURE_3D,this.colorTexture);
   gl.texParameteri(gl.TEXTURE_3D,gl.TEXTURE_MIN_FILTER,gl.NEAREST);gl.texParameteri(gl.TEXTURE_3D,gl.TEXTURE_MAG_FILTER,gl.NEAREST);
   for(const k of [gl.TEXTURE_WRAP_S,gl.TEXTURE_WRAP_T,gl.TEXTURE_WRAP_R])gl.texParameteri(gl.TEXTURE_3D,k,gl.CLAMP_TO_EDGE);

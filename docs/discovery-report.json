@@ -4303,7 +4303,7 @@
       "budget": 12000
     }
   ],
-  "generationMedianMs": 1.186068000002706,
-  "generationP95Ms": 2.1651619999993272,
-  "generationMaxMs": 5.222275999998601
+  "generationMedianMs": 1.3574860000007902,
+  "generationP95Ms": 2.622412999999142,
+  "generationMaxMs": 7.0296589999998105
 }

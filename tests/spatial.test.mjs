@@ -8,7 +8,7 @@ import {SPACE_PRESETS,decodeSpaceFabric} from '../src/engine/spaces.mjs';
 import {VR_PRESETS} from '../src/engine/vr.mjs';
 import {PRESETS} from '../src/engine/catalog.mjs';
 import {LibraryShow} from '../src/engine/library-show.mjs';
-import {cameraMatrix} from '../src/engine/math.mjs';
+import {cameraMatrix,project} from '../src/engine/math.mjs';
 import {railPoint} from '../src/engine/space-motion.mjs';
 import {validateScene,fingerprint} from '../src/engine/scenes.mjs';
 import {rng} from '../src/engine/random.mjs';
@@ -31,9 +31,21 @@ test('256 polygon tours retain source proofs, valid surface classes and distinct
 test('256 spherical studies are distinct licensed source videos, with matched canonical forms and local assets',()=>{
  assert.equal(VR_PRESETS.length,256);assert.equal(new Set(VR_DATA.views.map(v=>v.videoID)).size,256);assert.equal(new Set(VR_PRESETS.map(fingerprint)).size,256);
  assert.equal(VR_DATA.license,'CC-BY-SA-4.0');
- for(const v of VR_DATA.views){assert(['cc-by','cc-by-sa','cc-cc0'].includes(v.originalLicense));assert(v.sourceURL.startsWith('https://'));assert.equal(v.sourceFrames.length,9);assert.equal(v.frames,9);assert.equal(v.glyphCounts.length,32);assert.equal(v.glyphCounts.reduce((a,b)=>a+b,0),128*64*9);assert.equal(sha(readFileSync(new URL('../assets/vr/data/'+v.file,import.meta.url)).subarray(v.offset,v.offset+v.bytes)),v.sha256);}
+ assert.equal(VR_DATA.version,2);
+ for(const v of VR_DATA.views){assert(['cc-by','cc-by-sa','cc-cc0'].includes(v.originalLicense));assert(v.sourceURL.startsWith('https://'));assert.equal(v.sourceFrames.length,9);assert.equal(v.frames,9);assert.equal(v.horizontalCoverage,360);assert.equal(v.verticalCoverage,180);assert.equal(v.columns,256);assert.equal(v.rows,64);assert.equal(v.glyphCounts.length,32);assert.equal(v.glyphCounts.reduce((a,b)=>a+b,0),256*64*9);const png=readFileSync(new URL('../assets/vr/data/'+v.file,import.meta.url)).subarray(v.offset,v.offset+v.bytes);assert.equal(sha(png),v.sha256);assert.equal(png.readUInt32BE(16),256);assert.equal(png.readUInt32BE(20),64*9);}
  assert(VR_DATA.glyphCounts.filter(n=>n>0).length>=28,'Image detail should use a broad subset of the actual alphabet');
  const invalid=structuredClone(VR_PRESETS[0]);invalid.video.view='not-bundled';assert.throws(()=>validateScene(invalid));invalid.video.view=VR_PRESETS[0].video.view;invalid.space=SPACE_PRESETS[0].space;assert.throws(()=>validateScene(invalid));
+});
+
+test('Spherical cameras can see behind their opening direction and complete a seamless turn',()=>{
+ const s=VR_PRESETS[0],settings={camera:'hold',pitch:0,distance:4.7};
+ for(const yaw of [0,Math.PI/2,Math.PI,Math.PI*1.5]){
+  const m=cameraMatrix(0,s,16/9,{...settings,yaw}),p=[Math.sin(yaw)*2.4,0,-Math.cos(yaw)*2.4],v=project(p,m);
+  assert(v[3]>0);assert(Math.abs(v[0]/v[3])<.001);assert(Math.abs(v[1]/v[3])<.001);
+ }
+ const start=cameraMatrix(0,s,16/9,{...settings,yaw:0}),wrap=cameraMatrix(0,s,16/9,{...settings,yaw:Math.PI*2});
+ assert(start.every((n,i)=>Math.abs(n-wrap[i])<1e-6));
+ const revolution=cameraMatrix(2*Math.PI/.11,s,16/9,{camera:'passage'});assert([...revolution].every(Number.isFinite));
 });
 
 test('Default authored shuffle alternates regular and spatial scenes, traverses every bank and restores canceled selections',()=>{

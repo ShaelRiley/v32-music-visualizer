@@ -28,8 +28,8 @@ export function sceneFraming(scene) {
 
 export function cameraMatrix(t,scene,aspect=16/9,settings={}) {
   const mode=settings.camera==='preset'||!settings.camera?scene.camera:settings.camera;
-  if(scene.video){const motion=settings.restrained?.27:1,yaw=(settings.yaw||0)+(mode==='hold'?0:Math.sin(t*.07*motion)*.23),pitch=(settings.pitch||0)*.15+Math.sin(t*.045*motion)*.045;
-    return perspectiveView([0,0,0],[Math.sin(yaw),pitch,-Math.cos(yaw)],aspect,.015,Math.max(.8,Math.min(1.65,1.3*4.7/(settings.distance||4.7))));}
+  if(scene.video){const motion=settings.restrained?.27:1,yaw=(settings.yaw||0)+(mode==='hold'?0:t*.11*motion),pitch=Math.max(-1.48,Math.min(1.48,(settings.pitch||0)*.5+(mode==='hold'?0:Math.sin(t*.045*motion)*.045)));
+    return perspectiveView([0,0,0],[Math.sin(yaw)*Math.cos(pitch),Math.sin(pitch),-Math.cos(yaw)*Math.cos(pitch)],aspect,.015,Math.max(.8,Math.min(1.65,1.3*4.7/(settings.distance||4.7))));}
   if(scene.space&&mode==='passage'){
     const v=spaceViews.get(scene.space.view),motion=settings.restrained?.27:1,at=t*motion/v.period,scale=settings.sceneScale||1;
     const eye=warpSpacePoint(railPoint(v.path,at),t,scene.layers[0],settings.audio||{},v.warp*.45).map(x=>x*scale);

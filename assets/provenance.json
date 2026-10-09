@@ -95,7 +95,13 @@
       "ND",
       "NC"
     ],
-    "projection": "360\u00b0 equirectangular source viewed through a 180\u00b0 hemisphere. Not native VR180; no depth reconstruction. Native VR180 dataset researched but gated."
+    "projection": "Full 360\u00b0 equirectangular sphere; every source longitude retained. Nine-frame monoscopic study without reconstructed depth.",
+    "grid": [
+      256,
+      64
+    ],
+    "horizontalCoverage": 360,
+    "verticalCoverage": 180
   },
   "revisionVerifiedThrough": "2026-10-09"
 }

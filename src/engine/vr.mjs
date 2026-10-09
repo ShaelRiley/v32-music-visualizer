@@ -4,7 +4,7 @@ import {scene,layer,validateScene} from './scenes.mjs';
 export const VR_VIEWS=new Map(VR_DATA.views.map(v=>[v.id,v]));
 export const VR_PRESETS=VR_DATA.views.map((v,i)=>validateScene(scene('vr-'+v.id,v.name,'spherical-video',[layer('wave',{effect:'still',audio:['bass','mid','treble','trend'][i%4],phase:i*.17%6.28})],{
  video:{view:v.id},camera:'passage',budget:8000,
- description:'A 180° glyph view of licensed spherical footage. '+v.projection+'.',
+ description:'A full 360° glyph panorama of licensed spherical footage. Drag to look around, or follow the camera through a complete turn.',
  audioBehavior:'Music continuously bends and ripples the image surface; beats rotate its marks. Source image detail chooses the glyph shapes and color placement.',
  distinction:'One of 256 distinct source videos. A slow nine-frame spherical study with matched canonical forms, not a mesh or stereoscopic depth reconstruction.'
 })));

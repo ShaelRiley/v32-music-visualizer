@@ -1,14 +1,24 @@
-# Progress ledger — 2026-10-08–09
+# Progress ledger — Video32 0.2.1 · 2026-10-09
 
-## Working baseline and revision
+## 0.2.1 panorama and audio repair
+
+Started from published main `2ede9b7e442d9983f7e698c7f21b774ac5fc716f` (0.2.0); the remote head was unchanged when checked. The user requested complete 360° video studies and reported tinny/warbly music when enabling capture.
+
+All 256 source IDs and their nine recorded frames are retained. The source frames were recovered from the pinned dataset with original SHA-256 and archive CRC checks. Fabrics now cover 360° longitude and 180° latitude in 256×64 cells per frame. The opening heading rotates rather than crops the source. Complete automatic turns and horizontal dragging expose the rear panorama. The draw cap remains 8,000 marks. Atomic PNG writes and cache validation prevent truncated acquisition/import intermediates.
+
+Captured music uses one native audio element at unity volume. Web Audio reads a separate analysis branch without connecting captured sound to its destination. Echo cancellation, noise suppression, automatic gain and the legacy high-pass option are requested off; supported track settings are checked. The analysis context uses playback latency and the source's reported sample rate. Stop and failed playback release the stream/player. The exact cause of the user's listening artifact is unconfirmed; no physical Chrome listening test is claimed.
+
+Twenty-four Node tests passed. All 256 video presets passed four-heading renders, valid glyph and exact finite-color checks; rear views differ and a full turn wraps identically. All derived fabrics decode correctly. Comparing the first and last full source frames for every study checked 8,388,608 cells without a mismatch. The real Chromium native-player test measured unchanged tone levels on separate stereo channels from 35 Hz through 13 kHz. UI retention, import/export, file playback, Pause, Hold and all three bank startup modes passed again. A genuine source fade remains black; its four-heading preview uses the opening frame. Four video contact sheets and their animations were refreshed. The rebuilt runtime passed packaged renderer/catalog/source checks; all 122 installable ZIP entries and CRCs matched the unpacked runtime. See [VERIFICATION.md](VERIFICATION.md) for scope and reports.
+
+## Original baseline and 0.2.0 visual revision
 
 Remote `main` and release `v0.1.0` were inspected before editing. Both pointed to `2a01390ee0cca552951c5fa62b7d73bbd7fc2115`; there was no newer remote work to reconcile. Repository instructions, README, progress, verification and relevant source were read. No additional repository instruction file was present. The baseline's 11 Node tests passed before revision.
 
 The user installed the published build, confirmed that it works, and liked it. That establishes a working user baseline. It does not independently establish particular stereo routes, capture cleanup, native fullscreen behavior or sustained Steam Deck performance. Those observations remain separate qualification items.
 
-Version **0.2.0** retains the canonical glyphs, MV3/offscreen audio ownership, 256 regular scene IDs, optional structural Discovery, retention/import/export and finite-color discipline. The revised library contains **768 creations**: 256 regular, 256 polygon tours and 256 spherical video studies. Runtime installation still needs no compilation, npm, account or server. The committed unpacked build and ZIP are updated together.
+Version **0.2.1** retains the canonical glyphs, MV3/offscreen audio ownership, 256 regular scene IDs, optional structural Discovery, retention/import/export and finite-color discipline. The revised library contains **768 creations**: 256 regular, 256 polygon tours and 256 spherical video studies. Runtime installation still needs no compilation, npm, account or server. The committed unpacked build and ZIP are updated together.
 
-## Completed revision increments
+## Completed 0.2.0 visual revision increments
 
 1. Combined sustained band/level/trend activity with individual layer mappings. Most marks now respond between beats. Three-axis deformation bends forms internally, and GPU position interpolation supplies movement between analysis ticks.
 2. Removed audio-dependent mark brightness and presence. Beats rotate marks and gently change their size. Colors remain attached to scene structure while geometry bends.
@@ -23,9 +33,9 @@ Version **0.2.0** retains the canonical glyphs, MV3/offscreen audio ownership, 2
 
 ## Verified state and remaining scope
 
-Twenty Node tests passed. All 768 presets rendered at their documented development stages without JavaScript/WebGL errors, with valid glyph IDs and exact finite palette output. The color GPU/CPU check matched all 37,888 comparisons exactly. Retention, JSON import/export, file playback, Pause, Hold, palette cycling, three-bank startup, motion interpolation and fullscreen idle DOM behavior passed. Raw evidence and measurement scope are in [VERIFICATION.md](VERIFICATION.md).
+The retained 0.2.0 reports recorded twenty passing Node tests. All 768 presets rendered at their documented development stages without JavaScript/WebGL errors, with valid glyph IDs and exact finite palette output. The color GPU/CPU check matched all 37,888 comparisons exactly. Retention, JSON import/export, file playback, Pause, Hold, palette cycling, three-bank startup, motion interpolation and fullscreen idle DOM behavior passed. Raw evidence and measurement scope are in [VERIFICATION.md](VERIFICATION.md).
 
-The native VR180 collection found during research has gated media. The bundled video bank therefore uses **nine-frame 360° sequences viewed through 180°**, without depth reconstruction, stereo or full-length movie playback. This is an explicit interpretation, not completion of the request for 256 reusable native VR180 movies. Polygon tours are artistic guided routes rather than collision-certified museum walkthroughs; the Louvre reconstruction uses mapped exterior masses.
+The user revised the video target to full 360° coverage, implemented in 0.2.1. The bundled studies retain nine complete spherical frames, without depth reconstruction, stereo or full-length movie playback. Native VR180 material found during earlier research was gated and was not imported. Polygon tours are artistic guided routes rather than collision-certified museum walkthroughs; the Louvre reconstruction uses mapped exterior masses.
 
 Full Chrome could not launch in the container because process-singleton Unix socket creation was denied. Physical stereo/once-audible routing, capture lifecycle and restoration, actual sharing permissions, native fullscreen and sustained integrated-GPU/Steam Deck performance remain device checks. **60 FPS is a target, not a measured hardware result.** Record specific hardware/browser/listening observations when testing the revision. No upstream repository or Chrome Web Store listing was changed.
 
