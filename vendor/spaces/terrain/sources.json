@@ -1,0 +1,34 @@
+[
+  {
+    "id": "grand-canyon",
+    "name": "Grand Canyon",
+    "url": "https://s3.amazonaws.com/elevation-tiles-prod/terrarium/12/772/1607.png",
+    "z": 12,
+    "x": 772,
+    "y": 1607
+  },
+  {
+    "id": "yosemite",
+    "name": "Yosemite Valley",
+    "url": "https://s3.amazonaws.com/elevation-tiles-prod/terrarium/12/687/1583.png",
+    "z": 12,
+    "x": 687,
+    "y": 1583
+  },
+  {
+    "id": "rainier",
+    "name": "Mount Rainier",
+    "url": "https://s3.amazonaws.com/elevation-tiles-prod/terrarium/12/662/1443.png",
+    "z": 12,
+    "x": 662,
+    "y": 1443
+  },
+  {
+    "id": "death-valley",
+    "name": "Death Valley",
+    "url": "https://s3.amazonaws.com/elevation-tiles-prod/terrarium/12/718/1605.png",
+    "z": 12,
+    "x": 718,
+    "y": 1605
+  }
+]

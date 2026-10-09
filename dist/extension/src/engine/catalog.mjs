@@ -292,15 +292,22 @@ Fabric Weather|weft.collapse.bands@ceiling+wave.fold@floor+spiral.circulate@core
 Woven Observatory|weft.circulate@vault+shell.ripple.pores@core+crystal.grow@nest|interior|A revolving textile enclosure surrounds a porous sphere and crystal.|tmb`
 };
 const roles={
- body:{},core:{scale:[.52,.52,.52]},nest:{scale:[.27,.27,.27]},vault:{scale:[2.3,2.3,2.3]},rim:{scale:[1.3,1.3,1.3]},
- left:{offset:[-.85,0,0],scale:[.66,.66,.66]},right:{offset:[.85,.15,0],scale:[.7,.7,.7]},front:{offset:[0,-.1,1.1],scale:[.64,.64,.64]},rear:{offset:[0,.15,-1.25],scale:[.86,.86,.86]},
- floor:{offset:[0,-.85,0],scale:[1.2,.6,1.2]},ceiling:{offset:[0,.9,0],scale:[1.15,.6,1.15]},cross:{rotate:[Math.PI/2,0,.3],scale:[.83,.83,.83]}
+ body:{},core:{scale:[.78,.78,.78]},nest:{scale:[.46,.46,.46],offset:[.35,-.1,.2]},vault:{scale:[1.65,1.65,1.65]},rim:{scale:[1.35,1.35,1.35]},
+ left:{offset:[-1.05,0,0],scale:[.88,.88,.88]},right:{offset:[1.05,.15,-.25],scale:[.9,.9,.9]},front:{offset:[.25,-.1,1.15],scale:[.78,.78,.78]},rear:{offset:[0,.15,-1.6],scale:[1.12,1.0,1.0]},
+ floor:{offset:[0,-1.05,0],scale:[1.75,.65,1.5]},ceiling:{offset:[0,1.1,0],scale:[1.55,.6,1.25]},cross:{rotate:[Math.PI/2,0,.3],scale:[.98,.98,.98]}
 };
+const colorRoles={body:'body',core:'accent',nest:'detail',vault:'structure',rim:'edge',left:'body',right:'counter',front:'accent',rear:'distance',floor:'ground',ceiling:'canopy',cross:'counter'};
 const signals={b:'bass',m:'mid',t:'trend',o:'onset',h:'treble'};
 export const PRESETS=Object.entries(authored).flatMap(([family,block])=>block.trim().split('\n').map((row,index)=>{
- const [name,graph,camera,description,route]=row.split('|');
- const layers=graph.split('+').map((token,i)=>{const [shape,role='body']=token.split('@'),[construction,effect='still',cut='none']=shape.split('.'),[op,relation='independent',partner=op]=construction.split('~');if(!roles[role])throw Error('Unknown authored placement');return layer(op,{...roles[role],effect,cut,relation,partner,audio:signals[route[i%route.length]],phase:i*.91,hue:i*.19});});
- const audioBehavior=layers.map(l=>`${l.audio} drive ${l.effect} in the ${l.op}`).join('; ')+'.';
+ const [name,graph,authoredCamera,description,route]=row.split('|');let camera=authoredCamera;
+ const layers=graph.split('+').map((token,i)=>{const [shape,role='body']=token.split('@'),[construction,effect='still',cut='none']=shape.split('.'),[op,relation='independent',partner=op]=construction.split('~');if(!roles[role])throw Error('Unknown authored placement');return layer(op,{...roles[role],effect,cut,relation,partner,audio:signals[route[i%route.length]],phase:i*.91,hue:i*.31,colorRole:colorRoles[role]});});
+ // Give sweeping fields breadth without adding one generic backdrop to every world.
+ if(['wave','strata','gyroid','reaction','weft'].includes(family))layers[0].scale=layers[0].scale.map((s,i)=>s*(i===1?.8:1.35));
+ if(['helix','braid','branch','coral'].includes(family)&&index===0){layers[0].rotate=[0,0,.48];layers[0].scale=[1.3,.85,1.2];}
+ if(['helix','braid','scroll'].includes(family)&&index===0){layers[0].rotate=[0,0,1.18];layers[0].scale=[1.3,.85,1.2];camera='passage';}
+ if(family==='arch'&&index===0){layers[0].scale=[1.4,1.1,1.1];camera='passage';}
+ if(family==='lens'&&index===0)layers[1]={...layers[1],scale:[1.35,1.35,1.35],offset:[.25,0,0]};
+ const audioBehavior=layers.map(l=>`${l.audio} accent ${l.effect} in the ${l.op}`).join('; ')+'. Sustained musical energy waves and ripples every layer; beats turn the marks.';
  return validateScene(scene(family+'-'+String(index+1).padStart(2,'0'),name,family,layers,{camera,description,audioBehavior,distinction:description+' Structural recipe: '+graph+'.',budget:layers.length>2?10500:8500}));
 }));
 export const COVERAGE=PRESETS.map(p=>({id:p.id,name:p.name,family:p.family,operators:p.layers.map(l=>l.op),relationships:p.layers.map(l=>l.relation),behaviors:p.layers.map(l=>l.effect),organization:p.camera==='interior'?'interior':p.layers.some(l=>l.offset[0]!==0)?'interacting cluster':'layered formation',scale:p.camera==='detail'?'intimate':p.camera==='interior'?'chamber':p.camera==='passage'?'journey':'exterior',camera:p.camera,audio:p.layers.map(l=>l.audio),description:p.description,distinction:p.distinction,budget:p.budget}));

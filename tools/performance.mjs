@@ -25,7 +25,7 @@ report.transitions=await page.evaluate(()=>{
   const s=i%2?a.generateDiscovery('transition-'+i).scene:a.presets[(i*13)%256];
   const start=performance.now();r.setScene(s);r.render(i+4,{bass:.5,mid:.3,treble:.2,onset:.4,trend:.5},{...a.settings,budget:4500});r.gl.readPixels(1,1,1,1,r.gl.RGBA,r.gl.UNSIGNED_BYTE,pixel);times.push(performance.now()-start);counts.push({layers:s.layers.length,resources:r.resourceCount});
  }
- times.sort((a,b)=>a-b);return {samples:64,method:'scene replacement plus first rendered frame and synchronous readback',medianMs:times[32],p95Ms:times[60],maxMs:times[63],maxTrackedLayerResources:Math.max(...counts.map(x=>x.resources)),resourcesMatchLayerBound:counts.every(x=>x.resources===x.layers*5+5),finalTrackedLayerResources:r.resourceCount};
+ times.sort((a,b)=>a-b);return {samples:64,method:'scene replacement plus first rendered frame and synchronous readback',medianMs:times[32],p95Ms:times[60],maxMs:times[63],maxTrackedLayerResources:Math.max(...counts.map(x=>x.resources)),resourcesMatchLayerBound:counts.every(x=>x.resources===x.layers*5+7),finalTrackedLayerResources:r.resourceCount};
 });
 await page.evaluate(()=>{const a=window.__V32;a.display(a.presets[0],true);document.getElementById('toast').hidden=true;document.getElementById('inspector').hidden=true;a.renderer.resize(1280,720);a.renderer.render(7,{bass:.6,mid:.4,treble:.3,onset:.7,trend:.55},{...a.settings,budget:10000});});
 await page.screenshot({path:'previews/Video32-Preview.png'});

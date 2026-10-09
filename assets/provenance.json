@@ -54,10 +54,48 @@
     "ansitubeCore": "815c290446384499ab1217ae8a9973177bf24e91d90f70e47cf04038e9865076",
     "ansitubeContent": "8b1951ef5867d1b9be48bb8016a6c2f3397ad34cf7f94f8bacae5a4796f6b912"
   },
-  "palettePort": "Exact extracted definitions and functions; bounded eight-entry FIFO cache replaces unlimited cache only.",
+  "palettePort": "Historical 55-entry extraction retained for source parity and provenance. The revision picker uses 37 applicable curated treatments plus disabled Native Glyph: 20 new themes, 5 distinctive source color paths and 12 retained source treatments. Source grading and finite/True Color behavior remain authoritative.",
   "specialModes": {
     "nativeglyph": "No equivalent: these canonical bitmap masks have no intrinsic colors. The option is identified and disabled rather than bypassing depth.",
     "mooburst": "Palette and luminance treatment retained. Cow bitmap cameo and associated audio are omitted: replacing canonical masks or injecting audio would violate this instrument."
   },
-  "licensing": "Video64 MIT notice retained. ANSI Tube currently has no LICENSE file; its author Shael Riley explicitly authorized inclusion in Video32 and public publication of this repository. This publication does not change the upstream repository's licensing."
+  "licensing": "Video64 MIT notice retained. ANSI Tube currently has no LICENSE file; its author Shael Riley explicitly authorized inclusion in Video32 and public publication of this repository. This publication does not change the upstream repository's licensing.",
+  "releasedBaseline": {
+    "tag": "v0.1.0",
+    "commit": "2a01390ee0cca552951c5fa62b7d73bbd7fc2115",
+    "remoteMainAtRevisionStart": "2a01390ee0cca552951c5fa62b7d73bbd7fc2115",
+    "userObservation": "Installed, tried, working and liked. Hardware, physical stereo, capture cleanup and sustained performance were not independently specified or qualified."
+  },
+  "polygonSpaces": {
+    "manifest": "assets/spaces/manifest.json",
+    "sourceSnapshots": "vendor/spaces",
+    "sources": 32,
+    "tours": 256,
+    "licenses": [
+      "ODbL-1.0",
+      "CC0",
+      "BSD-3-Clause",
+      "Public domain"
+    ],
+    "adaptations": "Footprint extrusion, static sector/portal reconstruction, fixed neighborhood layouts and sampled terrain; point fabrics and guided rails. Per-source hashes and limits in the manifest."
+  },
+  "sphericalVideo": {
+    "manifest": "assets/vr/manifest.json",
+    "sourceAcquisition": "vendor/vr/acquisition.json",
+    "datasetCommit": "99f74d256df961695968f6f39d58e1b004ce0a59",
+    "sources": 256,
+    "framesPerStudy": 9,
+    "license": "CC-BY-SA-4.0",
+    "eligibleOriginalFamilies": [
+      "cc-by",
+      "cc-by-sa",
+      "cc-cc0"
+    ],
+    "excluded": [
+      "ND",
+      "NC"
+    ],
+    "projection": "360\u00b0 equirectangular source viewed through a 180\u00b0 hemisphere. Not native VR180; no depth reconstruction. Native VR180 dataset researched but gated."
+  },
+  "revisionVerifiedThrough": "2026-10-09"
 }

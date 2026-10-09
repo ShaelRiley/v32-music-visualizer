@@ -1,5 +1,5 @@
 {
- "manifest_version":3,"name":"Video32 Music Visualizer","version":"0.1.0","minimum_chrome_version":"116",
+ "manifest_version":3,"name":"Video32 Music Visualizer","version":"0.2.0","minimum_chrome_version":"116",
  "description":"Form-extended pointillism: spatial music imagery composed from Shael Riley’s canonical 32 glyphs.",
  "permissions":["activeTab","tabCapture","offscreen","storage"],
  "action":{"default_title":"Visualize this tab’s audio"},

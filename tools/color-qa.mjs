@@ -1,7 +1,7 @@
 import {createRequire} from 'node:module';
 import {writeFile} from 'node:fs/promises';
 import {server} from './serve.mjs';
-import {PALETTES,quantizeColor,getPaletteBundle} from '../src/engine/palettes.mjs';
+import {PALETTES,quantizeColor,getPaletteBundle} from '../src/engine/palette-library.mjs';
 import {rng} from '../src/engine/random.mjs';
 const require=createRequire(import.meta.url),{chromium}=require(process.env.CODEX_PRIMARY_RUNTIME_NODE_MODULES?process.env.CODEX_PRIMARY_RUNTIME_NODE_MODULES+'/playwright':'playwright');
 const browser=await chromium.launch({executablePath:process.env.V32_BROWSER||undefined,headless:true,args:['--no-sandbox','--enable-unsafe-swiftshader']});

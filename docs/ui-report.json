@@ -7,5 +7,25 @@
   "invalidImportPreservedWorld": true,
   "pauseFreezesVisualsWhileFileContinues": true,
   "holdFlagPreservesAnimation": true,
-  "historyBound": 40
+  "historyBound": 40,
+  "bankStartup": [
+    {
+      "mode": "spaces",
+      "bank": "spaces",
+      "paletteCycle": false,
+      "glError": 0
+    },
+    {
+      "mode": "video",
+      "bank": "video",
+      "paletteCycle": false,
+      "glError": 0
+    },
+    {
+      "mode": "library",
+      "bank": "regular",
+      "paletteCycle": false,
+      "glError": 0
+    }
+  ]
 }

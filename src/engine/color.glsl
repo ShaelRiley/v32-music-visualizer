@@ -12,7 +12,18 @@ vec3 paletteColor(vec3 inputRGB){
  float valueScale=peak==0.?0.:min(255.,peak*(1.+colorBoost.x))/peak;
  c=floor(c*valueScale+.5);
  float luminance=clamp(floor(dot(c,vec3(.299,.587,.114))+.5),0.,255.);
- if(colorMode==1)c=floor(texelFetch(toneRamp,ivec2(int(luminance),0),0).rgb*255.+.5);
+ if(colorMode==3){
+  ivec3 rgb=ivec3(c);int high=max(rgb.r,max(rgb.g,rgb.b)),low=min(rgb.r,min(rgb.g,rgb.b)),delta=high-low;
+  if(high==0)c=vec3(0);
+  else{
+   int numerator=high==rgb.r?rgb.g-rgb.b:high==rgb.g?rgb.b-rgb.r+2*delta:rgb.r-rgb.g+4*delta;
+   if(numerator<0)numerator+=6*delta;
+   int hue=delta==0?0:(numerator*255+3*delta)/(6*delta);
+   ivec3 ramp=ivec3(floor(texelFetch(toneRamp,ivec2(hue,0),0).rgb*255.+.5));
+   c=vec3((ramp*(2805+9*high)+ivec3(2550))/5100);
+  }
+ }
+ else if(colorMode==1)c=floor(texelFetch(toneRamp,ivec2(int(luminance),0),0).rgb*255.+.5);
  else{
   if(colorMode==2)c=c.gbr;
   c=floor(clamp((vec3(luminance)+(c-vec3(luminance))*colorGrade.x-128.)*colorGrade.y+128.,0.,255.)+.5);

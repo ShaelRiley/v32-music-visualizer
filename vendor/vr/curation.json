@@ -1,0 +1,14 @@
+{
+  "date": "2026-10-08",
+  "rejectedVideoIDs": [
+    "218994761",
+    "229838383",
+    "259621148",
+    "328522732",
+    "346195675",
+    "417996439",
+    "t-6pVQn4wgo",
+    "204194314"
+  ],
+  "reason": "Nearly blank or sparse glyph views in renderer review at 0, 7 and 23 seconds; replaced with eligible distinct sources."
+}

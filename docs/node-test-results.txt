@@ -1,19 +1,32 @@
-✔ 20 capture start/stop cycles have one stereo monitor connection and release every resource (3.108956ms)
-✔ Source termination cleans up and reports the ended source (4.12043ms)
-✔ Failed local-file playback releases its graph and pauses its element (0.746903ms)
-✔ Canonical 32 masks, ordering, blank, source aspect and byte identity (37.165469ms)
-✔ Full palette registry, depth, grading and 5-bit lookup parity (12644.543612ms)
-✔ Authored catalog has 256 distinct structural compositions in 32 families (134.535463ms)
-✔ 1,000 reproducible Discovery seeds: graph variety and bounded evolving state (704.375076ms)
-✔ Scene import rejects executable-looking IDs, oversized graphs and invalid numbers (0.908539ms)
-✔ Time-balanced mixed playback preserves complete library traversals and bounded streaks (2.622851ms)
-✔ Audio fixtures: silence, quiet noise, bass, transients, irregular rhythms and stereo changes (79.40079ms)
-✔ MV3 routing preserves the selected source, reuses its viewer and closes offscreen ownership (4.820162ms)
-ℹ tests 11
+
+> v32-music-visualizer@0.2.0 test
+> node --test tests/*.test.mjs
+
+✔ 20 capture start/stop cycles have one stereo monitor connection and release every resource (6.099779ms)
+✔ Source termination cleans up and reports the ended source (3.508129ms)
+✔ Failed local-file playback releases its graph and pauses its element (1.146368ms)
+✔ Canonical 32 masks, ordering, blank, source aspect and byte identity (49.708222ms)
+✔ Full palette registry, depth, grading and 5-bit lookup parity (12520.057049ms)
+✔ Authored catalog has 256 distinct structural compositions in 32 families (355.28862ms)
+✔ 1,000 reproducible Discovery seeds: graph variety and bounded evolving state (3721.118397ms)
+✔ Scene import rejects executable-looking IDs, oversized graphs and invalid numbers (0.890259ms)
+✔ Time-balanced mixed playback preserves complete library traversals and bounded streaks (2.548353ms)
+✔ Audio fixtures: silence, quiet noise, bass, transients, irregular rhythms and stereo changes (75.825361ms)
+✔ MV3 routing preserves the selected source, reuses its viewer and closes offscreen ownership (5.480771ms)
+✔ Authored shuffle defaults and optional palette shuffle traverse the applicable collection without adjacent repeats (1.530521ms)
+✔ Sustained music moves every effect and most samples, even onset-only layers between beats (22.258641ms)
+✔ Long strands and sheets flex internally rather than moving only as rigid segments (9.342696ms)
+✔ Scene imports normalize color roles and settings migrate only known defaults (1.58964ms)
+✔ Camera framing stays bounded and keeps every authored world visible across aspect ratios (449.619072ms)
+✔ Curated palettes have distinct color paths and bounded, unique finite artwork colors (146.221115ms)
+✔ 256 polygon tours retain source proofs, valid surface classes and distinct closed camera rails (341.887749ms)
+✔ 256 spherical studies are distinct licensed source videos, with matched canonical forms and local assets (107.819987ms)
+✔ Default authored shuffle alternates regular and spatial scenes, traverses every bank and restores canceled selections (5.93575ms)
+ℹ tests 20
 ℹ suites 0
-ℹ pass 11
+ℹ pass 20
 ℹ fail 0
 ℹ cancelled 0
 ℹ skipped 0
 ℹ todo 0
-ℹ duration_ms 13732.441727
+ℹ duration_ms 16905.698664

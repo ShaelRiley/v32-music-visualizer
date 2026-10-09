@@ -11,6 +11,7 @@ async function files(directory,skip=new Set()){
  const result=[];
  for(const entry of (await readdir(directory,{withFileTypes:true})).sort((a,b)=>a.name.localeCompare(b.name))){
   const path=resolve(directory,entry.name);if(skip.has(entry.name)||skip.has(relative(root,path)))continue;
+  if(path.startsWith(resolve(root,'vendor/spaces/osm')+'/')&&path.endsWith('.osm'))continue;
   if(entry.isDirectory())result.push(...await files(path,skip));else if(entry.isFile())result.push(path);
  }
  return result;
@@ -30,6 +31,8 @@ async function archive(name,base,paths,prefix=''){
  const directory=Buffer.concat(central),end=Buffer.alloc(22);end.writeUInt32LE(0x06054b50);end.writeUInt16LE(paths.length,8);end.writeUInt16LE(paths.length,10);end.writeUInt32LE(directory.length,12);end.writeUInt32LE(offset,16);
  const bytes=Buffer.concat([...chunks,directory,end]),destination=resolve(out,name);await writeFile(destination,bytes);
  console.log(JSON.stringify({file:destination,files:paths.length,bytes:bytes.length}));
+ return bytes;
 }
-await archive('Video32-Chrome-Extension.zip',resolve(root,'dist/extension'),await files(resolve(root,'dist/extension')));
-await archive('Video32-Source-and-Verification.zip',root,await files(root,new Set(['node_modules','dist','.git','previews/motion-frames'])),'v32-music-visualizer/');
+const extensionZip=await archive('Video32-Chrome-Extension.zip',resolve(root,'dist/extension'),await files(resolve(root,'dist/extension')));
+await writeFile(resolve(root,'dist/Video32-Chrome-Extension.zip'),extensionZip);
+await archive('Video32-Source-and-Verification.zip',root,await files(root,new Set(['node_modules','dist','.git','previews/motion-frames','previews/spatial-frames'])),'v32-music-visualizer/');

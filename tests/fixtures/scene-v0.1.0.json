@@ -1,0 +1,106 @@
+{
+  "format": "VIDEO32-SCENE",
+  "schemaVersion": 1,
+  "scene": {
+    "schemaVersion": 1,
+    "generatorVersion": "1.0.0",
+    "id": "ribbon-01",
+    "name": "Prism Sail",
+    "family": "ribbon",
+    "kind": "library",
+    "seed": "ribbon-01",
+    "initialState": {
+      "clock": 0
+    },
+    "camera": "orbit",
+    "layers": [
+      {
+        "op": "ribbon",
+        "partner": "ribbon",
+        "relation": "independent",
+        "effect": "fold",
+        "cut": "none",
+        "audio": "mid",
+        "phase": 0,
+        "hue": 0,
+        "scale": [
+          1,
+          1,
+          1
+        ],
+        "offset": [
+          0,
+          0,
+          0
+        ],
+        "rotate": [
+          0,
+          0,
+          0
+        ],
+        "domain": [
+          0,
+          0,
+          1,
+          1
+        ]
+      },
+      {
+        "op": "knot",
+        "partner": "knot",
+        "relation": "independent",
+        "effect": "circulate",
+        "cut": "none",
+        "audio": "onset",
+        "phase": 0.91,
+        "hue": 0.19,
+        "scale": [
+          0.52,
+          0.52,
+          0.52
+        ],
+        "offset": [
+          0,
+          0,
+          0
+        ],
+        "rotate": [
+          0,
+          0,
+          0
+        ],
+        "domain": [
+          0,
+          0,
+          1,
+          1
+        ]
+      }
+    ],
+    "description": "An open spectral membrane folds around a circulating knot.",
+    "audioBehavior": "mid drive fold in the ribbon; onset drive circulate in the knot.",
+    "distinction": "An open spectral membrane folds around a circulating knot. Structural recipe: ribbon.fold@body+knot.circulate@core.",
+    "budget": 8500
+  },
+  "settings": {
+    "mode": "mixed",
+    "balance": 0.5,
+    "duration": 45,
+    "palette": "standard",
+    "depth": 32,
+    "brightness": 0.12,
+    "boost": 0.42,
+    "blackFloor": 0.035,
+    "markSize": 1,
+    "density": 1,
+    "sceneScale": 1,
+    "stability": 0.65,
+    "sensitivity": 1,
+    "camera": "preset",
+    "distance": 4.7,
+    "restrained": false,
+    "quality": "auto",
+    "yaw": 0,
+    "pitch": 0
+  }
+}

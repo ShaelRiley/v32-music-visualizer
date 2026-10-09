@@ -1,12 +1,12 @@
 const float TAU=6.28318530718;
 float sp(float a,float p){return sign(a)*pow(abs(a),p);}
-vec3 shape(int op,vec2 uv) {
+vec3 shapeTime(int op,vec2 uv,float time) {
  float u=uv.x,v=uv.y,a=u*TAU,b=v*TAU,w=v*2.-1.,h=u*2.-1.,r=0.,q=0.,k=0.;vec3 p=vec3(0);
  if(op==0){r=1.05+.38*w*cos(1.5*a);p=vec3(r*cos(a),.62*w+.18*sin(3.*a),r*sin(a)+.24*w*sin(1.5*a));}
  else if(op==1){r=1.+.37*cos(b);p=vec3(r*cos(a),.37*sin(b),r*sin(a));}
  else if(op==2){r=1.+.12*sin(5.*a)*sin(3.*b);p=vec3(r*cos(a)*sin(3.14159265*v),r*cos(3.14159265*v),r*sin(a)*sin(3.14159265*v));}
  else if(op==3){a*=3.;r=.64+.12*cos(b);p=vec3(r*cos(a),2.*h+.13*sin(b),r*sin(a));}
- else if(op==4){p.x=2.*h;p.z=1.6*w;p.y=.3*sin(4.*p.x+2.*p.z+clock)+.2*cos(3.*p.z-1.4*clock);}
+ else if(op==4){p.x=2.*h;p.z=1.6*w;p.y=.3*sin(4.*p.x+2.*p.z+time)+.2*cos(3.*p.z-1.4*time);}
  else if(op==5){p.x=1.6*h;p.z=1.6*w;p.y=.5*(sin(p.x*3.)*cos(p.z*3.)+sin(p.z*3.)*cos(p.x*3.))+.18*sin(6.*p.x+6.*p.z);}
  else if(op==6){q=2.*a;r=.85+.3*cos(3.*a);p=vec3(r*cos(q)+.11*cos(b)*cos(q),.38*sin(3.*a)+.11*sin(b),r*sin(q)+.11*cos(b)*sin(q));}
  else if(op==7){k=floor(u*12.);q=fract(u*12.);r=.2+.8*q;p=vec3((mod(k,3.)-1.)*r*.72+.1*cos(b),q*1.6-.85+mod(floor(k/3.),2.)*.4,(floor(k/3.)-1.5)*r*.38+.1*sin(b));}
@@ -29,29 +29,39 @@ vec3 shape(int op,vec2 uv) {
  else if(op==24){k=floor(u*24.);q=fract(u*24.);r=k<12.?.72:1.2;k=mod(k,12.);p=vec3(mod(k,4.)<2.?-r:r,mod(k,2.)>0.?-r:r,(2.*q-1.)*r);if(k>=4.&&k<8.){p.z=p.y;p.y=(2.*q-1.)*r;}if(k>=8.){p.z=p.x;p.x=(2.*q-1.)*r;}p.x+=.035*cos(b);p.y+=.035*sin(b);}
  else if(op==25){r=.85*(1.-.38*abs(w));q=floor(u*6.);a=q*TAU/6.+fract(u*6.)*TAU/6.;p=vec3(r*cos(a),w,r*sin(a));}
  else if(op==26){a*=2.;r=.15+u*.9;p=vec3(r*cos(a),1.6*w,r*sin(a)+.2*sin(w*4.));}
- else if(op==27){r=.15+v*1.2;p=vec3(r*cos(a),.28*sin(v*16.-clock*2.),r*sin(a));}
+ else if(op==27){r=.15+v*1.2;p=vec3(r*cos(a),.28*sin(v*16.-time*2.),r*sin(a));}
  else if(op==28){k=floor(v*3.);q=fract(v*3.);a=u*TAU*2.+k*TAU/3.;p=vec3(.45*cos(a)+.08*cos(q*TAU),2.*h,.45*sin(a)+.08*sin(q*TAU));}
  else if(op==29){a=u*3.14159265;r=1.+.25*cos(b);p=vec3(r*cos(a),r*sin(a)-.5,.25*sin(b));}
  else if(op==30){p.x=1.3*h;p.z=1.3*w;p.y=.38*sin(7.*p.x)*sin(7.*p.z)+.16*cos(3.*p.x+4.*p.z);}
  else {k=floor(v*12.);q=fract(v*12.);p=vec3(1.4*h,.14*sin(1.4*h*8.+k*3.14159265)+.03*sin(q*TAU),(k-5.5)*.22);}
  return p;
 }
+vec3 shape(int op,vec2 uv){return shapeTime(op,uv,clock);}
 mat3 turn(vec3 r){float a=cos(r.x),b=sin(r.x),c=cos(r.y),d=sin(r.y),e=cos(r.z),f=sin(r.z);return mat3(e,f,0.,-f,e,0.,0.,0.,1.)*mat3(c,0.,d,0.,1.,0.,-d,0.,c)*mat3(1.,0.,0.,0.,a,b,0.,-b,a);}
-vec3 surface(vec2 uv) {
- vec3 p=shape(op,uv);float signal=dot(features,mapping),phase=clock*.22+phaseOffset;
+vec3 surfaceAt(vec2 uv,vec3 delta) {
+ vec3 p=(spaceMode==1?fabric(uv,0):shape(op,uv))+delta;float phase=clock*.38+phaseOffset;
+ if(spaceMode==2){float a=(uv.x-.5)*3.14159265,b=(.5-uv.y)*3.14159265;p=2.4*vec3(sin(a)*cos(b),sin(b),-cos(a)*cos(b))+delta;}
+ if(spaceMode==0){
  if(relation>0){vec3 q=shape(partner,uv);
   if(relation==1)p=mix(p,q,.25+.25*sin(phase));
   if(relation==2)p+=.3*q;
   if(relation==3)p+=(p-q)*(.16/(.3+length(p-q)));
   if(relation==5)p+=.22*sin(uv.x*31.+uv.y*17.+phase)*q;
  }
- if(effect==1)p.y+=.42*sin(p.x*2.+phase)*sin(.5+signal);
- else if(effect==2){float a=p.y*(.45+signal*.5)+phase*.15;float c=cos(a),s=sin(a);p.xz=mat2(c,s,-s,c)*p.xz;}
- else if(effect==3)p.y+=.14*(.25+signal)*sin(9.*length(p.xz)-clock*2.);
- else if(effect==4)p.x+=sign(p.x)*(.12+.35*(.5+.5*sin(phase)))*signal;
- else if(effect==5)p*=.7+.3*sin(phase)+.15*signal;
- else if(effect==6){float a=phase*.4;float c=cos(a),s=sin(a);p.xz=mat2(c,s,-s,c)*p.xz;}
- else if(effect==7)p.y*=cos(phase*.5)*.65+.35;
- else if(effect==8){float q=.76+.24*cos(phase*.7);p.xz*=q;p.y+=.2*sin(phase+p.y*4.)*signal;}
+ if(effect==1)p.y+=.34*(.45+signal*1.1)*sin(p.x*2.+phase);
+ else if(effect==2){float a=p.y*(.35+signal*1.1)+phase*.24;float c=cos(a),s=sin(a);p.xz=mat2(c,s,-s,c)*p.xz;}
+ else if(effect==3)p.y+=.22*(.2+signal*1.4)*sin(6.*length(p.xz)-clock*2.2+phaseOffset);
+ else if(effect==4)p.x+=tanh(p.x*2.)*(.12+.35*(.5+.5*sin(phase)))*signal;
+ else if(effect==5)p*=.92+.08*sin(phase+p.y*.75)+.12*signal;
+ else if(effect==6){float a=phase*.55+.35*signal+.14*activity*sin(p.y*1.8-phase);float c=cos(a),s=sin(a);p.xz=mat2(c,s,-s,c)*p.xz;}
+ else if(effect==7)p.y*=.82+.18*cos(phase*.5+signal*.8);
+ else if(effect==8){float q=.9+.1*cos(phase*.7);p.xz*=q;p.y+=.3*sin(phase+p.y*4.)*signal;}
+ }
+ vec3 base=p;
+ float gain=spaceMode==1?spaceWarp:spaceMode==2?.45:1.;
+ p.y+=gain*((.025+.24*activity+.12*signal)*sin(base.x*2.2+base.z*1.7-clock*1.35+phaseOffset)+.055*signal*sin(base.x*5.1-base.z*3.4-clock*2.1+phaseOffset));
+ p.x+=gain*(.02+.20*activity+.06*signal)*sin(base.y*1.8+base.z*1.1-clock*.95+phaseOffset);
+ p.z+=gain*(.02+.13*activity+.10*signal)*sin(base.y*1.6-base.x*1.4-clock*.8+phaseOffset*.7);
  return (turn(rotation)*p*scaling+offset)*worldScale;
 }
+vec3 surface(vec2 uv){return surfaceAt(uv,vec3(0));}

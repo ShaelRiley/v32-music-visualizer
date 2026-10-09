@@ -1,3 +1,4 @@
+import {musicalActivity, musicalDrive} from '../audio/motion.mjs';
 export const OPERATORS = Object.freeze([
   'ribbon','torus','shell','helix','wave','gyroid','knot','branch','cell','spiral','cone','saddle','catenoid','mobius','klein','superquadric',
   'rosette','lattice','vortex','strata','iris','coral','lens','hourglass','tesseract','crystal','scroll','wavefront','braid','arch','reaction','weft'
@@ -49,7 +50,7 @@ export function sampleShape(op,u,v,t=0,out=new Float64Array(3)) {
 }
 export function sampleLayer(layer,u,v,t,audio={bass:0,mid:0,treble:0,onset:0,trend:0},out=new Float64Array(3)) {
   sampleShape(layer.op,u,v,t,out);
-  const signal=audio[layer.audio]||0,phase=t*.22+layer.phase;
+  const activity=musicalActivity(audio),signal=musicalDrive(audio,layer.audio),phase=t*.38+layer.phase;
   let x=out[0],y=out[1],z=out[2];
   if(layer.relation!=='independent') {
     const p=sampleShape(layer.partner,u,v,t);
@@ -60,15 +61,23 @@ export function sampleLayer(layer,u,v,t,audio={bass:0,mid:0,treble:0,onset:0,tre
     // Intersection is a spatial aperture in the fragment/visibility predicate, not a composite raster.
   }
   switch(layer.effect){
-    case 'fold':y+=.42*Math.sin(x*2+phase)*Math.sin(.5+signal);break;
-    case 'twist':{const q=y*(.45+signal*.5)+phase*.15;const c=Math.cos(q),s=Math.sin(q);[x,z]=[c*x-s*z,s*x+c*z];break;}
-    case 'ripple':y+=.14*(.25+signal)*Math.sin(9*Math.hypot(x,z)-t*2);break;
-    case 'split':x+=Math.sign(x)*(.12+.35*(.5+.5*Math.sin(phase)))*signal;break;
-    case 'grow':{const q=.7+.3*Math.sin(phase)+.15*signal;x*=q;y*=q;z*=q;break;}
-    case 'circulate':{const c=Math.cos(phase*.4),s=Math.sin(phase*.4);[x,z]=[c*x-s*z,s*x+c*z];break;}
-    case 'invert':y*=Math.cos(phase*.5)*.65+.35;break;
-    case 'collapse':{const q=.76+.24*Math.cos(phase*.7);x*=q;z*=q;y+=.2*Math.sin(phase+y*4)*signal;break;}
+    case 'fold':y+=.34*(.45+signal*1.1)*Math.sin(x*2+phase);break;
+    case 'twist':{const q=y*(.35+signal*1.1)+phase*.24;const c=Math.cos(q),s=Math.sin(q);[x,z]=[c*x-s*z,s*x+c*z];break;}
+    case 'ripple':y+=.22*(.2+signal*1.4)*Math.sin(6*Math.hypot(x,z)-t*2.2+layer.phase);break;
+    case 'split':x+=Math.tanh(x*2)*(.12+.35*(.5+.5*Math.sin(phase)))*signal;break;
+    case 'grow':{const q=.92+.08*Math.sin(phase+y*.75)+.12*signal;x*=q;y*=q;z*=q;break;}
+    case 'circulate':{const a=phase*.55+.35*signal+.14*activity*Math.sin(y*1.8-phase),c=Math.cos(a),s=Math.sin(a);[x,z]=[c*x-s*z,s*x+c*z];break;}
+    case 'invert':y*=.82+.18*Math.cos(phase*.5+signal*.8);break;
+    case 'collapse':{const q=.9+.1*Math.cos(phase*.7);x*=q;z*=q;y+=.3*Math.sin(phase+y*4)*signal;break;}
   }
+  // Broad traveling bends vary along all three axes, so even a long strand
+  // flexes along its length. Finer ripples ride the bend instead of translating
+  // an entire segment. The field is continuous in space and time.
+  const px=x,py=y,pz=z;
+  y+=(.025+.24*activity+.12*signal)*Math.sin(px*2.2+pz*1.7-t*1.35+layer.phase);
+  y+=.055*signal*Math.sin(px*5.1-pz*3.4-t*2.1+layer.phase);
+  x+=(.02+.20*activity+.06*signal)*Math.sin(py*1.8+pz*1.1-t*.95+layer.phase);
+  z+=(.02+.13*activity+.10*signal)*Math.sin(py*1.6-px*1.4-t*.8+layer.phase*.7);
   const rot=layer.rotate;let c=Math.cos(rot[0]),s=Math.sin(rot[0]);[y,z]=[c*y-s*z,s*y+c*z];c=Math.cos(rot[1]);s=Math.sin(rot[1]);[x,z]=[c*x-s*z,s*x+c*z];c=Math.cos(rot[2]);s=Math.sin(rot[2]);[x,y]=[c*x-s*y,s*x+c*y];
   out[0]=x*layer.scale[0]+layer.offset[0];out[1]=y*layer.scale[1]+layer.offset[1];out[2]=z*layer.scale[2]+layer.offset[2];return out;
 }

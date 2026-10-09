@@ -1,3 +1,5 @@
 node_modules/
 previews/motion-frames/
 *.log
+previews/spatial-frames/
+vendor/spaces/osm/*.osm

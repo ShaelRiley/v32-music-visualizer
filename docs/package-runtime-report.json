@@ -5,13 +5,93 @@
   "finite": {
     "marks": 8500,
     "artistBaseBudget": 8500,
-    "presets": 256,
+    "presets": 768,
+    "paletteSize": 32,
     "invalid": 0,
     "glError": 0
   },
+  "spatial": [
+    {
+      "id": "space-osm-louvre-01",
+      "ready": true,
+      "marks": 8000,
+      "lit": 18946,
+      "invalid": 0,
+      "changed": true,
+      "glError": 0
+    },
+    {
+      "id": "space-freedoom-01-01",
+      "ready": true,
+      "marks": 8000,
+      "lit": 38394,
+      "invalid": 0,
+      "changed": true,
+      "glError": 0
+    },
+    {
+      "id": "space-kenney-01-01",
+      "ready": true,
+      "marks": 8000,
+      "lit": 25792,
+      "invalid": 0,
+      "changed": true,
+      "glError": 0
+    },
+    {
+      "id": "space-terrain-grand-canyon-01",
+      "ready": true,
+      "marks": 8000,
+      "lit": 20651,
+      "invalid": 0,
+      "changed": true,
+      "glError": 0
+    },
+    {
+      "id": "vr-sphere-164530402",
+      "ready": true,
+      "marks": 8000,
+      "lit": 14380,
+      "invalid": 0,
+      "changed": true,
+      "glError": 0
+    },
+    {
+      "id": "vr-sphere-334093731",
+      "ready": true,
+      "marks": 8000,
+      "lit": 24011,
+      "invalid": 0,
+      "changed": true,
+      "glError": 0
+    },
+    {
+      "id": "vr-sphere-261558222",
+      "ready": true,
+      "marks": 8000,
+      "lit": 23976,
+      "invalid": 0,
+      "changed": true,
+      "glError": 0
+    }
+  ],
+  "shuffle": {
+    "banks": [
+      "regular",
+      "video",
+      "regular",
+      "spaces",
+      "regular"
+    ],
+    "discovery": false
+  },
   "trueColor": {
-    "colors": 3866,
+    "colors": 157,
     "finiteLookupBypassed": true,
     "glError": 0
+  },
+  "credits": {
+    "polygon": 32,
+    "video": 256
   }
 }

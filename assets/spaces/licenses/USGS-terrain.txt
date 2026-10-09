@@ -1,0 +1,4 @@
+USGS 3DEP, GMTED2010 and SRTM terrain data courtesy of the U.S. Geological Survey; Mapzen / Tilezen.
+Public-domain US terrain elevation, decoded and artistically transformed as recorded in manifest.json.
+https://github.com/tilezen/joerd/blob/master/docs/attribution.md
+https://www.usgs.gov/3d-elevation-program/about-3dep-products-services

@@ -1,29 +1,38 @@
-# Progress ledger — 2026-10-08
+# Progress ledger — 2026-10-08–09
 
-## Runnable checkpoint
+## Working baseline and revision
 
-Version 0.1.0 implements the complete requested instrument: canonical glyph renderer, 256 authored scenes across 32 families, structural Discovery, time-balanced mixed playback, palette/depth system, source controls, MV3 offscreen ownership, local files, capability-checked sharing, preferences/history/favorites, scene export/import and quality controls.
+Remote `main` and release `v0.1.0` were inspected before editing. Both pointed to `2a01390ee0cca552951c5fa62b7d73bbd7fc2115`; there was no newer remote work to reconcile. Repository instructions, README, progress, verification and relevant source were read. No additional repository instruction file was present. The baseline's 11 Node tests passed before revision.
 
-Build: `npm run build`. Output: `dist/extension`. Package: `npm run package`. Output: adjacent `deliverables/Video32-Chrome-Extension.zip` and `Video32-Source-and-Verification.zip`. Runtime needs Chrome 116+ and WebGL2; npm is needed only for source work.
+The user installed the published build, confirmed that it works, and liked it. That establishes a working user baseline. It does not independently establish particular stereo routes, capture cleanup, native fullscreen behavior or sustained Steam Deck performance. Those observations remain separate qualification items.
 
-## Completed increments
+Version **0.2.0** retains the canonical glyphs, MV3/offscreen audio ownership, 256 regular scene IDs, optional structural Discovery, retention/import/export and finite-color discipline. The revised library contains **768 creations**: 256 regular, 256 polygon tours and 256 spherical video studies. Runtime installation still needs no compilation, npm, account or server. The committed unpacked build and ZIP are updated together.
 
-1. Audited both pinned upstreams, read their relevant instructions/status/research, verified production primary32, imported exact selected masks and source palette definitions. Both upstream checkouts remain unchanged.
-2. Established and inspected a directly sampled spatial membrane/knot formation. Added descriptor matching, categorical form persistence, projection, opaque bitmap drawing, local features and source ownership.
-3. Moved expensive per-mark shape work into transform feedback, reused instanced draw buffers, added bounded quality and an explicit single-glyph comparison.
-4. Authored the 256-row catalog and coverage inventory. Added a structurally seeded bounded grammar, quality rejection/fallback, full-library traversal and elapsed-time scheduler.
-5. Built the MV3 workflow, local file replay, accurate sharing controls, compact hideable UI, history/retention and validated import/export.
-6. Exercised all presets in four development stages, 1,000 deterministic seeds, a 45-hour scheduler simulation, the original palette parity suite, final-display finite colors, GPU/CPU equations, local-file Web Audio, pause/hold and UI retention.
-7. Corrected interior-camera framing, source-viewer reuse after Stop, repeat file nodes, stale cached colors after palette changes, persisted Discovery favorites and restored playback mode. Replaced the coarse color path with source grading before quantization and genuine 8-bit RGB True Color bypass. Applied authored base budgets and explicit palette preparation status.
-8. Produced actual-renderer contact sheets, the complete sampled atlas, the form comparison, lossless hero image, sampled video and raw measurements. Packaged the dependency-free extension and the complete source/verification archive.
-9. Prepared the public `ShaelRiley/v32-music-visualizer` repository at the author's express direction. Added clone/pull, Chrome installation, first-play and extension-reload instructions; retained a committed unpacked build. Audio and scene file pickers now clear their selection after reading it, allowing the same file to be selected again. Re-ran all 11 Node tests successfully before publication. The updated UI also passed retention, scene import/export, file playback, Pause and Hold checks; the built extension passed its finite-color, True Color and catalog smoke check.
+## Completed revision increments
 
-## Verified state
+1. Combined sustained band/level/trend activity with individual layer mappings. Most marks now respond between beats. Three-axis deformation bends forms internally, and GPU position interpolation supplies movement between analysis ticks.
+2. Removed audio-dependent mark brightness and presence. Beats rotate marks and gently change their size. Colors remain attached to scene structure while geometry bends.
+3. Enlarged and reframed regular compositions. All 32 sampled family views occupied more screen regions than the released baseline. Discovery 1.1 generates sweeping landscapes, tunnels, archways, asteroid fields, orbital passages and crossings, with bounded quality rejection.
+4. Curated 37 applicable palette treatments: 20 new themes and 17 distinctive retained treatments. Kept the original 55-entry inventory for provenance. Added scene color roles, surface classes and height bands instead of random color scattering. Exact finite output and True Color bypass remain intact.
+5. Made the default show library-only: regular scenes alternate with spatial scenes; polygon and video banks are shuffled through the spatial slots. Each bank has a complete shuffled traversal. First regular selection is randomized. Automatic palette cycling defaults on and can be disabled; Discovery remains explicit. The optional elapsed-time 50/50 regular/Discovery mode is retained.
+6. Added fullscreen inactivity fading after 2.3 seconds. Controls, captions, messages, backdrop and cursor disappear, including while imagery is paused, and return on interaction. DOM behavior is verified; native fullscreen still needs a device observation.
+7. Researched and retained licensed spatial sources. Eight OSM districts include the Louvre precinct; twelve actual Freedoom levels, eight CC0 house neighborhoods and four measured US terrain regions complete 32 source spaces. Each has eight guided tours. Offline sampling and bounded local caches avoid runtime mesh parsing and remote requests.
+8. Added 256 studies from distinct licensed UGC360 source videos. Public archive ranges, original frame hashes/CRCs, source links and available creator metadata are retained. The matcher selects all 32 original glyphs across the bank. Sources, adaptations and full data licences accompany the build.
+9. Corrected startup/automatic selection and verified canceled queue restoration, all three bank startup modes, palette-cycle preference retention, asset replacement races, catalog filters and linked source credits. Refreshed the complete atlas, twelve contact sheets, eight animated spatial sheets and actual-renderer preview video.
+10. Ran the revised Node, renderer, color, display, UI, motion/fullscreen and packaged-build checks. Rebuilt `dist/extension` with `npm run build`; regenerated `dist/Video32-Chrome-Extension.zip` and checked its contents against the unpacked build. Added a pinned repository packaging job that reconstructs the large ZIP from the verified committed runtime and checks the recorded hash before committing it; the connected GitHub uploader has a 16 MiB request limit.
 
-11 Node tests passed. All 256 presets and representative Discovery scenes rendered without JavaScript/WebGL errors. All final finite artwork and display checks passed. GPU grading agreed in 55,295 of 55,296 comparisons; one Apple IIe True Color channel differed by one. Full measurements and tolerances are in VERIFICATION.md.
+## Verified state and remaining scope
 
-## Blockers and next concrete work
+Twenty Node tests passed. All 768 presets rendered at their documented development stages without JavaScript/WebGL errors, with valid glyph IDs and exact finite palette output. The color GPU/CPU check matched all 37,888 comparisons exactly. Retention, JSON import/export, file playback, Pause, Hold, palette cycling, three-bank startup, motion interpolation and fullscreen idle DOM behavior passed. Raw evidence and measurement scope are in [VERIFICATION.md](VERIFICATION.md).
 
-Ordinary Chrome launch was blocked by process-singleton socket creation in this container. Actual MV3 capture permissions, physical stereo/once-audible playback and source restoration after capture therefore remain unverified. Fullscreen did not enter in the headless shell. Integrated GPU and Steam Deck hardware were unavailable; 60 FPS is a target, not a result. Software frame times are recorded without hardware extrapolation.
+The native VR180 collection found during research has gated media. The bundled video bank therefore uses **nine-frame 360° sequences viewed through 180°**, without depth reconstruction, stereo or full-length movie playback. This is an explicit interpretation, not completion of the request for 256 reusable native VR180 movies. Polygon tours are artistic guided routes rather than collision-certified museum walkthroughs; the Louvre reconstruction uses mapped exterior masses.
 
-Next: install `dist/extension` in normal Chrome on a desktop or Steam Deck/Linux device and complete the five concrete checks in VERIFICATION.md. Record hardware, browser, listening results, frame distributions and lifecycle observations before calling the build device-qualified. No background continuation or publication is promised. Neither upstream nor the Chrome Web Store was changed.
+Full Chrome could not launch in the container because process-singleton Unix socket creation was denied. Physical stereo/once-audible routing, capture lifecycle and restoration, actual sharing permissions, native fullscreen and sustained integrated-GPU/Steam Deck performance remain device checks. **60 FPS is a target, not a measured hardware result.** Record specific hardware/browser/listening observations when testing the revision. No upstream repository or Chrome Web Store listing was changed.
+
+## Update an installed checkout
+
+```sh
+git -C ~/Downloads/v32-music-visualizer pull --ff-only
+```
+
+Stop capture, reload Video32 at `chrome://extensions`, close the old viewer, and reopen it from the playing music tab.

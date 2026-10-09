@@ -2,118 +2,87 @@
   "seeds": 1000,
   "fallbacks": 0,
   "rejections": {
-    "insufficient-negative-space": 63
+    "insufficient-screen-extent": 126
   },
   "structuralDuplicates": 0,
   "layerCounts": {
-    "2": 250,
-    "3": 252,
-    "4": 248,
-    "5": 250
+    "2": 26,
+    "3": 509,
+    "4": 465
   },
   "operators": {
-    "hourglass": 107,
-    "braid": 114,
-    "iris": 107,
-    "cone": 104,
-    "catenoid": 126,
-    "cell": 123,
-    "arch": 116,
-    "lens": 113,
-    "crystal": 97,
-    "strata": 95,
-    "torus": 106,
-    "helix": 119,
-    "knot": 101,
-    "reaction": 102,
-    "wavefront": 102,
-    "ribbon": 92,
-    "rosette": 112,
-    "tesseract": 120,
-    "branch": 120,
-    "scroll": 98,
-    "saddle": 123,
-    "vortex": 119,
-    "weft": 105,
-    "mobius": 108,
-    "spiral": 101,
-    "gyroid": 118,
-    "klein": 109,
-    "lattice": 136,
-    "superquadric": 105,
-    "coral": 107,
-    "shell": 108,
-    "wave": 85
+    "superquadric": 139,
+    "cell": 283,
+    "strata": 127,
+    "tesseract": 49,
+    "arch": 426,
+    "weft": 135,
+    "crystal": 176,
+    "catenoid": 374,
+    "torus": 585,
+    "lens": 26,
+    "helix": 22,
+    "hourglass": 173,
+    "scroll": 25,
+    "wave": 156,
+    "reaction": 94,
+    "spiral": 40,
+    "branch": 40,
+    "lattice": 28,
+    "gyroid": 100,
+    "iris": 118,
+    "klein": 20,
+    "rosette": 24,
+    "shell": 26,
+    "coral": 29,
+    "wavefront": 37,
+    "knot": 25,
+    "saddle": 34,
+    "ribbon": 29,
+    "mobius": 19,
+    "vortex": 22,
+    "braid": 27,
+    "cone": 31
   },
-  "maxCoordinate": 4.834603338267183,
+  "maxCoordinate": 5.206650533168798,
   "examples": [
     {
       "schemaVersion": 1,
-      "generatorVersion": "1.0.0",
+      "generatorVersion": "1.1.0",
       "id": "discovery-qa-0-0",
-      "name": "Oblique Sanctuary",
-      "family": "hourglass",
+      "name": "Oblique Asteroid Field",
+      "family": "crystal",
       "kind": "discovery",
       "seed": "qa-0",
       "initialState": {
         "clock": 0
       },
-      "camera": "rise",
+      "camera": "passage",
       "layers": [
         {
-          "op": "hourglass",
-          "partner": "rosette",
-          "relation": "wrap",
-          "effect": "fold",
-          "cut": "slit",
-          "audio": "onset",
-          "phase": 4.211746688056738,
-          "hue": 0.9769696956500411,
-          "scale": [
-            1,
-            1.2481657297816127,
-            1
-          ],
-          "offset": [
-            0.16357398997060957,
-            0.005991611257195495,
-            -0.0796049955300987
-          ],
-          "rotate": [
-            1.109438779298216,
-            2.726763033075258,
-            1.2027075804769993
-          ],
-          "domain": [
-            0,
-            0,
-            1,
-            1
-          ]
-        },
-        {
-          "op": "braid",
-          "partner": "scroll",
-          "relation": "intersect",
+          "op": "superquadric",
+          "partner": "mobius",
+          "relation": "independent",
           "effect": "circulate",
-          "cut": "slit",
-          "audio": "treble",
-          "phase": 1.734859661301598,
-          "hue": 0.014932643389329314,
+          "cut": "pores",
+          "audio": "trend",
+          "phase": 5.187707062996924,
+          "hue": 0.05894430572167039,
+          "colorRole": "structure",
           "scale": [
+            1.2568047748180107,
             1,
-            1.1887073407880961,
             1
           ],
           "offset": [
-            0.430503644188866,
-            -0.051673661638051316,
-            0.7379518671892583
+            0.792270413087681,
+            0.5724894154351204,
+            -2.4749999999999996
           ],
           "rotate": [
-            -0.32152167661115527,
-            2.5216878089122474,
-            1.4949042078107597
+            0.13463089666329323,
+            0.8371673874557019,
+            0.24904206478968263
           ],
           "domain": [
             0,
@@ -123,109 +92,29 @@
           ]
         },
         {
-          "op": "iris",
-          "partner": "vortex",
-          "relation": "weave",
-          "effect": "still",
-          "cut": "none",
+          "op": "superquadric",
+          "partner": "arch",
+          "relation": "independent",
+          "effect": "circulate",
+          "cut": "pores",
           "audio": "bass",
-          "phase": 5.234777691205964,
-          "hue": 0.5531040225178003,
+          "phase": 2.609060283470899,
+          "hue": 0.3412397051602602,
+          "colorRole": "accent",
           "scale": [
+            1.2671575649408624,
             1,
-            1.082455382402986,
             1
           ],
           "offset": [
-            -0.797900445247069,
-            -0.10145344901829956,
-            0.25289336610585444
+            0.32534097731113437,
+            0.09039315413683652,
+            -0.825
           ],
           "rotate": [
-            0.927104055415839,
-            2.407311254180968,
-            0.8022127632051707
-          ],
-          "domain": [
-            0,
-            0,
-            1,
-            1
-          ]
-        },
-        {
-          "op": "cone",
-          "partner": "branch",
-          "relation": "repel",
-          "effect": "still",
-          "cut": "open",
-          "audio": "treble",
-          "phase": 2.559261570321396,
-          "hue": 0.10310991806909442,
-          "scale": [
-            1,
-            1.030364093137905,
-            1
-          ],
-          "offset": [
-            0.04672433501109485,
-            0.12951646763831381,
-            0.7684156344272196
-          ],
-          "rotate": [
-            0.47359480801969767,
-            1.6718035947997123,
-            1.3110491402447224
-          ],
-          "domain": [
-            0,
-            0,
-            1,
-            1
-          ]
-        }
-      ],
-      "description": "A newly composed asymmetric of 4 interacting hourglass, braid, iris, cone constructions.",
-      "audioBehavior": "onset, treble, bass drive separate fold, circulate, still gestures.",
-      "distinction": "Generated asymmetric; graph structure, relationships, apertures and audio mappings are seed-dependent.",
-      "budget": 12000
-    },
-    {
-      "schemaVersion": 1,
-      "generatorVersion": "1.0.0",
-      "id": "discovery-qa-1-0",
-      "name": "Oblique Organism",
-      "family": "catenoid",
-      "kind": "discovery",
-      "seed": "qa-1",
-      "initialState": {
-        "clock": 0
-      },
-      "camera": "rise",
-      "layers": [
-        {
-          "op": "catenoid",
-          "partner": "reaction",
-          "relation": "intersect",
-          "effect": "grow",
-          "cut": "none",
-          "audio": "onset",
-          "phase": 0.40012836750596764,
-          "hue": 0.06720483116805553,
-          "scale": [
-            0.62,
-            0.613712224590592,
-            0.62
-          ],
-          "offset": [
-            1.15,
-            0,
-            0
-          ],
-          "rotate": [
-            0.677023452706635,
-            1.9245697336737067,
-            0.6349920596927405
+            0.1933760768966749,
+            0.023892229422926903,
+            0.3258048938587308
           ],
           "domain": [
             0,
@@ -236,27 +125,60 @@
         },
         {
           "op": "cell",
-          "partner": "cone",
-          "relation": "weave",
-          "effect": "twist",
-          "cut": "pores",
+          "partner": "torus",
+          "relation": "independent",
+          "effect": "circulate",
+          "cut": "none",
           "audio": "onset",
-          "phase": 1.3717577407322825,
-          "hue": 0.9589233323931694,
+          "phase": 5.8209167690016335,
+          "hue": 0.580841243546456,
+          "colorRole": "counter",
           "scale": [
-            0.62,
-            0.4620719145741313,
-            0.62
+            2.1,
+            1.8,
+            2.1
           ],
           "offset": [
-            -0.8480027728724322,
-            0.44624916470361087,
-            0.7767826576338236
+            0.3770838223863393,
+            0.036341149453073734,
+            0.825
           ],
           "rotate": [
-            0.28936653584241867,
-            1.1944161232095212,
-            1.0442117493599654
+            0.4994864193955436,
+            1.283899335563183,
+            0.20055319080129266
+          ],
+          "domain": [
+            0,
+            0,
+            1,
+            1
+          ]
+        },
+        {
+          "op": "cell",
+          "partner": "mobius",
+          "relation": "independent",
+          "effect": "circulate",
+          "cut": "none",
+          "audio": "onset",
+          "phase": 2.5507431248389185,
+          "hue": 0.9109516164101659,
+          "colorRole": "distance",
+          "scale": [
+            2.1,
+            1.8,
+            2.1
+          ],
+          "offset": [
+            -0.7833509310614318,
+            -0.3054386151023209,
+            2.4749999999999996
+          ],
+          "rotate": [
+            0.3900875054532662,
+            1.3110491402447224,
+            0.17777971727773548
           ],
           "domain": [
             0,
@@ -266,140 +188,259 @@
           ]
         }
       ],
-      "description": "A newly composed constellation of 2 interacting catenoid, cell constructions.",
-      "audioBehavior": "onset drive separate grow, twist gestures.",
-      "distinction": "Generated constellation; graph structure, relationships, apertures and audio mappings are seed-dependent.",
+      "description": "A sweeping asteroids of 4 layered superquadric, superquadric, cell, cell constructions, composed for close, immersive travel.",
+      "audioBehavior": "Sustained energy drives every wave and ripple; trend, bass, onset articulate individual layers and beats rotate the marks.",
+      "distinction": "Generated asteroids; geometry, depth arrangement, graph relationships and audio mappings are seed-dependent.",
       "budget": 12000
     },
     {
       "schemaVersion": 1,
-      "generatorVersion": "1.0.0",
+      "generatorVersion": "1.1.0",
+      "id": "discovery-qa-1-0",
+      "name": "Resonant Horizon",
+      "family": "strata",
+      "kind": "discovery",
+      "seed": "qa-1",
+      "initialState": {
+        "clock": 0
+      },
+      "camera": "passage",
+      "layers": [
+        {
+          "op": "strata",
+          "partner": "tesseract",
+          "relation": "weave",
+          "effect": "fold",
+          "cut": "none",
+          "audio": "mid",
+          "phase": 2.080240766648203,
+          "hue": 0.07400570116937161,
+          "colorRole": "ground",
+          "scale": [
+            1.95,
+            0.72,
+            1.75
+          ],
+          "offset": [
+            0,
+            -0.65,
+            0
+          ],
+          "rotate": [
+            0,
+            0.042456973367370664,
+            0
+          ],
+          "domain": [
+            0,
+            0,
+            1,
+            1
+          ]
+        },
+        {
+          "op": "cell",
+          "partner": "strata",
+          "relation": "independent",
+          "effect": "twist",
+          "cut": "none",
+          "audio": "onset",
+          "phase": 1.2921760448254644,
+          "hue": 0.3370411228202283,
+          "colorRole": "accent",
+          "scale": [
+            0.95,
+            1.1,
+            0.95
+          ],
+          "offset": [
+            -1.3020223313011228,
+            0.5,
+            -1.15
+          ],
+          "rotate": [
+            0.2762782875448465,
+            0.6370219323784113,
+            0.26105293733999135
+          ],
+          "domain": [
+            0,
+            0,
+            1,
+            1
+          ]
+        },
+        {
+          "op": "tesseract",
+          "partner": "vortex",
+          "relation": "independent",
+          "effect": "ripple",
+          "cut": "none",
+          "audio": "treble",
+          "phase": 3.3524944571312516,
+          "hue": 0.6280044631287455,
+          "colorRole": "counter",
+          "scale": [
+            0.95,
+            1.1,
+            0.95
+          ],
+          "offset": [
+            1.3848969517741352,
+            0.5,
+            -1.7000000000000002
+          ],
+          "rotate": [
+            0.12407396910712122,
+            1.083794767037034,
+            0.3414766044355929
+          ],
+          "domain": [
+            0,
+            0,
+            1,
+            1
+          ]
+        }
+      ],
+      "description": "A sweeping landscape of 3 layered strata, cell, tesseract constructions, composed for close, immersive travel.",
+      "audioBehavior": "Sustained energy drives every wave and ripple; mid, onset, treble articulate individual layers and beats rotate the marks.",
+      "distinction": "Generated landscape; geometry, depth arrangement, graph relationships and audio mappings are seed-dependent.",
+      "budget": 12000
+    },
+    {
+      "schemaVersion": 1,
+      "generatorVersion": "1.1.0",
       "id": "discovery-qa-2-0",
-      "name": "Spectral Organism",
+      "name": "Spectral Arcade",
       "family": "arch",
       "kind": "discovery",
       "seed": "qa-2",
       "initialState": {
         "clock": 0
       },
-      "camera": "orbit",
+      "camera": "passage",
       "layers": [
         {
           "op": "arch",
-          "partner": "reaction",
-          "relation": "wrap",
-          "effect": "still",
+          "partner": "klein",
+          "relation": "independent",
+          "effect": "fold",
+          "cut": "none",
+          "audio": "onset",
+          "phase": 0.05546331920661032,
+          "hue": 0.019388642515987157,
+          "colorRole": "structure",
+          "scale": [
+            1.65,
+            1.5,
+            0.85
+          ],
+          "offset": [
+            -0.09241267496254295,
+            0.15,
+            -2.7
+          ],
+          "rotate": [
+            0,
+            0,
+            0
+          ],
+          "domain": [
+            0,
+            0,
+            1,
+            1
+          ]
+        },
+        {
+          "op": "arch",
+          "partner": "saddle",
+          "relation": "independent",
+          "effect": "fold",
+          "cut": "none",
+          "audio": "trend",
+          "phase": 4.559191677384079,
+          "hue": 0.3177650354243815,
+          "colorRole": "accent",
+          "scale": [
+            1.65,
+            1.5,
+            0.85
+          ],
+          "offset": [
+            -0.08738126833923161,
+            0.15,
+            -0.9
+          ],
+          "rotate": [
+            0,
+            0,
+            0
+          ],
+          "domain": [
+            0,
+            0,
+            1,
+            1
+          ]
+        },
+        {
+          "op": "arch",
+          "partner": "shell",
+          "relation": "independent",
+          "effect": "ripple",
+          "cut": "none",
+          "audio": "treble",
+          "phase": 0.8985051003005355,
+          "hue": 0.6321863190084696,
+          "colorRole": "counter",
+          "scale": [
+            1.65,
+            1.5,
+            0.85
+          ],
+          "offset": [
+            0.04440134901087731,
+            0.15,
+            0.9
+          ],
+          "rotate": [
+            0,
+            0,
+            0
+          ],
+          "domain": [
+            0,
+            0,
+            1,
+            1
+          ]
+        },
+        {
+          "op": "weft",
+          "partner": "vortex",
+          "relation": "independent",
+          "effect": "ripple",
           "cut": "none",
           "audio": "bass",
-          "phase": 5.541320563862101,
-          "hue": 0.8104112516157329,
+          "phase": 0.252504444392398,
+          "hue": 0.9229265508987008,
+          "colorRole": "distance",
           "scale": [
-            1,
-            0.7450942708179354,
-            1
+            1.7,
+            0.45,
+            2.8
           ],
           "offset": [
             0,
-            0,
+            -1.05,
             0
           ],
           "rotate": [
-            0.40126579673960805,
-            0.5758732503745705,
-            1.139956870675087
-          ],
-          "domain": [
-            0,
-            0,
-            1,
-            1
-          ]
-        },
-        {
-          "op": "hourglass",
-          "partner": "ribbon",
-          "relation": "blend",
-          "effect": "still",
-          "cut": "pores",
-          "audio": "mid",
-          "phase": 5.713795861499384,
-          "hue": 0.3532180427573621,
-          "scale": [
-            1,
-            1.0916869437322019,
-            1
-          ],
-          "offset": [
             0,
             0,
             0
-          ],
-          "rotate": [
-            0.6542472350411117,
-            2.9230212222319096,
-            1.3611963387578727
-          ],
-          "domain": [
-            0,
-            0,
-            1,
-            1
-          ]
-        },
-        {
-          "op": "lens",
-          "partner": "knot",
-          "relation": "weave",
-          "effect": "collapse",
-          "cut": "open",
-          "audio": "mid",
-          "phase": 1.12988237304613,
-          "hue": 0.8636355448979884,
-          "scale": [
-            1,
-            0.7377059148624538,
-            1
-          ],
-          "offset": [
-            0,
-            0,
-            0
-          ],
-          "rotate": [
-            -0.36303624231368303,
-            1.2163289613090456,
-            0.5598262116312981
-          ],
-          "domain": [
-            0,
-            0,
-            1,
-            1
-          ]
-        },
-        {
-          "op": "braid",
-          "partner": "cone",
-          "relation": "intersect",
-          "effect": "split",
-          "cut": "slit",
-          "audio": "mid",
-          "phase": 3.132564603229985,
-          "hue": 0.14307406055741012,
-          "scale": [
-            1,
-            1.0913973925635219,
-            1
-          ],
-          "offset": [
-            0,
-            0,
-            0
-          ],
-          "rotate": [
-            0.3345195767469704,
-            2.8722907472401857,
-            0.9118281718343497
           ],
           "domain": [
             0,
@@ -409,109 +450,48 @@
           ]
         }
       ],
-      "description": "A newly composed crossing of 4 interacting arch, hourglass, lens, braid constructions.",
-      "audioBehavior": "bass, mid drive separate still, collapse, split gestures.",
-      "distinction": "Generated crossing; graph structure, relationships, apertures and audio mappings are seed-dependent.",
+      "description": "A sweeping archway of 4 layered arch, arch, arch, weft constructions, composed for close, immersive travel.",
+      "audioBehavior": "Sustained energy drives every wave and ripple; onset, trend, treble, bass articulate individual layers and beats rotate the marks.",
+      "distinction": "Generated archway; geometry, depth arrangement, graph relationships and audio mappings are seed-dependent.",
       "budget": 12000
     },
     {
       "schemaVersion": 1,
-      "generatorVersion": "1.0.0",
+      "generatorVersion": "1.1.0",
       "id": "discovery-qa-3-0",
-      "name": "Spectral Weather",
-      "family": "crystal",
+      "name": "Resonant Asteroid Field",
+      "family": "cell",
       "kind": "discovery",
       "seed": "qa-3",
       "initialState": {
         "clock": 0
       },
-      "camera": "orbit",
+      "camera": "passage",
       "layers": [
         {
           "op": "crystal",
-          "partner": "strata",
-          "relation": "repel",
-          "effect": "collapse",
-          "cut": "slit",
-          "audio": "bass",
-          "phase": 3.7694734621047976,
-          "hue": 0.7014730682130903,
-          "scale": [
-            0.62,
-            0.46591439809091384,
-            0.62
-          ],
-          "offset": [
-            1.15,
-            0,
-            0
-          ],
-          "rotate": [
-            0.07443764107301831,
-            1.8676278577186167,
-            1.5459572698920967
-          ],
-          "domain": [
-            0,
-            0,
-            1,
-            1
-          ]
-        },
-        {
-          "op": "hourglass",
-          "partner": "coral",
-          "relation": "intersect",
-          "effect": "fold",
-          "cut": "slit",
-          "audio": "trend",
-          "phase": 4.599500537896529,
-          "hue": 0.25362641690298915,
-          "scale": [
-            0.62,
-            0.6547942479290068,
-            0.62
-          ],
-          "offset": [
-            -0.8480027728724322,
-            0.44624916470361087,
-            0.7767826576338236
-          ],
-          "rotate": [
-            0.3520603715442121,
-            0.29305847827345133,
-            0.17358613274991513
-          ],
-          "domain": [
-            0,
-            0,
-            1,
-            1
-          ]
-        },
-        {
-          "op": "catenoid",
-          "partner": "helix",
-          "relation": "wrap",
-          "effect": "ripple",
+          "partner": "iris",
+          "relation": "independent",
+          "effect": "circulate",
           "cut": "pores",
-          "audio": "bass",
-          "phase": 6.263042619265616,
-          "hue": 0.45762111991643906,
+          "audio": "onset",
+          "phase": 1.2781518280506134,
+          "hue": 0.05185940952971578,
+          "colorRole": "structure",
           "scale": [
-            0.62,
-            0.6973122026342897,
-            0.62
+            1.2831116468412802,
+            1,
+            1
           ],
           "offset": [
-            0.10062383095536336,
-            -0.11499349591207406,
-            -1.1455893001612167
+            0.6224765675608069,
+            0.33442579214461143,
+            -2.4749999999999996
           ],
           "rotate": [
-            0.22610645415261388,
-            1.8801302157808095,
-            0.16555841267108917
+            0.42016423940658565,
+            1.1223569091409444,
+            0.034316557087004186
           ],
           "domain": [
             0,
@@ -521,28 +501,93 @@
           ]
         },
         {
-          "op": "strata",
-          "partner": "gyroid",
-          "relation": "intersect",
+          "op": "cell",
+          "partner": "cell",
+          "relation": "independent",
+          "effect": "circulate",
+          "cut": "none",
+          "audio": "trend",
+          "phase": 2.873860633075237,
+          "hue": 0.3466262801364064,
+          "colorRole": "accent",
+          "scale": [
+            2.1,
+            1.8,
+            2.1
+          ],
+          "offset": [
+            -0.20617585233412683,
+            -0.6604405259247869,
+            -0.825
+          ],
+          "rotate": [
+            0.07594393307808786,
+            0.6075457673519851,
+            0.04240510137751699
+          ],
+          "domain": [
+            0,
+            0,
+            1,
+            1
+          ]
+        },
+        {
+          "op": "cell",
+          "partner": "helix",
+          "relation": "independent",
+          "effect": "circulate",
+          "cut": "none",
+          "audio": "trend",
+          "phase": 4.852283269558102,
+          "hue": 0.5858766237087547,
+          "colorRole": "counter",
+          "scale": [
+            2.1,
+            1.8,
+            2.1
+          ],
+          "offset": [
+            -1.1676189326215536,
+            -0.32657132847234605,
+            0.825
+          ],
+          "rotate": [
+            0.5279760916484519,
+            0.4012820653617382,
+            0.12137857107445599
+          ],
+          "domain": [
+            0,
+            0,
+            1,
+            1
+          ]
+        },
+        {
+          "op": "cell",
+          "partner": "crystal",
+          "relation": "independent",
           "effect": "circulate",
           "cut": "none",
           "audio": "mid",
-          "phase": 2.3873817440401766,
-          "hue": 0.4961512933950871,
+          "phase": 4.1729523732978855,
+          "hue": 0.8941072204895316,
+          "colorRole": "distance",
           "scale": [
-            0.62,
-            0.45294067579414693,
-            0.62
+            2.1,
+            1.8,
+            2.1
           ],
           "offset": [
-            0.6996040117120934,
-            -0.4166166070474796,
-            0.9127180434265255
+            0.17270870017819107,
+            0.624396293144673,
+            2.4749999999999996
           ],
           "rotate": [
-            0.03346953075379133,
-            2.520008630119264,
-            1.2362505145370961
+            0.16435801812913267,
+            1.5994654897600413,
+            0.16268331743776798
           ],
           "domain": [
             0,
@@ -552,78 +597,48 @@
           ]
         }
       ],
-      "description": "A newly composed constellation of 4 interacting crystal, hourglass, catenoid, strata constructions.",
-      "audioBehavior": "bass, trend, mid drive separate collapse, fold, ripple, circulate gestures.",
-      "distinction": "Generated constellation; graph structure, relationships, apertures and audio mappings are seed-dependent.",
+      "description": "A sweeping asteroids of 4 layered crystal, cell, cell, cell constructions, composed for close, immersive travel.",
+      "audioBehavior": "Sustained energy drives every wave and ripple; onset, trend, mid articulate individual layers and beats rotate the marks.",
+      "distinction": "Generated asteroids; geometry, depth arrangement, graph relationships and audio mappings are seed-dependent.",
       "budget": 12000
     },
     {
       "schemaVersion": 1,
-      "generatorVersion": "1.0.0",
-      "id": "discovery-qa-4-0",
-      "name": "Porous Paradox",
-      "family": "arch",
+      "generatorVersion": "1.1.0",
+      "id": "discovery-qa-4-1",
+      "name": "Oblique Orbital Passage",
+      "family": "torus",
       "kind": "discovery",
       "seed": "qa-4",
       "initialState": {
         "clock": 0
       },
-      "camera": "orbit",
+      "camera": "passage",
       "layers": [
         {
-          "op": "arch",
-          "partner": "lattice",
-          "relation": "repel",
+          "op": "catenoid",
+          "partner": "torus",
+          "relation": "independent",
           "effect": "fold",
-          "cut": "slit",
-          "audio": "trend",
-          "phase": 5.5190374042931944,
-          "hue": 0.6135749737732112,
+          "cut": "none",
+          "audio": "bass",
+          "phase": 6.116941291186959,
+          "hue": 0.016715178191661836,
+          "colorRole": "structure",
           "scale": [
-            1,
-            0.8544425691943616,
-            1
+            1.5413758546579628,
+            1.4648910139338112,
+            1.2
           ],
           "offset": [
-            0.34494604188948863,
-            -0.20456607509404418,
-            0.48563778195530183
+            0,
+            0.5,
+            -2.25
           ],
           "rotate": [
-            0.011969780083745718,
-            2.2220239837188274,
-            0.04701735749840737
-          ],
-          "domain": [
-            0,
-            0,
-            1,
-            1
-          ]
-        },
-        {
-          "op": "braid",
-          "partner": "saddle",
-          "relation": "weave",
-          "effect": "grow",
-          "cut": "bands",
-          "audio": "onset",
-          "phase": 2.9597856948897245,
-          "hue": 0.3442053203471005,
-          "scale": [
-            1,
-            1.195330540742725,
-            1
-          ],
-          "offset": [
-            -0.5945095775183291,
-            -0.5051633667200803,
-            -0.13021100959740584
-          ],
-          "rotate": [
-            -0.22731997910887003,
-            1.1956866967957467,
-            0.3812154989689589
+            1.79991629693215,
+            -0.14190000551752746,
+            0
           ],
           "domain": [
             0,
@@ -635,57 +650,27 @@
         {
           "op": "torus",
           "partner": "ribbon",
-          "relation": "intersect",
-          "effect": "fold",
+          "relation": "independent",
+          "effect": "circulate",
           "cut": "none",
-          "audio": "onset",
-          "phase": 3.1989720762334763,
-          "hue": 0.4609515545889735,
-          "scale": [
-            1,
-            1.1876997179817408,
-            1
-          ],
-          "offset": [
-            -0.8460836982820183,
-            -0.30227087438106537,
-            -0.858639495447278
-          ],
-          "rotate": [
-            1.3925756835378706,
-            2.8296994355041534,
-            0.9573935665190221
-          ],
-          "domain": [
-            0,
-            0,
-            1,
-            1
-          ]
-        },
-        {
-          "op": "helix",
-          "partner": "wave",
-          "relation": "weave",
-          "effect": "twist",
-          "cut": "open",
           "audio": "trend",
-          "phase": 2.5366867635771633,
-          "hue": 0.18540289695374668,
+          "phase": 2.371281380010769,
+          "hue": 0.360000271294266,
+          "colorRole": "accent",
           "scale": [
-            1,
-            1.2291199701372535,
-            1
+            1.7178864707238972,
+            1.4634809732320717,
+            1.2
           ],
           "offset": [
-            0.2946478142403067,
-            -0.005067607015371345,
-            -0.5266403867863119
+            0.9118752937440538,
+            -0.014599761150644408,
+            -0.75
           ],
           "rotate": [
-            -0.06760002207010984,
-            0.41864747763611376,
-            0.17645971402525903
+            1.5138194081981222,
+            0.1319994324585423,
+            0
           ],
           "domain": [
             0,
@@ -695,28 +680,61 @@
           ]
         },
         {
-          "op": "helix",
-          "partner": "weft",
-          "relation": "blend",
-          "effect": "grow",
+          "op": "torus",
+          "partner": "vortex",
+          "relation": "wrap",
+          "effect": "circulate",
           "cut": "none",
-          "audio": "bass",
-          "phase": 2.5624419137462975,
-          "hue": 0.902336660772562,
+          "audio": "treble",
+          "phase": 2.1759767428785564,
+          "hue": 0.6312798096053301,
+          "colorRole": "counter",
           "scale": [
-            1,
-            0.7478819113224744,
-            1
+            1.4807796261273323,
+            1.726975818525534,
+            1.2
           ],
           "offset": [
-            -0.07955174152739342,
-            0.4795526353642344,
-            -0.26506173703819513
+            -1.344822221928385,
+            -0.49914738789737656,
+            0.75
           ],
           "rotate": [
-            -0.1614713203161955,
-            0.6760042493697256,
-            1.453195294737816
+            1.7533206684191267,
+            -0.028737189481034875,
+            0
+          ],
+          "domain": [
+            0,
+            0,
+            1,
+            1
+          ]
+        },
+        {
+          "op": "torus",
+          "partner": "cell",
+          "relation": "wrap",
+          "effect": "circulate",
+          "cut": "none",
+          "audio": "treble",
+          "phase": 0.19303287845104933,
+          "hue": 0.9012940508686005,
+          "colorRole": "distance",
+          "scale": [
+            1.4959321033442392,
+            1.6248239275068044,
+            1.2
+          ],
+          "offset": [
+            1.071451616196356,
+            0.043749491719723636,
+            2.25
+          ],
+          "rotate": [
+            1.8165328266706804,
+            0.05361633945722133,
+            0
           ],
           "domain": [
             0,
@@ -726,47 +744,48 @@
           ]
         }
       ],
-      "description": "A newly composed asymmetric of 5 interacting arch, braid, torus, helix, helix constructions.",
-      "audioBehavior": "trend, onset, bass drive separate fold, grow, twist gestures.",
-      "distinction": "Generated asymmetric; graph structure, relationships, apertures and audio mappings are seed-dependent.",
+      "description": "A sweeping orbitals of 4 layered catenoid, torus, torus, torus constructions, composed for close, immersive travel.",
+      "audioBehavior": "Sustained energy drives every wave and ripple; bass, trend, treble articulate individual layers and beats rotate the marks.",
+      "distinction": "Generated orbitals; geometry, depth arrangement, graph relationships and audio mappings are seed-dependent.",
       "budget": 12000
     },
     {
       "schemaVersion": 1,
-      "generatorVersion": "1.0.0",
+      "generatorVersion": "1.1.0",
       "id": "discovery-qa-5-0",
-      "name": "Spectral Organism",
-      "family": "knot",
+      "name": "Resonant Horizon",
+      "family": "weft",
       "kind": "discovery",
       "seed": "qa-5",
       "initialState": {
         "clock": 0
       },
-      "camera": "orbit",
+      "camera": "passage",
       "layers": [
         {
-          "op": "knot",
-          "partner": "gyroid",
-          "relation": "weave",
-          "effect": "still",
+          "op": "weft",
+          "partner": "reaction",
+          "relation": "independent",
+          "effect": "fold",
           "cut": "none",
-          "audio": "trend",
-          "phase": 6.096780281867832,
-          "hue": 0.8605384991969913,
+          "audio": "treble",
+          "phase": 4.697588590160012,
+          "hue": 0.034866165388375524,
+          "colorRole": "ground",
           "scale": [
-            1,
-            0.9260997688397765,
-            1
+            1.95,
+            0.72,
+            1.75
           ],
           "offset": [
-            -0.28513961085118356,
-            0.14243701072409753,
-            -0.42253027204424143
+            0,
+            -0.65,
+            0
           ],
           "rotate": [
-            0.4768649563193321,
-            2.2440709825605154,
-            0.6973233077675105
+            0,
+            0.10816154975909739,
+            0
           ],
           "domain": [
             0,
@@ -777,27 +796,60 @@
         },
         {
           "op": "lens",
-          "partner": "mobius",
-          "relation": "blend",
-          "effect": "invert",
+          "partner": "knot",
+          "relation": "independent",
+          "effect": "twist",
           "cut": "none",
           "audio": "trend",
-          "phase": 4.211601714724675,
-          "hue": 0.600359407486394,
+          "phase": 1.0322297072131188,
+          "hue": 0.332866626214236,
+          "colorRole": "accent",
           "scale": [
-            1,
-            1.1844892458058893,
-            1
+            0.95,
+            1.1,
+            0.95
           ],
           "offset": [
-            -0.1829725201707333,
-            0.18816693937405948,
-            -0.782095939759165
+            -1.5602156444918363,
+            0.5,
+            -1.15
           ],
           "rotate": [
-            -0.1712644244544208,
-            1.6074984830338508,
-            0.16852265521883966
+            0.5811897412640974,
+            0.30363406240940094,
+            0.39453382994979624
+          ],
+          "domain": [
+            0,
+            0,
+            1,
+            1
+          ]
+        },
+        {
+          "op": "helix",
+          "partner": "scroll",
+          "relation": "independent",
+          "effect": "circulate",
+          "cut": "none",
+          "audio": "bass",
+          "phase": 5.895789522752166,
+          "hue": 0.64065538816154,
+          "colorRole": "counter",
+          "scale": [
+            0.95,
+            1.1,
+            0.95
+          ],
+          "offset": [
+            1.5668303695041685,
+            0.5,
+            -1.7000000000000002
+          ],
+          "rotate": [
+            0.2240961299277842,
+            0.624308455362916,
+            0.14482467863708734
           ],
           "domain": [
             0,
@@ -807,190 +859,48 @@
           ]
         }
       ],
-      "description": "A newly composed asymmetric of 2 interacting knot, lens constructions.",
-      "audioBehavior": "trend drive separate still, invert gestures.",
-      "distinction": "Generated asymmetric; graph structure, relationships, apertures and audio mappings are seed-dependent.",
+      "description": "A sweeping landscape of 3 layered weft, lens, helix constructions, composed for close, immersive travel.",
+      "audioBehavior": "Sustained energy drives every wave and ripple; treble, trend, bass articulate individual layers and beats rotate the marks.",
+      "distinction": "Generated landscape; geometry, depth arrangement, graph relationships and audio mappings are seed-dependent.",
       "budget": 12000
     },
     {
       "schemaVersion": 1,
-      "generatorVersion": "1.0.0",
+      "generatorVersion": "1.1.0",
       "id": "discovery-qa-6-0",
-      "name": "Spectral Paradox",
-      "family": "reaction",
+      "name": "Oblique Asteroid Field",
+      "family": "cell",
       "kind": "discovery",
       "seed": "qa-6",
       "initialState": {
         "clock": 0
       },
-      "camera": "orbit",
+      "camera": "passage",
       "layers": [
         {
-          "op": "reaction",
-          "partner": "wavefront",
-          "relation": "repel",
-          "effect": "fold",
-          "cut": "slit",
-          "audio": "treble",
-          "phase": 1.870089646121487,
-          "hue": 0.7808613798115402,
-          "scale": [
-            1.65,
-            1.5858920390345153,
-            1.65
-          ],
-          "offset": [
-            0,
-            0,
-            0
-          ],
-          "rotate": [
-            0.9537852727808058,
-            1.212723787408322,
-            0.28713409714400767
-          ],
-          "domain": [
-            0,
-            0,
-            1,
-            1
-          ]
-        },
-        {
-          "op": "wavefront",
-          "partner": "shell",
-          "relation": "weave",
-          "effect": "collapse",
-          "cut": "none",
-          "audio": "treble",
-          "phase": 0.43883547659963373,
-          "hue": 0.3803009793628007,
-          "scale": [
-            0.6799999999999999,
-            0.8101673154179005,
-            0.6799999999999999
-          ],
-          "offset": [
-            0,
-            0,
-            0
-          ],
-          "rotate": [
-            0.9366790102794766,
-            2.533549807034433,
-            0.7404594976454973
-          ],
-          "domain": [
-            0,
-            0,
-            1,
-            1
-          ]
-        },
-        {
-          "op": "ribbon",
-          "partner": "mobius",
-          "relation": "wrap",
+          "op": "cell",
+          "partner": "strata",
+          "relation": "independent",
           "effect": "circulate",
-          "cut": "open",
-          "audio": "trend",
-          "phase": 2.723718548230827,
-          "hue": 0.39599471376277506,
-          "scale": [
-            0.37777777777777777,
-            0.3485786622214234,
-            0.37777777777777777
-          ],
-          "offset": [
-            0,
-            0,
-            0
-          ],
-          "rotate": [
-            -0.23105629486963153,
-            2.682986043859273,
-            1.465798442810774
-          ],
-          "domain": [
-            0,
-            0,
-            1,
-            1
-          ]
-        },
-        {
-          "op": "rosette",
-          "partner": "torus",
-          "relation": "wrap",
-          "effect": "twist",
-          "cut": "open",
-          "audio": "onset",
-          "phase": 2.224666867479682,
-          "hue": 0.7597413097973913,
-          "scale": [
-            0.26153846153846155,
-            0.3225714654890964,
-            0.26153846153846155
-          ],
-          "offset": [
-            0,
-            0,
-            0
-          ],
-          "rotate": [
-            1.1697725979611278,
-            2.151476500555873,
-            1.2498560402542354
-          ],
-          "domain": [
-            0,
-            0,
-            1,
-            1
-          ]
-        }
-      ],
-      "description": "A newly composed contain of 4 interacting reaction, wavefront, ribbon, rosette constructions.",
-      "audioBehavior": "treble, trend, onset drive separate fold, collapse, circulate, twist gestures.",
-      "distinction": "Generated contain; graph structure, relationships, apertures and audio mappings are seed-dependent.",
-      "budget": 12000
-    },
-    {
-      "schemaVersion": 1,
-      "generatorVersion": "1.0.0",
-      "id": "discovery-qa-7-0",
-      "name": "Folded Passage",
-      "family": "tesseract",
-      "kind": "discovery",
-      "seed": "qa-7",
-      "initialState": {
-        "clock": 0
-      },
-      "camera": "orbit",
-      "layers": [
-        {
-          "op": "tesseract",
-          "partner": "helix",
-          "relation": "wrap",
-          "effect": "collapse",
-          "cut": "bands",
+          "cut": "none",
           "audio": "bass",
-          "phase": 4.99125362161547,
-          "hue": 0.9185454580001533,
+          "phase": 5.28627306564711,
+          "hue": 0.07512764513492584,
+          "colorRole": "structure",
           "scale": [
-            1,
-            0.8032636862713843,
-            1
+            2.1,
+            1.8,
+            2.1
           ],
           "offset": [
-            0.5499237681739032,
-            -0.22111431509256363,
-            0.13069867878220987
+            -0.8334070921409875,
+            0.501128863170743,
+            -2.4749999999999996
           ],
           "rotate": [
-            1.419846925418824,
-            1.9290692748036236,
-            0.6618967197835446
+            0.20844948284793643,
+            1.2493782076984645,
+            0.17409779354929925
           ],
           "domain": [
             0,
@@ -1001,27 +911,92 @@
         },
         {
           "op": "cell",
-          "partner": "reaction",
-          "relation": "intersect",
-          "effect": "fold",
-          "cut": "slit",
-          "audio": "treble",
-          "phase": 0.05612800122238696,
-          "hue": 0.4126850892789662,
+          "partner": "shell",
+          "relation": "independent",
+          "effect": "circulate",
+          "cut": "none",
+          "audio": "trend",
+          "phase": 2.723718548230827,
+          "hue": 0.32167957710102196,
+          "colorRole": "accent",
           "scale": [
+            2.1,
+            1.8,
+            2.1
+          ],
+          "offset": [
+            0.5472060803789646,
+            0.39434579792432484,
+            -0.825
+          ],
+          "rotate": [
+            0.5911616216413677,
+            0.7404594976454973,
+            0.01031395383179188
+          ],
+          "domain": [
+            0,
+            0,
             1,
-            0.7437235744204371,
+            1
+          ]
+        },
+        {
+          "op": "cell",
+          "partner": "braid",
+          "relation": "independent",
+          "effect": "circulate",
+          "cut": "none",
+          "audio": "trend",
+          "phase": 4.503757474496961,
+          "hue": 0.6424928020127118,
+          "colorRole": "counter",
+          "scale": [
+            2.1,
+            1.8,
+            2.1
+          ],
+          "offset": [
+            0.6753274054732173,
+            0.5445101332850754,
+            0.825
+          ],
+          "rotate": [
+            0.2407482865033671,
+            0.5273452710360289,
+            0.3301633490249515
+          ],
+          "domain": [
+            0,
+            0,
+            1,
+            1
+          ]
+        },
+        {
+          "op": "crystal",
+          "partner": "scroll",
+          "relation": "independent",
+          "effect": "circulate",
+          "cut": "none",
+          "audio": "onset",
+          "phase": 0.8912802686356008,
+          "hue": 0.9153320361487566,
+          "colorRole": "distance",
+          "scale": [
+            1.0926830315263942,
+            1,
             1
           ],
           "offset": [
-            -0.20706082829274242,
-            -0.3702620085328817,
-            -0.506215785490349
+            -0.05591225679963827,
+            -0.3108226753771305,
+            2.4749999999999996
           ],
           "rotate": [
-            0.5770827331580222,
-            1.5435148242395371,
-            1.152325189858675
+            0.2787026574835181,
+            0.4954557526856661,
+            0.08965073740109802
           ],
           "domain": [
             0,
@@ -1031,47 +1006,1013 @@
           ]
         }
       ],
-      "description": "A newly composed asymmetric of 2 interacting tesseract, cell constructions.",
-      "audioBehavior": "bass, treble drive separate collapse, fold gestures.",
-      "distinction": "Generated asymmetric; graph structure, relationships, apertures and audio mappings are seed-dependent.",
+      "description": "A sweeping asteroids of 4 layered cell, cell, cell, crystal constructions, composed for close, immersive travel.",
+      "audioBehavior": "Sustained energy drives every wave and ripple; bass, trend, onset articulate individual layers and beats rotate the marks.",
+      "distinction": "Generated asteroids; geometry, depth arrangement, graph relationships and audio mappings are seed-dependent.",
       "budget": 12000
     },
     {
       "schemaVersion": 1,
-      "generatorVersion": "1.0.0",
+      "generatorVersion": "1.1.0",
+      "id": "discovery-qa-7-0",
+      "name": "Oblique Horizon",
+      "family": "weft",
+      "kind": "discovery",
+      "seed": "qa-7",
+      "initialState": {
+        "clock": 0
+      },
+      "camera": "passage",
+      "layers": [
+        {
+          "op": "weft",
+          "partner": "mobius",
+          "relation": "independent",
+          "effect": "fold",
+          "cut": "none",
+          "audio": "trend",
+          "phase": 4.038185015255586,
+          "hue": 0.03309483598917723,
+          "colorRole": "ground",
+          "scale": [
+            1.95,
+            0.72,
+            1.75
+          ],
+          "offset": [
+            0,
+            -0.65,
+            0
+          ],
+          "rotate": [
+            0,
+            0.12556363740004597,
+            0
+          ],
+          "domain": [
+            0,
+            0,
+            1,
+            1
+          ]
+        },
+        {
+          "op": "cell",
+          "partner": "tesseract",
+          "relation": "independent",
+          "effect": "twist",
+          "cut": "none",
+          "audio": "bass",
+          "phase": 3.38203978211619,
+          "hue": 0.3311603953130543,
+          "colorRole": "accent",
+          "scale": [
+            0.95,
+            1.1,
+            0.95
+          ],
+          "offset": [
+            -1.4476110535673796,
+            0.5,
+            -1.15
+          ],
+          "rotate": [
+            0.11841121038887649,
+            1.0603105250746012,
+            0.20520845176652075
+          ],
+          "domain": [
+            0,
+            0,
+            1,
+            1
+          ]
+        },
+        {
+          "op": "hourglass",
+          "partner": "weft",
+          "relation": "independent",
+          "effect": "ripple",
+          "cut": "none",
+          "audio": "onset",
+          "phase": 4.738894852399826,
+          "hue": 0.5839262074232101,
+          "colorRole": "counter",
+          "scale": [
+            0.95,
+            1.1,
+            0.95
+          ],
+          "offset": [
+            1.3959434540010989,
+            0.5,
+            -1.7000000000000002
+          ],
+          "rotate": [
+            0.5953668993432074,
+            0.4365200281143189,
+            0.16222590506076814
+          ],
+          "domain": [
+            0,
+            0,
+            1,
+            1
+          ]
+        },
+        {
+          "op": "scroll",
+          "partner": "vortex",
+          "relation": "independent",
+          "effect": "fold",
+          "cut": "none",
+          "audio": "treble",
+          "phase": 1.0082468654960395,
+          "hue": 0.8814532556943594,
+          "colorRole": "distance",
+          "scale": [
+            0.95,
+            1.1,
+            0.95
+          ],
+          "offset": [
+            -1.315909692272544,
+            0.5,
+            -2.25
+          ],
+          "rotate": [
+            0.318722363631241,
+            0.3049147851765156,
+            0.20298341838642955
+          ],
+          "domain": [
+            0,
+            0,
+            1,
+            1
+          ]
+        }
+      ],
+      "description": "A sweeping landscape of 4 layered weft, cell, hourglass, scroll constructions, composed for close, immersive travel.",
+      "audioBehavior": "Sustained energy drives every wave and ripple; trend, bass, onset, treble articulate individual layers and beats rotate the marks.",
+      "distinction": "Generated landscape; geometry, depth arrangement, graph relationships and audio mappings are seed-dependent.",
+      "budget": 12000
+    },
+    {
+      "schemaVersion": 1,
+      "generatorVersion": "1.1.0",
       "id": "discovery-qa-8-0",
-      "name": "Spectral Organism",
-      "family": "iris",
+      "name": "Folded Horizon",
+      "family": "wave",
       "kind": "discovery",
       "seed": "qa-8",
       "initialState": {
         "clock": 0
       },
-      "camera": "detail",
+      "camera": "passage",
       "layers": [
         {
-          "op": "iris",
-          "partner": "hourglass",
+          "op": "wave",
+          "partner": "klein",
           "relation": "wrap",
-          "effect": "collapse",
-          "cut": "bands",
-          "audio": "trend",
-          "phase": 0.7266013586614282,
-          "hue": 0.5382551457732916,
+          "effect": "fold",
+          "cut": "none",
+          "audio": "mid",
+          "phase": 1.4217623107787223,
+          "hue": 0.03597397832199931,
+          "colorRole": "ground",
           "scale": [
-            1.65,
-            1.9464137081312944,
-            1.65
+            1.95,
+            0.72,
+            1.75
+          ],
+          "offset": [
+            0,
+            -0.65,
+            0
+          ],
+          "rotate": [
+            0,
+            -0.022346286848187447,
+            0
+          ],
+          "domain": [
+            0,
+            0,
+            1,
+            1
+          ]
+        },
+        {
+          "op": "reaction",
+          "partner": "scroll",
+          "relation": "independent",
+          "effect": "twist",
+          "cut": "none",
+          "audio": "trend",
+          "phase": 4.040579750286415,
+          "hue": 0.3530068692192435,
+          "colorRole": "accent",
+          "scale": [
+            0.95,
+            1.1,
+            0.95
+          ],
+          "offset": [
+            -1.6995272941421717,
+            0.5,
+            -1.15
+          ],
+          "rotate": [
+            0.6124168209498748,
+            0.5377307411283255,
+            0.39838043320924044
+          ],
+          "domain": [
+            0,
+            0,
+            1,
+            1
+          ]
+        },
+        {
+          "op": "torus",
+          "partner": "tesseract",
+          "relation": "independent",
+          "effect": "grow",
+          "cut": "none",
+          "audio": "bass",
+          "phase": 3.5101910973526538,
+          "hue": 0.5954080477915704,
+          "colorRole": "counter",
+          "scale": [
+            0.95,
+            1.1,
+            0.95
+          ],
+          "offset": [
+            1.352590580424294,
+            0.5,
+            -1.7000000000000002
+          ],
+          "rotate": [
+            0.25272459180559964,
+            0.18995575234293938,
+            0.309857742395252
+          ],
+          "domain": [
+            0,
+            0,
+            1,
+            1
+          ]
+        },
+        {
+          "op": "spiral",
+          "partner": "wave",
+          "relation": "independent",
+          "effect": "ripple",
+          "cut": "none",
+          "audio": "trend",
+          "phase": 1.99838545948267,
+          "hue": 0.8891040625981985,
+          "colorRole": "distance",
+          "scale": [
+            0.95,
+            1.1,
+            0.95
+          ],
+          "offset": [
+            -1.4583172512240707,
+            0.5,
+            -2.25
+          ],
+          "rotate": [
+            0.6801271728472784,
+            0.961545479297638,
+            0.15814280239865186
+          ],
+          "domain": [
+            0,
+            0,
+            1,
+            1
+          ]
+        }
+      ],
+      "description": "A sweeping landscape of 4 layered wave, reaction, torus, spiral constructions, composed for close, immersive travel.",
+      "audioBehavior": "Sustained energy drives every wave and ripple; mid, trend, bass articulate individual layers and beats rotate the marks.",
+      "distinction": "Generated landscape; geometry, depth arrangement, graph relationships and audio mappings are seed-dependent.",
+      "budget": 12000
+    },
+    {
+      "schemaVersion": 1,
+      "generatorVersion": "1.1.0",
+      "id": "discovery-qa-9-0",
+      "name": "Luminous Orbital Passage",
+      "family": "torus",
+      "kind": "discovery",
+      "seed": "qa-9",
+      "initialState": {
+        "clock": 0
+      },
+      "camera": "passage",
+      "layers": [
+        {
+          "op": "torus",
+          "partner": "ribbon",
+          "relation": "wrap",
+          "effect": "fold",
+          "cut": "none",
+          "audio": "onset",
+          "phase": 0.9752939880266785,
+          "hue": 0.03616963148117065,
+          "colorRole": "structure",
+          "scale": [
+            1.5658079825225286,
+            1.7480779511970468,
+            1.2
+          ],
+          "offset": [
+            0,
+            0.5,
+            -2.25
+          ],
+          "rotate": [
+            1.7460650763616452,
+            -0.002767037251032889,
+            0
+          ],
+          "domain": [
+            0,
+            0,
+            1,
+            1
+          ]
+        },
+        {
+          "op": "torus",
+          "partner": "spiral",
+          "relation": "wrap",
+          "effect": "twist",
+          "cut": "none",
+          "audio": "mid",
+          "phase": 4.70096192332916,
+          "hue": 0.35209659300744534,
+          "colorRole": "accent",
+          "scale": [
+            1.4829434702987783,
+            1.4867671083542517,
+            1.2
+          ],
+          "offset": [
+            0.9118752937440538,
+            -0.014599761150644408,
+            -0.75
+          ],
+          "rotate": [
+            1.7060198350485902,
+            0.21501088817603886,
+            0
+          ],
+          "domain": [
+            0,
+            0,
+            1,
+            1
+          ]
+        },
+        {
+          "op": "torus",
+          "partner": "spiral",
+          "relation": "independent",
+          "effect": "circulate",
+          "cut": "none",
+          "audio": "trend",
+          "phase": 6.279784345058725,
+          "hue": 0.6273150959610938,
+          "colorRole": "counter",
+          "scale": [
+            1.693388375302311,
+            1.5754264302086085,
+            1.2
+          ],
+          "offset": [
+            -1.344822221928385,
+            -0.49914738789737656,
+            0.75
+          ],
+          "rotate": [
+            1.5819572843287628,
+            -0.15369865880347788,
+            0
+          ],
+          "domain": [
+            0,
+            0,
+            1,
+            1
+          ]
+        },
+        {
+          "op": "catenoid",
+          "partner": "spiral",
+          "relation": "wrap",
+          "effect": "ripple",
+          "cut": "none",
+          "audio": "mid",
+          "phase": 2.8698683152906597,
+          "hue": 0.9207022665999829,
+          "colorRole": "distance",
+          "scale": [
+            1.5387250800966283,
+            1.666534583887551,
+            1.2
+          ],
+          "offset": [
+            1.071451616196356,
+            0.043749491719723636,
+            2.25
+          ],
+          "rotate": [
+            1.8361204675540814,
+            -0.20699908130336553,
+            0
+          ],
+          "domain": [
+            0,
+            0,
+            1,
+            1
+          ]
+        }
+      ],
+      "description": "A sweeping orbitals of 4 layered torus, torus, torus, catenoid constructions, composed for close, immersive travel.",
+      "audioBehavior": "Sustained energy drives every wave and ripple; onset, mid, trend articulate individual layers and beats rotate the marks.",
+      "distinction": "Generated orbitals; geometry, depth arrangement, graph relationships and audio mappings are seed-dependent.",
+      "budget": 12000
+    },
+    {
+      "schemaVersion": 1,
+      "generatorVersion": "1.1.0",
+      "id": "discovery-qa-10-0",
+      "name": "Spectral Tunnel",
+      "family": "catenoid",
+      "kind": "discovery",
+      "seed": "qa-10",
+      "initialState": {
+        "clock": 0
+      },
+      "camera": "passage",
+      "layers": [
+        {
+          "op": "catenoid",
+          "partner": "hourglass",
+          "relation": "independent",
+          "effect": "twist",
+          "cut": "none",
+          "audio": "treble",
+          "phase": 0.6910564005933703,
+          "hue": 0.02332483906298876,
+          "colorRole": "structure",
+          "scale": [
+            1.5062053664587438,
+            1.5553892884403466,
+            0.85
           ],
           "offset": [
             0,
             0,
+            -2.7750000000000004
+          ],
+          "rotate": [
+            1.5707963267948966,
+            0,
+            0
+          ],
+          "domain": [
+            0,
+            0,
+            1,
+            1
+          ]
+        },
+        {
+          "op": "torus",
+          "partner": "scroll",
+          "relation": "independent",
+          "effect": "ripple",
+          "cut": "none",
+          "audio": "trend",
+          "phase": 2.0875745757855477,
+          "hue": 0.3021630799584091,
+          "colorRole": "accent",
+          "scale": [
+            1.5022574131377042,
+            1.5959906419739127,
+            0.85
+          ],
+          "offset": [
+            0,
+            0,
+            -0.925
+          ],
+          "rotate": [
+            1.5707963267948966,
+            0,
+            0
+          ],
+          "domain": [
+            0,
+            0,
+            1,
+            1
+          ]
+        },
+        {
+          "op": "catenoid",
+          "partner": "lattice",
+          "relation": "independent",
+          "effect": "twist",
+          "cut": "none",
+          "audio": "onset",
+          "phase": 0.4827269866876304,
+          "hue": 0.6462636982649564,
+          "colorRole": "counter",
+          "scale": [
+            1.5172326043248177,
+            1.57491856678389,
+            0.85
+          ],
+          "offset": [
+            0,
+            0,
+            0.925
+          ],
+          "rotate": [
+            1.5707963267948966,
+            0,
+            0
+          ],
+          "domain": [
+            0,
+            0,
+            1,
+            1
+          ]
+        },
+        {
+          "op": "hourglass",
+          "partner": "scroll",
+          "relation": "independent",
+          "effect": "fold",
+          "cut": "none",
+          "audio": "bass",
+          "phase": 5.102861590385437,
+          "hue": 0.8931995727308093,
+          "colorRole": "distance",
+          "scale": [
+            1.5031847129575908,
+            1.5822926783468574,
+            0.85
+          ],
+          "offset": [
+            0,
+            0,
+            2.7750000000000004
+          ],
+          "rotate": [
+            1.5707963267948966,
+            0,
+            0
+          ],
+          "domain": [
+            0,
+            0,
+            1,
+            1
+          ]
+        }
+      ],
+      "description": "A sweeping tunnel of 4 layered catenoid, torus, catenoid, hourglass constructions, composed for close, immersive travel.",
+      "audioBehavior": "Sustained energy drives every wave and ripple; treble, trend, onset, bass articulate individual layers and beats rotate the marks.",
+      "distinction": "Generated tunnel; geometry, depth arrangement, graph relationships and audio mappings are seed-dependent.",
+      "budget": 12000
+    },
+    {
+      "schemaVersion": 1,
+      "generatorVersion": "1.1.0",
+      "id": "discovery-qa-11-0",
+      "name": "Folded Orbital Passage",
+      "family": "torus",
+      "kind": "discovery",
+      "seed": "qa-11",
+      "initialState": {
+        "clock": 0
+      },
+      "camera": "passage",
+      "layers": [
+        {
+          "op": "torus",
+          "partner": "spiral",
+          "relation": "independent",
+          "effect": "grow",
+          "cut": "none",
+          "audio": "mid",
+          "phase": 4.760346489772201,
+          "hue": 0.016209383308887482,
+          "colorRole": "structure",
+          "scale": [
+            1.4626825371291488,
+            1.407415369397495,
+            1.2
+          ],
+          "offset": [
+            0,
+            0.5,
+            -1.5
+          ],
+          "rotate": [
+            1.280289060403828,
+            -0.021154923015274107,
+            0
+          ],
+          "domain": [
+            0,
+            0,
+            1,
+            1
+          ]
+        },
+        {
+          "op": "catenoid",
+          "partner": "ribbon",
+          "relation": "independent",
+          "effect": "ripple",
+          "cut": "none",
+          "audio": "mid",
+          "phase": 3.9296778504364194,
+          "hue": 0.2977284204028547,
+          "colorRole": "accent",
+          "scale": [
+            1.5559353382908738,
+            1.5847381976549513,
+            1.2
+          ],
+          "offset": [
+            0.9118752937440538,
+            -0.014599761150644408,
             0
           ],
           "rotate": [
-            1.0390804512426257,
-            1.2765371315181255,
-            0.48441535830497745
+            1.4617463652186582,
+            -0.22340867121238261,
+            0
+          ],
+          "domain": [
+            0,
+            0,
+            1,
+            1
+          ]
+        },
+        {
+          "op": "torus",
+          "partner": "spiral",
+          "relation": "independent",
+          "effect": "circulate",
+          "cut": "none",
+          "audio": "treble",
+          "phase": 0.6262415740359575,
+          "hue": 0.5818137834221124,
+          "colorRole": "counter",
+          "scale": [
+            1.7054705479764378,
+            1.4097151184221728,
+            1.2
+          ],
+          "offset": [
+            -1.344822221928385,
+            -0.49914738789737656,
+            1.5
+          ],
+          "rotate": [
+            1.7601578375466655,
+            -0.23175539507064968,
+            0
+          ],
+          "domain": [
+            0,
+            0,
+            1,
+            1
+          ]
+        }
+      ],
+      "description": "A sweeping orbitals of 3 layered torus, catenoid, torus constructions, composed for close, immersive travel.",
+      "audioBehavior": "Sustained energy drives every wave and ripple; mid, treble articulate individual layers and beats rotate the marks.",
+      "distinction": "Generated orbitals; geometry, depth arrangement, graph relationships and audio mappings are seed-dependent.",
+      "budget": 12000
+    },
+    {
+      "schemaVersion": 1,
+      "generatorVersion": "1.1.0",
+      "id": "discovery-qa-12-0",
+      "name": "Oblique Horizon",
+      "family": "wave",
+      "kind": "discovery",
+      "seed": "qa-12",
+      "initialState": {
+        "clock": 0
+      },
+      "camera": "passage",
+      "layers": [
+        {
+          "op": "wave",
+          "partner": "mobius",
+          "relation": "wrap",
+          "effect": "ripple",
+          "cut": "none",
+          "audio": "treble",
+          "phase": 0.8745212789252401,
+          "hue": 0.04551038943231106,
+          "colorRole": "ground",
+          "scale": [
+            1.95,
+            0.72,
+            1.75
+          ],
+          "offset": [
+            0,
+            -0.65,
+            0
+          ],
+          "rotate": [
+            0,
+            -0.09463065003510564,
+            0
+          ],
+          "domain": [
+            0,
+            0,
+            1,
+            1
+          ]
+        },
+        {
+          "op": "arch",
+          "partner": "weft",
+          "relation": "independent",
+          "effect": "grow",
+          "cut": "none",
+          "audio": "trend",
+          "phase": 0.5680054170545191,
+          "hue": 0.31679735612124205,
+          "colorRole": "accent",
+          "scale": [
+            0.95,
+            1.1,
+            0.95
+          ],
+          "offset": [
+            -1.7403920279815792,
+            0.5,
+            -1.15
+          ],
+          "rotate": [
+            0.04559942940250039,
+            1.546408024057746,
+            0.1792682251892984
+          ],
+          "domain": [
+            0,
+            0,
+            1,
+            1
+          ]
+        },
+        {
+          "op": "hourglass",
+          "partner": "crystal",
+          "relation": "independent",
+          "effect": "ripple",
+          "cut": "none",
+          "audio": "mid",
+          "phase": 5.534306333856657,
+          "hue": 0.6446860552765429,
+          "colorRole": "counter",
+          "scale": [
+            0.95,
+            1.1,
+            0.95
+          ],
+          "offset": [
+            1.2324480070732533,
+            0.5,
+            -1.7000000000000002
+          ],
+          "rotate": [
+            0.46902655810117716,
+            0.9010171703994274,
+            0.32960708932951094
+          ],
+          "domain": [
+            0,
+            0,
+            1,
+            1
+          ]
+        },
+        {
+          "op": "catenoid",
+          "partner": "spiral",
+          "relation": "independent",
+          "effect": "circulate",
+          "cut": "none",
+          "audio": "treble",
+          "phase": 1.1588476467877626,
+          "hue": 0.9072157797217368,
+          "colorRole": "distance",
+          "scale": [
+            0.95,
+            1.1,
+            0.95
+          ],
+          "offset": [
+            -1.6311924149282275,
+            0.5,
+            -2.25
+          ],
+          "rotate": [
+            0.0001905854558572173,
+            0.1119378212839365,
+            0.17639288669452072
+          ],
+          "domain": [
+            0,
+            0,
+            1,
+            1
+          ]
+        }
+      ],
+      "description": "A sweeping landscape of 4 layered wave, arch, hourglass, catenoid constructions, composed for close, immersive travel.",
+      "audioBehavior": "Sustained energy drives every wave and ripple; treble, trend, mid articulate individual layers and beats rotate the marks.",
+      "distinction": "Generated landscape; geometry, depth arrangement, graph relationships and audio mappings are seed-dependent.",
+      "budget": 12000
+    },
+    {
+      "schemaVersion": 1,
+      "generatorVersion": "1.1.0",
+      "id": "discovery-qa-13-1",
+      "name": "Oblique Arcade",
+      "family": "arch",
+      "kind": "discovery",
+      "seed": "qa-13",
+      "initialState": {
+        "clock": 0
+      },
+      "camera": "passage",
+      "layers": [
+        {
+          "op": "arch",
+          "partner": "gyroid",
+          "relation": "independent",
+          "effect": "ripple",
+          "cut": "none",
+          "audio": "onset",
+          "phase": 1.9700424602534623,
+          "hue": 0.015609181579202413,
+          "colorRole": "structure",
+          "scale": [
+            1.65,
+            1.5,
+            0.85
+          ],
+          "offset": [
+            0.00862131763715297,
+            0.15,
+            -1.8
+          ],
+          "rotate": [
+            0,
+            0,
+            0
+          ],
+          "domain": [
+            0,
+            0,
+            1,
+            1
+          ]
+        },
+        {
+          "op": "arch",
+          "partner": "hourglass",
+          "relation": "independent",
+          "effect": "ripple",
+          "cut": "none",
+          "audio": "treble",
+          "phase": 2.449112474936992,
+          "hue": 0.35800288604572417,
+          "colorRole": "accent",
+          "scale": [
+            1.65,
+            1.5,
+            0.85
+          ],
+          "offset": [
+            -0.07045615282841027,
+            0.15,
+            0
+          ],
+          "rotate": [
+            0,
+            0,
+            0
+          ],
+          "domain": [
+            0,
+            0,
+            1,
+            1
+          ]
+        },
+        {
+          "op": "strata",
+          "partner": "torus",
+          "relation": "independent",
+          "effect": "ripple",
+          "cut": "none",
+          "audio": "onset",
+          "phase": 0.8910510271508247,
+          "hue": 0.6597556118853389,
+          "colorRole": "counter",
+          "scale": [
+            1.7,
+            0.45,
+            2.8
+          ],
+          "offset": [
+            0,
+            -1.05,
+            0
+          ],
+          "rotate": [
+            0,
+            0,
+            0
+          ],
+          "domain": [
+            0,
+            0,
+            1,
+            1
+          ]
+        }
+      ],
+      "description": "A sweeping archway of 3 layered arch, arch, strata constructions, composed for close, immersive travel.",
+      "audioBehavior": "Sustained energy drives every wave and ripple; onset, treble articulate individual layers and beats rotate the marks.",
+      "distinction": "Generated archway; geometry, depth arrangement, graph relationships and audio mappings are seed-dependent.",
+      "budget": 12000
+    },
+    {
+      "schemaVersion": 1,
+      "generatorVersion": "1.1.0",
+      "id": "discovery-qa-14-0",
+      "name": "Undulating Horizon",
+      "family": "wave",
+      "kind": "discovery",
+      "seed": "qa-14",
+      "initialState": {
+        "clock": 0
+      },
+      "camera": "passage",
+      "layers": [
+        {
+          "op": "wave",
+          "partner": "mobius",
+          "relation": "weave",
+          "effect": "ripple",
+          "cut": "none",
+          "audio": "onset",
+          "phase": 5.46967807808891,
+          "hue": 0.05691211696714163,
+          "colorRole": "ground",
+          "scale": [
+            1.95,
+            0.72,
+            1.75
+          ],
+          "offset": [
+            0,
+            -0.65,
+            0
+          ],
+          "rotate": [
+            0,
+            0.09939273661002516,
+            0
           ],
           "domain": [
             0,
@@ -1082,251 +2023,28 @@
         },
         {
           "op": "branch",
-          "partner": "reaction",
-          "relation": "wrap",
-          "effect": "grow",
-          "cut": "bands",
-          "audio": "mid",
-          "phase": 4.2284054806642235,
-          "hue": 0.6559025624301285,
-          "scale": [
-            0.6799999999999999,
-            0.8329515184964984,
-            0.6799999999999999
-          ],
-          "offset": [
-            0,
-            0,
-            0
-          ],
-          "rotate": [
-            0.17216342641040683,
-            2.9878532490693033,
-            1.370061517506838
-          ],
-          "domain": [
-            0,
-            0,
-            1,
-            1
-          ]
-        }
-      ],
-      "description": "A newly composed contain of 2 interacting iris, branch constructions.",
-      "audioBehavior": "trend, mid drive separate collapse, grow gestures.",
-      "distinction": "Generated contain; graph structure, relationships, apertures and audio mappings are seed-dependent.",
-      "budget": 12000
-    },
-    {
-      "schemaVersion": 1,
-      "generatorVersion": "1.0.0",
-      "id": "discovery-qa-9-1",
-      "name": "Porous Confluence",
-      "family": "scroll",
-      "kind": "discovery",
-      "seed": "qa-9",
-      "initialState": {
-        "clock": 0
-      },
-      "camera": "passage",
-      "layers": [
-        {
-          "op": "scroll",
-          "partner": "cone",
-          "relation": "intersect",
-          "effect": "split",
-          "cut": "none",
-          "audio": "trend",
-          "phase": 2.4891242943052205,
-          "hue": 0.7615273825358599,
-          "scale": [
-            0.74,
-            0.9363398641617968,
-            0.74
-          ],
-          "offset": [
-            0,
-            0,
-            -2.25
-          ],
-          "rotate": [
-            -0.3279963252134621,
-            2.4959859224036336,
-            1.168192868679762
-          ],
-          "domain": [
-            0,
-            0,
-            1,
-            1
-          ]
-        },
-        {
-          "op": "saddle",
-          "partner": "klein",
-          "relation": "repel",
-          "effect": "still",
-          "cut": "pores",
-          "audio": "treble",
-          "phase": 2.24601756057702,
-          "hue": 0.7268826235085726,
-          "scale": [
-            0.74,
-            0.7644150673467665,
-            0.74
-          ],
-          "offset": [
-            0,
-            0,
-            -0.75
-          ],
-          "rotate": [
-            0.5593585041351616,
-            1.8771569444797933,
-            0.6143696080893278
-          ],
-          "domain": [
-            0,
-            0,
-            1,
-            1
-          ]
-        },
-        {
-          "op": "arch",
-          "partner": "catenoid",
-          "relation": "intersect",
-          "effect": "twist",
-          "cut": "pores",
-          "audio": "trend",
-          "phase": 3.6314089868403974,
-          "hue": 0.24303321703337133,
-          "scale": [
-            0.74,
-            0.9109556122794747,
-            0.74
-          ],
-          "offset": [
-            0,
-            0,
-            0.75
-          ],
-          "rotate": [
-            -0.06147808721289039,
-            2.034300440456718,
-            0.3560899689793587
-          ],
-          "domain": [
-            0,
-            0,
-            1,
-            1
-          ]
-        },
-        {
-          "op": "vortex",
           "partner": "torus",
-          "relation": "blend",
+          "relation": "independent",
           "effect": "fold",
           "cut": "none",
-          "audio": "bass",
-          "phase": 5.821957303471864,
-          "hue": 0.7198645353782922,
-          "scale": [
-            0.74,
-            0.6014303234703838,
-            0.74
-          ],
-          "offset": [
-            0,
-            0,
-            2.25
-          ],
-          "rotate": [
-            1.3157759890891612,
-            1.2477940733078867,
-            0.6941831760108471
-          ],
-          "domain": [
-            0,
-            0,
-            1,
-            1
-          ]
-        }
-      ],
-      "description": "A newly composed corridor of 4 interacting scroll, saddle, arch, vortex constructions.",
-      "audioBehavior": "trend, treble, bass drive separate split, still, twist, fold gestures.",
-      "distinction": "Generated corridor; graph structure, relationships, apertures and audio mappings are seed-dependent.",
-      "budget": 12000
-    },
-    {
-      "schemaVersion": 1,
-      "generatorVersion": "1.0.0",
-      "id": "discovery-qa-10-0",
-      "name": "Luminous Sanctuary",
-      "family": "weft",
-      "kind": "discovery",
-      "seed": "qa-10",
-      "initialState": {
-        "clock": 0
-      },
-      "camera": "orbit",
-      "layers": [
-        {
-          "op": "weft",
-          "partner": "ribbon",
-          "relation": "intersect",
-          "effect": "grow",
-          "cut": "bands",
-          "audio": "trend",
-          "phase": 0.5341562882997096,
-          "hue": 0.2710253316909075,
-          "scale": [
-            0.62,
-            0.7467132941372692,
-            0.62
-          ],
-          "offset": [
-            1.15,
-            0,
-            0
-          ],
-          "rotate": [
-            1.4289072356186807,
-            0.09308049688115716,
-            0.8431143075227738
-          ],
-          "domain": [
-            0,
-            0,
-            1,
-            1
-          ]
-        },
-        {
-          "op": "reaction",
-          "partner": "superquadric",
-          "relation": "independent",
-          "effect": "twist",
-          "cut": "pores",
           "audio": "mid",
-          "phase": 5.14819615457207,
-          "hue": 0.7994835989084095,
+          "phase": 4.498045492460951,
+          "hue": 0.2963716514222324,
+          "colorRole": "accent",
           "scale": [
-            0.62,
-            0.5231566508729011,
-            0.62
+            0.95,
+            1.1,
+            0.95
           ],
           "offset": [
-            -0.8480027728724322,
-            0.44624916470361087,
-            0.7767826576338236
+            -1.2520448077004402,
+            0.5,
+            -1.15
           ],
           "rotate": [
-            0.6480216132476926,
-            0.6977554836776108,
-            1.0994450464844705
+            0.38981848517432804,
+            0.4491707868874073,
+            0.33069467768073085
           ],
           "domain": [
             0,
@@ -1336,78 +2054,29 @@
           ]
         },
         {
-          "op": "strata",
-          "partner": "wavefront",
-          "relation": "repel",
-          "effect": "still",
-          "cut": "open",
-          "audio": "bass",
-          "phase": 5.529775003734977,
-          "hue": 0.3324163337238133,
-          "scale": [
-            0.62,
-            0.4905583218066022,
-            0.62
-          ],
-          "offset": [
-            0.10062383095536336,
-            -0.11499349591207406,
-            -1.1455893001612167
-          ],
-          "rotate": [
-            0.43196065491065383,
-            2.10948433005251,
-            0.8651231098920107
-          ],
-          "domain": [
-            0,
-            0,
-            1,
-            1
-          ]
-        }
-      ],
-      "description": "A newly composed constellation of 3 interacting weft, reaction, strata constructions.",
-      "audioBehavior": "trend, mid, bass drive separate grow, twist, still gestures.",
-      "distinction": "Generated constellation; graph structure, relationships, apertures and audio mappings are seed-dependent.",
-      "budget": 12000
-    },
-    {
-      "schemaVersion": 1,
-      "generatorVersion": "1.0.0",
-      "id": "discovery-qa-11-0",
-      "name": "Resonant Weather",
-      "family": "cone",
-      "kind": "discovery",
-      "seed": "qa-11",
-      "initialState": {
-        "clock": 0
-      },
-      "camera": "passage",
-      "layers": [
-        {
-          "op": "cone",
-          "partner": "ribbon",
+          "op": "lattice",
+          "partner": "crystal",
           "relation": "independent",
-          "effect": "split",
-          "cut": "pores",
+          "effect": "fold",
+          "cut": "none",
           "audio": "onset",
-          "phase": 1.2692026984971017,
-          "hue": 0.08517575776204467,
+          "phase": 1.8052601773291828,
+          "hue": 0.6559957210160792,
+          "colorRole": "counter",
           "scale": [
-            1,
-            0.8074557779356837,
-            1
+            0.95,
+            1.1,
+            0.95
           ],
           "offset": [
-            0.7263009459245949,
-            0.28089715708047147,
-            -0.8529262511059642
+            1.6417341508436947,
+            0.5,
+            -1.7000000000000002
           ],
           "rotate": [
-            -0.4576264605857432,
-            0.047463668044656515,
-            0.7323042463511229
+            0.44661190696060654,
+            0.9199639461934567,
+            0.18933539148420098
           ],
           "domain": [
             0,
@@ -1418,27 +2087,79 @@
         },
         {
           "op": "cell",
-          "partner": "tesseract",
-          "relation": "blend",
-          "effect": "collapse",
+          "partner": "branch",
+          "relation": "independent",
+          "effect": "grow",
           "cut": "none",
-          "audio": "treble",
-          "phase": 0.3856756189838052,
-          "hue": 0.2627019814681262,
+          "audio": "bass",
+          "phase": 3.632417857879773,
+          "hue": 0.8950633575394749,
+          "colorRole": "distance",
           "scale": [
-            1,
-            1.0399121766444295,
-            1
+            0.95,
+            1.1,
+            0.95
           ],
           "offset": [
-            0.4644305225461721,
-            -0.35685925036668775,
-            0.12560879238881173
+            -1.418669050745666,
+            0.5,
+            -2.25
           ],
           "rotate": [
-            0.979039772413671,
-            2.459238536423072,
-            0.09731394052505493
+            0.08079254908952861,
+            0.2987177427858114,
+            0.28184610260650517
+          ],
+          "domain": [
+            0,
+            0,
+            1,
+            1
+          ]
+        }
+      ],
+      "description": "A sweeping landscape of 4 layered wave, branch, lattice, cell constructions, composed for close, immersive travel.",
+      "audioBehavior": "Sustained energy drives every wave and ripple; onset, mid, bass articulate individual layers and beats rotate the marks.",
+      "distinction": "Generated landscape; geometry, depth arrangement, graph relationships and audio mappings are seed-dependent.",
+      "budget": 12000
+    },
+    {
+      "schemaVersion": 1,
+      "generatorVersion": "1.1.0",
+      "id": "discovery-qa-15-0",
+      "name": "Spectral Arcade",
+      "family": "arch",
+      "kind": "discovery",
+      "seed": "qa-15",
+      "initialState": {
+        "clock": 0
+      },
+      "camera": "passage",
+      "layers": [
+        {
+          "op": "arch",
+          "partner": "torus",
+          "relation": "independent",
+          "effect": "ripple",
+          "cut": "none",
+          "audio": "trend",
+          "phase": 3.2684632720425726,
+          "hue": 0.048446820396929983,
+          "colorRole": "structure",
+          "scale": [
+            1.65,
+            1.5,
+            0.85
+          ],
+          "offset": [
+            -0.10471883132122457,
+            0.15,
+            -1.8
+          ],
+          "rotate": [
+            0,
+            0,
+            0
           ],
           "domain": [
             0,
@@ -1448,28 +2169,406 @@
           ]
         },
         {
-          "op": "lens",
-          "partner": "klein",
-          "relation": "repel",
-          "effect": "grow",
+          "op": "arch",
+          "partner": "iris",
+          "relation": "independent",
+          "effect": "fold",
           "cut": "none",
-          "audio": "onset",
-          "phase": 0.6066810016240924,
-          "hue": 0.4511585074942559,
+          "audio": "bass",
+          "phase": 0.7221184806805104,
+          "hue": 0.3074928681179881,
+          "colorRole": "accent",
           "scale": [
-            1,
-            0.7783250393811613,
-            1
+            1.65,
+            1.5,
+            0.85
           ],
           "offset": [
-            -0.32714988472871487,
-            -0.5361808109097183,
-            -0.20292395255528395
+            0.029952540853992102,
+            0.15,
+            0
           ],
           "rotate": [
-            0.9362356411293149,
-            2.1870202326681465,
-            0.5519748222082853
+            0,
+            0,
+            0
+          ],
+          "domain": [
+            0,
+            0,
+            1,
+            1
+          ]
+        },
+        {
+          "op": "strata",
+          "partner": "reaction",
+          "relation": "independent",
+          "effect": "ripple",
+          "cut": "none",
+          "audio": "mid",
+          "phase": 6.22566744032316,
+          "hue": 0.5898103917576373,
+          "colorRole": "counter",
+          "scale": [
+            1.7,
+            0.45,
+            2.8
+          ],
+          "offset": [
+            0,
+            -1.05,
+            0
+          ],
+          "rotate": [
+            0,
+            0,
+            0
+          ],
+          "domain": [
+            0,
+            0,
+            1,
+            1
+          ]
+        }
+      ],
+      "description": "A sweeping archway of 3 layered arch, arch, strata constructions, composed for close, immersive travel.",
+      "audioBehavior": "Sustained energy drives every wave and ripple; trend, bass, mid articulate individual layers and beats rotate the marks.",
+      "distinction": "Generated archway; geometry, depth arrangement, graph relationships and audio mappings are seed-dependent.",
+      "budget": 12000
+    },
+    {
+      "schemaVersion": 1,
+      "generatorVersion": "1.1.0",
+      "id": "discovery-qa-16-0",
+      "name": "Spectral Confluence",
+      "family": "spiral",
+      "kind": "discovery",
+      "seed": "qa-16",
+      "initialState": {
+        "clock": 0
+      },
+      "camera": "orbit",
+      "layers": [
+        {
+          "op": "spiral",
+          "partner": "tesseract",
+          "relation": "independent",
+          "effect": "twist",
+          "cut": "none",
+          "audio": "trend",
+          "phase": 6.215290871253237,
+          "hue": 0.024235345944762232,
+          "colorRole": "structure",
+          "scale": [
+            1.35,
+            1.25,
+            1.35
+          ],
+          "offset": [
+            -1.05,
+            -0.10957406181842089,
+            -0.27675161948427557
+          ],
+          "rotate": [
+            0.6770237959455698,
+            0.34295399449765684,
+            0.1070774743333459
+          ],
+          "domain": [
+            0,
+            0,
+            1,
+            1
+          ]
+        },
+        {
+          "op": "branch",
+          "partner": "gyroid",
+          "relation": "wrap",
+          "effect": "ripple",
+          "cut": "none",
+          "audio": "onset",
+          "phase": 0.19823527298867702,
+          "hue": 0.3133859973400831,
+          "colorRole": "accent",
+          "scale": [
+            1.35,
+            1.25,
+            1.35
+          ],
+          "offset": [
+            1.05,
+            0.1595199592411518,
+            -0.34002779675647615
+          ],
+          "rotate": [
+            0.6636944103287532,
+            1.390999684855342,
+            0.22304801931604745
+          ],
+          "domain": [
+            0,
+            0,
+            1,
+            1
+          ]
+        }
+      ],
+      "description": "A sweeping crossing of 2 layered spiral, branch constructions, composed for close, immersive travel.",
+      "audioBehavior": "Sustained energy drives every wave and ripple; trend, onset articulate individual layers and beats rotate the marks.",
+      "distinction": "Generated crossing; geometry, depth arrangement, graph relationships and audio mappings are seed-dependent.",
+      "budget": 12000
+    },
+    {
+      "schemaVersion": 1,
+      "generatorVersion": "1.1.0",
+      "id": "discovery-qa-17-0",
+      "name": "Spectral Horizon",
+      "family": "gyroid",
+      "kind": "discovery",
+      "seed": "qa-17",
+      "initialState": {
+        "clock": 0
+      },
+      "camera": "passage",
+      "layers": [
+        {
+          "op": "gyroid",
+          "partner": "cone",
+          "relation": "weave",
+          "effect": "ripple",
+          "cut": "none",
+          "audio": "treble",
+          "phase": 1.784669529395178,
+          "hue": 0.004524718355387449,
+          "colorRole": "ground",
+          "scale": [
+            1.95,
+            0.72,
+            1.75
+          ],
+          "offset": [
+            0,
+            -0.65,
+            0
+          ],
+          "rotate": [
+            0,
+            0.03880223832093179,
+            0
+          ],
+          "domain": [
+            0,
+            0,
+            1,
+            1
+          ]
+        },
+        {
+          "op": "superquadric",
+          "partner": "arch",
+          "relation": "independent",
+          "effect": "fold",
+          "cut": "none",
+          "audio": "treble",
+          "phase": 1.8990515963360668,
+          "hue": 0.3293864021077752,
+          "colorRole": "accent",
+          "scale": [
+            0.95,
+            1.1,
+            0.95
+          ],
+          "offset": [
+            -1.2062215207144618,
+            0.5,
+            -1.15
+          ],
+          "rotate": [
+            0.15408109987620264,
+            0.9330068960785867,
+            0.1931719525717199
+          ],
+          "domain": [
+            0,
+            0,
+            1,
+            1
+          ]
+        },
+        {
+          "op": "wave",
+          "partner": "superquadric",
+          "relation": "independent",
+          "effect": "fold",
+          "cut": "none",
+          "audio": "onset",
+          "phase": 5.149386143945158,
+          "hue": 0.589154545366764,
+          "colorRole": "counter",
+          "scale": [
+            0.95,
+            1.1,
+            0.95
+          ],
+          "offset": [
+            1.7651135827414692,
+            0.5,
+            -1.7000000000000002
+          ],
+          "rotate": [
+            0.41728210248984393,
+            0.9164584796875715,
+            0.014509138185530901
+          ],
+          "domain": [
+            0,
+            0,
+            1,
+            1
+          ]
+        },
+        {
+          "op": "tesseract",
+          "partner": "lattice",
+          "relation": "independent",
+          "effect": "grow",
+          "cut": "none",
+          "audio": "bass",
+          "phase": 0.45546746166422963,
+          "hue": 0.8782411776296793,
+          "colorRole": "distance",
+          "scale": [
+            0.95,
+            1.1,
+            0.95
+          ],
+          "offset": [
+            -1.3205929483752696,
+            0.5,
+            -2.25
+          ],
+          "rotate": [
+            0.0256617680657655,
+            1.4419330395758152,
+            0.2163973123766482
+          ],
+          "domain": [
+            0,
+            0,
+            1,
+            1
+          ]
+        }
+      ],
+      "description": "A sweeping landscape of 4 layered gyroid, superquadric, wave, tesseract constructions, composed for close, immersive travel.",
+      "audioBehavior": "Sustained energy drives every wave and ripple; treble, onset, bass articulate individual layers and beats rotate the marks.",
+      "distinction": "Generated landscape; geometry, depth arrangement, graph relationships and audio mappings are seed-dependent.",
+      "budget": 12000
+    },
+    {
+      "schemaVersion": 1,
+      "generatorVersion": "1.1.0",
+      "id": "discovery-qa-18-0",
+      "name": "Resonant Tunnel",
+      "family": "torus",
+      "kind": "discovery",
+      "seed": "qa-18",
+      "initialState": {
+        "clock": 0
+      },
+      "camera": "passage",
+      "layers": [
+        {
+          "op": "torus",
+          "partner": "shell",
+          "relation": "independent",
+          "effect": "twist",
+          "cut": "none",
+          "audio": "treble",
+          "phase": 4.358634836673737,
+          "hue": 0.07784631345421077,
+          "colorRole": "structure",
+          "scale": [
+            1.6195145375095308,
+            1.6174764456693083,
+            0.85
+          ],
+          "offset": [
+            0,
+            0,
+            -2.7750000000000004
+          ],
+          "rotate": [
+            1.5707963267948966,
+            0,
+            0
+          ],
+          "domain": [
+            0,
+            0,
+            1,
+            1
+          ]
+        },
+        {
+          "op": "catenoid",
+          "partner": "spiral",
+          "relation": "independent",
+          "effect": "ripple",
+          "cut": "none",
+          "audio": "trend",
+          "phase": 0.6589865972753615,
+          "hue": 0.30805973911657925,
+          "colorRole": "accent",
+          "scale": [
+            1.5815402267966419,
+            1.575263932161033,
+            0.85
+          ],
+          "offset": [
+            0,
+            0,
+            -0.925
+          ],
+          "rotate": [
+            1.5707963267948966,
+            0,
+            0
+          ],
+          "domain": [
+            0,
+            0,
+            1,
+            1
+          ]
+        },
+        {
+          "op": "torus",
+          "partner": "wavefront",
+          "relation": "independent",
+          "effect": "fold",
+          "cut": "none",
+          "audio": "trend",
+          "phase": 5.440334400394931,
+          "hue": 0.6340496429055928,
+          "colorRole": "counter",
+          "scale": [
+            1.5175472317263483,
+            1.56593072633259,
+            0.85
+          ],
+          "offset": [
+            0,
+            0,
+            0.925
+          ],
+          "rotate": [
+            1.5707963267948966,
+            0,
+            0
           ],
           "domain": [
             0,
@@ -1481,26 +2580,257 @@
         {
           "op": "torus",
           "partner": "catenoid",
-          "relation": "wrap",
-          "effect": "invert",
+          "relation": "independent",
+          "effect": "twist",
           "cut": "none",
           "audio": "trend",
-          "phase": 0.22915223791263997,
-          "hue": 0.3434898969717324,
+          "phase": 5.526562056699768,
+          "hue": 0.882822335101664,
+          "colorRole": "distance",
           "scale": [
-            1,
-            1.1946153618395328,
-            1
+            1.6048034594859928,
+            1.5414916342590004,
+            0.85
           ],
           "offset": [
-            0.8912431277800351,
-            0.11844112789258365,
-            -0.37944450066424906
+            0,
+            0,
+            2.7750000000000004
           ],
           "rotate": [
-            0.6011734106577933,
-            0.29915998759679496,
-            0.0362756684422493
+            1.5707963267948966,
+            0,
+            0
+          ],
+          "domain": [
+            0,
+            0,
+            1,
+            1
+          ]
+        }
+      ],
+      "description": "A sweeping tunnel of 4 layered torus, catenoid, torus, torus constructions, composed for close, immersive travel.",
+      "audioBehavior": "Sustained energy drives every wave and ripple; treble, trend articulate individual layers and beats rotate the marks.",
+      "distinction": "Generated tunnel; geometry, depth arrangement, graph relationships and audio mappings are seed-dependent.",
+      "budget": 12000
+    },
+    {
+      "schemaVersion": 1,
+      "generatorVersion": "1.1.0",
+      "id": "discovery-qa-19-0",
+      "name": "Spectral Tunnel",
+      "family": "torus",
+      "kind": "discovery",
+      "seed": "qa-19",
+      "initialState": {
+        "clock": 0
+      },
+      "camera": "passage",
+      "layers": [
+        {
+          "op": "torus",
+          "partner": "lattice",
+          "relation": "independent",
+          "effect": "ripple",
+          "cut": "none",
+          "audio": "treble",
+          "phase": 4.712979779606685,
+          "hue": 0.021645404398441315,
+          "colorRole": "structure",
+          "scale": [
+            1.5575712948571891,
+            1.4619658606592565,
+            0.85
+          ],
+          "offset": [
+            0,
+            0,
+            -1.85
+          ],
+          "rotate": [
+            1.5707963267948966,
+            0,
+            0
+          ],
+          "domain": [
+            0,
+            0,
+            1,
+            1
+          ]
+        },
+        {
+          "op": "iris",
+          "partner": "iris",
+          "relation": "independent",
+          "effect": "ripple",
+          "cut": "none",
+          "audio": "bass",
+          "phase": 0.12771024093963207,
+          "hue": 0.33613060280680657,
+          "colorRole": "accent",
+          "scale": [
+            1.506206004600972,
+            1.5812804203946143,
+            0.85
+          ],
+          "offset": [
+            0,
+            0,
+            0
+          ],
+          "rotate": [
+            1.5707963267948966,
+            0,
+            0
+          ],
+          "domain": [
+            0,
+            0,
+            1,
+            1
+          ]
+        },
+        {
+          "op": "iris",
+          "partner": "ribbon",
+          "relation": "independent",
+          "effect": "fold",
+          "cut": "none",
+          "audio": "onset",
+          "phase": 3.670843540411443,
+          "hue": 0.6453999708034097,
+          "colorRole": "counter",
+          "scale": [
+            1.6234171739313752,
+            1.5027602930087596,
+            0.85
+          ],
+          "offset": [
+            0,
+            0,
+            1.85
+          ],
+          "rotate": [
+            1.5707963267948966,
+            0,
+            0
+          ],
+          "domain": [
+            0,
+            0,
+            1,
+            1
+          ]
+        }
+      ],
+      "description": "A sweeping tunnel of 3 layered torus, iris, iris constructions, composed for close, immersive travel.",
+      "audioBehavior": "Sustained energy drives every wave and ripple; treble, bass, onset articulate individual layers and beats rotate the marks.",
+      "distinction": "Generated tunnel; geometry, depth arrangement, graph relationships and audio mappings are seed-dependent.",
+      "budget": 12000
+    },
+    {
+      "schemaVersion": 1,
+      "generatorVersion": "1.1.0",
+      "id": "discovery-qa-20-0",
+      "name": "Luminous Asteroid Field",
+      "family": "crystal",
+      "kind": "discovery",
+      "seed": "qa-20",
+      "initialState": {
+        "clock": 0
+      },
+      "camera": "passage",
+      "layers": [
+        {
+          "op": "cell",
+          "partner": "shell",
+          "relation": "independent",
+          "effect": "circulate",
+          "cut": "none",
+          "audio": "mid",
+          "phase": 4.4130249651614575,
+          "hue": 0.012981840446591378,
+          "colorRole": "structure",
+          "scale": [
+            2.1,
+            1.8,
+            2.1
+          ],
+          "offset": [
+            -0.432867189636454,
+            0.16539148595184086,
+            -2.4749999999999996
+          ],
+          "rotate": [
+            0.40591758212540296,
+            0.7128978602588177,
+            0.23657242562621833
+          ],
+          "domain": [
+            0,
+            0,
+            1,
+            1
+          ]
+        },
+        {
+          "op": "cell",
+          "partner": "iris",
+          "relation": "independent",
+          "effect": "circulate",
+          "cut": "none",
+          "audio": "mid",
+          "phase": 5.9362828836124395,
+          "hue": 0.3592434207908809,
+          "colorRole": "accent",
+          "scale": [
+            2.1,
+            1.8,
+            2.1
+          ],
+          "offset": [
+            -0.376170920021832,
+            -0.13790220818482338,
+            -0.825
+          ],
+          "rotate": [
+            0.3994490365963429,
+            0.7679089322686196,
+            0.045956358220428234
+          ],
+          "domain": [
+            0,
+            0,
+            1,
+            1
+          ]
+        },
+        {
+          "op": "cell",
+          "partner": "hourglass",
+          "relation": "independent",
+          "effect": "circulate",
+          "cut": "none",
+          "audio": "treble",
+          "phase": 1.0317714464943857,
+          "hue": 0.6210710761509836,
+          "colorRole": "counter",
+          "scale": [
+            2.1,
+            1.8,
+            2.1
+          ],
+          "offset": [
+            0.48736860365606843,
+            -0.5504397276788949,
+            0.825
+          ],
+          "rotate": [
+            0.4134196608327329,
+            0.8047282200306655,
+            0.2256452739238739
           ],
           "domain": [
             0,
@@ -1511,108 +2841,28 @@
         },
         {
           "op": "crystal",
-          "partner": "torus",
-          "relation": "wrap",
-          "effect": "fold",
-          "cut": "open",
-          "audio": "onset",
-          "phase": 0.6169989154860378,
-          "hue": 0.41374525986611843,
-          "scale": [
-            1,
-            0.8269567599985748,
-            1
-          ],
-          "offset": [
-            0.6414683543611318,
-            -0.4219900860451162,
-            0.6487351174000652
-          ],
-          "rotate": [
-            -0.2014373354613781,
-            2.161943905754015,
-            0.9482019174844027
-          ],
-          "domain": [
-            0,
-            0,
-            1,
-            1
-          ]
-        }
-      ],
-      "description": "A newly composed asymmetric of 5 interacting cone, cell, lens, torus, crystal constructions.",
-      "audioBehavior": "onset, treble, trend drive separate split, collapse, grow, invert, fold gestures.",
-      "distinction": "Generated asymmetric; graph structure, relationships, apertures and audio mappings are seed-dependent.",
-      "budget": 12000
-    },
-    {
-      "schemaVersion": 1,
-      "generatorVersion": "1.0.0",
-      "id": "discovery-qa-12-0",
-      "name": "Folded Weather",
-      "family": "vortex",
-      "kind": "discovery",
-      "seed": "qa-12",
-      "initialState": {
-        "clock": 0
-      },
-      "camera": "detail",
-      "layers": [
-        {
-          "op": "vortex",
-          "partner": "iris",
-          "relation": "wrap",
-          "effect": "still",
-          "cut": "none",
-          "audio": "bass",
-          "phase": 5.740991504034028,
-          "hue": 0.04922826658003032,
-          "scale": [
-            1.65,
-            1.8680934497318227,
-            1.65
-          ],
-          "offset": [
-            0,
-            0,
-            0
-          ],
-          "rotate": [
-            1.3473642687313259,
-            0.5536934996489435,
-            1.0134674046188594
-          ],
-          "domain": [
-            0,
-            0,
-            1,
-            1
-          ]
-        },
-        {
-          "op": "mobius",
-          "partner": "wave",
-          "relation": "repel",
-          "effect": "collapse",
-          "cut": "open",
+          "partner": "ribbon",
+          "relation": "independent",
+          "effect": "circulate",
+          "cut": "pores",
           "audio": "trend",
-          "phase": 5.37085120853968,
-          "hue": 0.24709774437360466,
+          "phase": 5.878343776548282,
+          "hue": 0.8735112244449554,
+          "colorRole": "distance",
           "scale": [
-            0.6799999999999999,
-            0.8407601969558743,
-            0.6799999999999999
+            1.191495586372912,
+            1,
+            1
           ],
           "offset": [
-            0,
-            0,
-            0
+            -1.1110944864805787,
+            -0.36687247506342824,
+            2.4749999999999996
           ],
           "rotate": [
-            -0.369715915992856,
-            2.8995150451082736,
-            0.7170729007571937
+            0.04062503636814654,
+            0.3290979482233525,
+            0.08870684821158648
           ],
           "domain": [
             0,
@@ -1622,47 +2872,80 @@
           ]
         }
       ],
-      "description": "A newly composed contain of 2 interacting vortex, mobius constructions.",
-      "audioBehavior": "bass, trend drive separate still, collapse gestures.",
-      "distinction": "Generated contain; graph structure, relationships, apertures and audio mappings are seed-dependent.",
+      "description": "A sweeping asteroids of 4 layered cell, cell, cell, crystal constructions, composed for close, immersive travel.",
+      "audioBehavior": "Sustained energy drives every wave and ripple; mid, treble, trend articulate individual layers and beats rotate the marks.",
+      "distinction": "Generated asteroids; geometry, depth arrangement, graph relationships and audio mappings are seed-dependent.",
       "budget": 12000
     },
     {
       "schemaVersion": 1,
-      "generatorVersion": "1.0.0",
-      "id": "discovery-qa-13-0",
-      "name": "Spectral Paradox",
-      "family": "spiral",
+      "generatorVersion": "1.1.0",
+      "id": "discovery-qa-21-0",
+      "name": "Folded Orbital Passage",
+      "family": "torus",
       "kind": "discovery",
-      "seed": "qa-13",
+      "seed": "qa-21",
       "initialState": {
         "clock": 0
       },
       "camera": "passage",
       "layers": [
         {
-          "op": "spiral",
-          "partner": "arch",
-          "relation": "blend",
-          "effect": "split",
+          "op": "catenoid",
+          "partner": "spiral",
+          "relation": "wrap",
+          "effect": "fold",
           "cut": "none",
-          "audio": "treble",
-          "phase": 0.5625934736244381,
-          "hue": 0.546603630296886,
+          "audio": "trend",
+          "phase": 4.4113171781692655,
+          "hue": 0.04278332969173789,
+          "colorRole": "structure",
           "scale": [
-            0.74,
-            0.8968812595168129,
-            0.74
+            1.4455596594838425,
+            1.7256521075498312,
+            1.2
           ],
           "offset": [
             0,
+            0.5,
+            -2.25
+          ],
+          "rotate": [
+            1.8211054726645837,
+            0.10935185302514583,
+            0
+          ],
+          "domain": [
             0,
+            0,
+            1,
+            1
+          ]
+        },
+        {
+          "op": "torus",
+          "partner": "wavefront",
+          "relation": "wrap",
+          "effect": "twist",
+          "cut": "none",
+          "audio": "mid",
+          "phase": 1.584145523319021,
+          "hue": 0.3655309743620455,
+          "colorRole": "accent",
+          "scale": [
+            1.6881051333155481,
+            1.670443333708681,
+            1.2
+          ],
+          "offset": [
+            0.9118752937440538,
+            -0.014599761150644408,
             -0.75
           ],
           "rotate": [
-            0.7330634910613298,
-            0.3761042912956327,
-            1.0169322982430458
+            1.2999214810461293,
+            0.12182814418338239,
+            0
           ],
           "domain": [
             0,
@@ -1672,78 +2955,29 @@
           ]
         },
         {
-          "op": "lens",
-          "partner": "vortex",
-          "relation": "intersect",
-          "effect": "fold",
-          "cut": "open",
-          "audio": "bass",
-          "phase": 1.3189783194940539,
-          "hue": 0.4996045872103423,
+          "op": "torus",
+          "partner": "ribbon",
+          "relation": "wrap",
+          "effect": "twist",
+          "cut": "none",
+          "audio": "trend",
+          "phase": 2.687227279804647,
+          "hue": 0.627931651789695,
+          "colorRole": "counter",
           "scale": [
-            0.74,
-            0.7460281648458913,
-            0.74
+            1.6842224631342104,
+            1.5538166053476743,
+            1.2
           ],
           "offset": [
-            0,
-            0,
+            -1.344822221928385,
+            -0.49914738789737656,
             0.75
           ],
           "rotate": [
-            0.3520333655178547,
-            1.8272965152282268,
-            0.5818185098469257
-          ],
-          "domain": [
-            0,
-            0,
-            1,
-            1
-          ]
-        }
-      ],
-      "description": "A newly composed corridor of 2 interacting spiral, lens constructions.",
-      "audioBehavior": "treble, bass drive separate split, fold gestures.",
-      "distinction": "Generated corridor; graph structure, relationships, apertures and audio mappings are seed-dependent.",
-      "budget": 12000
-    },
-    {
-      "schemaVersion": 1,
-      "generatorVersion": "1.0.0",
-      "id": "discovery-qa-14-0",
-      "name": "Luminous Confluence",
-      "family": "hourglass",
-      "kind": "discovery",
-      "seed": "qa-14",
-      "initialState": {
-        "clock": 0
-      },
-      "camera": "interior",
-      "layers": [
-        {
-          "op": "hourglass",
-          "partner": "reaction",
-          "relation": "wrap",
-          "effect": "ripple",
-          "cut": "none",
-          "audio": "bass",
-          "phase": 4.1700719602778555,
-          "hue": 0.2240677042864263,
-          "scale": [
-            1.65,
-            2.0390630813967436,
-            1.65
-          ],
-          "offset": [
-            0,
-            0,
+            1.7450858128864806,
+            -0.13121725525707006,
             0
-          ],
-          "rotate": [
-            0.7191711915656924,
-            2.4939273661002517,
-            0.9875289984047413
           ],
           "domain": [
             0,
@@ -1753,28 +2987,29 @@
           ]
         },
         {
-          "op": "lens",
-          "partner": "wavefront",
-          "relation": "intersect",
-          "effect": "twist",
+          "op": "catenoid",
+          "partner": "ribbon",
+          "relation": "independent",
+          "effect": "grow",
           "cut": "none",
-          "audio": "bass",
-          "phase": 0.9571871684584767,
-          "hue": 0.35435474663972855,
+          "audio": "onset",
+          "phase": 1.5493814654368907,
+          "hue": 0.8991828781738876,
+          "colorRole": "distance",
           "scale": [
-            0.6799999999999999,
-            0.7729210212044416,
-            0.6799999999999999
+            1.6371952981338835,
+            1.6642860975814981,
+            1.2
           ],
           "offset": [
-            0,
-            0,
-            0
+            1.071451616196356,
+            0.043749491719723636,
+            2.25
           ],
           "rotate": [
-            0.6137671004980803,
-            0.8421952254138887,
-            1.3227787107229234
+            1.3132986561071616,
+            -0.16445018770173192,
+            0
           ],
           "domain": [
             0,
@@ -1784,47 +3019,48 @@
           ]
         }
       ],
-      "description": "A newly composed contain of 2 interacting hourglass, lens constructions.",
-      "audioBehavior": "bass drive separate ripple, twist gestures.",
-      "distinction": "Generated contain; graph structure, relationships, apertures and audio mappings are seed-dependent.",
+      "description": "A sweeping orbitals of 4 layered catenoid, torus, torus, catenoid constructions, composed for close, immersive travel.",
+      "audioBehavior": "Sustained energy drives every wave and ripple; trend, mid, onset articulate individual layers and beats rotate the marks.",
+      "distinction": "Generated orbitals; geometry, depth arrangement, graph relationships and audio mappings are seed-dependent.",
       "budget": 12000
     },
     {
       "schemaVersion": 1,
-      "generatorVersion": "1.0.0",
-      "id": "discovery-qa-15-0",
-      "name": "Oblique Confluence",
-      "family": "cell",
+      "generatorVersion": "1.1.0",
+      "id": "discovery-qa-22-0",
+      "name": "Folded Horizon",
+      "family": "weft",
       "kind": "discovery",
-      "seed": "qa-15",
+      "seed": "qa-22",
       "initialState": {
         "clock": 0
       },
-      "camera": "hold",
+      "camera": "passage",
       "layers": [
         {
-          "op": "cell",
-          "partner": "catenoid",
+          "op": "weft",
+          "partner": "helix",
           "relation": "independent",
-          "effect": "split",
+          "effect": "ripple",
           "cut": "none",
-          "audio": "onset",
-          "phase": 1.8319348303135485,
-          "hue": 0.5842735576443374,
+          "audio": "treble",
+          "phase": 4.7242612136434765,
+          "hue": 0.016141990534961223,
+          "colorRole": "ground",
           "scale": [
-            1,
-            1.279637851426378,
-            1
+            1.95,
+            0.72,
+            1.75
           ],
           "offset": [
             0,
-            0,
+            -0.65,
             0
           ],
           "rotate": [
-            0.9132876540534198,
-            0.4528116867877543,
-            0.7633753307163715
+            0,
+            -0.018957688822411,
+            0
           ],
           "domain": [
             0,
@@ -1835,27 +3071,28 @@
         },
         {
           "op": "scroll",
-          "partner": "rosette",
-          "relation": "repel",
-          "effect": "invert",
-          "cut": "open",
-          "audio": "onset",
-          "phase": 1.560744836917147,
-          "hue": 0.9060755367390811,
+          "partner": "strata",
+          "relation": "independent",
+          "effect": "twist",
+          "cut": "none",
+          "audio": "mid",
+          "phase": 1.1014466557465494,
+          "hue": 0.33022539272904394,
+          "colorRole": "accent",
           "scale": [
-            1,
-            1.2019373363349586,
-            1
+            0.95,
+            1.1,
+            0.95
           ],
           "offset": [
-            0,
-            0,
-            0
+            -1.5537682321853934,
+            0.5,
+            -1.15
           ],
           "rotate": [
-            1.4463299750350416,
-            0.5192424324341118,
-            0.8317337907850743
+            0.44028373556211586,
+            0.4218472819775343,
+            0.016766079887747764
           ],
           "domain": [
             0,
@@ -1865,28 +3102,342 @@
           ]
         },
         {
-          "op": "mobius",
-          "partner": "strata",
-          "relation": "repel",
-          "effect": "still",
+          "op": "klein",
+          "partner": "crystal",
+          "relation": "independent",
+          "effect": "twist",
+          "cut": "none",
+          "audio": "bass",
+          "phase": 0.30487472380511466,
+          "hue": 0.6589496820420027,
+          "colorRole": "counter",
+          "scale": [
+            0.95,
+            1.1,
+            0.95
+          ],
+          "offset": [
+            1.6864547752775252,
+            0.5,
+            -1.7000000000000002
+          ],
+          "rotate": [
+            0.6868874098639934,
+            0.478642075881362,
+            0.020937288645654917
+          ],
+          "domain": [
+            0,
+            0,
+            1,
+            1
+          ]
+        },
+        {
+          "op": "branch",
+          "partner": "saddle",
+          "relation": "independent",
+          "effect": "grow",
           "cut": "none",
           "audio": "mid",
-          "phase": 4.792228809902444,
-          "hue": 0.8105710912495852,
+          "phase": 2.0959941532835367,
+          "hue": 0.9374847863055764,
+          "colorRole": "distance",
           "scale": [
+            0.95,
+            1.1,
+            0.95
+          ],
+          "offset": [
+            -1.419869120232761,
+            0.5,
+            -2.25
+          ],
+          "rotate": [
+            0.39101137102115896,
+            0.8984519578516483,
+            0.25958668496459725
+          ],
+          "domain": [
+            0,
+            0,
             1,
-            1.2811922074761242,
+            1
+          ]
+        }
+      ],
+      "description": "A sweeping landscape of 4 layered weft, scroll, klein, branch constructions, composed for close, immersive travel.",
+      "audioBehavior": "Sustained energy drives every wave and ripple; treble, mid, bass articulate individual layers and beats rotate the marks.",
+      "distinction": "Generated landscape; geometry, depth arrangement, graph relationships and audio mappings are seed-dependent.",
+      "budget": 12000
+    },
+    {
+      "schemaVersion": 1,
+      "generatorVersion": "1.1.0",
+      "id": "discovery-qa-23-0",
+      "name": "Resonant Asteroid Field",
+      "family": "crystal",
+      "kind": "discovery",
+      "seed": "qa-23",
+      "initialState": {
+        "clock": 0
+      },
+      "camera": "passage",
+      "layers": [
+        {
+          "op": "crystal",
+          "partner": "shell",
+          "relation": "independent",
+          "effect": "circulate",
+          "cut": "none",
+          "audio": "mid",
+          "phase": 0.9966241536289454,
+          "hue": 0.05367450725287199,
+          "colorRole": "structure",
+          "scale": [
+            0.9770689140539617,
+            1,
             1
           ],
           "offset": [
+            -1.2930832396727057,
+            -0.35594034236855804,
+            -1.65
+          ],
+          "rotate": [
+            0.6131315661594271,
+            0.16266464553773405,
+            0.2497601349838078
+          ],
+          "domain": [
+            0,
+            0,
+            1,
+            1
+          ]
+        },
+        {
+          "op": "crystal",
+          "partner": "wave",
+          "relation": "independent",
+          "effect": "circulate",
+          "cut": "none",
+          "audio": "mid",
+          "phase": 2.2107774121966215,
+          "hue": 0.3462248891592026,
+          "colorRole": "accent",
+          "scale": [
+            1.041606971831061,
+            1,
+            1
+          ],
+          "offset": [
+            -0.46349007268436254,
+            -0.06078870864585042,
+            0
+          ],
+          "rotate": [
+            0.06763620690908283,
+            1.103894331306219,
+            0.017438974883407354
+          ],
+          "domain": [
+            0,
+            0,
+            1,
+            1
+          ]
+        },
+        {
+          "op": "crystal",
+          "partner": "branch",
+          "relation": "independent",
+          "effect": "circulate",
+          "cut": "none",
+          "audio": "bass",
+          "phase": 6.210407251650468,
+          "hue": 0.6482604532502592,
+          "colorRole": "counter",
+          "scale": [
+            1.0898262069793418,
+            1,
+            1
+          ],
+          "offset": [
+            -0.49320984324440365,
+            0.4962248830124735,
+            1.65
+          ],
+          "rotate": [
+            0.3380899973446503,
+            1.5560149002820254,
+            0.12636958565562964
+          ],
+          "domain": [
+            0,
+            0,
+            1,
+            1
+          ]
+        }
+      ],
+      "description": "A sweeping asteroids of 3 layered crystal, crystal, crystal constructions, composed for close, immersive travel.",
+      "audioBehavior": "Sustained energy drives every wave and ripple; mid, bass articulate individual layers and beats rotate the marks.",
+      "distinction": "Generated asteroids; geometry, depth arrangement, graph relationships and audio mappings are seed-dependent.",
+      "budget": 12000
+    },
+    {
+      "schemaVersion": 1,
+      "generatorVersion": "1.1.0",
+      "id": "discovery-qa-24-0",
+      "name": "Undulating Arcade",
+      "family": "arch",
+      "kind": "discovery",
+      "seed": "qa-24",
+      "initialState": {
+        "clock": 0
+      },
+      "camera": "passage",
+      "layers": [
+        {
+          "op": "arch",
+          "partner": "wave",
+          "relation": "independent",
+          "effect": "ripple",
+          "cut": "none",
+          "audio": "trend",
+          "phase": 5.300225670868531,
+          "hue": 0.07292987648397685,
+          "colorRole": "structure",
+          "scale": [
+            1.65,
+            1.5,
+            0.85
+          ],
+          "offset": [
+            -0.04839107771404087,
+            0.15,
+            -1.8
+          ],
+          "rotate": [
             0,
             0,
             0
           ],
+          "domain": [
+            0,
+            0,
+            1,
+            1
+          ]
+        },
+        {
+          "op": "arch",
+          "partner": "helix",
+          "relation": "independent",
+          "effect": "ripple",
+          "cut": "none",
+          "audio": "treble",
+          "phase": 6.1230500435736035,
+          "hue": 0.35820673605427145,
+          "colorRole": "accent",
+          "scale": [
+            1.65,
+            1.5,
+            0.85
+          ],
+          "offset": [
+            -0.06473704401869326,
+            0.15,
+            0
+          ],
           "rotate": [
-            0.15771856624633074,
-            2.8001069391611964,
-            1.2373886112123729
+            0,
+            0,
+            0
+          ],
+          "domain": [
+            0,
+            0,
+            1,
+            1
+          ]
+        },
+        {
+          "op": "wave",
+          "partner": "rosette",
+          "relation": "independent",
+          "effect": "ripple",
+          "cut": "none",
+          "audio": "mid",
+          "phase": 5.856962472787127,
+          "hue": 0.6518339065834879,
+          "colorRole": "counter",
+          "scale": [
+            1.7,
+            0.45,
+            2.8
+          ],
+          "offset": [
+            0,
+            -1.05,
+            0
+          ],
+          "rotate": [
+            0,
+            0,
+            0
+          ],
+          "domain": [
+            0,
+            0,
+            1,
+            1
+          ]
+        }
+      ],
+      "description": "A sweeping archway of 3 layered arch, arch, wave constructions, composed for close, immersive travel.",
+      "audioBehavior": "Sustained energy drives every wave and ripple; trend, treble, mid articulate individual layers and beats rotate the marks.",
+      "distinction": "Generated archway; geometry, depth arrangement, graph relationships and audio mappings are seed-dependent.",
+      "budget": 12000
+    },
+    {
+      "schemaVersion": 1,
+      "generatorVersion": "1.1.0",
+      "id": "discovery-qa-25-0",
+      "name": "Luminous Horizon",
+      "family": "strata",
+      "kind": "discovery",
+      "seed": "qa-25",
+      "initialState": {
+        "clock": 0
+      },
+      "camera": "passage",
+      "layers": [
+        {
+          "op": "strata",
+          "partner": "arch",
+          "relation": "independent",
+          "effect": "ripple",
+          "cut": "none",
+          "audio": "onset",
+          "phase": 3.781149970367551,
+          "hue": 0.005761516876518726,
+          "colorRole": "ground",
+          "scale": [
+            1.95,
+            0.72,
+            1.75
+          ],
+          "offset": [
+            0,
+            -0.65,
+            0
+          ],
+          "rotate": [
+            0,
+            -0.13917993027716874,
+            0
           ],
           "domain": [
             0,
@@ -1897,904 +3448,28 @@
         },
         {
           "op": "rosette",
-          "partner": "arch",
-          "relation": "intersect",
-          "effect": "ripple",
-          "cut": "open",
-          "audio": "bass",
-          "phase": 4.186594912307337,
-          "hue": 0.27870198083110154,
-          "scale": [
-            1,
-            1.2948089911136775,
-            1
-          ],
-          "offset": [
-            0,
-            0,
-            0
-          ],
-          "rotate": [
-            -0.25474020605906844,
-            1.5432073229458183,
-            0.13182711489498616
-          ],
-          "domain": [
-            0,
-            0,
-            1,
-            1
-          ]
-        }
-      ],
-      "description": "A newly composed crossing of 4 interacting cell, scroll, mobius, rosette constructions.",
-      "audioBehavior": "onset, mid, bass drive separate split, invert, still, ripple gestures.",
-      "distinction": "Generated crossing; graph structure, relationships, apertures and audio mappings are seed-dependent.",
-      "budget": 12000
-    },
-    {
-      "schemaVersion": 1,
-      "generatorVersion": "1.0.0",
-      "id": "discovery-qa-16-0",
-      "name": "Spectral Passage",
-      "family": "gyroid",
-      "kind": "discovery",
-      "seed": "qa-16",
-      "initialState": {
-        "clock": 0
-      },
-      "camera": "passage",
-      "layers": [
-        {
-          "op": "gyroid",
-          "partner": "knot",
-          "relation": "intersect",
-          "effect": "fold",
-          "cut": "none",
-          "audio": "mid",
-          "phase": 6.073870626483113,
-          "hue": 0.21434624656103551,
-          "scale": [
-            0.62,
-            0.5335820511300117,
-            0.62
-          ],
-          "offset": [
-            1.15,
-            0,
-            0
-          ],
-          "rotate": [
-            -0.2801361591555178,
-            2.8737406104337424,
-            1.5835135977715256
-          ],
-          "domain": [
-            0,
-            0,
-            1,
-            1
-          ]
-        },
-        {
-          "op": "spiral",
-          "partner": "branch",
-          "relation": "repel",
-          "effect": "fold",
-          "cut": "slit",
-          "audio": "trend",
-          "phase": 1.3605211969744415,
-          "hue": 0.948134871898219,
-          "scale": [
-            0.62,
-            0.757407426728867,
-            0.62
-          ],
-          "offset": [
-            -0.8480027728724322,
-            0.44624916470361087,
-            0.7767826576338236
-          ],
-          "rotate": [
-            0.6152400965802372,
-            1.7397673611994833,
-            0.9771075140684844
-          ],
-          "domain": [
-            0,
-            0,
-            1,
-            1
-          ]
-        },
-        {
-          "op": "torus",
-          "partner": "spiral",
-          "relation": "independent",
-          "effect": "grow",
-          "cut": "none",
-          "audio": "bass",
-          "phase": 5.663836983004585,
-          "hue": 0.9484680662862957,
-          "scale": [
-            0.62,
-            0.6203587560672312,
-            0.62
-          ],
-          "offset": [
-            0.10062383095536336,
-            -0.11499349591207406,
-            -1.1455893001612167
-          ],
-          "rotate": [
-            1.2191395312547684,
-            2.430186658864841,
-            1.5717584460973741
-          ],
-          "domain": [
-            0,
-            0,
-            1,
-            1
-          ]
-        },
-        {
-          "op": "catenoid",
-          "partner": "superquadric",
-          "relation": "repel",
-          "effect": "split",
-          "cut": "slit",
-          "audio": "mid",
-          "phase": 5.892950027277694,
-          "hue": 0.0656770474743098,
-          "scale": [
-            0.62,
-            0.7306393719492479,
-            0.62
-          ],
-          "offset": [
-            0.6996040117120934,
-            -0.4166166070474796,
-            0.9127180434265255
-          ],
-          "rotate": [
-            0.2206116453744471,
-            1.4719590889289975,
-            1.3368737861514093
-          ],
-          "domain": [
-            0,
-            0,
-            1,
-            1
-          ]
-        },
-        {
-          "op": "reaction",
-          "partner": "gyroid",
-          "relation": "weave",
-          "effect": "collapse",
-          "cut": "open",
-          "audio": "treble",
-          "phase": 5.2683350952900945,
-          "hue": 0.9378361126873642,
-          "scale": [
-            0.62,
-            0.465072738347575,
-            0.62
-          ],
-          "offset": [
-            -1.132391034163246,
-            0.22235100801237367,
-            -0.20047579840642657
-          ],
-          "rotate": [
-            0.8334442819468677,
-            0.6613204758614302,
-            0.1082727823406458
-          ],
-          "domain": [
-            0,
-            0,
-            1,
-            1
-          ]
-        }
-      ],
-      "description": "A newly composed constellation of 5 interacting gyroid, spiral, torus, catenoid, reaction constructions.",
-      "audioBehavior": "mid, trend, bass, treble drive separate fold, grow, split, collapse gestures.",
-      "distinction": "Generated constellation; graph structure, relationships, apertures and audio mappings are seed-dependent.",
-      "budget": 12000
-    },
-    {
-      "schemaVersion": 1,
-      "generatorVersion": "1.0.0",
-      "id": "discovery-qa-17-0",
-      "name": "Luminous Weather",
-      "family": "arch",
-      "kind": "discovery",
-      "seed": "qa-17",
-      "initialState": {
-        "clock": 0
-      },
-      "camera": "hold",
-      "layers": [
-        {
-          "op": "arch",
-          "partner": "braid",
-          "relation": "wrap",
-          "effect": "ripple",
-          "cut": "none",
-          "audio": "bass",
-          "phase": 4.565083820028231,
-          "hue": 0.031012066174298525,
-          "scale": [
-            1,
-            1.1773220769595354,
-            1
-          ],
-          "offset": [
-            0,
-            0,
-            0
-          ],
-          "rotate": [
-            -0.11387288104742765,
-            1.888022383209318,
-            0.9107128813862801
-          ],
-          "domain": [
-            0,
-            0,
-            1,
-            1
-          ]
-        },
-        {
-          "op": "klein",
-          "partner": "spiral",
-          "relation": "independent",
-          "effect": "split",
-          "cut": "pores",
-          "audio": "trend",
-          "phase": 0.9618632160313428,
-          "hue": 0.6724201473407447,
-          "scale": [
-            1,
-            1.2691401593387126,
-            1
-          ],
-          "offset": [
-            0,
-            0,
-            0
-          ],
-          "rotate": [
-            -0.05976828606799245,
-            1.7493879301473498,
-            0.7726878102868796
-          ],
-          "domain": [
-            0,
-            0,
-            1,
-            1
-          ]
-        },
-        {
-          "op": "cell",
-          "partner": "ribbon",
-          "relation": "repel",
-          "effect": "twist",
-          "cut": "pores",
-          "audio": "bass",
-          "phase": 0.5988306362554431,
-          "hue": 0.4947558701969683,
-          "scale": [
-            1,
-            0.7438255466986448,
-            1
-          ],
-          "offset": [
-            0,
-            0,
-            0
-          ],
-          "rotate": [
-            0.6649051876738667,
-            2.3624401660636067,
-            0.9537876628339291
-          ],
-          "domain": [
-            0,
-            0,
-            1,
-            1
-          ]
-        }
-      ],
-      "description": "A newly composed crossing of 3 interacting arch, klein, cell constructions.",
-      "audioBehavior": "bass, trend drive separate ripple, split, twist gestures.",
-      "distinction": "Generated crossing; graph structure, relationships, apertures and audio mappings are seed-dependent.",
-      "budget": 12000
-    },
-    {
-      "schemaVersion": 1,
-      "generatorVersion": "1.0.0",
-      "id": "discovery-qa-18-0",
-      "name": "Porous Weather",
-      "family": "lattice",
-      "kind": "discovery",
-      "seed": "qa-18",
-      "initialState": {
-        "clock": 0
-      },
-      "camera": "hold",
-      "layers": [
-        {
-          "op": "lattice",
-          "partner": "rosette",
-          "relation": "independent",
-          "effect": "split",
-          "cut": "open",
-          "audio": "treble",
-          "phase": 3.325234955502674,
-          "hue": 0.5975726875476539,
-          "scale": [
-            1,
-            1.2024293370079249,
-            1
-          ],
-          "offset": [
-            0.8851745640859009,
-            -0.021409540157765194,
-            -0.656041250238195
-          ],
-          "rotate": [
-            1.3848874624818563,
-            1.469872777350247,
-            1.1104802131652833
-          ],
-          "domain": [
-            0,
-            0,
-            1,
-            1
-          ]
-        },
-        {
-          "op": "weft",
-          "partner": "lattice",
-          "relation": "blend",
-          "effect": "collapse",
-          "cut": "none",
-          "audio": "trend",
-          "phase": 0.8206983696203679,
-          "hue": 0.3310101123061031,
-          "scale": [
-            1,
-            0.8153865885920822,
-            1
-          ],
-          "offset": [
-            -0.34569382751360533,
-            -0.5260947718285024,
-            0.13542836839333183
-          ],
-          "rotate": [
-            0.31540226796641946,
-            1.8789589824154973,
-            0.3658083058893681
-          ],
-          "domain": [
-            0,
-            0,
-            1,
-            1
-          ]
-        },
-        {
-          "op": "braid",
-          "partner": "helix",
-          "relation": "blend",
-          "effect": "twist",
-          "cut": "none",
-          "audio": "trend",
-          "phase": 3.5510278971400115,
-          "hue": 0.5885571774560958,
-          "scale": [
-            1,
-            0.9271451396867633,
-            1
-          ],
-          "offset": [
-            -0.40837622615508734,
-            0.5892200267873705,
-            0.6605900508351624
-          ],
-          "rotate": [
-            -0.12619354762136936,
-            1.9555510701611638,
-            0.1403778538107872
-          ],
-          "domain": [
-            0,
-            0,
-            1,
-            1
-          ]
-        }
-      ],
-      "description": "A newly composed asymmetric of 3 interacting lattice, weft, braid constructions.",
-      "audioBehavior": "treble, trend drive separate split, collapse, twist gestures.",
-      "distinction": "Generated asymmetric; graph structure, relationships, apertures and audio mappings are seed-dependent.",
-      "budget": 12000
-    },
-    {
-      "schemaVersion": 1,
-      "generatorVersion": "1.0.0",
-      "id": "discovery-qa-19-0",
-      "name": "Spectral Organism",
-      "family": "catenoid",
-      "kind": "discovery",
-      "seed": "qa-19",
-      "initialState": {
-        "clock": 0
-      },
-      "camera": "rise",
-      "layers": [
-        {
-          "op": "catenoid",
-          "partner": "cone",
-          "relation": "repel",
-          "effect": "still",
-          "cut": "bands",
-          "audio": "trend",
-          "phase": 2.157696513570845,
-          "hue": 0.2878564742859453,
-          "scale": [
-            1,
-            0.7358975819777697,
-            1
-          ],
-          "offset": [
-            -0.015190521860495187,
-            0.23352953474968674,
-            0.6086325349286198
-          ],
-          "rotate": [
-            -0.23820602428168058,
-            1.6045240173116326,
-            1.200759179517627
-          ],
-          "domain": [
-            0,
-            0,
-            1,
-            1
-          ]
-        },
-        {
-          "op": "cell",
-          "partner": "shell",
-          "relation": "independent",
-          "effect": "still",
-          "cut": "slit",
-          "audio": "bass",
-          "phase": 1.5668393053021283,
-          "hue": 0.552139772567898,
-          "scale": [
-            1,
-            1.2243933656252919,
-            1
-          ],
-          "offset": [
-            0.24818709092214697,
-            -0.17479417780414225,
-            0.35660976776853215
-          ],
-          "rotate": [
-            -0.43793995399028063,
-            1.969206305919215,
-            0.24337369576096535
-          ],
-          "domain": [
-            0,
-            0,
-            1,
-            1
-          ]
-        },
-        {
-          "op": "ribbon",
-          "partner": "vortex",
-          "relation": "repel",
-          "effect": "grow",
-          "cut": "bands",
-          "audio": "treble",
-          "phase": 1.880128385173157,
-          "hue": 0.18942387076094747,
-          "scale": [
-            1,
-            0.8444622808136045,
-            1
-          ],
-          "offset": [
-            -0.7804677672218532,
-            -0.5855088550597429,
-            -0.1626187757123262
-          ],
-          "rotate": [
-            1.243852305226028,
-            1.8512576089706272,
-            0.42208234407007694
-          ],
-          "domain": [
-            0,
-            0,
-            1,
-            1
-          ]
-        }
-      ],
-      "description": "A newly composed asymmetric of 3 interacting catenoid, cell, ribbon constructions.",
-      "audioBehavior": "trend, bass, treble drive separate still, grow gestures.",
-      "distinction": "Generated asymmetric; graph structure, relationships, apertures and audio mappings are seed-dependent.",
-      "budget": 12000
-    },
-    {
-      "schemaVersion": 1,
-      "generatorVersion": "1.0.0",
-      "id": "discovery-qa-20-0",
-      "name": "Oblique Weather",
-      "family": "iris",
-      "kind": "discovery",
-      "seed": "qa-20",
-      "initialState": {
-        "clock": 0
-      },
-      "camera": "orbit",
-      "layers": [
-        {
-          "op": "iris",
-          "partner": "crystal",
-          "relation": "independent",
-          "effect": "grow",
-          "cut": "pores",
-          "audio": "treble",
-          "phase": 5.358621020847932,
-          "hue": 0.4815365083049983,
-          "scale": [
-            1,
-            0.9001075716223568,
-            1
-          ],
-          "offset": [
-            0.8080951969139277,
-            0.4878869717940687,
-            -0.6177754922769965
-          ],
-          "rotate": [
-            0.7362735513597727,
-            1.1841182245407254,
-            1.1243375707417727
-          ],
-          "domain": [
-            0,
-            0,
-            1,
-            1
-          ]
-        },
-        {
-          "op": "gyroid",
-          "partner": "gyroid",
-          "relation": "independent",
-          "effect": "invert",
-          "cut": "slit",
-          "audio": "treble",
-          "phase": 0.7215148240607232,
-          "hue": 0.6828328464180231,
-          "scale": [
-            1,
-            0.75633140867576,
-            1
-          ],
-          "offset": [
-            0.2317997451871633,
-            -0.16409145975485445,
-            -0.10619070553220811
-          ],
-          "rotate": [
-            0.21063775382936,
-            1.2044952681753784,
-            0.47208987437188626
-          ],
-          "domain": [
-            0,
-            0,
-            1,
-            1
-          ]
-        },
-        {
-          "op": "reaction",
           "partner": "wavefront",
-          "relation": "blend",
-          "effect": "fold",
-          "cut": "pores",
-          "audio": "treble",
-          "phase": 3.1585582636203617,
-          "hue": 0.5641131848096848,
-          "scale": [
-            1,
-            1.2714465295430273,
-            1
-          ],
-          "offset": [
-            -0.041800558241084196,
-            0.2829838508740068,
-            0.14725241074338558
-          ],
-          "rotate": [
-            -0.1284831939265132,
-            2.062348388833925,
-            0.1709260255098343
-          ],
-          "domain": [
-            0,
-            0,
-            1,
-            1
-          ]
-        },
-        {
-          "op": "superquadric",
-          "partner": "gyroid",
-          "relation": "repel",
-          "effect": "circulate",
-          "cut": "open",
-          "audio": "mid",
-          "phase": 0.36446461198851465,
-          "hue": 0.20568621763959527,
-          "scale": [
-            1,
-            0.8330602723173797,
-            1
-          ],
-          "offset": [
-            0.132035586470738,
-            -0.37287184232845905,
-            -0.8984212454874069
-          ],
-          "rotate": [
-            1.2818408026359975,
-            1.9402440120466053,
-            1.2527858763933182
-          ],
-          "domain": [
-            0,
-            0,
-            1,
-            1
-          ]
-        }
-      ],
-      "description": "A newly composed asymmetric of 4 interacting iris, gyroid, reaction, superquadric constructions.",
-      "audioBehavior": "treble, mid drive separate grow, invert, fold, circulate gestures.",
-      "distinction": "Generated asymmetric; graph structure, relationships, apertures and audio mappings are seed-dependent.",
-      "budget": 12000
-    },
-    {
-      "schemaVersion": 1,
-      "generatorVersion": "1.0.0",
-      "id": "discovery-qa-21-0",
-      "name": "Spectral Confluence",
-      "family": "strata",
-      "kind": "discovery",
-      "seed": "qa-21",
-      "initialState": {
-        "clock": 0
-      },
-      "camera": "passage",
-      "layers": [
-        {
-          "op": "strata",
-          "partner": "braid",
-          "relation": "blend",
-          "effect": "still",
-          "cut": "pores",
-          "audio": "onset",
-          "phase": 1.2478477899450808,
-          "hue": 0.5281676794402301,
-          "scale": [
-            0.62,
-            0.58166301795654,
-            0.62
-          ],
-          "offset": [
-            1.15,
-            0,
-            0
-          ],
-          "rotate": [
-            -0.15935182850807905,
-            2.704766480717808,
-            0.20827272906899452
-          ],
-          "domain": [
-            0,
-            0,
-            1,
-            1
-          ]
-        },
-        {
-          "op": "arch",
-          "partner": "wavefront",
-          "relation": "intersect",
-          "effect": "invert",
-          "cut": "bands",
-          "audio": "onset",
-          "phase": 3.3584913808014245,
-          "hue": 0.5660102223046124,
-          "scale": [
-            0.62,
-            0.7391684944797307,
-            0.62
-          ],
-          "offset": [
-            -0.8480027728724322,
-            0.44624916470361087,
-            0.7767826576338236
-          ],
-          "rotate": [
-            0.8267513145692647,
-            0.9525193248409778,
-            0.3643804356455803
-          ],
-          "domain": [
-            0,
-            0,
-            1,
-            1
-          ]
-        },
-        {
-          "op": "catenoid",
-          "partner": "klein",
-          "relation": "repel",
-          "effect": "ripple",
-          "cut": "bands",
-          "audio": "treble",
-          "phase": 5.169429249204695,
-          "hue": 0.7726952391676605,
-          "scale": [
-            0.62,
-            0.45205759563576425,
-            0.62
-          ],
-          "offset": [
-            0.10062383095536336,
-            -0.11499349591207406,
-            -1.1455893001612167
-          ],
-          "rotate": [
-            0.9873125767335296,
-            2.7356131612323225,
-            0.10976023264229298
-          ],
-          "domain": [
-            0,
-            0,
-            1,
-            1
-          ]
-        },
-        {
-          "op": "wavefront",
-          "partner": "spiral",
-          "relation": "blend",
-          "effect": "collapse",
-          "cut": "pores",
-          "audio": "treble",
-          "phase": 2.383889921940863,
-          "hue": 0.2661329952534288,
-          "scale": [
-            0.62,
-            0.5004280626885592,
-            0.62
-          ],
-          "offset": [
-            0.6996040117120934,
-            -0.4166166070474796,
-            0.9127180434265255
-          ],
-          "rotate": [
-            0.42378048691898584,
-            1.550793899456039,
-            1.4994107320904733
-          ],
-          "domain": [
-            0,
-            0,
-            1,
-            1
-          ]
-        },
-        {
-          "op": "reaction",
-          "partner": "gyroid",
-          "relation": "repel",
-          "effect": "invert",
-          "cut": "pores",
-          "audio": "onset",
-          "phase": 1.4919112739712002,
-          "hue": 0.7213860531337559,
-          "scale": [
-            0.62,
-            0.6247971056662499,
-            0.62
-          ],
-          "offset": [
-            -1.132391034163246,
-            0.22235100801237367,
-            -0.20047579840642657
-          ],
-          "rotate": [
-            1.1518504433333874,
-            1.2837072992697358,
-            0.9586330357939006
-          ],
-          "domain": [
-            0,
-            0,
-            1,
-            1
-          ]
-        }
-      ],
-      "description": "A newly composed constellation of 5 interacting strata, arch, catenoid, wavefront, reaction constructions.",
-      "audioBehavior": "onset, treble drive separate still, invert, ripple, collapse gestures.",
-      "distinction": "Generated constellation; graph structure, relationships, apertures and audio mappings are seed-dependent.",
-      "budget": 12000
-    },
-    {
-      "schemaVersion": 1,
-      "generatorVersion": "1.0.0",
-      "id": "discovery-qa-22-0",
-      "name": "Spectral Confluence",
-      "family": "lattice",
-      "kind": "discovery",
-      "seed": "qa-22",
-      "initialState": {
-        "clock": 0
-      },
-      "camera": "orbit",
-      "layers": [
-        {
-          "op": "lattice",
-          "partner": "cone",
           "relation": "independent",
-          "effect": "fold",
+          "effect": "ripple",
           "cut": "none",
-          "audio": "bass",
-          "phase": 0.4233707206696272,
-          "hue": 0.43680770392529666,
+          "audio": "mid",
+          "phase": 5.814407038120553,
+          "hue": 0.3320687066763639,
+          "colorRole": "accent",
           "scale": [
-            1,
-            1.004165746225044,
-            1
+            0.95,
+            1.1,
+            0.95
           ],
           "offset": [
-            0.8859736234880985,
-            0.07152889268472795,
-            0.0019969926215708256
+            -1.668519475730136,
+            0.5,
+            -1.15
           ],
           "rotate": [
-            0.4288073629140854,
-            2.25681268167682,
-            0.3228398106992245
+            0.417130751395598,
+            1.5936373077332975,
+            0.29496295200660827
           ],
           "domain": [
             0,
@@ -2805,27 +3480,28 @@
         },
         {
           "op": "scroll",
-          "partner": "ribbon",
-          "relation": "repel",
-          "effect": "grow",
+          "partner": "scroll",
+          "relation": "independent",
+          "effect": "twist",
           "cut": "none",
           "audio": "bass",
-          "phase": 3.771550929704681,
-          "hue": 0.5896137203089893,
+          "phase": 1.9086966897081585,
+          "hue": 0.5808681285195052,
+          "colorRole": "counter",
           "scale": [
-            1,
-            0.8302583591081202,
-            1
+            0.95,
+            1.1,
+            0.95
           ],
           "offset": [
-            -0.27646246729418633,
-            0.5384771972894667,
-            0.7057858359999954
+            1.6974844047334043,
+            0.5,
+            -1.7000000000000002
           ],
           "rotate": [
-            -0.14922081027179956,
-            1.5084522273391485,
-            0.7378289707005025
+            0.43201164447236806,
+            1.0928385641425848,
+            0.036457933858036994
           ],
           "domain": [
             0,
@@ -2835,607 +3511,163 @@
           ]
         }
       ],
-      "description": "A newly composed asymmetric of 2 interacting lattice, scroll constructions.",
-      "audioBehavior": "bass drive separate fold, grow gestures.",
-      "distinction": "Generated asymmetric; graph structure, relationships, apertures and audio mappings are seed-dependent.",
+      "description": "A sweeping landscape of 3 layered strata, rosette, scroll constructions, composed for close, immersive travel.",
+      "audioBehavior": "Sustained energy drives every wave and ripple; onset, mid, bass articulate individual layers and beats rotate the marks.",
+      "distinction": "Generated landscape; geometry, depth arrangement, graph relationships and audio mappings are seed-dependent.",
       "budget": 12000
     },
     {
       "schemaVersion": 1,
-      "generatorVersion": "1.0.0",
-      "id": "discovery-qa-23-0",
-      "name": "Luminous Passage",
-      "family": "cone",
-      "kind": "discovery",
-      "seed": "qa-23",
-      "initialState": {
-        "clock": 0
-      },
-      "camera": "hold",
-      "layers": [
-        {
-          "op": "cone",
-          "partner": "superquadric",
-          "relation": "independent",
-          "effect": "invert",
-          "cut": "none",
-          "audio": "onset",
-          "phase": 1.5321528363507242,
-          "hue": 0.5591781849507242,
-          "scale": [
-            1,
-            0.9124826968647539,
-            1
-          ],
-          "offset": [
-            0.11051159002818178,
-            0.45361063443124283,
-            -0.0626627401448786
-          ],
-          "rotate": [
-            -0.4946794151328504,
-            0.7372706949245185,
-            0.21337659731507302
-          ],
-          "domain": [
-            0,
-            0,
-            1,
-            1
-          ]
-        },
-        {
-          "op": "saddle",
-          "partner": "gyroid",
-          "relation": "intersect",
-          "effect": "invert",
-          "cut": "bands",
-          "audio": "onset",
-          "phase": 0.6067933991272003,
-          "hue": 0.6899339570663869,
-          "scale": [
-            1,
-            0.7261584623251109,
-            1
-          ],
-          "offset": [
-            -0.6804760897066444,
-            0.07047665175050499,
-            -0.6305972543545068
-          ],
-          "rotate": [
-            0.5500420569442213,
-            1.784494673134759,
-            0.773142309859395
-          ],
-          "domain": [
-            0,
-            0,
-            1,
-            1
-          ]
-        },
-        {
-          "op": "cone",
-          "partner": "klein",
-          "relation": "wrap",
-          "effect": "grow",
-          "cut": "none",
-          "audio": "mid",
-          "phase": 4.079199410993606,
-          "hue": 0.009751996025443077,
-          "scale": [
-            1,
-            0.9607264746446162,
-            1
-          ],
-          "offset": [
-            -0.2017825963441282,
-            -0.17755845626816152,
-            0.365060006082058
-          ],
-          "rotate": [
-            0.4659714209847152,
-            2.9175279380287975,
-            0.5054783426225186
-          ],
-          "domain": [
-            0,
-            0,
-            1,
-            1
-          ]
-        },
-        {
-          "op": "spiral",
-          "partner": "rosette",
-          "relation": "repel",
-          "effect": "fold",
-          "cut": "bands",
-          "audio": "trend",
-          "phase": 3.066005154531449,
-          "hue": 0.8481613351032138,
-          "scale": [
-            1,
-            0.7357794266194104,
-            1
-          ],
-          "offset": [
-            -0.34145296839997175,
-            0.42533561401069153,
-            -0.1414257391355932
-          ],
-          "rotate": [
-            0.8963367845863104,
-            2.7141061490401626,
-            0.004771223291754723
-          ],
-          "domain": [
-            0,
-            0,
-            1,
-            1
-          ]
-        }
-      ],
-      "description": "A newly composed asymmetric of 4 interacting cone, saddle, cone, spiral constructions.",
-      "audioBehavior": "onset, mid, trend drive separate invert, grow, fold gestures.",
-      "distinction": "Generated asymmetric; graph structure, relationships, apertures and audio mappings are seed-dependent.",
-      "budget": 12000
-    },
-    {
-      "schemaVersion": 1,
-      "generatorVersion": "1.0.0",
-      "id": "discovery-qa-24-0",
-      "name": "Resonant Confluence",
-      "family": "knot",
-      "kind": "discovery",
-      "seed": "qa-24",
-      "initialState": {
-        "clock": 0
-      },
-      "camera": "interior",
-      "layers": [
-        {
-          "op": "knot",
-          "partner": "arch",
-          "relation": "independent",
-          "effect": "invert",
-          "cut": "none",
-          "audio": "bass",
-          "phase": 0.8115116246975959,
-          "hue": 0.33052124409005046,
-          "scale": [
-            1.65,
-            2.0485783105390145,
-            1.65
-          ],
-          "offset": [
-            0,
-            0,
-            0
-          ],
-          "rotate": [
-            1.2003784757107496,
-            1.0160892228595912,
-            0.6973886758089066
-          ],
-          "domain": [
-            0,
-            0,
-            1,
-            1
-          ]
-        },
-        {
-          "op": "weft",
-          "partner": "wavefront",
-          "relation": "weave",
-          "effect": "grow",
-          "cut": "none",
-          "audio": "bass",
-          "phase": 2.1898567174095662,
-          "hue": 0.12090410524979234,
-          "scale": [
-            0.6799999999999999,
-            0.5820786514561622,
-            0.6799999999999999
-          ],
-          "offset": [
-            0,
-            0,
-            0
-          ],
-          "rotate": [
-            0.8704584133811295,
-            1.794281761161983,
-            1.3905048966407776
-          ],
-          "domain": [
-            0,
-            0,
-            1,
-            1
-          ]
-        },
-        {
-          "op": "tesseract",
-          "partner": "spiral",
-          "relation": "wrap",
-          "effect": "split",
-          "cut": "bands",
-          "audio": "trend",
-          "phase": 0.4605900359898806,
-          "hue": 0.8768879272975028,
-          "scale": [
-            0.37777777777777777,
-            0.38122716175185306,
-            0.37777777777777777
-          ],
-          "offset": [
-            0,
-            0,
-            0
-          ],
-          "rotate": [
-            0.28268667962402105,
-            0.1120604882016778,
-            1.0282686490565538
-          ],
-          "domain": [
-            0,
-            0,
-            1,
-            1
-          ]
-        },
-        {
-          "op": "saddle",
-          "partner": "strata",
-          "relation": "independent",
-          "effect": "circulate",
-          "cut": "bands",
-          "audio": "onset",
-          "phase": 0.39028331711888314,
-          "hue": 0.35872072889469564,
-          "scale": [
-            0.26153846153846155,
-            0.32942924356302966,
-            0.26153846153846155
-          ],
-          "offset": [
-            0,
-            0,
-            0
-          ],
-          "rotate": [
-            1.2958476645871997,
-            2.86725693102926,
-            1.0739290792495013
-          ],
-          "domain": [
-            0,
-            0,
-            1,
-            1
-          ]
-        }
-      ],
-      "description": "A newly composed contain of 4 interacting knot, weft, tesseract, saddle constructions.",
-      "audioBehavior": "bass, trend, onset drive separate invert, grow, split, circulate gestures.",
-      "distinction": "Generated contain; graph structure, relationships, apertures and audio mappings are seed-dependent.",
-      "budget": 12000
-    },
-    {
-      "schemaVersion": 1,
-      "generatorVersion": "1.0.0",
-      "id": "discovery-qa-25-0",
-      "name": "Spectral Confluence",
-      "family": "saddle",
-      "kind": "discovery",
-      "seed": "qa-25",
-      "initialState": {
-        "clock": 0
-      },
-      "camera": "passage",
-      "layers": [
-        {
-          "op": "saddle",
-          "partner": "catenoid",
-          "relation": "weave",
-          "effect": "fold",
-          "cut": "slit",
-          "audio": "onset",
-          "phase": 2.789940539766103,
-          "hue": 0.1774493905249983,
-          "scale": [
-            0.62,
-            0.5318642661655322,
-            0.62
-          ],
-          "offset": [
-            1.15,
-            0,
-            0
-          ],
-          "rotate": [
-            0.6962618133984506,
-            0.10820069722831249,
-            1.259533330798149
-          ],
-          "domain": [
-            0,
-            0,
-            1,
-            1
-          ]
-        },
-        {
-          "op": "crystal",
-          "partner": "strata",
-          "relation": "independent",
-          "effect": "split",
-          "cut": "pores",
-          "audio": "trend",
-          "phase": 2.9828612341918053,
-          "hue": 0.06039783312007785,
-          "scale": [
-            0.62,
-            0.7761999149564652,
-            0.62
-          ],
-          "offset": [
-            -0.8480027728724322,
-            0.44624916470361087,
-            0.7767826576338236
-          ],
-          "rotate": [
-            0.6918021468445659,
-            2.9880699519999325,
-            1.179851808026433
-          ],
-          "domain": [
-            0,
-            0,
-            1,
-            1
-          ]
-        }
-      ],
-      "description": "A newly composed constellation of 2 interacting saddle, crystal constructions.",
-      "audioBehavior": "onset, trend drive separate fold, split gestures.",
-      "distinction": "Generated constellation; graph structure, relationships, apertures and audio mappings are seed-dependent.",
-      "budget": 12000
-    },
-    {
-      "schemaVersion": 1,
-      "generatorVersion": "1.0.0",
+      "generatorVersion": "1.1.0",
       "id": "discovery-qa-26-1",
-      "name": "Porous Confluence",
-      "family": "braid",
+      "name": "Folded Confluence",
+      "family": "helix",
       "kind": "discovery",
       "seed": "qa-26",
-      "initialState": {
-        "clock": 0
-      },
-      "camera": "passage",
-      "layers": [
-        {
-          "op": "braid",
-          "partner": "coral",
-          "relation": "weave",
-          "effect": "split",
-          "cut": "slit",
-          "audio": "onset",
-          "phase": 4.73443775843829,
-          "hue": 0.6088826758787036,
-          "scale": [
-            1,
-            1.2724326193798334,
-            1
-          ],
-          "offset": [
-            0.43838710701093075,
-            0.33082265881821515,
-            0.3317594277206809
-          ],
-          "rotate": [
-            0.1394140524789691,
-            2.658692884957418,
-            0.4429737102240324
-          ],
-          "domain": [
-            0,
-            0,
-            1,
-            1
-          ]
-        },
-        {
-          "op": "crystal",
-          "partner": "wavefront",
-          "relation": "repel",
-          "effect": "collapse",
-          "cut": "pores",
-          "audio": "treble",
-          "phase": 5.0428674776759,
-          "hue": 0.963261844124645,
-          "scale": [
-            1,
-            0.9103534211870282,
-            1
-          ],
-          "offset": [
-            -0.47009664843790233,
-            0.09959791079163549,
-            0.3259857754223049
-          ],
-          "rotate": [
-            0.1839051735587418,
-            0.3544171687681228,
-            0.3963350918143988
-          ],
-          "domain": [
-            0,
-            0,
-            1,
-            1
-          ]
-        }
-      ],
-      "description": "A newly composed asymmetric of 2 interacting braid, crystal constructions.",
-      "audioBehavior": "onset, treble drive separate split, collapse gestures.",
-      "distinction": "Generated asymmetric; graph structure, relationships, apertures and audio mappings are seed-dependent.",
-      "budget": 12000
-    },
-    {
-      "schemaVersion": 1,
-      "generatorVersion": "1.0.0",
-      "id": "discovery-qa-27-0",
-      "name": "Spectral Organism",
-      "family": "tesseract",
-      "kind": "discovery",
-      "seed": "qa-27",
-      "initialState": {
-        "clock": 0
-      },
-      "camera": "detail",
-      "layers": [
-        {
-          "op": "tesseract",
-          "partner": "klein",
-          "relation": "independent",
-          "effect": "still",
-          "cut": "pores",
-          "audio": "trend",
-          "phase": 1.1387861034832896,
-          "hue": 0.4128242405131459,
-          "scale": [
-            1.65,
-            2.109705158269498,
-            1.65
-          ],
-          "offset": [
-            0,
-            0,
-            0
-          ],
-          "rotate": [
-            0.27863859944045544,
-            0.5846079541370273,
-            0.0726047083735466
-          ],
-          "domain": [
-            0,
-            0,
-            1,
-            1
-          ]
-        },
-        {
-          "op": "catenoid",
-          "partner": "reaction",
-          "relation": "intersect",
-          "effect": "twist",
-          "cut": "slit",
-          "audio": "bass",
-          "phase": 4.6085126711707565,
-          "hue": 0.15334239485673606,
-          "scale": [
-            0.6799999999999999,
-            0.8601991691682486,
-            0.6799999999999999
-          ],
-          "offset": [
-            0,
-            0,
-            0
-          ],
-          "rotate": [
-            0.750647253356874,
-            1.7559533247258514,
-            0.06481550969183446
-          ],
-          "domain": [
-            0,
-            0,
-            1,
-            1
-          ]
-        },
-        {
-          "op": "superquadric",
-          "partner": "saddle",
-          "relation": "independent",
-          "effect": "split",
-          "cut": "pores",
-          "audio": "onset",
-          "phase": 1.747843890460208,
-          "hue": 0.8061515234876424,
-          "scale": [
-            0.37777777777777777,
-            0.41374614280441563,
-            0.37777777777777777
-          ],
-          "offset": [
-            0,
-            0,
-            0
-          ],
-          "rotate": [
-            0.489628691226244,
-            1.0664522477891296,
-            0.843210531398654
-          ],
-          "domain": [
-            0,
-            0,
-            1,
-            1
-          ]
-        }
-      ],
-      "description": "A newly composed contain of 3 interacting tesseract, catenoid, superquadric constructions.",
-      "audioBehavior": "trend, bass, onset drive separate still, twist, split gestures.",
-      "distinction": "Generated contain; graph structure, relationships, apertures and audio mappings are seed-dependent.",
-      "budget": 12000
-    },
-    {
-      "schemaVersion": 1,
-      "generatorVersion": "1.0.0",
-      "id": "discovery-qa-28-0",
-      "name": "Resonant Weather",
-      "family": "klein",
-      "kind": "discovery",
-      "seed": "qa-28",
       "initialState": {
         "clock": 0
       },
       "camera": "rise",
       "layers": [
         {
-          "op": "klein",
-          "partner": "catenoid",
-          "relation": "blend",
-          "effect": "still",
-          "cut": "slit",
-          "audio": "treble",
-          "phase": 0.1756754623260349,
-          "hue": 0.36938723968341947,
+          "op": "helix",
+          "partner": "superquadric",
+          "relation": "weave",
+          "effect": "circulate",
+          "cut": "pores",
+          "audio": "mid",
+          "phase": 3.7115160632133484,
+          "hue": 0.020528026781976225,
+          "colorRole": "structure",
           "scale": [
-            0.62,
-            0.5812662326330319,
-            0.62
+            1.35,
+            1.25,
+            1.35
           ],
           "offset": [
-            1.15,
+            -1.05,
+            -0.033577635302208364,
+            -0.2670306363143027
+          ],
+          "rotate": [
+            0.4092166836140677,
+            0.5941617634147406,
+            0.1922854886390269
+          ],
+          "domain": [
             0,
+            0,
+            1,
+            1
+          ]
+        },
+        {
+          "op": "crystal",
+          "partner": "knot",
+          "relation": "weave",
+          "effect": "ripple",
+          "cut": "none",
+          "audio": "treble",
+          "phase": 5.794057943196967,
+          "hue": 0.3368947930447757,
+          "colorRole": "accent",
+          "scale": [
+            1.35,
+            1.25,
+            1.35
+          ],
+          "offset": [
+            1.05,
+            0.1082714730873704,
+            -0.34977227160707114
+          ],
+          "rotate": [
+            0.5004573497688397,
+            1.0302387714385988,
+            0.19983494486659767
+          ],
+          "domain": [
+            0,
+            0,
+            1,
+            1
+          ]
+        },
+        {
+          "op": "shell",
+          "partner": "wave",
+          "relation": "weave",
+          "effect": "grow",
+          "cut": "pores",
+          "audio": "onset",
+          "phase": 5.4848853286635135,
+          "hue": 0.639483871422708,
+          "colorRole": "counter",
+          "scale": [
+            1.35,
+            1.25,
+            1.35
+          ],
+          "offset": [
+            1.05,
+            0.14186474704183638,
+            0.339399179443717
+          ],
+          "rotate": [
+            0.4567513682879507,
+            0.2520667567849159,
+            0.357604393362999
+          ],
+          "domain": [
+            0,
+            0,
+            1,
+            1
+          ]
+        }
+      ],
+      "description": "A sweeping crossing of 3 layered helix, crystal, shell constructions, composed for close, immersive travel.",
+      "audioBehavior": "Sustained energy drives every wave and ripple; mid, treble, onset articulate individual layers and beats rotate the marks.",
+      "distinction": "Generated crossing; geometry, depth arrangement, graph relationships and audio mappings are seed-dependent.",
+      "budget": 12000
+    },
+    {
+      "schemaVersion": 1,
+      "generatorVersion": "1.1.0",
+      "id": "discovery-qa-27-0",
+      "name": "Folded Horizon",
+      "family": "wave",
+      "kind": "discovery",
+      "seed": "qa-27",
+      "initialState": {
+        "clock": 0
+      },
+      "camera": "passage",
+      "layers": [
+        {
+          "op": "wave",
+          "partner": "torus",
+          "relation": "independent",
+          "effect": "fold",
+          "cut": "none",
+          "audio": "mid",
+          "phase": 5.973564133802429,
+          "hue": 0.06265156611800193,
+          "colorRole": "ground",
+          "scale": [
+            1.95,
+            0.72,
+            1.75
+          ],
+          "offset": [
+            0,
+            -0.65,
             0
           ],
           "rotate": [
-            -0.09692852105945349,
-            1.280772065045312,
-            1.1779899962246418
+            0,
+            -0.09153920458629727,
+            0
           ],
           "domain": [
             0,
@@ -3445,59 +3677,29 @@
           ]
         },
         {
-          "op": "ribbon",
-          "partner": "weft",
-          "relation": "repel",
-          "effect": "still",
-          "cut": "open",
-          "audio": "trend",
-          "phase": 1.5034145494177937,
-          "hue": 0.2680080740246922,
+          "op": "branch",
+          "partner": "torus",
+          "relation": "independent",
+          "effect": "circulate",
+          "cut": "none",
+          "audio": "bass",
+          "phase": 3.071066789729521,
+          "hue": 0.32389715932309626,
+          "colorRole": "accent",
           "scale": [
-            0.62,
-            0.5732167126107961,
-            0.62
+            0.95,
+            1.1,
+            0.95
           ],
           "offset": [
-            -0.8480027728724322,
-            0.44624916470361087,
-            0.7767826576338236
+            -1.413421634864062,
+            0.5,
+            -1.15
           ],
           "rotate": [
-            1.339700909331441,
-            2.332080317661166,
-            0.6794793542474509
-          ],
-          "domain": [
-            0,
-            0,
-            1,
-            1
-          ]
-        },
-        {
-          "op": "saddle",
-          "partner": "tesseract",
-          "relation": "intersect",
-          "effect": "grow",
-          "cut": "open",
-          "audio": "trend",
-          "phase": 5.697305210409686,
-          "hue": 0.8580717488657683,
-          "scale": [
-            0.62,
-            0.4549496187577024,
-            0.62
-          ],
-          "offset": [
-            0.10062383095536336,
-            -0.11499349591207406,
-            -1.1455893001612167
-          ],
-          "rotate": [
-            0.42564140260219574,
-            0.5855743023566902,
-            0.8152958411723376
+            0.43772653867490585,
+            0.9365084398537875,
+            0.016203877422958615
           ],
           "domain": [
             0,
@@ -3508,27 +3710,28 @@
         },
         {
           "op": "coral",
-          "partner": "mobius",
-          "relation": "blend",
-          "effect": "grow",
-          "cut": "slit",
+          "partner": "crystal",
+          "relation": "independent",
+          "effect": "circulate",
+          "cut": "none",
           "audio": "mid",
-          "phase": 4.41576994116418,
-          "hue": 0.6020820047706366,
+          "phase": 1.5526073936745526,
+          "hue": 0.6339944465830922,
+          "colorRole": "counter",
           "scale": [
-            0.62,
-            0.5127877112049609,
-            0.62
+            0.95,
+            1.1,
+            0.95
           ],
           "offset": [
-            0.6996040117120934,
-            -0.4166166070474796,
-            0.9127180434265255
+            1.7592752871103583,
+            0.5,
+            -1.7000000000000002
           ],
           "rotate": [
-            0.6219863230362535,
-            0.8438505695667118,
-            1.5336554635316135
+            0.3689046074869111,
+            1.2703157819807531,
+            0.27677354840561746
           ],
           "domain": [
             0,
@@ -3538,28 +3741,29 @@
           ]
         },
         {
-          "op": "tesseract",
-          "partner": "hourglass",
-          "relation": "weave",
-          "effect": "collapse",
+          "op": "wavefront",
+          "partner": "braid",
+          "relation": "independent",
+          "effect": "grow",
           "cut": "none",
-          "audio": "treble",
-          "phase": 3.650295959422365,
-          "hue": 0.6789917300920933,
+          "audio": "trend",
+          "phase": 4.302855722447857,
+          "hue": 0.9095560171455144,
+          "colorRole": "distance",
           "scale": [
-            0.62,
-            0.6158457703143358,
-            0.62
+            0.95,
+            1.1,
+            0.95
           ],
           "offset": [
-            -1.132391034163246,
-            0.22235100801237367,
-            -0.20047579840642657
+            -1.6951645392458885,
+            0.5,
+            -2.25
           ],
           "rotate": [
-            0.9401855077594519,
-            0.5756062776781619,
-            0.548458518460393
+            0.5329391304170712,
+            0.9620118215680122,
+            0.3073859768919647
           ],
           "domain": [
             0,
@@ -3569,17 +3773,132 @@
           ]
         }
       ],
-      "description": "A newly composed constellation of 5 interacting klein, ribbon, saddle, coral, tesseract constructions.",
-      "audioBehavior": "treble, trend, mid drive separate still, grow, collapse gestures.",
-      "distinction": "Generated constellation; graph structure, relationships, apertures and audio mappings are seed-dependent.",
+      "description": "A sweeping landscape of 4 layered wave, branch, coral, wavefront constructions, composed for close, immersive travel.",
+      "audioBehavior": "Sustained energy drives every wave and ripple; mid, bass, trend articulate individual layers and beats rotate the marks.",
+      "distinction": "Generated landscape; geometry, depth arrangement, graph relationships and audio mappings are seed-dependent.",
       "budget": 12000
     },
     {
       "schemaVersion": 1,
-      "generatorVersion": "1.0.0",
+      "generatorVersion": "1.1.0",
+      "id": "discovery-qa-28-0",
+      "name": "Oblique Orbital Passage",
+      "family": "torus",
+      "kind": "discovery",
+      "seed": "qa-28",
+      "initialState": {
+        "clock": 0
+      },
+      "camera": "passage",
+      "layers": [
+        {
+          "op": "torus",
+          "partner": "spiral",
+          "relation": "independent",
+          "effect": "fold",
+          "cut": "none",
+          "audio": "trend",
+          "phase": 1.5034145494177937,
+          "hue": 0.021440645921975376,
+          "colorRole": "structure",
+          "scale": [
+            1.6576853116741403,
+            1.405731492070481,
+            1.2
+          ],
+          "offset": [
+            0,
+            0.5,
+            -1.5
+          ],
+          "rotate": [
+            1.859607399967734,
+            0.03769776038825512,
+            0
+          ],
+          "domain": [
+            0,
+            0,
+            1,
+            1
+          ]
+        },
+        {
+          "op": "catenoid",
+          "partner": "spiral",
+          "relation": "wrap",
+          "effect": "ripple",
+          "cut": "none",
+          "audio": "treble",
+          "phase": 1.718669888107106,
+          "hue": 0.3367361137829721,
+          "colorRole": "accent",
+          "scale": [
+            1.7003251121030187,
+            1.419710662809666,
+            1.2
+          ],
+          "offset": [
+            0.9118752937440538,
+            -0.014599761150644408,
+            0
+          ],
+          "rotate": [
+            1.5484887475755553,
+            -0.15240428294055164,
+            0
+          ],
+          "domain": [
+            0,
+            0,
+            1,
+            1
+          ]
+        },
+        {
+          "op": "catenoid",
+          "partner": "ribbon",
+          "relation": "wrap",
+          "effect": "circulate",
+          "cut": "none",
+          "audio": "onset",
+          "phase": 1.2049358079396189,
+          "hue": 0.6074229259230196,
+          "colorRole": "counter",
+          "scale": [
+            1.716078090807423,
+            1.5084742535138502,
+            1.2
+          ],
+          "offset": [
+            -1.344822221928385,
+            -0.49914738789737656,
+            1.5
+          ],
+          "rotate": [
+            1.5461072855771074,
+            0.04062865918967873,
+            0
+          ],
+          "domain": [
+            0,
+            0,
+            1,
+            1
+          ]
+        }
+      ],
+      "description": "A sweeping orbitals of 3 layered torus, catenoid, catenoid constructions, composed for close, immersive travel.",
+      "audioBehavior": "Sustained energy drives every wave and ripple; trend, treble, onset articulate individual layers and beats rotate the marks.",
+      "distinction": "Generated orbitals; geometry, depth arrangement, graph relationships and audio mappings are seed-dependent.",
+      "budget": 12000
+    },
+    {
+      "schemaVersion": 1,
+      "generatorVersion": "1.1.0",
       "id": "discovery-qa-29-0",
-      "name": "Luminous Organism",
-      "family": "branch",
+      "name": "Undulating Horizon",
+      "family": "reaction",
       "kind": "discovery",
       "seed": "qa-29",
       "initialState": {
@@ -3588,28 +3907,29 @@
       "camera": "passage",
       "layers": [
         {
-          "op": "branch",
-          "partner": "spiral",
+          "op": "reaction",
+          "partner": "torus",
           "relation": "independent",
-          "effect": "split",
-          "cut": "bands",
-          "audio": "mid",
-          "phase": 2.1859143943618986,
-          "hue": 0.9259730027988553,
+          "effect": "fold",
+          "cut": "none",
+          "audio": "treble",
+          "phase": 0.759079721858725,
+          "hue": 0.017957300897687673,
+          "colorRole": "ground",
           "scale": [
-            0.74,
-            0.7104395162044091,
-            0.74
+            1.95,
+            0.72,
+            1.75
           ],
           "offset": [
             0,
-            0,
-            -0.75
+            -0.65,
+            0
           ],
           "rotate": [
-            0.9758445248007774,
-            2.4392778191249818,
-            0.5482422549277545
+            0,
+            0.09392778191249818,
+            0
           ],
           "domain": [
             0,
@@ -3619,28 +3939,61 @@
           ]
         },
         {
-          "op": "mobius",
-          "partner": "helix",
-          "relation": "blend",
-          "effect": "collapse",
-          "cut": "open",
-          "audio": "treble",
-          "phase": 3.645912809185684,
-          "hue": 0.6250093001872301,
+          "op": "arch",
+          "partner": "mobius",
+          "relation": "independent",
+          "effect": "ripple",
+          "cut": "none",
+          "audio": "onset",
+          "phase": 5.977903841314838,
+          "hue": 0.36690753534436227,
+          "colorRole": "accent",
           "scale": [
-            0.74,
-            0.7385813819067552,
-            0.74
+            0.95,
+            1.1,
+            0.95
           ],
           "offset": [
-            0,
-            0,
-            0.75
+            -1.5937544929794967,
+            0.5,
+            -1.15
           ],
           "rotate": [
-            0.9451639819890261,
-            2.720591476885602,
-            0.4754465788602829
+            0.5058073936961591,
+            1.4509821210056544,
+            0.11886164471507073
+          ],
+          "domain": [
+            0,
+            0,
+            1,
+            1
+          ]
+        },
+        {
+          "op": "branch",
+          "partner": "lattice",
+          "relation": "independent",
+          "effect": "circulate",
+          "cut": "none",
+          "audio": "treble",
+          "phase": 1.7753551306203008,
+          "hue": 0.6015156674571335,
+          "colorRole": "counter",
+          "scale": [
+            0.95,
+            1.1,
+            0.95
+          ],
+          "offset": [
+            1.230078766029328,
+            0.5,
+            -1.7000000000000002
+          ],
+          "rotate": [
+            0.30220607116352766,
+            0.8119155205786228,
+            0.15705841584131122
           ],
           "domain": [
             0,
@@ -3650,47 +4003,48 @@
           ]
         }
       ],
-      "description": "A newly composed corridor of 2 interacting branch, mobius constructions.",
-      "audioBehavior": "mid, treble drive separate split, collapse gestures.",
-      "distinction": "Generated corridor; graph structure, relationships, apertures and audio mappings are seed-dependent.",
+      "description": "A sweeping landscape of 3 layered reaction, arch, branch constructions, composed for close, immersive travel.",
+      "audioBehavior": "Sustained energy drives every wave and ripple; treble, onset articulate individual layers and beats rotate the marks.",
+      "distinction": "Generated landscape; geometry, depth arrangement, graph relationships and audio mappings are seed-dependent.",
       "budget": 12000
     },
     {
       "schemaVersion": 1,
-      "generatorVersion": "1.0.0",
+      "generatorVersion": "1.1.0",
       "id": "discovery-qa-30-0",
-      "name": "Oblique Organism",
-      "family": "wavefront",
+      "name": "Folded Orbital Passage",
+      "family": "torus",
       "kind": "discovery",
       "seed": "qa-30",
       "initialState": {
         "clock": 0
       },
-      "camera": "rise",
+      "camera": "passage",
       "layers": [
         {
-          "op": "wavefront",
-          "partner": "shell",
+          "op": "catenoid",
+          "partner": "spiral",
           "relation": "wrap",
-          "effect": "split",
-          "cut": "bands",
+          "effect": "circulate",
+          "cut": "none",
           "audio": "onset",
-          "phase": 2.4104244925733656,
-          "hue": 0.9546139964368194,
+          "phase": 5.470494773816317,
+          "hue": 0.013046484682708978,
+          "colorRole": "structure",
           "scale": [
-            1,
-            0.9567350208759307,
-            1
+            1.5497620955109594,
+            1.6235412454814648,
+            1.2
           ],
           "offset": [
-            0.3474029625300318,
-            -0.27601696494966743,
-            -0.6090047433972359
+            0,
+            0.5,
+            -2.25
           ],
           "rotate": [
-            0.7773785456083715,
-            2.7560086282901466,
-            0.023047518730163575
+            1.8219980524529258,
+            -0.24279765039682388,
+            0
           ],
           "domain": [
             0,
@@ -3700,59 +4054,29 @@
           ]
         },
         {
-          "op": "lens",
-          "partner": "reaction",
-          "relation": "intersect",
-          "effect": "twist",
-          "cut": "bands",
-          "audio": "bass",
-          "phase": 3.8307484852429483,
-          "hue": 0.9830710294190794,
-          "scale": [
-            1,
-            1.208668053196743,
-            1
-          ],
-          "offset": [
-            0.6679762090556324,
-            -0.4043027297593653,
-            0.15193291953764854
-          ],
-          "rotate": [
-            0.539873740170151,
-            0.7703001941554248,
-            1.4432981006801129
-          ],
-          "domain": [
-            0,
-            0,
-            1,
-            1
-          ]
-        },
-        {
-          "op": "spiral",
-          "partner": "klein",
+          "op": "torus",
+          "partner": "ribbon",
           "relation": "independent",
-          "effect": "grow",
-          "cut": "pores",
-          "audio": "trend",
-          "phase": 1.5396707291156053,
-          "hue": 0.2885345984250307,
+          "effect": "fold",
+          "cut": "none",
+          "audio": "treble",
+          "phase": 5.799538686415181,
+          "hue": 0.30961363986134527,
+          "colorRole": "accent",
           "scale": [
-            1,
-            0.7466260539833456,
-            1
+            1.554984035284724,
+            1.4229750755708663,
+            1.2
           ],
           "offset": [
-            -0.8461812225636095,
-            -0.3730697711929679,
-            -0.7294289313722402
+            0.9118752937440538,
+            -0.014599761150644408,
+            -0.75
           ],
           "rotate": [
-            0.32571587711572647,
-            0.5433154734782875,
-            0.23280962817370893
+            1.2887359192736934,
+            -0.15544573799706995,
+            0
           ],
           "domain": [
             0,
@@ -3762,28 +4086,61 @@
           ]
         },
         {
-          "op": "weft",
-          "partner": "gyroid",
+          "op": "torus",
+          "partner": "ribbon",
           "relation": "wrap",
           "effect": "fold",
           "cut": "none",
-          "audio": "trend",
-          "phase": 3.8655343704950065,
-          "hue": 0.6392971226014197,
+          "audio": "onset",
+          "phase": 5.651801320342347,
+          "hue": 0.6580490371584892,
+          "colorRole": "counter",
           "scale": [
-            1,
-            1.0533912619575858,
-            1
+            1.4597507836064323,
+            1.466089419554919,
+            1.2
           ],
           "offset": [
-            0.6158691692166031,
-            0.43242501206696027,
-            -0.8791401972994208
+            -1.344822221928385,
+            -0.49914738789737656,
+            0.75
           ],
           "rotate": [
-            0.9979776977561414,
-            2.699905089335516,
-            1.5609807431697846
+            1.815053171259586,
+            0.05776547535788268,
+            0
+          ],
+          "domain": [
+            0,
+            0,
+            1,
+            1
+          ]
+        },
+        {
+          "op": "catenoid",
+          "partner": "spiral",
+          "relation": "independent",
+          "effect": "circulate",
+          "cut": "none",
+          "audio": "trend",
+          "phase": 0.049702538494020704,
+          "hue": 0.9136026882939039,
+          "colorRole": "distance",
+          "scale": [
+            1.7083304446889087,
+            1.5972511800937355,
+            1.2
+          ],
+          "offset": [
+            1.071451616196356,
+            0.043749491719723636,
+            2.25
+          ],
+          "rotate": [
+            1.8478332851224135,
+            0.04064705898053944,
+            0
           ],
           "domain": [
             0,
@@ -3793,47 +4150,80 @@
           ]
         }
       ],
-      "description": "A newly composed asymmetric of 4 interacting wavefront, lens, spiral, weft constructions.",
-      "audioBehavior": "onset, bass, trend drive separate split, twist, grow, fold gestures.",
-      "distinction": "Generated asymmetric; graph structure, relationships, apertures and audio mappings are seed-dependent.",
+      "description": "A sweeping orbitals of 4 layered catenoid, torus, torus, catenoid constructions, composed for close, immersive travel.",
+      "audioBehavior": "Sustained energy drives every wave and ripple; onset, treble, trend articulate individual layers and beats rotate the marks.",
+      "distinction": "Generated orbitals; geometry, depth arrangement, graph relationships and audio mappings are seed-dependent.",
       "budget": 12000
     },
     {
       "schemaVersion": 1,
-      "generatorVersion": "1.0.0",
+      "generatorVersion": "1.1.0",
       "id": "discovery-qa-31-0",
-      "name": "Oblique Passage",
-      "family": "reaction",
+      "name": "Oblique Arcade",
+      "family": "arch",
       "kind": "discovery",
       "seed": "qa-31",
       "initialState": {
         "clock": 0
       },
-      "camera": "orbit",
+      "camera": "passage",
       "layers": [
         {
-          "op": "reaction",
-          "partner": "shell",
-          "relation": "repel",
-          "effect": "collapse",
-          "cut": "open",
+          "op": "arch",
+          "partner": "strata",
+          "relation": "independent",
+          "effect": "fold",
+          "cut": "none",
           "audio": "mid",
-          "phase": 4.698150178501383,
-          "hue": 0.6866915677674115,
+          "phase": 1.7574014477152378,
+          "hue": 0.07451092567294836,
+          "colorRole": "structure",
           "scale": [
-            1,
-            1.1083196512423454,
-            1
+            1.65,
+            1.5,
+            0.85
           ],
           "offset": [
-            0.27526019769720744,
-            0.2620665245689452,
-            -0.7971711257938295
+            0.05600747033022344,
+            0.15,
+            -2.7
           ],
           "rotate": [
-            0.15661554876714945,
-            0.8395229845773429,
-            1.4902185134589674
+            0,
+            0,
+            0
+          ],
+          "domain": [
+            0,
+            0,
+            1,
+            1
+          ]
+        },
+        {
+          "op": "arch",
+          "partner": "iris",
+          "relation": "independent",
+          "effect": "ripple",
+          "cut": "none",
+          "audio": "bass",
+          "phase": 5.835038308240473,
+          "hue": 0.31247652519494296,
+          "colorRole": "accent",
+          "scale": [
+            1.65,
+            1.5,
+            0.85
+          ],
+          "offset": [
+            -0.07382582458667457,
+            0.15,
+            -0.9
+          ],
+          "rotate": [
+            0,
+            0,
+            0
           ],
           "domain": [
             0,
@@ -3845,57 +4235,27 @@
         {
           "op": "arch",
           "partner": "coral",
-          "relation": "repel",
+          "relation": "independent",
           "effect": "ripple",
-          "cut": "slit",
-          "audio": "mid",
-          "phase": 0.8616287706326694,
-          "hue": 0.2539139180444181,
-          "scale": [
-            1,
-            0.9913172686472534,
-            1
-          ],
-          "offset": [
-            0.5514873317442835,
-            -0.4395853509195149,
-            0.6204594526905566
-          ],
-          "rotate": [
-            -0.4858424998819828,
-            2.787438682280481,
-            0.44953050389885907
-          ],
-          "domain": [
-            0,
-            0,
-            1,
-            1
-          ]
-        },
-        {
-          "op": "mobius",
-          "partner": "vortex",
-          "relation": "repel",
-          "effect": "circulate",
-          "cut": "slit",
+          "cut": "none",
           "audio": "bass",
-          "phase": 0.6220839060284198,
-          "hue": 0.014154655858874321,
+          "phase": 2.4884814835246654,
+          "hue": 0.6084152590297163,
+          "colorRole": "counter",
           "scale": [
-            1,
-            0.7448013569694012,
-            1
+            1.65,
+            1.5,
+            0.85
           ],
           "offset": [
-            0.2394202605821193,
-            0.47103505739942186,
-            -0.8081162459682674
+            -0.1457536032423377,
+            0.15,
+            0.9
           ],
           "rotate": [
-            -0.1164190387353301,
-            1.1887650399003178,
-            0.5683051805943251
+            0,
+            0,
+            0
           ],
           "domain": [
             0,
@@ -3905,28 +4265,29 @@
           ]
         },
         {
-          "op": "lattice",
-          "partner": "saddle",
-          "relation": "intersect",
-          "effect": "fold",
+          "op": "strata",
+          "partner": "tesseract",
+          "relation": "independent",
+          "effect": "ripple",
           "cut": "none",
           "audio": "onset",
-          "phase": 0.1387148995976895,
-          "hue": 0.4812421107199043,
+          "phase": 3.7387113094981763,
+          "hue": 0.8765924358181654,
+          "colorRole": "distance",
           "scale": [
-            1,
-            0.9127185770310461,
-            1
+            1.7,
+            0.45,
+            2.8
           ],
           "offset": [
-            -0.3993260183371603,
-            -0.158673080150038,
-            -0.16785566685721276
+            0,
+            -1.05,
+            0
           ],
           "rotate": [
-            0.5891465153545141,
-            2.18509114603512,
-            0.952537913247943
+            0,
+            0,
+            0
           ],
           "domain": [
             0,
@@ -3936,13 +4297,13 @@
           ]
         }
       ],
-      "description": "A newly composed asymmetric of 4 interacting reaction, arch, mobius, lattice constructions.",
-      "audioBehavior": "mid, bass, onset drive separate collapse, ripple, circulate, fold gestures.",
-      "distinction": "Generated asymmetric; graph structure, relationships, apertures and audio mappings are seed-dependent.",
+      "description": "A sweeping archway of 4 layered arch, arch, arch, strata constructions, composed for close, immersive travel.",
+      "audioBehavior": "Sustained energy drives every wave and ripple; mid, bass, onset articulate individual layers and beats rotate the marks.",
+      "distinction": "Generated archway; geometry, depth arrangement, graph relationships and audio mappings are seed-dependent.",
       "budget": 12000
     }
   ],
-  "generationMedianMs": 0.1912400000001071,
-  "generationP95Ms": 0.4356600000010076,
-  "generationMaxMs": 3.593155000000479
+  "generationMedianMs": 1.186068000002706,
+  "generationP95Ms": 2.1651619999993272,
+  "generationMaxMs": 5.222275999998601
 }

@@ -1,5 +1,5 @@
-[
-  {
+{
+  "0": {
     "id": "ribbon-01",
     "name": "Prism Sail",
     "family": "ribbon",
@@ -26,7 +26,7 @@
     "distinction": "An open spectral membrane folds around a circulating knot. Structural recipe: ribbon.fold@body+knot.circulate@core.",
     "budget": 8500
   },
-  {
+  "1": {
     "id": "ribbon-02",
     "name": "Two Winds",
     "family": "ribbon",
@@ -57,7 +57,7 @@
     "distinction": "Separate sails part to reveal a helical spine. Structural recipe: ribbon.split.open@left+ribbon.twist.open@right+helix.ripple@rear.",
     "budget": 10500
   },
-  {
+  "2": {
     "id": "ribbon-03",
     "name": "Chapel of Folds",
     "family": "ribbon",
@@ -88,7 +88,7 @@
     "distinction": "A layered chapel wraps a vibrating aperture above a terraced floor. Structural recipe: ribbon.fold@vault+iris.ripple@core+strata.still@floor.",
     "budget": 10500
   },
-  {
+  "3": {
     "id": "ribbon-04",
     "name": "Sewn Horizon",
     "family": "ribbon",
@@ -115,7 +115,7 @@
     "distinction": "A woven membrane catches a braid along its torn horizon. Structural recipe: ribbon~weave~weft.twist@body+braid.circulate@rim.",
     "budget": 8500
   },
-  {
+  "4": {
     "id": "ribbon-05",
     "name": "Inside the Sail",
     "family": "ribbon",
@@ -142,7 +142,7 @@
     "distinction": "A perforated enclosing sail inverts around a growing blossom. Structural recipe: ribbon~wrap~shell.invert.pores@vault+rosette.grow@core.",
     "budget": 8500
   },
-  {
+  "5": {
     "id": "ribbon-06",
     "name": "Cutwater",
     "family": "ribbon",
@@ -169,7 +169,7 @@
     "distinction": "Conical crossings cut spatial openings through a rippling sail. Structural recipe: ribbon~intersect~cone.ripple@body+cone.split@cross.",
     "budget": 8500
   },
-  {
+  "6": {
     "id": "ribbon-07",
     "name": "Ribbon Weather",
     "family": "ribbon",
@@ -188,7 +188,7 @@
       "ripple",
       "circulate"
     ],
-    "organization": "layered formation",
+    "organization": "interacting cluster",
     "scale": "exterior",
     "camera": "rise",
     "audio": [
@@ -200,7 +200,7 @@
     "distinction": "Striped overhead fabric falls toward waves and an approaching coil. Structural recipe: ribbon.collapse.bands@ceiling+wave.ripple@floor+spiral.circulate@front.",
     "budget": 10500
   },
-  {
+  "7": {
     "id": "ribbon-08",
     "name": "Sail Nursery",
     "family": "ribbon",
@@ -219,7 +219,7 @@
       "split",
       "twist"
     ],
-    "organization": "layered formation",
+    "organization": "interacting cluster",
     "scale": "exterior",
     "camera": "hold",
     "audio": [
@@ -231,7 +231,7 @@
     "distinction": "A rear sail shelters cells separating around a branching nucleus. Structural recipe: ribbon.grow@rear+cell.split@front+branch.twist@core.",
     "budget": 10500
   },
-  {
+  "8": {
     "id": "torus-01",
     "name": "Chromatic Lock",
     "family": "torus",
@@ -258,7 +258,7 @@
     "distinction": "A thick orbital lock tightens around a ruffled aperture. Structural recipe: torus.twist@body+iris.ripple@core.",
     "budget": 8500
   },
-  {
+  "9": {
     "id": "torus-02",
     "name": "Double Gate",
     "family": "torus",
@@ -289,7 +289,7 @@
     "distinction": "Two orbital gates part around a knot in their shared passage. Structural recipe: torus.split@left+torus.invert@right+knot.circulate@core.",
     "budget": 10500
   },
-  {
+  "10": {
     "id": "torus-03",
     "name": "Orbital Sanctuary",
     "family": "torus",
@@ -320,7 +320,7 @@
     "distinction": "An orbital enclosure shelters a porous shell and axial filament. Structural recipe: torus.circulate@vault+shell.ripple.pores@core+helix.twist@nest.",
     "budget": 10500
   },
-  {
+  "11": {
     "id": "torus-04",
     "name": "Woven Orbit",
     "family": "torus",
@@ -347,7 +347,7 @@
     "distinction": "Interlaced orbital fabric hangs above a separating woven floor. Structural recipe: torus~weave~weft.fold@body+weft.split@floor.",
     "budget": 8500
   },
-  {
+  "12": {
     "id": "torus-05",
     "name": "The Returning Ring",
     "family": "torus",
@@ -374,7 +374,7 @@
     "distinction": "A ring narrows into a waist while its inner coil unfurls. Structural recipe: torus~blend~hourglass.invert.open@body+spiral.grow@core.",
     "budget": 8500
   },
-  {
+  "13": {
     "id": "torus-06",
     "name": "Interrupted Circuit",
     "family": "torus",
@@ -401,7 +401,7 @@
     "distinction": "An arch interrupts an orbital circuit with legible black cuts. Structural recipe: torus~intersect~arch.ripple@body+arch.split@cross.",
     "budget": 8500
   },
-  {
+  "14": {
     "id": "torus-07",
     "name": "Three Orbits",
     "family": "torus",
@@ -432,7 +432,7 @@
     "distinction": "Two distinct orbital planes cross a shallow luminous lens. Structural recipe: torus.circulate@left+torus.twist@right+lens.ripple@rear.",
     "budget": 10500
   },
-  {
+  "15": {
     "id": "torus-08",
     "name": "Toroidal Weather",
     "family": "torus",
@@ -463,7 +463,7 @@
     "distinction": "An orbital canopy folds into annular waves above a collapsing whirl. Structural recipe: torus.fold.bands@vault+wavefront.ripple@floor+vortex.collapse@core.",
     "budget": 10500
   },
-  {
+  "16": {
     "id": "shell-01",
     "name": "Porous Sun",
     "family": "shell",
@@ -490,7 +490,7 @@
     "distinction": "A porous shell reveals an internal circulating spiral. Structural recipe: shell.ripple.pores@body+spiral.circulate@core.",
     "budget": 8500
   },
-  {
+  "17": {
     "id": "shell-02",
     "name": "Cloven Planet",
     "family": "shell",
@@ -521,7 +521,7 @@
     "distinction": "Complementary open shells separate in front of a woven plane. Structural recipe: shell.split.open@left+shell.invert.open@right+weft.fold@rear.",
     "budget": 10500
   },
-  {
+  "18": {
     "id": "shell-03",
     "name": "Shell Within Shell",
     "family": "shell",
@@ -552,7 +552,7 @@
     "distinction": "Open concentric shells expose an inner ruffled throat. Structural recipe: shell.grow.pores@vault+shell.collapse.open@core+iris.ripple@nest.",
     "budget": 10500
   },
-  {
+  "19": {
     "id": "shell-04",
     "name": "Filament Cradle",
     "family": "shell",
@@ -579,7 +579,7 @@
     "distinction": "A helical field wraps the shell supporting its axial filament. Structural recipe: shell~wrap~helix.fold.open@body+helix.twist@core.",
     "budget": 8500
   },
-  {
+  "20": {
     "id": "shell-05",
     "name": "Slow Eversion",
     "family": "shell",
@@ -606,7 +606,7 @@
     "distinction": "A spherical surface everts toward a petaled dish above a lens. Structural recipe: shell~blend~rosette.invert@body+lens.circulate@floor.",
     "budget": 8500
   },
-  {
+  "21": {
     "id": "shell-06",
     "name": "Punctured Horizon",
     "family": "shell",
@@ -633,7 +633,7 @@
     "distinction": "A narrow waist pierces a shell and opens a passage. Structural recipe: shell~intersect~catenoid.ripple@body+catenoid.split@cross.",
     "budget": 8500
   },
-  {
+  "22": {
     "id": "shell-07",
     "name": "Shell Choir",
     "family": "shell",
@@ -664,7 +664,7 @@
     "distinction": "A resonating shell answers a cell cluster across a conical rear wall. Structural recipe: shell.ripple@left+cell.grow@right+cone.twist@rear.",
     "budget": 10500
   },
-  {
+  "23": {
     "id": "shell-08",
     "name": "Black Pearl Chamber",
     "family": "shell",
@@ -695,7 +695,7 @@
     "distinction": "A collapsing chamber reveals a crystal held by a circulating knot. Structural recipe: shell.collapse.pores@vault+crystal.grow@core+knot.circulate@rim.",
     "budget": 10500
   },
-  {
+  "24": {
     "id": "helix-01",
     "name": "Electric Spine",
     "family": "helix",
@@ -712,8 +712,8 @@
       "twist"
     ],
     "organization": "layered formation",
-    "scale": "exterior",
-    "camera": "rise",
+    "scale": "journey",
+    "camera": "passage",
     "audio": [
       "bass",
       "mid"
@@ -722,7 +722,7 @@
     "distinction": "An ascending helical spine passes through a turning aperture. Structural recipe: helix.ripple@body+iris.twist@cross.",
     "budget": 8500
   },
-  {
+  "25": {
     "id": "helix-02",
     "name": "Counterwound",
     "family": "helix",
@@ -753,7 +753,7 @@
     "distinction": "A helical column and braid cross opposite sides of a shallow lens. Structural recipe: helix.twist@left+braid.circulate@right+lens.invert@rear.",
     "budget": 10500
   },
-  {
+  "26": {
     "id": "helix-03",
     "name": "Spiral Stairwell",
     "family": "helix",
@@ -784,7 +784,7 @@
     "distinction": "A large coiled stairwell winds above an arch and wave throat. Structural recipe: helix.fold@vault+arch.still@floor+wavefront.ripple@core.",
     "budget": 10500
   },
-  {
+  "27": {
     "id": "helix-04",
     "name": "Helical Cloth",
     "family": "helix",
@@ -811,7 +811,7 @@
     "distinction": "A split helical fabric threads through a folded transverse sail. Structural recipe: helix~weave~ribbon.split@body+ribbon.fold@cross.",
     "budget": 8500
   },
-  {
+  "28": {
     "id": "helix-05",
     "name": "Axial Unraveling",
     "family": "helix",
@@ -838,7 +838,7 @@
     "distinction": "A coiled axis opens into branching growth over clustered cells. Structural recipe: helix~blend~branch.grow@body+cell.collapse@floor.",
     "budget": 8500
   },
-  {
+  "29": {
     "id": "helix-06",
     "name": "Coil of Absence",
     "family": "helix",
@@ -865,7 +865,7 @@
     "distinction": "A hollowed helical column turns around an open sphere. Structural recipe: helix~intersect~shell.ripple@body+shell.invert.open@core.",
     "budget": 8500
   },
-  {
+  "30": {
     "id": "helix-07",
     "name": "Thunder Columns",
     "family": "helix",
@@ -896,7 +896,7 @@
     "distinction": "Two columns answer impulses against slowly folding terraces. Structural recipe: helix.split@left+helix.collapse@right+strata.fold@rear.",
     "budget": 10500
   },
-  {
+  "31": {
     "id": "helix-08",
     "name": "Helical Observatory",
     "family": "helix",
@@ -927,7 +927,7 @@
     "distinction": "A coiled enclosure surrounds an orbital window and turning crystal. Structural recipe: helix.circulate@vault+torus.ripple@core+crystal.twist@nest.",
     "budget": 10500
   },
-  {
+  "32": {
     "id": "wave-01",
     "name": "Standing Sea",
     "family": "wave",
@@ -954,7 +954,7 @@
     "distinction": "Crossing waves run toward a folded arch on the horizon. Structural recipe: wave.ripple@body+arch.fold@rear.",
     "budget": 8500
   },
-  {
+  "33": {
     "id": "wave-02",
     "name": "Two Tides",
     "family": "wave",
@@ -985,7 +985,7 @@
     "distinction": "Floor and ceiling tides part around an annular window. Structural recipe: wave.split@floor+wave.invert@ceiling+iris.circulate@core.",
     "budget": 10500
   },
-  {
+  "34": {
     "id": "wave-03",
     "name": "Submerged Room",
     "family": "wave",
@@ -1016,7 +1016,7 @@
     "distinction": "An undulating enclosure meets terraces and a conical far wall. Structural recipe: wave.fold@vault+strata.collapse@floor+cone.ripple@rear.",
     "budget": 10500
   },
-  {
+  "35": {
     "id": "wave-04",
     "name": "Woven Surf",
     "family": "wave",
@@ -1043,7 +1043,7 @@
     "distinction": "Wave fabric weaves through an orthogonal textile sheet. Structural recipe: wave~weave~weft.twist@body+weft.ripple@cross.",
     "budget": 8500
   },
-  {
+  "36": {
     "id": "wave-05",
     "name": "The Tide Becomes Trees",
     "family": "wave",
@@ -1070,7 +1070,7 @@
     "distinction": "A wavefield rises into coral over a flattening luminous lens. Structural recipe: wave~blend~coral.grow@body+lens.invert@floor.",
     "budget": 8500
   },
-  {
+  "37": {
     "id": "wave-06",
     "name": "Wave Window",
     "family": "wave",
@@ -1097,7 +1097,7 @@
     "distinction": "Orbital cuts turn a wave sheet into a traversable window. Structural recipe: wave~intersect~torus.ripple@body+torus.split@cross.",
     "budget": 8500
   },
-  {
+  "38": {
     "id": "wave-07",
     "name": "Broken Seas",
     "family": "wave",
@@ -1128,7 +1128,7 @@
     "distinction": "A striped sea faces a saddle while a coil moves between them. Structural recipe: wave.collapse.bands@left+saddle.fold@right+spiral.circulate@rear.",
     "budget": 10500
   },
-  {
+  "39": {
     "id": "wave-08",
     "name": "Resonance Basin",
     "family": "wave",
@@ -1159,7 +1159,7 @@
     "distinction": "Waves collect under a twisting waist and an expanding petaled roof. Structural recipe: wave.ripple@floor+hourglass.twist@core+rosette.grow@ceiling.",
     "budget": 10500
   },
-  {
+  "40": {
     "id": "gyroid-01",
     "name": "Interference Garden",
     "family": "gyroid",
@@ -1186,7 +1186,7 @@
     "distinction": "An interference membrane rises around a small branching garden. Structural recipe: gyroid.ripple@body+branch.grow@core.",
     "budget": 8500
   },
-  {
+  "41": {
     "id": "gyroid-02",
     "name": "Split Labyrinth",
     "family": "gyroid",
@@ -1217,7 +1217,7 @@
     "distinction": "A perforated interference wall opens beside a rolled scroll. Structural recipe: gyroid.split.open@left+scroll.twist@right+lens.circulate@rear.",
     "budget": 10500
   },
-  {
+  "42": {
     "id": "gyroid-03",
     "name": "Gyroid Cathedral",
     "family": "gyroid",
@@ -1248,7 +1248,7 @@
     "distinction": "An open interference canopy forms a chamber with a ruffled far aperture. Structural recipe: gyroid.fold.pores@vault+iris.ripple@rear+strata.still@floor.",
     "budget": 10500
   },
-  {
+  "43": {
     "id": "gyroid-04",
     "name": "Knotted Interference",
     "family": "gyroid",
@@ -1275,7 +1275,7 @@
     "distinction": "A knotted displacement winds through an interference sheet. Structural recipe: gyroid~wrap~knot.twist@body+knot.circulate@core.",
     "budget": 8500
   },
-  {
+  "44": {
     "id": "gyroid-05",
     "name": "Membrane Metabolism",
     "family": "gyroid",
@@ -1302,7 +1302,7 @@
     "distinction": "The interference surface fragments toward clustered cellular growth. Structural recipe: gyroid~blend~cell.grow@body+coral.collapse@floor.",
     "budget": 8500
   },
-  {
+  "45": {
     "id": "gyroid-06",
     "name": "Field Aperture",
     "family": "gyroid",
@@ -1329,7 +1329,7 @@
     "distinction": "Conical intersections cut negative-space corridors into the field. Structural recipe: gyroid~intersect~cone.ripple@body+cone.invert@cross.",
     "budget": 8500
   },
-  {
+  "46": {
     "id": "gyroid-07",
     "name": "Two Frequencies",
     "family": "gyroid",
@@ -1348,7 +1348,7 @@
       "ripple",
       "split"
     ],
-    "organization": "layered formation",
+    "organization": "interacting cluster",
     "scale": "exterior",
     "camera": "hold",
     "audio": [
@@ -1360,7 +1360,7 @@
     "distinction": "Two dissimilar interference systems exchange pulses around a split coil. Structural recipe: gyroid.circulate.bands@rear+reaction.ripple@front+helix.split@core.",
     "budget": 10500
   },
-  {
+  "47": {
     "id": "gyroid-08",
     "name": "Within Interference",
     "family": "gyroid",
@@ -1391,7 +1391,7 @@
     "distinction": "A warped interference room encloses a whirl above traveling wave rings. Structural recipe: gyroid.twist.open@vault+vortex.fold@core+wavefront.ripple@floor.",
     "budget": 10500
   },
-  {
+  "48": {
     "id": "knot-01",
     "name": "Threefold Current",
     "family": "knot",
@@ -1418,7 +1418,7 @@
     "distinction": "A trefoil filament circulates around a shallow lens. Structural recipe: knot.circulate@body+lens.ripple@core.",
     "budget": 8500
   },
-  {
+  "49": {
     "id": "knot-02",
     "name": "Knots in Conversation",
     "family": "knot",
@@ -1449,7 +1449,7 @@
     "distinction": "A parting knot answers an unfurling coil across an aperture. Structural recipe: knot.split@left+spiral.grow@right+iris.twist@rear.",
     "budget": 10500
   },
-  {
+  "50": {
     "id": "knot-03",
     "name": "The Knot Is a Room",
     "family": "knot",
@@ -1480,7 +1480,7 @@
     "distinction": "A monumental knot becomes a room around an open shell. Structural recipe: knot.fold@vault+shell.ripple.open@core+arch.still@floor.",
     "budget": 10500
   },
-  {
+  "51": {
     "id": "knot-04",
     "name": "Knitted Knot",
     "family": "knot",
@@ -1507,7 +1507,7 @@
     "distinction": "Interlaced filaments articulate a knot and a separating braid. Structural recipe: knot~weave~braid.twist@body+braid.split@cross.",
     "budget": 8500
   },
-  {
+  "52": {
     "id": "knot-05",
     "name": "Knot Eversion",
     "family": "knot",
@@ -1534,7 +1534,7 @@
     "distinction": "A knot opens toward a one-sided strip above a growing rosette. Structural recipe: knot~blend~mobius.invert@body+rosette.grow@floor.",
     "budget": 8500
   },
-  {
+  "53": {
     "id": "knot-06",
     "name": "Severed Continuity",
     "family": "knot",
@@ -1550,7 +1550,7 @@
       "ripple",
       "split"
     ],
-    "organization": "layered formation",
+    "organization": "interacting cluster",
     "scale": "exterior",
     "camera": "hold",
     "audio": [
@@ -1561,7 +1561,7 @@
     "distinction": "A lens cuts a filament’s continuity into spatially readable gaps. Structural recipe: knot~intersect~lens.ripple@body+lens.split@front.",
     "budget": 8500
   },
-  {
+  "54": {
     "id": "knot-07",
     "name": "Filament Throne",
     "family": "knot",
@@ -1592,7 +1592,7 @@
     "distinction": "A collapsing knot frames a crystal beside a helical pillar. Structural recipe: knot.collapse@rear+crystal.grow@core+helix.twist@left.",
     "budget": 10500
   },
-  {
+  "55": {
     "id": "knot-08",
     "name": "Braided Passage",
     "family": "knot",
@@ -1623,7 +1623,7 @@
     "distinction": "A surrounding knot ties together oppositely rolled passage walls. Structural recipe: knot.circulate@vault+scroll.fold@left+scroll.invert@right.",
     "budget": 10500
   },
-  {
+  "56": {
     "id": "branch-01",
     "name": "Lightning Orchard",
     "family": "branch",
@@ -1650,7 +1650,7 @@
     "distinction": "Branches grow over waves traveling across the orchard floor. Structural recipe: branch.grow@body+wavefront.ripple@floor.",
     "budget": 8500
   },
-  {
+  "57": {
     "id": "branch-02",
     "name": "Branching Dialogue",
     "family": "branch",
@@ -1681,7 +1681,7 @@
     "distinction": "A split tree confronts twisting coral across a luminous lens. Structural recipe: branch.split@left+coral.twist@right+lens.circulate@rear.",
     "budget": 10500
   },
-  {
+  "58": {
     "id": "branch-03",
     "name": "Canopy Room",
     "family": "branch",
@@ -1712,7 +1712,7 @@
     "distinction": "An overhead branching canopy opens over a terraced room. Structural recipe: branch.fold@vault+strata.ripple@floor+iris.grow@core.",
     "budget": 10500
   },
-  {
+  "59": {
     "id": "branch-04",
     "name": "Braided Roots",
     "family": "branch",
@@ -1739,7 +1739,7 @@
     "distinction": "Interwoven roots connect a branching structure to braided ground. Structural recipe: branch~weave~braid.twist@body+braid.ripple@floor.",
     "budget": 8500
   },
-  {
+  "60": {
     "id": "branch-05",
     "name": "Forest into Cells",
     "family": "branch",
@@ -1766,7 +1766,7 @@
     "distinction": "Branching paths gather into cells before a porous growing enclosure. Structural recipe: branch~blend~cell.collapse@body+shell.grow.pores@rear.",
     "budget": 8500
   },
-  {
+  "61": {
     "id": "branch-06",
     "name": "Pruned Geometry",
     "family": "branch",
@@ -1793,7 +1793,7 @@
     "distinction": "An orbital ring prunes a branching network into discrete regions. Structural recipe: branch~intersect~torus.split@body+torus.circulate@cross.",
     "budget": 8500
   },
-  {
+  "62": {
     "id": "branch-07",
     "name": "Suspended Grove",
     "family": "branch",
@@ -1824,7 +1824,7 @@
     "distinction": "A suspended grove passes energy between coil and cone. Structural recipe: branch.circulate@ceiling+spiral.grow@left+cone.fold@right.",
     "budget": 10500
   },
-  {
+  "63": {
     "id": "branch-08",
     "name": "Branch Observatory",
     "family": "branch",
@@ -1855,7 +1855,7 @@
     "distinction": "A branching enclosure frames nested edge geometry above a petaled floor. Structural recipe: branch.ripple@vault+tesseract.twist@core+rosette.invert@floor.",
     "budget": 10500
   },
-  {
+  "64": {
     "id": "cell-01",
     "name": "Cellular Chorus",
     "family": "cell",
@@ -1882,7 +1882,7 @@
     "distinction": "A cluster of cells resonates around a central filament. Structural recipe: cell.ripple@body+knot.circulate@core.",
     "budget": 8500
   },
-  {
+  "65": {
     "id": "cell-02",
     "name": "Mitotic Crossing",
     "family": "cell",
@@ -1913,7 +1913,7 @@
     "distinction": "Two cellular clusters part and grow before a woven dividing plane. Structural recipe: cell.split@left+cell.grow@right+weft.twist@rear.",
     "budget": 10500
   },
-  {
+  "66": {
     "id": "cell-03",
     "name": "Cellular Habitat",
     "family": "cell",
@@ -1944,7 +1944,7 @@
     "distinction": "An enlarged cellular habitat holds a porous nucleus above waves. Structural recipe: cell.fold@vault+shell.ripple.pores@core+wave.still@floor.",
     "budget": 10500
   },
-  {
+  "67": {
     "id": "cell-04",
     "name": "Cellular Weave",
     "family": "cell",
@@ -1971,7 +1971,7 @@
     "distinction": "Helical weaving connects distinct cellular compartments. Structural recipe: cell~weave~helix.twist@body+helix.circulate@cross.",
     "budget": 8500
   },
-  {
+  "68": {
     "id": "cell-05",
     "name": "Cells to Branches",
     "family": "cell",
@@ -1998,7 +1998,7 @@
     "distinction": "Cells reorganize into branching paths before a contracting aperture. Structural recipe: cell~blend~branch.grow@body+iris.collapse@rear.",
     "budget": 8500
   },
-  {
+  "69": {
     "id": "cell-06",
     "name": "Pored Colony",
     "family": "cell",
@@ -2014,7 +2014,7 @@
       "ripple",
       "split"
     ],
-    "organization": "layered formation",
+    "organization": "interacting cluster",
     "scale": "journey",
     "camera": "passage",
     "audio": [
@@ -2025,7 +2025,7 @@
     "distinction": "Conical cuts expose the hollow organization of a cellular colony. Structural recipe: cell~intersect~cone.ripple@body+cone.split@front.",
     "budget": 8500
   },
-  {
+  "70": {
     "id": "cell-07",
     "name": "Clustered Planets",
     "family": "cell",
@@ -2056,7 +2056,7 @@
     "distinction": "A cellular cluster orbits angular volumes and an unfolding coil. Structural recipe: cell.circulate@left+superquadric.invert@right+spiral.grow@rear.",
     "budget": 10500
   },
-  {
+  "71": {
     "id": "cell-08",
     "name": "Porous Nests",
     "family": "cell",
@@ -2087,7 +2087,7 @@
     "distinction": "A perforated nest of cells wraps a rosette and peripheral braid. Structural recipe: cell.collapse.pores@vault+rosette.fold@core+braid.twist@rim.",
     "budget": 10500
   },
-  {
+  "72": {
     "id": "spiral-01",
     "name": "Coil of Light",
     "family": "spiral",
@@ -2114,7 +2114,7 @@
     "distinction": "An unfurling coil opens around a responsive aperture. Structural recipe: spiral.grow@body+iris.ripple@core.",
     "budget": 8500
   },
-  {
+  "73": {
     "id": "spiral-02",
     "name": "Opposed Unfurling",
     "family": "spiral",
@@ -2145,7 +2145,7 @@
     "distinction": "A separating coil opposes an inverted scroll near a helical spine. Structural recipe: spiral.split@left+scroll.invert@right+helix.twist@rear.",
     "budget": 10500
   },
-  {
+  "74": {
     "id": "spiral-03",
     "name": "Coiled Vestibule",
     "family": "spiral",
@@ -2176,7 +2176,7 @@
     "distinction": "A vast coiled vestibule encloses an arch above stratified ground. Structural recipe: spiral.fold@vault+arch.ripple@rear+strata.still@floor.",
     "budget": 10500
   },
-  {
+  "75": {
     "id": "spiral-04",
     "name": "Woven Whorl",
     "family": "spiral",
@@ -2192,7 +2192,7 @@
       "twist",
       "split"
     ],
-    "organization": "layered formation",
+    "organization": "interacting cluster",
     "scale": "intimate",
     "camera": "detail",
     "audio": [
@@ -2203,7 +2203,7 @@
     "distinction": "A woven whorl travels through a parting ribbon at the foreground. Structural recipe: spiral~weave~ribbon.twist@body+ribbon.split.open@front.",
     "budget": 8500
   },
-  {
+  "76": {
     "id": "spiral-05",
     "name": "Spiral Blossom",
     "family": "spiral",
@@ -2230,7 +2230,7 @@
     "distinction": "An ascending coil gradually becomes a petaled blossom over a lens. Structural recipe: spiral~blend~rosette.grow@body+lens.collapse@floor.",
     "budget": 8500
   },
-  {
+  "77": {
     "id": "spiral-06",
     "name": "Interrupted Unwinding",
     "family": "spiral",
@@ -2257,7 +2257,7 @@
     "distinction": "An open shell cuts a winding corridor through the coil. Structural recipe: spiral~intersect~shell.ripple@body+shell.invert.open@core.",
     "budget": 8500
   },
-  {
+  "78": {
     "id": "spiral-07",
     "name": "Spiral Constellation",
     "family": "spiral",
@@ -2288,7 +2288,7 @@
     "distinction": "A coil turns between growing cells and a crystalline far wall. Structural recipe: spiral.circulate@left+cell.grow@right+crystal.twist@rear.",
     "budget": 10500
   },
-  {
+  "79": {
     "id": "spiral-08",
     "name": "Coil and Collapse",
     "family": "spiral",
@@ -2319,7 +2319,7 @@
     "distinction": "A collapsing spiral catches a whirl above spreading wave rings. Structural recipe: spiral.collapse@vault+vortex.fold@core+wavefront.ripple@floor.",
     "budget": 10500
   },
-  {
+  "80": {
     "id": "cone-01",
     "name": "Prismatic Funnel",
     "family": "cone",
@@ -2346,7 +2346,7 @@
     "distinction": "A funnel twists around a petaled throat. Structural recipe: cone.twist@body+rosette.ripple@core.",
     "budget": 8500
   },
-  {
+  "81": {
     "id": "cone-02",
     "name": "Funnel Exchange",
     "family": "cone",
@@ -2377,7 +2377,7 @@
     "distinction": "A separating funnel meets an inverted waist and circling filament. Structural recipe: cone.split@left+hourglass.invert@right+knot.circulate@rear.",
     "budget": 10500
   },
-  {
+  "82": {
     "id": "cone-03",
     "name": "Conical Theater",
     "family": "cone",
@@ -2408,7 +2408,7 @@
     "distinction": "An open conical theater directs attention to a responsive aperture. Structural recipe: cone.fold.open@vault+iris.ripple@core+strata.still@floor.",
     "budget": 10500
   },
-  {
+  "83": {
     "id": "cone-04",
     "name": "Funnel Fabric",
     "family": "cone",
@@ -2435,7 +2435,7 @@
     "distinction": "Woven strands travel between a funnel and a transverse sheet. Structural recipe: cone~weave~weft.twist@body+weft.ripple@cross.",
     "budget": 8500
   },
-  {
+  "84": {
     "id": "cone-05",
     "name": "Cone to Vortex",
     "family": "cone",
@@ -2462,7 +2462,7 @@
     "distinction": "The funnel narrows into a whirl above a spreading lens. Structural recipe: cone~blend~vortex.collapse@body+lens.grow@floor.",
     "budget": 8500
   },
-  {
+  "85": {
     "id": "cone-06",
     "name": "Slit Funnel",
     "family": "cone",
@@ -2489,7 +2489,7 @@
     "distinction": "Crossing arches open cuts through a separating conical surface. Structural recipe: cone~intersect~arch.split@body+arch.circulate@cross.",
     "budget": 8500
   },
-  {
+  "86": {
     "id": "cone-07",
     "name": "Funnel Choir",
     "family": "cone",
@@ -2520,7 +2520,7 @@
     "distinction": "A striped funnel answers a growing sphere beside a coiled spine. Structural recipe: cone.ripple.bands@left+shell.grow@right+helix.twist@rear.",
     "budget": 10500
   },
-  {
+  "87": {
     "id": "cone-08",
     "name": "Conical Weather",
     "family": "cone",
@@ -2551,7 +2551,7 @@
     "distinction": "A conical enclosure collapses above waves and upward coral growth. Structural recipe: cone.collapse@vault+wave.fold@floor+coral.grow@core.",
     "budget": 10500
   },
-  {
+  "88": {
     "id": "saddle-01",
     "name": "Hyperbolic Sail",
     "family": "saddle",
@@ -2578,7 +2578,7 @@
     "distinction": "A saddle folds through an orbital crossing. Structural recipe: saddle.fold@body+torus.ripple@cross.",
     "budget": 8500
   },
-  {
+  "89": {
     "id": "saddle-02",
     "name": "Opposing Curvatures",
     "family": "saddle",
@@ -2609,7 +2609,7 @@
     "distinction": "Opposite curvatures exchange impulses before a rotating aperture. Structural recipe: saddle.split@left+wave.invert@right+iris.circulate@rear.",
     "budget": 10500
   },
-  {
+  "90": {
     "id": "saddle-03",
     "name": "Saddle Chamber",
     "family": "saddle",
@@ -2640,7 +2640,7 @@
     "distinction": "A porous saddle encloses terraces and a distant arch. Structural recipe: saddle.twist.pores@vault+strata.ripple@floor+arch.still@rear.",
     "budget": 10500
   },
-  {
+  "91": {
     "id": "saddle-04",
     "name": "Woven Curvature",
     "family": "saddle",
@@ -2667,7 +2667,7 @@
     "distinction": "Textile strands follow hyperbolic curvature beside a turning braid. Structural recipe: saddle~weave~weft.fold@body+braid.twist@rim.",
     "budget": 8500
   },
-  {
+  "92": {
     "id": "saddle-05",
     "name": "Saddle Blossom",
     "family": "saddle",
@@ -2694,7 +2694,7 @@
     "distinction": "A saddle everts toward petals surrounding an expanding lens. Structural recipe: saddle~blend~rosette.invert@body+lens.grow@core.",
     "budget": 8500
   },
-  {
+  "93": {
     "id": "saddle-06",
     "name": "Curvature Cut",
     "family": "saddle",
@@ -2721,7 +2721,7 @@
     "distinction": "A conical cut opens a traveling corridor through the saddle. Structural recipe: saddle~intersect~cone.ripple@body+cone.split@cross.",
     "budget": 8500
   },
-  {
+  "94": {
     "id": "saddle-07",
     "name": "Two Saddles",
     "family": "saddle",
@@ -2752,7 +2752,7 @@
     "distinction": "Two differently opened saddles bound an unfolding spiral. Structural recipe: saddle.circulate.bands@floor+saddle.fold.open@ceiling+spiral.grow@core.",
     "budget": 10500
   },
-  {
+  "95": {
     "id": "saddle-08",
     "name": "Saddle Nursery",
     "family": "saddle",
@@ -2771,7 +2771,7 @@
       "grow",
       "split"
     ],
-    "organization": "layered formation",
+    "organization": "interacting cluster",
     "scale": "exterior",
     "camera": "rise",
     "audio": [
@@ -2783,7 +2783,7 @@
     "distinction": "A collapsing saddle shelters branches and separating cellular compartments. Structural recipe: saddle.collapse@rear+branch.grow@core+cell.split@front.",
     "budget": 10500
   },
-  {
+  "96": {
     "id": "catenoid-01",
     "name": "Throat of Color",
     "family": "catenoid",
@@ -2810,7 +2810,7 @@
     "distinction": "A luminous waist resonates around a turning aperture. Structural recipe: catenoid.ripple@body+iris.twist@core.",
     "budget": 8500
   },
-  {
+  "97": {
     "id": "catenoid-02",
     "name": "Two Throats",
     "family": "catenoid",
@@ -2841,7 +2841,7 @@
     "distinction": "Distinct narrow waists part before a textile membrane. Structural recipe: catenoid.split@left+hourglass.invert@right+weft.fold@rear.",
     "budget": 10500
   },
-  {
+  "98": {
     "id": "catenoid-03",
     "name": "The Hollow Tower",
     "family": "catenoid",
@@ -2872,7 +2872,7 @@
     "distinction": "A hollow tower holds a circulating coil above layered ground. Structural recipe: catenoid.fold@vault+helix.circulate@core+strata.still@floor.",
     "budget": 10500
   },
-  {
+  "99": {
     "id": "catenoid-04",
     "name": "Woven Waist",
     "family": "catenoid",
@@ -2899,7 +2899,7 @@
     "distinction": "A braided waist is crossed by a separate resonating filament. Structural recipe: catenoid~weave~braid.twist@body+braid.ripple@cross.",
     "budget": 8500
   },
-  {
+  "100": {
     "id": "catenoid-05",
     "name": "Throat to Chamber",
     "family": "catenoid",
@@ -2926,7 +2926,7 @@
     "distinction": "A narrow throat opens toward a chamber around contracting petals. Structural recipe: catenoid~blend~shell.grow@body+rosette.collapse@core.",
     "budget": 8500
   },
-  {
+  "101": {
     "id": "catenoid-06",
     "name": "Cut Catenoid",
     "family": "catenoid",
@@ -2953,7 +2953,7 @@
     "distinction": "An orbital crossing makes open incisions in a parting tower. Structural recipe: catenoid~intersect~torus.split@body+torus.circulate@cross.",
     "budget": 8500
   },
-  {
+  "102": {
     "id": "catenoid-07",
     "name": "Throat Choir",
     "family": "catenoid",
@@ -2984,7 +2984,7 @@
     "distinction": "A striped throat responds across a funnel and far filament. Structural recipe: catenoid.collapse.bands@left+cone.fold@right+knot.circulate@rear.",
     "budget": 10500
   },
-  {
+  "103": {
     "id": "catenoid-08",
     "name": "Interior Resonator",
     "family": "catenoid",
@@ -3015,7 +3015,7 @@
     "distinction": "A perforated resonator exposes a crystal above radial waves. Structural recipe: catenoid.twist.pores@vault+wavefront.ripple@floor+crystal.grow@core.",
     "budget": 10500
   },
-  {
+  "104": {
     "id": "mobius-01",
     "name": "One-Sided Promise",
     "family": "mobius",
@@ -3042,7 +3042,7 @@
     "distinction": "A one-sided strip twists around a shallow responsive lens. Structural recipe: mobius.twist@body+lens.ripple@core.",
     "budget": 8500
   },
-  {
+  "105": {
     "id": "mobius-02",
     "name": "Twisted Dialogue",
     "family": "mobius",
@@ -3073,7 +3073,7 @@
     "distinction": "A torn one-sided strip meets a folded sail before an aperture. Structural recipe: mobius.split.open@left+ribbon.fold@right+iris.circulate@rear.",
     "budget": 10500
   },
-  {
+  "106": {
     "id": "mobius-03",
     "name": "No Inside Room",
     "family": "mobius",
@@ -3104,7 +3104,7 @@
     "distinction": "A surrounding one-sided strip exposes a shell and floor through its fold. Structural recipe: mobius.fold@vault+shell.ripple.open@core+strata.still@floor.",
     "budget": 10500
   },
-  {
+  "107": {
     "id": "mobius-04",
     "name": "Mobius Textile",
     "family": "mobius",
@@ -3131,7 +3131,7 @@
     "distinction": "Interlaced textile strands trace a one-sided loop. Structural recipe: mobius~weave~weft.twist@body+braid.split@rim.",
     "budget": 8500
   },
-  {
+  "108": {
     "id": "mobius-05",
     "name": "Strip into Knot",
     "family": "mobius",
@@ -3158,7 +3158,7 @@
     "distinction": "A one-sided strip gathers into a circulating knot over a blossom. Structural recipe: mobius~blend~knot.circulate@body+rosette.grow@floor.",
     "budget": 8500
   },
-  {
+  "109": {
     "id": "mobius-06",
     "name": "One-Sided Window",
     "family": "mobius",
@@ -3185,7 +3185,7 @@
     "distinction": "A conical crossing exposes a one-sided window in the loop. Structural recipe: mobius~intersect~cone.ripple@body+cone.invert@cross.",
     "budget": 8500
   },
-  {
+  "110": {
     "id": "mobius-07",
     "name": "Two Impossible Loops",
     "family": "mobius",
@@ -3216,7 +3216,7 @@
     "distinction": "Two unlike looping surfaces share a coiled horizon. Structural recipe: mobius.collapse@left+klein.invert@right+helix.twist@rear.",
     "budget": 10500
   },
-  {
+  "111": {
     "id": "mobius-08",
     "name": "Twisted Sanctuary",
     "family": "mobius",
@@ -3247,7 +3247,7 @@
     "distinction": "A porous one-sided enclosure contains cells and an orbiting coil. Structural recipe: mobius.grow.pores@vault+cell.split@core+spiral.circulate@rim.",
     "budget": 10500
   },
-  {
+  "112": {
     "id": "klein-01",
     "name": "Bottle Without Walls",
     "family": "klein",
@@ -3274,7 +3274,7 @@
     "distinction": "A self-crossing bottle everts around a ruffled inner opening. Structural recipe: klein.invert@body+iris.ripple@core.",
     "budget": 8500
   },
-  {
+  "113": {
     "id": "klein-02",
     "name": "Bottle Dialogue",
     "family": "klein",
@@ -3305,7 +3305,7 @@
     "distinction": "A bottle and one-sided strip part over a rotating lens. Structural recipe: klein.split@left+mobius.twist@right+lens.circulate@rear.",
     "budget": 10500
   },
-  {
+  "114": {
     "id": "klein-03",
     "name": "Self-Crossing Room",
     "family": "klein",
@@ -3336,7 +3336,7 @@
     "distinction": "An open self-crossing enclosure reveals a porous shell and arch. Structural recipe: klein.fold.open@vault+shell.ripple.pores@core+arch.still@floor.",
     "budget": 10500
   },
-  {
+  "115": {
     "id": "klein-04",
     "name": "Bottle Weaving",
     "family": "klein",
@@ -3363,7 +3363,7 @@
     "distinction": "Helical fabric follows a bottle’s self-crossing surface. Structural recipe: klein~weave~helix.twist@body+helix.ripple@cross.",
     "budget": 8500
   },
-  {
+  "116": {
     "id": "klein-05",
     "name": "Bottle into Scroll",
     "family": "klein",
@@ -3390,7 +3390,7 @@
     "distinction": "A self-crossing surface unrolls around an everting blossom. Structural recipe: klein~blend~scroll.grow@body+rosette.invert@core.",
     "budget": 8500
   },
-  {
+  "117": {
     "id": "klein-06",
     "name": "Intersecting Bottles",
     "family": "klein",
@@ -3417,7 +3417,7 @@
     "distinction": "A narrow waist opens a passage through self-crossing walls. Structural recipe: klein~intersect~catenoid.ripple@body+catenoid.split@cross.",
     "budget": 8500
   },
-  {
+  "118": {
     "id": "klein-07",
     "name": "Bottle Constellation",
     "family": "klein",
@@ -3448,7 +3448,7 @@
     "distinction": "A bottle circulates among cells and a crystalline horizon. Structural recipe: klein.circulate@left+cell.grow@right+crystal.twist@rear.",
     "budget": 10500
   },
-  {
+  "119": {
     "id": "klein-08",
     "name": "The Bottle Breathes",
     "family": "klein",
@@ -3479,7 +3479,7 @@
     "distinction": "A perforated bottle breathes over a whirl and traveling annular waves. Structural recipe: klein.collapse.pores@vault+vortex.fold@core+wavefront.ripple@floor.",
     "budget": 10500
   },
-  {
+  "120": {
     "id": "superquadric-01",
     "name": "Rounded Citadel",
     "family": "superquadric",
@@ -3506,7 +3506,7 @@
     "distinction": "A rounded angular citadel contains a circulating filament. Structural recipe: superquadric.ripple@body+knot.circulate@core.",
     "budget": 8500
   },
-  {
+  "121": {
     "id": "superquadric-02",
     "name": "Split Citadels",
     "family": "superquadric",
@@ -3537,7 +3537,7 @@
     "distinction": "An open citadel confronts a growing crystal across a woven wall. Structural recipe: superquadric.split.open@left+crystal.grow@right+weft.fold@rear.",
     "budget": 10500
   },
-  {
+  "122": {
     "id": "superquadric-03",
     "name": "Soft Geometry Room",
     "family": "superquadric",
@@ -3568,7 +3568,7 @@
     "distinction": "Porous angular walls surround a spherical core above strata. Structural recipe: superquadric.fold.pores@vault+shell.ripple@core+strata.still@floor.",
     "budget": 10500
   },
-  {
+  "123": {
     "id": "superquadric-04",
     "name": "Angular Textile",
     "family": "superquadric",
@@ -3595,7 +3595,7 @@
     "distinction": "Woven sails articulate a rounded angular volume. Structural recipe: superquadric~weave~ribbon.twist@body+ribbon.split@cross.",
     "budget": 8500
   },
-  {
+  "124": {
     "id": "superquadric-05",
     "name": "Citadel Eversion",
     "family": "superquadric",
@@ -3622,7 +3622,7 @@
     "distinction": "An angular volume flattens into a lens above petaled growth. Structural recipe: superquadric~blend~lens.invert@body+rosette.grow@floor.",
     "budget": 8500
   },
-  {
+  "125": {
     "id": "superquadric-06",
     "name": "Citadel Gate",
     "family": "superquadric",
@@ -3638,7 +3638,7 @@
       "ripple",
       "split"
     ],
-    "organization": "layered formation",
+    "organization": "interacting cluster",
     "scale": "journey",
     "camera": "passage",
     "audio": [
@@ -3649,7 +3649,7 @@
     "distinction": "An arch cuts a gate through the citadel’s rounded walls. Structural recipe: superquadric~intersect~arch.ripple@body+arch.split@front.",
     "budget": 8500
   },
-  {
+  "126": {
     "id": "superquadric-07",
     "name": "Angular Choir",
     "family": "superquadric",
@@ -3680,7 +3680,7 @@
     "distinction": "Striped angular masses answer growing cells beside a coiled spine. Structural recipe: superquadric.circulate.bands@left+cell.grow@right+helix.twist@rear.",
     "budget": 10500
   },
-  {
+  "127": {
     "id": "superquadric-08",
     "name": "The Citadel Opens",
     "family": "superquadric",
@@ -3711,7 +3711,7 @@
     "distinction": "An open collapsing citadel reveals edge geometry and a peripheral coil. Structural recipe: superquadric.collapse.open@vault+tesseract.fold@core+spiral.grow@rim.",
     "budget": 10500
   },
-  {
+  "128": {
     "id": "rosette-01",
     "name": "Spectral Bloom",
     "family": "rosette",
@@ -3738,7 +3738,7 @@
     "distinction": "A petaled surface unfurls around a resonating aperture. Structural recipe: rosette.grow@body+iris.ripple@core.",
     "budget": 8500
   },
-  {
+  "129": {
     "id": "rosette-02",
     "name": "Petal Dialogue",
     "family": "rosette",
@@ -3769,7 +3769,7 @@
     "distinction": "An intact blossom answers inverted separate petals beside a coil. Structural recipe: rosette.split@left+rosette.invert.petals@right+helix.twist@rear.",
     "budget": 10500
   },
-  {
+  "130": {
     "id": "rosette-03",
     "name": "Petaled Sanctuary",
     "family": "rosette",
@@ -3800,7 +3800,7 @@
     "distinction": "A folded petaled roof encloses a porous nucleus over stratified ground. Structural recipe: rosette.fold@vault+shell.ripple.pores@core+strata.still@floor.",
     "budget": 10500
   },
-  {
+  "131": {
     "id": "rosette-04",
     "name": "Petal Fabric",
     "family": "rosette",
@@ -3827,7 +3827,7 @@
     "distinction": "Textile strands travel across petals and into a peripheral braid. Structural recipe: rosette~weave~weft.twist@body+braid.circulate@rim.",
     "budget": 8500
   },
-  {
+  "132": {
     "id": "rosette-05",
     "name": "Bloom into Coral",
     "family": "rosette",
@@ -3854,7 +3854,7 @@
     "distinction": "A radial blossom rises toward coral above a contracting lens. Structural recipe: rosette~blend~coral.grow@body+lens.collapse@floor.",
     "budget": 8500
   },
-  {
+  "133": {
     "id": "rosette-06",
     "name": "Petal Aperture",
     "family": "rosette",
@@ -3881,7 +3881,7 @@
     "distinction": "A funnel opens cuts into the petaled surface. Structural recipe: rosette~intersect~cone.ripple@body+cone.split@cross.",
     "budget": 8500
   },
-  {
+  "134": {
     "id": "rosette-07",
     "name": "Blossom Weather",
     "family": "rosette",
@@ -3912,7 +3912,7 @@
     "distinction": "A striped collapsing blossom hangs over waves and an inner coil. Structural recipe: rosette.collapse.bands@ceiling+wave.fold@floor+spiral.circulate@core.",
     "budget": 10500
   },
-  {
+  "135": {
     "id": "rosette-08",
     "name": "Petaled Nursery",
     "family": "rosette",
@@ -3931,7 +3931,7 @@
       "split",
       "grow"
     ],
-    "organization": "layered formation",
+    "organization": "interacting cluster",
     "scale": "exterior",
     "camera": "rise",
     "audio": [
@@ -3943,7 +3943,7 @@
     "distinction": "A resonating blossom shelters separating cells and branching growth. Structural recipe: rosette.ripple@rear+cell.split@front+branch.grow@core.",
     "budget": 10500
   },
-  {
+  "136": {
     "id": "lattice-01",
     "name": "Crystal Scaffold",
     "family": "lattice",
@@ -3970,7 +3970,7 @@
     "distinction": "A resonating scaffold holds a perforated spherical core. Structural recipe: lattice.ripple@body+shell.grow.pores@core.",
     "budget": 8500
   },
-  {
+  "137": {
     "id": "lattice-02",
     "name": "Scaffold Exchange",
     "family": "lattice",
@@ -4001,7 +4001,7 @@
     "distinction": "An orthogonal scaffold parts beside nested turning edges. Structural recipe: lattice.split@left+tesseract.twist@right+lens.circulate@rear.",
     "budget": 10500
   },
-  {
+  "138": {
     "id": "lattice-03",
     "name": "Grid Cathedral",
     "family": "lattice",
@@ -4032,7 +4032,7 @@
     "distinction": "A folded scaffold becomes a room above an arched horizon. Structural recipe: lattice.fold@vault+arch.ripple@rear+strata.still@floor.",
     "budget": 10500
   },
-  {
+  "139": {
     "id": "lattice-04",
     "name": "Woven Scaffold",
     "family": "lattice",
@@ -4059,7 +4059,7 @@
     "distinction": "A braid interlaces the scaffold and its crossing filament. Structural recipe: lattice~weave~braid.twist@body+braid.ripple@cross.",
     "budget": 8500
   },
-  {
+  "140": {
     "id": "lattice-05",
     "name": "Scaffold into Forest",
     "family": "lattice",
@@ -4086,7 +4086,7 @@
     "distinction": "Orthogonal lines soften into branching growth over inverted petals. Structural recipe: lattice~blend~branch.grow@body+rosette.invert@floor.",
     "budget": 8500
   },
-  {
+  "141": {
     "id": "lattice-06",
     "name": "Scaffold Window",
     "family": "lattice",
@@ -4102,7 +4102,7 @@
       "ripple",
       "split"
     ],
-    "organization": "layered formation",
+    "organization": "interacting cluster",
     "scale": "journey",
     "camera": "passage",
     "audio": [
@@ -4113,7 +4113,7 @@
     "distinction": "Orbital cuts open a window through orthogonal lines. Structural recipe: lattice~intersect~torus.ripple@body+torus.split@front.",
     "budget": 8500
   },
-  {
+  "142": {
     "id": "lattice-07",
     "name": "Layered Scaffolds",
     "family": "lattice",
@@ -4132,7 +4132,7 @@
       "ripple",
       "twist"
     ],
-    "organization": "layered formation",
+    "organization": "interacting cluster",
     "scale": "exterior",
     "camera": "hold",
     "audio": [
@@ -4144,7 +4144,7 @@
     "distinction": "A collapsing scaffold meets patterned interference around an axial coil. Structural recipe: lattice.collapse@rear+reaction.ripple@front+helix.twist@core.",
     "budget": 10500
   },
-  {
+  "143": {
     "id": "lattice-08",
     "name": "Nested Scaffolding",
     "family": "lattice",
@@ -4175,7 +4175,7 @@
     "distinction": "A surrounding scaffold rotates around an angular core and folded coil. Structural recipe: lattice.circulate@vault+superquadric.grow@core+spiral.fold@nest.",
     "budget": 10500
   },
-  {
+  "144": {
     "id": "vortex-01",
     "name": "Spectral Maelstrom",
     "family": "vortex",
@@ -4202,7 +4202,7 @@
     "distinction": "A circulating whirl runs through a responsive annular throat. Structural recipe: vortex.circulate@body+iris.ripple@core.",
     "budget": 8500
   },
-  {
+  "145": {
     "id": "vortex-02",
     "name": "Two Whirls",
     "family": "vortex",
@@ -4233,7 +4233,7 @@
     "distinction": "A split whirl faces an inverted funnel and distant knot. Structural recipe: vortex.split@left+cone.invert@right+knot.twist@rear.",
     "budget": 10500
   },
-  {
+  "146": {
     "id": "vortex-03",
     "name": "Whirl Chamber",
     "family": "vortex",
@@ -4264,7 +4264,7 @@
     "distinction": "A whirl becomes a chamber around a growing shell above waves. Structural recipe: vortex.fold@vault+wavefront.ripple@floor+shell.grow.pores@core.",
     "budget": 10500
   },
-  {
+  "147": {
     "id": "vortex-04",
     "name": "Vortex Textile",
     "family": "vortex",
@@ -4291,7 +4291,7 @@
     "distinction": "Woven sails trace the whirl’s circulating curvature. Structural recipe: vortex~weave~ribbon.twist@body+ribbon.split@cross.",
     "budget": 8500
   },
-  {
+  "148": {
     "id": "vortex-05",
     "name": "Whirl into Waist",
     "family": "vortex",
@@ -4318,7 +4318,7 @@
     "distinction": "A whirl narrows toward an hourglass above a growing blossom. Structural recipe: vortex~blend~hourglass.collapse@body+rosette.grow@floor.",
     "budget": 8500
   },
-  {
+  "149": {
     "id": "vortex-06",
     "name": "Broken Circulation",
     "family": "vortex",
@@ -4334,7 +4334,7 @@
       "ripple",
       "split"
     ],
-    "organization": "layered formation",
+    "organization": "interacting cluster",
     "scale": "exterior",
     "camera": "orbit",
     "audio": [
@@ -4345,7 +4345,7 @@
     "distinction": "An arch breaks the whirl’s circulation into visible spatial gaps. Structural recipe: vortex~intersect~arch.ripple@body+arch.split@front.",
     "budget": 8500
   },
-  {
+  "150": {
     "id": "vortex-07",
     "name": "Vortex Weather",
     "family": "vortex",
@@ -4376,7 +4376,7 @@
     "distinction": "A striped whirl collapses into waves and coral growth. Structural recipe: vortex.collapse.bands@ceiling+wave.fold@floor+coral.grow@core.",
     "budget": 10500
   },
-  {
+  "151": {
     "id": "vortex-08",
     "name": "Coiled Observatory",
     "family": "vortex",
@@ -4407,7 +4407,7 @@
     "distinction": "A perforated whirl surrounds a turning orbit and crystalline resonator. Structural recipe: vortex.grow.pores@vault+torus.twist@core+crystal.ripple@nest.",
     "budget": 10500
   },
-  {
+  "152": {
     "id": "strata-01",
     "name": "Layered Aurora",
     "family": "strata",
@@ -4434,7 +4434,7 @@
     "distinction": "Separate shelves fold around a circulating coil. Structural recipe: strata.fold@body+spiral.circulate@core.",
     "budget": 8500
   },
-  {
+  "153": {
     "id": "strata-02",
     "name": "Terrace Exchange",
     "family": "strata",
@@ -4465,7 +4465,7 @@
     "distinction": "Stratified shelves and an inverted wavefield exchange impulses. Structural recipe: strata.split@left+wave.invert@right+iris.twist@rear.",
     "budget": 10500
   },
-  {
+  "154": {
     "id": "strata-03",
     "name": "Terraced Chamber",
     "family": "strata",
@@ -4496,7 +4496,7 @@
     "distinction": "Resonating terraces form a room around cells and an arch. Structural recipe: strata.ripple@vault+arch.fold@rear+cell.grow@core.",
     "budget": 10500
   },
-  {
+  "155": {
     "id": "strata-04",
     "name": "Terrace Textile",
     "family": "strata",
@@ -4523,7 +4523,7 @@
     "distinction": "Woven currents cross shelves at distinct heights. Structural recipe: strata~weave~weft.twist@body+braid.ripple@cross.",
     "budget": 8500
   },
-  {
+  "156": {
     "id": "strata-05",
     "name": "Strata into Scrolls",
     "family": "strata",
@@ -4550,7 +4550,7 @@
     "distinction": "Shelves unroll toward scrolls above a contracting lens. Structural recipe: strata~blend~scroll.grow@body+lens.collapse@floor.",
     "budget": 8500
   },
-  {
+  "157": {
     "id": "strata-06",
     "name": "Terraced Gate",
     "family": "strata",
@@ -4577,7 +4577,7 @@
     "distinction": "A separating cone opens an axial gate through the terraces. Structural recipe: strata~intersect~cone.ripple@body+cone.split@core.",
     "budget": 8500
   },
-  {
+  "158": {
     "id": "strata-07",
     "name": "Two Horizons",
     "family": "strata",
@@ -4608,7 +4608,7 @@
     "distinction": "Layered horizons exchange movement through a saddle and side coil. Structural recipe: strata.collapse.bands@rear+saddle.fold@front+helix.circulate@left.",
     "budget": 10500
   },
-  {
+  "159": {
     "id": "strata-08",
     "name": "Terraced Nursery",
     "family": "strata",
@@ -4639,7 +4639,7 @@
     "distinction": "A revolving terraced enclosure frames roots and inverted petals. Structural recipe: strata.circulate@vault+branch.grow@floor+rosette.invert@core.",
     "budget": 10500
   },
-  {
+  "160": {
     "id": "iris-01",
     "name": "Luminous Aperture",
     "family": "iris",
@@ -4666,7 +4666,7 @@
     "distinction": "A ruffled aperture frames a growing spherical core. Structural recipe: iris.ripple@body+shell.grow@core.",
     "budget": 8500
   },
-  {
+  "161": {
     "id": "iris-02",
     "name": "Paired Openings",
     "family": "iris",
@@ -4697,7 +4697,7 @@
     "distinction": "A separating aperture and turning orbit expose a woven background. Structural recipe: iris.split@left+torus.twist@right+weft.fold@rear.",
     "budget": 10500
   },
-  {
+  "162": {
     "id": "iris-03",
     "name": "Iris Chamber",
     "family": "iris",
@@ -4728,7 +4728,7 @@
     "distinction": "A ruffled enclosure directs attention through a conical throat. Structural recipe: iris.fold@vault+cone.ripple@core+strata.still@floor.",
     "budget": 10500
   },
-  {
+  "163": {
     "id": "iris-04",
     "name": "Woven Opening",
     "family": "iris",
@@ -4755,7 +4755,7 @@
     "distinction": "Braids interlace a ruffled aperture and its outer edge. Structural recipe: iris~weave~braid.twist@body+braid.circulate@rim.",
     "budget": 8500
   },
-  {
+  "164": {
     "id": "iris-05",
     "name": "Aperture Blossom",
     "family": "iris",
@@ -4782,7 +4782,7 @@
     "distinction": "An aperture opens into petals above an inverted shallow lens. Structural recipe: iris~blend~rosette.grow@body+lens.invert@floor.",
     "budget": 8500
   },
-  {
+  "165": {
     "id": "iris-06",
     "name": "Interrupted Iris",
     "family": "iris",
@@ -4809,7 +4809,7 @@
     "distinction": "An arch cuts spatial interruptions into a ruffled opening. Structural recipe: iris~intersect~arch.ripple@body+arch.split@cross.",
     "budget": 8500
   },
-  {
+  "166": {
     "id": "iris-07",
     "name": "Ringed Weather",
     "family": "iris",
@@ -4840,7 +4840,7 @@
     "distinction": "A striped aperture collapses over annular waves and a central whirl. Structural recipe: iris.collapse.bands@ceiling+wavefront.ripple@floor+vortex.fold@core.",
     "budget": 10500
   },
-  {
+  "167": {
     "id": "iris-08",
     "name": "Through the Iris",
     "family": "iris",
@@ -4871,7 +4871,7 @@
     "distinction": "A surrounding aperture rotates around crystal growth and a far coil. Structural recipe: iris.circulate@vault+crystal.grow@core+helix.twist@rear.",
     "budget": 10500
   },
-  {
+  "168": {
     "id": "coral-01",
     "name": "Coral of Light",
     "family": "coral",
@@ -4898,7 +4898,7 @@
     "distinction": "Curving branches grow above rippling ground. Structural recipe: coral.grow@body+wave.ripple@floor.",
     "budget": 8500
   },
-  {
+  "169": {
     "id": "coral-02",
     "name": "Coral Dialogue",
     "family": "coral",
@@ -4929,7 +4929,7 @@
     "distinction": "Parting coral faces a twisting tree across a shallow lens. Structural recipe: coral.split@left+branch.twist@right+lens.circulate@rear.",
     "budget": 10500
   },
-  {
+  "170": {
     "id": "coral-03",
     "name": "Coral Grotto",
     "family": "coral",
@@ -4960,7 +4960,7 @@
     "distinction": "Curving overhead branches enclose a porous nucleus and terraces. Structural recipe: coral.fold@vault+shell.ripple.pores@core+strata.still@floor.",
     "budget": 10500
   },
-  {
+  "171": {
     "id": "coral-04",
     "name": "Coral Weaving",
     "family": "coral",
@@ -4987,7 +4987,7 @@
     "distinction": "Helical filaments interlace curving coral branches. Structural recipe: coral~weave~helix.twist@body+helix.ripple@cross.",
     "budget": 8500
   },
-  {
+  "172": {
     "id": "coral-05",
     "name": "Coral Colony",
     "family": "coral",
@@ -5014,7 +5014,7 @@
     "distinction": "Branch tips gather into cells above contracting petals. Structural recipe: coral~blend~cell.grow@body+rosette.collapse@floor.",
     "budget": 8500
   },
-  {
+  "173": {
     "id": "coral-06",
     "name": "Coral Portal",
     "family": "coral",
@@ -5030,7 +5030,7 @@
       "split",
       "circulate"
     ],
-    "organization": "layered formation",
+    "organization": "interacting cluster",
     "scale": "journey",
     "camera": "passage",
     "audio": [
@@ -5041,7 +5041,7 @@
     "distinction": "Orbital intersections open a portal through a coral grove. Structural recipe: coral~intersect~torus.split@body+torus.circulate@front.",
     "budget": 8500
   },
-  {
+  "174": {
     "id": "coral-07",
     "name": "Suspended Reef",
     "family": "coral",
@@ -5072,7 +5072,7 @@
     "distinction": "A revolving suspended reef exchanges motion with coil and funnel. Structural recipe: coral.circulate@ceiling+spiral.grow@left+cone.fold@right.",
     "budget": 10500
   },
-  {
+  "175": {
     "id": "coral-08",
     "name": "Coral Observatory",
     "family": "coral",
@@ -5103,7 +5103,7 @@
     "distinction": "A resonating reef surrounds nested edges above an inverted aperture. Structural recipe: coral.ripple@vault+tesseract.twist@core+iris.invert@floor.",
     "budget": 10500
   },
-  {
+  "176": {
     "id": "lens-01",
     "name": "Suspended Lens",
     "family": "lens",
@@ -5119,7 +5119,7 @@
       "ripple",
       "circulate"
     ],
-    "organization": "layered formation",
+    "organization": "interacting cluster",
     "scale": "exterior",
     "camera": "orbit",
     "audio": [
@@ -5130,7 +5130,7 @@
     "distinction": "A thin luminous lens is held by a peripheral circulating filament. Structural recipe: lens.ripple@body+knot.circulate@rim.",
     "budget": 8500
   },
-  {
+  "177": {
     "id": "lens-02",
     "name": "Lens Exchange",
     "family": "lens",
@@ -5161,7 +5161,7 @@
     "distinction": "Two lenses part and invert beside a helical far axis. Structural recipe: lens.split@left+lens.invert@right+helix.twist@rear.",
     "budget": 10500
   },
-  {
+  "178": {
     "id": "lens-03",
     "name": "Lenticular Room",
     "family": "lens",
@@ -5192,7 +5192,7 @@
     "distinction": "A folded shallow enclosure exposes a porous core and layered floor. Structural recipe: lens.fold@vault+shell.ripple.pores@core+strata.still@floor.",
     "budget": 10500
   },
-  {
+  "179": {
     "id": "lens-04",
     "name": "Lenticular Textile",
     "family": "lens",
@@ -5219,7 +5219,7 @@
     "distinction": "Interlaced textile marks span a lens and separating braid. Structural recipe: lens~weave~weft.twist@body+braid.split@cross.",
     "budget": 8500
   },
-  {
+  "180": {
     "id": "lens-05",
     "name": "Lens into Shell",
     "family": "lens",
@@ -5246,7 +5246,7 @@
     "distinction": "A shallow lens inflates into a shell above inverted petals. Structural recipe: lens~blend~shell.grow@body+rosette.invert@floor.",
     "budget": 8500
   },
-  {
+  "181": {
     "id": "lens-06",
     "name": "Cut Lens",
     "family": "lens",
@@ -5262,7 +5262,7 @@
       "ripple",
       "split"
     ],
-    "organization": "layered formation",
+    "organization": "interacting cluster",
     "scale": "journey",
     "camera": "passage",
     "audio": [
@@ -5273,7 +5273,7 @@
     "distinction": "A conical intersection cuts an axial opening through the lens. Structural recipe: lens~intersect~cone.ripple@body+cone.split@front.",
     "budget": 8500
   },
-  {
+  "182": {
     "id": "lens-07",
     "name": "Lenticular Constellation",
     "family": "lens",
@@ -5304,7 +5304,7 @@
     "distinction": "A lens circulates across cells and a turning crystalline horizon. Structural recipe: lens.circulate@left+cell.grow@right+crystal.twist@rear.",
     "budget": 10500
   },
-  {
+  "183": {
     "id": "lens-08",
     "name": "Lens Observatory",
     "family": "lens",
@@ -5335,7 +5335,7 @@
     "distinction": "A porous contracting lens reveals an aperture and unfolded coil. Structural recipe: lens.collapse.pores@vault+iris.fold@core+spiral.grow@nest.",
     "budget": 10500
   },
-  {
+  "184": {
     "id": "hourglass-01",
     "name": "Spectral Waist",
     "family": "hourglass",
@@ -5362,7 +5362,7 @@
     "distinction": "A narrowing volume resonates around a turning aperture. Structural recipe: hourglass.ripple@body+iris.twist@core.",
     "budget": 8500
   },
-  {
+  "185": {
     "id": "hourglass-02",
     "name": "Waisted Dialogue",
     "family": "hourglass",
@@ -5393,7 +5393,7 @@
     "distinction": "Two unlike waisted constructions separate over a filament horizon. Structural recipe: hourglass.split@left+catenoid.invert@right+knot.circulate@rear.",
     "budget": 10500
   },
-  {
+  "186": {
     "id": "hourglass-03",
     "name": "Hourglass Room",
     "family": "hourglass",
@@ -5424,7 +5424,7 @@
     "distinction": "An open waisted room encloses a helical resonator above terraces. Structural recipe: hourglass.fold.open@vault+helix.ripple@core+strata.still@floor.",
     "budget": 10500
   },
-  {
+  "187": {
     "id": "hourglass-04",
     "name": "Waisted Textile",
     "family": "hourglass",
@@ -5451,7 +5451,7 @@
     "distinction": "Braids articulate a narrow waist and its transverse filament. Structural recipe: hourglass~weave~braid.twist@body+braid.ripple@cross.",
     "budget": 8500
   },
-  {
+  "188": {
     "id": "hourglass-05",
     "name": "Waist into Whirl",
     "family": "hourglass",
@@ -5478,7 +5478,7 @@
     "distinction": "A waisted chamber tightens into a whirl above a petaled floor. Structural recipe: hourglass~blend~vortex.collapse@body+rosette.grow@floor.",
     "budget": 8500
   },
-  {
+  "189": {
     "id": "hourglass-06",
     "name": "Waisted Gate",
     "family": "hourglass",
@@ -5494,7 +5494,7 @@
       "ripple",
       "split"
     ],
-    "organization": "layered formation",
+    "organization": "interacting cluster",
     "scale": "exterior",
     "camera": "orbit",
     "audio": [
@@ -5505,7 +5505,7 @@
     "distinction": "Orbital cuts expose an opening through the constricted volume. Structural recipe: hourglass~intersect~torus.ripple@body+torus.split@front.",
     "budget": 8500
   },
-  {
+  "190": {
     "id": "hourglass-07",
     "name": "Hourglass Weather",
     "family": "hourglass",
@@ -5536,7 +5536,7 @@
     "distinction": "A striped waisted canopy collapses toward waves and curving growth. Structural recipe: hourglass.collapse.bands@ceiling+wave.fold@floor+coral.grow@core.",
     "budget": 10500
   },
-  {
+  "191": {
     "id": "hourglass-08",
     "name": "Waist Observatory",
     "family": "hourglass",
@@ -5567,7 +5567,7 @@
     "distinction": "A perforated revolving waist surrounds a crystal and turning coil. Structural recipe: hourglass.circulate.pores@vault+crystal.grow@core+spiral.twist@nest.",
     "budget": 10500
   },
-  {
+  "192": {
     "id": "tesseract-01",
     "name": "Nested Edges",
     "family": "tesseract",
@@ -5594,7 +5594,7 @@
     "distinction": "Nested edge cages turn around a porous resonating sphere. Structural recipe: tesseract.twist@body+shell.ripple.pores@core.",
     "budget": 8500
   },
-  {
+  "193": {
     "id": "tesseract-02",
     "name": "Edge Exchange",
     "family": "tesseract",
@@ -5625,7 +5625,7 @@
     "distinction": "Nested edges separate beside an orthogonal scaffold and shallow lens. Structural recipe: tesseract.split@left+lattice.circulate@right+lens.invert@rear.",
     "budget": 10500
   },
-  {
+  "194": {
     "id": "tesseract-03",
     "name": "Edge Cathedral",
     "family": "tesseract",
@@ -5656,7 +5656,7 @@
     "distinction": "A folded edge cage defines an open room around an aperture. Structural recipe: tesseract.fold@vault+iris.ripple@core+strata.still@floor.",
     "budget": 10500
   },
-  {
+  "195": {
     "id": "tesseract-04",
     "name": "Edge Weaving",
     "family": "tesseract",
@@ -5683,7 +5683,7 @@
     "distinction": "Braided strands interlace nested edge geometry. Structural recipe: tesseract~weave~braid.twist@body+braid.split@cross.",
     "budget": 8500
   },
-  {
+  "196": {
     "id": "tesseract-05",
     "name": "Edges into Roots",
     "family": "tesseract",
@@ -5710,7 +5710,7 @@
     "distinction": "Nested edges reorganize as roots above inverted petals. Structural recipe: tesseract~blend~branch.grow@body+rosette.invert@floor.",
     "budget": 8500
   },
-  {
+  "197": {
     "id": "tesseract-06",
     "name": "Edge Window",
     "family": "tesseract",
@@ -5726,7 +5726,7 @@
       "ripple",
       "split"
     ],
-    "organization": "layered formation",
+    "organization": "interacting cluster",
     "scale": "journey",
     "camera": "passage",
     "audio": [
@@ -5737,7 +5737,7 @@
     "distinction": "Conical intersections open corridors between nested cages. Structural recipe: tesseract~intersect~cone.ripple@body+cone.split@front.",
     "budget": 8500
   },
-  {
+  "198": {
     "id": "tesseract-07",
     "name": "Scaffold Constellation",
     "family": "tesseract",
@@ -5768,7 +5768,7 @@
     "distinction": "An edge cage orbits angular growth and a distant coiled spine. Structural recipe: tesseract.circulate@left+superquadric.grow@right+helix.twist@rear.",
     "budget": 10500
   },
-  {
+  "199": {
     "id": "tesseract-08",
     "name": "Within the Cage",
     "family": "tesseract",
@@ -5799,7 +5799,7 @@
     "distinction": "A contracting edge cage reveals crystal resonance and a folded peripheral coil. Structural recipe: tesseract.collapse@vault+crystal.ripple@core+spiral.fold@rim.",
     "budget": 10500
   },
-  {
+  "200": {
     "id": "crystal-01",
     "name": "Prismatic Spire",
     "family": "crystal",
@@ -5826,7 +5826,7 @@
     "distinction": "A faceted spire grows around a ruffled aperture. Structural recipe: crystal.grow@body+iris.ripple@core.",
     "budget": 8500
   },
-  {
+  "201": {
     "id": "crystal-02",
     "name": "Crystal Dialogue",
     "family": "crystal",
@@ -5857,7 +5857,7 @@
     "distinction": "A parting spire answers a rounded angular volume above a lens. Structural recipe: crystal.split@left+superquadric.twist@right+lens.circulate@rear.",
     "budget": 10500
   },
-  {
+  "202": {
     "id": "crystal-03",
     "name": "Crystal Chamber",
     "family": "crystal",
@@ -5888,7 +5888,7 @@
     "distinction": "A perforated faceted enclosure frames a core and stratified ground. Structural recipe: crystal.fold.pores@vault+shell.ripple@core+strata.still@floor.",
     "budget": 10500
   },
-  {
+  "203": {
     "id": "crystal-04",
     "name": "Crystal Textile",
     "family": "crystal",
@@ -5915,7 +5915,7 @@
     "distinction": "Textile membranes interlace a faceted crystalline body. Structural recipe: crystal~weave~ribbon.twist@body+ribbon.split@cross.",
     "budget": 8500
   },
-  {
+  "204": {
     "id": "crystal-05",
     "name": "Crystal into Coral",
     "family": "crystal",
@@ -5942,7 +5942,7 @@
     "distinction": "A spire opens into curving branches over inverted petals. Structural recipe: crystal~blend~coral.grow@body+rosette.invert@floor.",
     "budget": 8500
   },
-  {
+  "205": {
     "id": "crystal-06",
     "name": "Crystal Gate",
     "family": "crystal",
@@ -5958,7 +5958,7 @@
       "ripple",
       "split"
     ],
-    "organization": "layered formation",
+    "organization": "interacting cluster",
     "scale": "journey",
     "camera": "passage",
     "audio": [
@@ -5969,7 +5969,7 @@
     "distinction": "An arch cuts a wide gateway through a resonating crystal. Structural recipe: crystal~intersect~arch.ripple@body+arch.split@front.",
     "budget": 8500
   },
-  {
+  "206": {
     "id": "crystal-07",
     "name": "Crystalline Choir",
     "family": "crystal",
@@ -6000,7 +6000,7 @@
     "distinction": "A striped spire answers cells near a turning helical axis. Structural recipe: crystal.circulate.bands@left+cell.grow@right+helix.twist@rear.",
     "budget": 10500
   },
-  {
+  "207": {
     "id": "crystal-08",
     "name": "Inside the Spire",
     "family": "crystal",
@@ -6031,7 +6031,7 @@
     "distinction": "An open collapsing crystal reveals nested edges and a growing coil. Structural recipe: crystal.collapse.open@vault+tesseract.fold@core+spiral.grow@rim.",
     "budget": 10500
   },
-  {
+  "208": {
     "id": "scroll-01",
     "name": "Rolled Horizon",
     "family": "scroll",
@@ -6048,8 +6048,8 @@
       "ripple"
     ],
     "organization": "layered formation",
-    "scale": "exterior",
-    "camera": "orbit",
+    "scale": "journey",
+    "camera": "passage",
     "audio": [
       "mid",
       "bass"
@@ -6058,7 +6058,7 @@
     "distinction": "A rolled membrane folds around a resonating aperture. Structural recipe: scroll.fold@body+iris.ripple@core.",
     "budget": 8500
   },
-  {
+  "209": {
     "id": "scroll-02",
     "name": "Opposite Scrolls",
     "family": "scroll",
@@ -6089,7 +6089,7 @@
     "distinction": "Oppositely opened scrolls part beside a helical spine. Structural recipe: scroll.split.open@left+scroll.invert@right+helix.twist@rear.",
     "budget": 10500
   },
-  {
+  "210": {
     "id": "scroll-03",
     "name": "Scroll Chamber",
     "family": "scroll",
@@ -6120,7 +6120,7 @@
     "distinction": "A rolled chamber wraps an arched far wall above terraces. Structural recipe: scroll.twist@vault+arch.ripple@rear+strata.still@floor.",
     "budget": 10500
   },
-  {
+  "211": {
     "id": "scroll-04",
     "name": "Scroll Weaving",
     "family": "scroll",
@@ -6147,7 +6147,7 @@
     "distinction": "Interlaced textiles run along the scroll and its braided rim. Structural recipe: scroll~weave~weft.fold@body+braid.circulate@rim.",
     "budget": 8500
   },
-  {
+  "212": {
     "id": "scroll-05",
     "name": "Scroll to Sail",
     "family": "scroll",
@@ -6174,7 +6174,7 @@
     "distinction": "A rolled membrane opens into a sail over inverted petals. Structural recipe: scroll~blend~ribbon.grow@body+rosette.invert@floor.",
     "budget": 8500
   },
-  {
+  "213": {
     "id": "scroll-06",
     "name": "Scroll Window",
     "family": "scroll",
@@ -6190,7 +6190,7 @@
       "ripple",
       "split"
     ],
-    "organization": "layered formation",
+    "organization": "interacting cluster",
     "scale": "journey",
     "camera": "passage",
     "audio": [
@@ -6201,7 +6201,7 @@
     "distinction": "Conical incisions open a window through the rolled membrane. Structural recipe: scroll~intersect~cone.ripple@body+cone.split@front.",
     "budget": 8500
   },
-  {
+  "214": {
     "id": "scroll-07",
     "name": "Scroll Weather",
     "family": "scroll",
@@ -6232,7 +6232,7 @@
     "distinction": "A striped rolled roof collapses over waves and a rotating coil. Structural recipe: scroll.collapse.bands@ceiling+wave.fold@floor+spiral.circulate@core.",
     "budget": 10500
   },
-  {
+  "215": {
     "id": "scroll-08",
     "name": "Rolled Observatory",
     "family": "scroll",
@@ -6263,7 +6263,7 @@
     "distinction": "A perforated scroll surrounds a crystal and turning inner aperture. Structural recipe: scroll.grow.pores@vault+crystal.ripple@core+iris.twist@nest.",
     "budget": 10500
   },
-  {
+  "216": {
     "id": "wavefront-01",
     "name": "Rings of Arrival",
     "family": "wavefront",
@@ -6290,7 +6290,7 @@
     "distinction": "Traveling radial waves enter a turning funnel. Structural recipe: wavefront.ripple@body+cone.twist@core.",
     "budget": 8500
   },
-  {
+  "217": {
     "id": "wavefront-02",
     "name": "Opposed Fronts",
     "family": "wavefront",
@@ -6321,7 +6321,7 @@
     "distinction": "Radial and sheetlike waves exchange impulses at opposite sides. Structural recipe: wavefront.split@left+wave.invert@right+iris.circulate@rear.",
     "budget": 10500
   },
-  {
+  "218": {
     "id": "wavefront-03",
     "name": "Resonance Chamber",
     "family": "wavefront",
@@ -6352,7 +6352,7 @@
     "distinction": "Radial waves form an enclosing chamber around a porous sphere. Structural recipe: wavefront.fold@vault+shell.ripple.pores@core+strata.still@floor.",
     "budget": 10500
   },
-  {
+  "219": {
     "id": "wavefront-04",
     "name": "Woven Front",
     "family": "wavefront",
@@ -6379,7 +6379,7 @@
     "distinction": "Woven strands cross the traveling radial fronts. Structural recipe: wavefront~weave~weft.twist@body+braid.ripple@cross.",
     "budget": 8500
   },
-  {
+  "220": {
     "id": "wavefront-05",
     "name": "Wave Blossom",
     "family": "wavefront",
@@ -6406,7 +6406,7 @@
     "distinction": "Radial fronts open into petals over a contracting lens. Structural recipe: wavefront~blend~rosette.grow@body+lens.collapse@floor.",
     "budget": 8500
   },
-  {
+  "221": {
     "id": "wavefront-06",
     "name": "Wavefront Window",
     "family": "wavefront",
@@ -6422,7 +6422,7 @@
       "ripple",
       "split"
     ],
-    "organization": "layered formation",
+    "organization": "interacting cluster",
     "scale": "journey",
     "camera": "passage",
     "audio": [
@@ -6433,7 +6433,7 @@
     "distinction": "An arch opens a passage through traveling concentric fronts. Structural recipe: wavefront~intersect~arch.ripple@body+arch.split@front.",
     "budget": 8500
   },
-  {
+  "222": {
     "id": "wavefront-07",
     "name": "Ringed Constellation",
     "family": "wavefront",
@@ -6464,7 +6464,7 @@
     "distinction": "Radial waves turn among cells and a distant crystalline spire. Structural recipe: wavefront.circulate@left+cell.grow@right+crystal.twist@rear.",
     "budget": 10500
   },
-  {
+  "223": {
     "id": "wavefront-08",
     "name": "Inside the Front",
     "family": "wavefront",
@@ -6495,7 +6495,7 @@
     "distinction": "A striped annular enclosure collapses around a whirl and far coil. Structural recipe: wavefront.collapse.bands@vault+vortex.fold@core+helix.twist@rear.",
     "budget": 10500
   },
-  {
+  "224": {
     "id": "braid-01",
     "name": "Three-Strand Current",
     "family": "braid",
@@ -6512,8 +6512,8 @@
       "ripple"
     ],
     "organization": "layered formation",
-    "scale": "exterior",
-    "camera": "rise",
+    "scale": "journey",
+    "camera": "passage",
     "audio": [
       "mid",
       "bass"
@@ -6522,7 +6522,7 @@
     "distinction": "Three strands circulate through a transverse ruffled aperture. Structural recipe: braid.circulate@body+iris.ripple@cross.",
     "budget": 8500
   },
-  {
+  "225": {
     "id": "braid-02",
     "name": "Braided Dialogue",
     "family": "braid",
@@ -6553,7 +6553,7 @@
     "distinction": "A separating braid answers a coil before an inverted lens. Structural recipe: braid.split@left+helix.twist@right+lens.invert@rear.",
     "budget": 10500
   },
-  {
+  "226": {
     "id": "braid-03",
     "name": "Braided Hall",
     "family": "braid",
@@ -6584,7 +6584,7 @@
     "distinction": "A large braided enclosure forms a hall around an arch. Structural recipe: braid.fold@vault+arch.ripple@rear+strata.still@floor.",
     "budget": 10500
   },
-  {
+  "227": {
     "id": "braid-04",
     "name": "Braid upon Braid",
     "family": "braid",
@@ -6611,7 +6611,7 @@
     "distinction": "Knotted weaving interlaces the braid and its outer filament. Structural recipe: braid~weave~knot.twist@body+knot.circulate@rim.",
     "budget": 8500
   },
-  {
+  "228": {
     "id": "braid-05",
     "name": "Braid into Roots",
     "family": "braid",
@@ -6638,7 +6638,7 @@
     "distinction": "Interlaced strands open into roots above inverted petals. Structural recipe: braid~blend~branch.grow@body+rosette.invert@floor.",
     "budget": 8500
   },
-  {
+  "229": {
     "id": "braid-06",
     "name": "Braided Gate",
     "family": "braid",
@@ -6665,7 +6665,7 @@
     "distinction": "An orbital crossing creates open cuts in a braid. Structural recipe: braid~intersect~torus.ripple@body+torus.split@cross.",
     "budget": 8500
   },
-  {
+  "230": {
     "id": "braid-07",
     "name": "Braided Weather",
     "family": "braid",
@@ -6696,7 +6696,7 @@
     "distinction": "A braid collapses between overhead fabric and curving growth. Structural recipe: braid.collapse@ceiling+wave.fold@floor+coral.grow@core.",
     "budget": 10500
   },
-  {
+  "231": {
     "id": "braid-08",
     "name": "Braided Observatory",
     "family": "braid",
@@ -6727,7 +6727,7 @@
     "distinction": "Enlarged interlaced strands enclose a porous sphere and inner coil. Structural recipe: braid.grow@vault+shell.ripple.pores@core+spiral.twist@nest.",
     "budget": 10500
   },
-  {
+  "232": {
     "id": "arch-01",
     "name": "Spectral Gateway",
     "family": "arch",
@@ -6744,8 +6744,8 @@
       "circulate"
     ],
     "organization": "layered formation",
-    "scale": "exterior",
-    "camera": "orbit",
+    "scale": "journey",
+    "camera": "passage",
     "audio": [
       "bass",
       "mid"
@@ -6754,7 +6754,7 @@
     "distinction": "A resonating arch opens around a circulating filament. Structural recipe: arch.ripple@body+knot.circulate@core.",
     "budget": 8500
   },
-  {
+  "233": {
     "id": "arch-02",
     "name": "Paired Portals",
     "family": "arch",
@@ -6785,7 +6785,7 @@
     "distinction": "Two differently oriented portals part before a textile wall. Structural recipe: arch.split@left+arch.invert@right+weft.fold@rear.",
     "budget": 10500
   },
-  {
+  "234": {
     "id": "arch-03",
     "name": "Arched Sanctuary",
     "family": "arch",
@@ -6816,7 +6816,7 @@
     "distinction": "A vast arch shelters a porous sphere above terraces. Structural recipe: arch.fold@vault+shell.ripple.pores@core+strata.still@floor.",
     "budget": 10500
   },
-  {
+  "235": {
     "id": "arch-04",
     "name": "Woven Portal",
     "family": "arch",
@@ -6843,7 +6843,7 @@
     "distinction": "Textile strands cross a portal’s curved fabric. Structural recipe: arch~weave~ribbon.twist@body+ribbon.split@cross.",
     "budget": 8500
   },
-  {
+  "236": {
     "id": "arch-05",
     "name": "Arch into Orbit",
     "family": "arch",
@@ -6870,7 +6870,7 @@
     "distinction": "An open arch closes toward an orbit above inverted petals. Structural recipe: arch~blend~torus.grow@body+rosette.invert@floor.",
     "budget": 8500
   },
-  {
+  "237": {
     "id": "arch-06",
     "name": "Portal Interruption",
     "family": "arch",
@@ -6886,7 +6886,7 @@
       "ripple",
       "split"
     ],
-    "organization": "layered formation",
+    "organization": "interacting cluster",
     "scale": "journey",
     "camera": "passage",
     "audio": [
@@ -6897,7 +6897,7 @@
     "distinction": "A conical crossing interrupts an arched portal with black gaps. Structural recipe: arch~intersect~cone.ripple@body+cone.split@front.",
     "budget": 8500
   },
-  {
+  "238": {
     "id": "arch-07",
     "name": "Portal Constellation",
     "family": "arch",
@@ -6928,7 +6928,7 @@
     "distinction": "An arch rotates among cells and a distant crystalline spire. Structural recipe: arch.circulate@left+cell.grow@right+crystal.twist@rear.",
     "budget": 10500
   },
-  {
+  "239": {
     "id": "arch-08",
     "name": "Beyond the Arch",
     "family": "arch",
@@ -6959,7 +6959,7 @@
     "distinction": "An open collapsing gateway reveals a whirl and helical far wall. Structural recipe: arch.collapse.open@vault+vortex.fold@core+helix.twist@rear.",
     "budget": 10500
   },
-  {
+  "240": {
     "id": "reaction-01",
     "name": "Interference Quilt",
     "family": "reaction",
@@ -6986,7 +6986,7 @@
     "distinction": "A nonlinear interference quilt vibrates around an aperture. Structural recipe: reaction.ripple@body+iris.twist@core.",
     "budget": 8500
   },
-  {
+  "241": {
     "id": "reaction-02",
     "name": "Reaction Dialogue",
     "family": "reaction",
@@ -7017,7 +7017,7 @@
     "distinction": "Two unlike patterned sheets exchange impulses above a lens. Structural recipe: reaction.split@left+gyroid.fold@right+lens.invert@rear.",
     "budget": 10500
   },
-  {
+  "242": {
     "id": "reaction-03",
     "name": "Patterned Room",
     "family": "reaction",
@@ -7048,7 +7048,7 @@
     "distinction": "A perforated interference canopy creates a room around an arch. Structural recipe: reaction.fold.pores@vault+arch.ripple@rear+strata.still@floor.",
     "budget": 10500
   },
-  {
+  "243": {
     "id": "reaction-04",
     "name": "Reaction Weave",
     "family": "reaction",
@@ -7075,7 +7075,7 @@
     "distinction": "Woven strands interact with a nonlinear patterned surface. Structural recipe: reaction~weave~weft.twist@body+braid.ripple@cross.",
     "budget": 8500
   },
-  {
+  "244": {
     "id": "reaction-05",
     "name": "Pattern into Cells",
     "family": "reaction",
@@ -7102,7 +7102,7 @@
     "distinction": "Interference patches gather into cells above contracting petals. Structural recipe: reaction~blend~cell.grow@body+rosette.collapse@floor.",
     "budget": 8500
   },
-  {
+  "245": {
     "id": "reaction-06",
     "name": "Reaction Window",
     "family": "reaction",
@@ -7118,7 +7118,7 @@
       "ripple",
       "split"
     ],
-    "organization": "layered formation",
+    "organization": "interacting cluster",
     "scale": "journey",
     "camera": "passage",
     "audio": [
@@ -7129,7 +7129,7 @@
     "distinction": "A conical intersection opens cuts through the patterned quilt. Structural recipe: reaction~intersect~cone.ripple@body+cone.split@front.",
     "budget": 8500
   },
-  {
+  "246": {
     "id": "reaction-07",
     "name": "Patterned Weather",
     "family": "reaction",
@@ -7160,7 +7160,7 @@
     "distinction": "A striped pattern collapses toward waves and branching growth. Structural recipe: reaction.collapse.bands@ceiling+wave.fold@floor+coral.grow@core.",
     "budget": 10500
   },
-  {
+  "247": {
     "id": "reaction-08",
     "name": "Inside the Pattern",
     "family": "reaction",
@@ -7191,7 +7191,7 @@
     "distinction": "A revolving open pattern surrounds a crystal and turning coil. Structural recipe: reaction.circulate.open@vault+crystal.grow@core+spiral.twist@nest.",
     "budget": 10500
   },
-  {
+  "248": {
     "id": "weft-01",
     "name": "Woven Light",
     "family": "weft",
@@ -7218,7 +7218,7 @@
     "distinction": "Separate textile filaments fold beside a peripheral knot. Structural recipe: weft.fold@body+knot.circulate@rim.",
     "budget": 8500
   },
-  {
+  "249": {
     "id": "weft-02",
     "name": "Warp and Weft",
     "family": "weft",
@@ -7249,7 +7249,7 @@
     "distinction": "Perpendicular textile systems part and twist before an aperture. Structural recipe: weft.split@left+weft.twist@cross+iris.ripple@rear.",
     "budget": 10500
   },
-  {
+  "250": {
     "id": "weft-03",
     "name": "Textile Chamber",
     "family": "weft",
@@ -7280,7 +7280,7 @@
     "distinction": "A folded overhead textile opens a room over layered ground. Structural recipe: weft.fold@vault+arch.ripple@rear+strata.still@floor.",
     "budget": 10500
   },
-  {
+  "251": {
     "id": "weft-04",
     "name": "Double Weaving",
     "family": "weft",
@@ -7307,7 +7307,7 @@
     "distinction": "A braid interlaces the textile’s filaments and its crossing plane. Structural recipe: weft~weave~braid.twist@body+braid.ripple@cross.",
     "budget": 8500
   },
-  {
+  "252": {
     "id": "weft-05",
     "name": "Textile into Sail",
     "family": "weft",
@@ -7334,7 +7334,7 @@
     "distinction": "Separate textile strands gather into a sail above inverted petals. Structural recipe: weft~blend~ribbon.grow@body+rosette.invert@floor.",
     "budget": 8500
   },
-  {
+  "253": {
     "id": "weft-06",
     "name": "Textile Window",
     "family": "weft",
@@ -7350,7 +7350,7 @@
       "ripple",
       "split"
     ],
-    "organization": "layered formation",
+    "organization": "interacting cluster",
     "scale": "journey",
     "camera": "passage",
     "audio": [
@@ -7361,7 +7361,7 @@
     "distinction": "An orbital intersection exposes open spatial cuts in a textile. Structural recipe: weft~intersect~torus.ripple@body+torus.split@front.",
     "budget": 8500
   },
-  {
+  "254": {
     "id": "weft-07",
     "name": "Fabric Weather",
     "family": "weft",
@@ -7392,7 +7392,7 @@
     "distinction": "A striped textile roof collapses over waves and an inner coil. Structural recipe: weft.collapse.bands@ceiling+wave.fold@floor+spiral.circulate@core.",
     "budget": 10500
   },
-  {
+  "255": {
     "id": "weft-08",
     "name": "Woven Observatory",
     "family": "weft",
@@ -7422,5 +7422,797 @@
     "description": "A revolving textile enclosure surrounds a porous sphere and crystal.",
     "distinction": "A revolving textile enclosure surrounds a porous sphere and crystal. Structural recipe: weft.circulate@vault+shell.ripple.pores@core+crystal.grow@nest.",
     "budget": 10500
-  }
-]
+  },
+  "totalPresetCount": 768,
+  "banks": [
+    {
+      "id": "regular",
+      "count": 256,
+      "ids": [
+        "ribbon-01",
+        "ribbon-02",
+        "ribbon-03",
+        "ribbon-04",
+        "ribbon-05",
+        "ribbon-06",
+        "ribbon-07",
+        "ribbon-08",
+        "torus-01",
+        "torus-02",
+        "torus-03",
+        "torus-04",
+        "torus-05",
+        "torus-06",
+        "torus-07",
+        "torus-08",
+        "shell-01",
+        "shell-02",
+        "shell-03",
+        "shell-04",
+        "shell-05",
+        "shell-06",
+        "shell-07",
+        "shell-08",
+        "helix-01",
+        "helix-02",
+        "helix-03",
+        "helix-04",
+        "helix-05",
+        "helix-06",
+        "helix-07",
+        "helix-08",
+        "wave-01",
+        "wave-02",
+        "wave-03",
+        "wave-04",
+        "wave-05",
+        "wave-06",
+        "wave-07",
+        "wave-08",
+        "gyroid-01",
+        "gyroid-02",
+        "gyroid-03",
+        "gyroid-04",
+        "gyroid-05",
+        "gyroid-06",
+        "gyroid-07",
+        "gyroid-08",
+        "knot-01",
+        "knot-02",
+        "knot-03",
+        "knot-04",
+        "knot-05",
+        "knot-06",
+        "knot-07",
+        "knot-08",
+        "branch-01",
+        "branch-02",
+        "branch-03",
+        "branch-04",
+        "branch-05",
+        "branch-06",
+        "branch-07",
+        "branch-08",
+        "cell-01",
+        "cell-02",
+        "cell-03",
+        "cell-04",
+        "cell-05",
+        "cell-06",
+        "cell-07",
+        "cell-08",
+        "spiral-01",
+        "spiral-02",
+        "spiral-03",
+        "spiral-04",
+        "spiral-05",
+        "spiral-06",
+        "spiral-07",
+        "spiral-08",
+        "cone-01",
+        "cone-02",
+        "cone-03",
+        "cone-04",
+        "cone-05",
+        "cone-06",
+        "cone-07",
+        "cone-08",
+        "saddle-01",
+        "saddle-02",
+        "saddle-03",
+        "saddle-04",
+        "saddle-05",
+        "saddle-06",
+        "saddle-07",
+        "saddle-08",
+        "catenoid-01",
+        "catenoid-02",
+        "catenoid-03",
+        "catenoid-04",
+        "catenoid-05",
+        "catenoid-06",
+        "catenoid-07",
+        "catenoid-08",
+        "mobius-01",
+        "mobius-02",
+        "mobius-03",
+        "mobius-04",
+        "mobius-05",
+        "mobius-06",
+        "mobius-07",
+        "mobius-08",
+        "klein-01",
+        "klein-02",
+        "klein-03",
+        "klein-04",
+        "klein-05",
+        "klein-06",
+        "klein-07",
+        "klein-08",
+        "superquadric-01",
+        "superquadric-02",
+        "superquadric-03",
+        "superquadric-04",
+        "superquadric-05",
+        "superquadric-06",
+        "superquadric-07",
+        "superquadric-08",
+        "rosette-01",
+        "rosette-02",
+        "rosette-03",
+        "rosette-04",
+        "rosette-05",
+        "rosette-06",
+        "rosette-07",
+        "rosette-08",
+        "lattice-01",
+        "lattice-02",
+        "lattice-03",
+        "lattice-04",
+        "lattice-05",
+        "lattice-06",
+        "lattice-07",
+        "lattice-08",
+        "vortex-01",
+        "vortex-02",
+        "vortex-03",
+        "vortex-04",
+        "vortex-05",
+        "vortex-06",
+        "vortex-07",
+        "vortex-08",
+        "strata-01",
+        "strata-02",
+        "strata-03",
+        "strata-04",
+        "strata-05",
+        "strata-06",
+        "strata-07",
+        "strata-08",
+        "iris-01",
+        "iris-02",
+        "iris-03",
+        "iris-04",
+        "iris-05",
+        "iris-06",
+        "iris-07",
+        "iris-08",
+        "coral-01",
+        "coral-02",
+        "coral-03",
+        "coral-04",
+        "coral-05",
+        "coral-06",
+        "coral-07",
+        "coral-08",
+        "lens-01",
+        "lens-02",
+        "lens-03",
+        "lens-04",
+        "lens-05",
+        "lens-06",
+        "lens-07",
+        "lens-08",
+        "hourglass-01",
+        "hourglass-02",
+        "hourglass-03",
+        "hourglass-04",
+        "hourglass-05",
+        "hourglass-06",
+        "hourglass-07",
+        "hourglass-08",
+        "tesseract-01",
+        "tesseract-02",
+        "tesseract-03",
+        "tesseract-04",
+        "tesseract-05",
+        "tesseract-06",
+        "tesseract-07",
+        "tesseract-08",
+        "crystal-01",
+        "crystal-02",
+        "crystal-03",
+        "crystal-04",
+        "crystal-05",
+        "crystal-06",
+        "crystal-07",
+        "crystal-08",
+        "scroll-01",
+        "scroll-02",
+        "scroll-03",
+        "scroll-04",
+        "scroll-05",
+        "scroll-06",
+        "scroll-07",
+        "scroll-08",
+        "wavefront-01",
+        "wavefront-02",
+        "wavefront-03",
+        "wavefront-04",
+        "wavefront-05",
+        "wavefront-06",
+        "wavefront-07",
+        "wavefront-08",
+        "braid-01",
+        "braid-02",
+        "braid-03",
+        "braid-04",
+        "braid-05",
+        "braid-06",
+        "braid-07",
+        "braid-08",
+        "arch-01",
+        "arch-02",
+        "arch-03",
+        "arch-04",
+        "arch-05",
+        "arch-06",
+        "arch-07",
+        "arch-08",
+        "reaction-01",
+        "reaction-02",
+        "reaction-03",
+        "reaction-04",
+        "reaction-05",
+        "reaction-06",
+        "reaction-07",
+        "reaction-08",
+        "weft-01",
+        "weft-02",
+        "weft-03",
+        "weft-04",
+        "weft-05",
+        "weft-06",
+        "weft-07",
+        "weft-08"
+      ]
+    },
+    {
+      "id": "spaces",
+      "count": 256,
+      "ids": [
+        "space-osm-louvre-01",
+        "space-osm-louvre-02",
+        "space-osm-louvre-03",
+        "space-osm-louvre-04",
+        "space-osm-louvre-05",
+        "space-osm-louvre-06",
+        "space-osm-louvre-07",
+        "space-osm-louvre-08",
+        "space-osm-venice-01",
+        "space-osm-venice-02",
+        "space-osm-venice-03",
+        "space-osm-venice-04",
+        "space-osm-venice-05",
+        "space-osm-venice-06",
+        "space-osm-venice-07",
+        "space-osm-venice-08",
+        "space-osm-prague-01",
+        "space-osm-prague-02",
+        "space-osm-prague-03",
+        "space-osm-prague-04",
+        "space-osm-prague-05",
+        "space-osm-prague-06",
+        "space-osm-prague-07",
+        "space-osm-prague-08",
+        "space-osm-rome-01",
+        "space-osm-rome-02",
+        "space-osm-rome-03",
+        "space-osm-rome-04",
+        "space-osm-rome-05",
+        "space-osm-rome-06",
+        "space-osm-rome-07",
+        "space-osm-rome-08",
+        "space-osm-barcelona-01",
+        "space-osm-barcelona-02",
+        "space-osm-barcelona-03",
+        "space-osm-barcelona-04",
+        "space-osm-barcelona-05",
+        "space-osm-barcelona-06",
+        "space-osm-barcelona-07",
+        "space-osm-barcelona-08",
+        "space-osm-kyoto-01",
+        "space-osm-kyoto-02",
+        "space-osm-kyoto-03",
+        "space-osm-kyoto-04",
+        "space-osm-kyoto-05",
+        "space-osm-kyoto-06",
+        "space-osm-kyoto-07",
+        "space-osm-kyoto-08",
+        "space-osm-westminster-01",
+        "space-osm-westminster-02",
+        "space-osm-westminster-03",
+        "space-osm-westminster-04",
+        "space-osm-westminster-05",
+        "space-osm-westminster-06",
+        "space-osm-westminster-07",
+        "space-osm-westminster-08",
+        "space-osm-manhattan-01",
+        "space-osm-manhattan-02",
+        "space-osm-manhattan-03",
+        "space-osm-manhattan-04",
+        "space-osm-manhattan-05",
+        "space-osm-manhattan-06",
+        "space-osm-manhattan-07",
+        "space-osm-manhattan-08",
+        "space-freedoom-01-01",
+        "space-freedoom-01-02",
+        "space-freedoom-01-03",
+        "space-freedoom-01-04",
+        "space-freedoom-01-05",
+        "space-freedoom-01-06",
+        "space-freedoom-01-07",
+        "space-freedoom-01-08",
+        "space-freedoom-02-01",
+        "space-freedoom-02-02",
+        "space-freedoom-02-03",
+        "space-freedoom-02-04",
+        "space-freedoom-02-05",
+        "space-freedoom-02-06",
+        "space-freedoom-02-07",
+        "space-freedoom-02-08",
+        "space-freedoom-03-01",
+        "space-freedoom-03-02",
+        "space-freedoom-03-03",
+        "space-freedoom-03-04",
+        "space-freedoom-03-05",
+        "space-freedoom-03-06",
+        "space-freedoom-03-07",
+        "space-freedoom-03-08",
+        "space-freedoom-04-01",
+        "space-freedoom-04-02",
+        "space-freedoom-04-03",
+        "space-freedoom-04-04",
+        "space-freedoom-04-05",
+        "space-freedoom-04-06",
+        "space-freedoom-04-07",
+        "space-freedoom-04-08",
+        "space-freedoom-05-01",
+        "space-freedoom-05-02",
+        "space-freedoom-05-03",
+        "space-freedoom-05-04",
+        "space-freedoom-05-05",
+        "space-freedoom-05-06",
+        "space-freedoom-05-07",
+        "space-freedoom-05-08",
+        "space-freedoom-06-01",
+        "space-freedoom-06-02",
+        "space-freedoom-06-03",
+        "space-freedoom-06-04",
+        "space-freedoom-06-05",
+        "space-freedoom-06-06",
+        "space-freedoom-06-07",
+        "space-freedoom-06-08",
+        "space-freedoom-07-01",
+        "space-freedoom-07-02",
+        "space-freedoom-07-03",
+        "space-freedoom-07-04",
+        "space-freedoom-07-05",
+        "space-freedoom-07-06",
+        "space-freedoom-07-07",
+        "space-freedoom-07-08",
+        "space-freedoom-08-01",
+        "space-freedoom-08-02",
+        "space-freedoom-08-03",
+        "space-freedoom-08-04",
+        "space-freedoom-08-05",
+        "space-freedoom-08-06",
+        "space-freedoom-08-07",
+        "space-freedoom-08-08",
+        "space-freedoom-09-01",
+        "space-freedoom-09-02",
+        "space-freedoom-09-03",
+        "space-freedoom-09-04",
+        "space-freedoom-09-05",
+        "space-freedoom-09-06",
+        "space-freedoom-09-07",
+        "space-freedoom-09-08",
+        "space-freedoom-10-01",
+        "space-freedoom-10-02",
+        "space-freedoom-10-03",
+        "space-freedoom-10-04",
+        "space-freedoom-10-05",
+        "space-freedoom-10-06",
+        "space-freedoom-10-07",
+        "space-freedoom-10-08",
+        "space-freedoom-11-01",
+        "space-freedoom-11-02",
+        "space-freedoom-11-03",
+        "space-freedoom-11-04",
+        "space-freedoom-11-05",
+        "space-freedoom-11-06",
+        "space-freedoom-11-07",
+        "space-freedoom-11-08",
+        "space-freedoom-12-01",
+        "space-freedoom-12-02",
+        "space-freedoom-12-03",
+        "space-freedoom-12-04",
+        "space-freedoom-12-05",
+        "space-freedoom-12-06",
+        "space-freedoom-12-07",
+        "space-freedoom-12-08",
+        "space-kenney-01-01",
+        "space-kenney-01-02",
+        "space-kenney-01-03",
+        "space-kenney-01-04",
+        "space-kenney-01-05",
+        "space-kenney-01-06",
+        "space-kenney-01-07",
+        "space-kenney-01-08",
+        "space-kenney-02-01",
+        "space-kenney-02-02",
+        "space-kenney-02-03",
+        "space-kenney-02-04",
+        "space-kenney-02-05",
+        "space-kenney-02-06",
+        "space-kenney-02-07",
+        "space-kenney-02-08",
+        "space-kenney-03-01",
+        "space-kenney-03-02",
+        "space-kenney-03-03",
+        "space-kenney-03-04",
+        "space-kenney-03-05",
+        "space-kenney-03-06",
+        "space-kenney-03-07",
+        "space-kenney-03-08",
+        "space-kenney-04-01",
+        "space-kenney-04-02",
+        "space-kenney-04-03",
+        "space-kenney-04-04",
+        "space-kenney-04-05",
+        "space-kenney-04-06",
+        "space-kenney-04-07",
+        "space-kenney-04-08",
+        "space-kenney-05-01",
+        "space-kenney-05-02",
+        "space-kenney-05-03",
+        "space-kenney-05-04",
+        "space-kenney-05-05",
+        "space-kenney-05-06",
+        "space-kenney-05-07",
+        "space-kenney-05-08",
+        "space-kenney-06-01",
+        "space-kenney-06-02",
+        "space-kenney-06-03",
+        "space-kenney-06-04",
+        "space-kenney-06-05",
+        "space-kenney-06-06",
+        "space-kenney-06-07",
+        "space-kenney-06-08",
+        "space-kenney-07-01",
+        "space-kenney-07-02",
+        "space-kenney-07-03",
+        "space-kenney-07-04",
+        "space-kenney-07-05",
+        "space-kenney-07-06",
+        "space-kenney-07-07",
+        "space-kenney-07-08",
+        "space-kenney-08-01",
+        "space-kenney-08-02",
+        "space-kenney-08-03",
+        "space-kenney-08-04",
+        "space-kenney-08-05",
+        "space-kenney-08-06",
+        "space-kenney-08-07",
+        "space-kenney-08-08",
+        "space-terrain-grand-canyon-01",
+        "space-terrain-grand-canyon-02",
+        "space-terrain-grand-canyon-03",
+        "space-terrain-grand-canyon-04",
+        "space-terrain-grand-canyon-05",
+        "space-terrain-grand-canyon-06",
+        "space-terrain-grand-canyon-07",
+        "space-terrain-grand-canyon-08",
+        "space-terrain-yosemite-01",
+        "space-terrain-yosemite-02",
+        "space-terrain-yosemite-03",
+        "space-terrain-yosemite-04",
+        "space-terrain-yosemite-05",
+        "space-terrain-yosemite-06",
+        "space-terrain-yosemite-07",
+        "space-terrain-yosemite-08",
+        "space-terrain-rainier-01",
+        "space-terrain-rainier-02",
+        "space-terrain-rainier-03",
+        "space-terrain-rainier-04",
+        "space-terrain-rainier-05",
+        "space-terrain-rainier-06",
+        "space-terrain-rainier-07",
+        "space-terrain-rainier-08",
+        "space-terrain-death-valley-01",
+        "space-terrain-death-valley-02",
+        "space-terrain-death-valley-03",
+        "space-terrain-death-valley-04",
+        "space-terrain-death-valley-05",
+        "space-terrain-death-valley-06",
+        "space-terrain-death-valley-07",
+        "space-terrain-death-valley-08"
+      ]
+    },
+    {
+      "id": "video",
+      "count": 256,
+      "ids": [
+        "vr-sphere-164530402",
+        "vr-sphere-197153136",
+        "vr-sphere-207454399",
+        "vr-sphere-207633477",
+        "vr-sphere-207976905",
+        "vr-sphere-208337169",
+        "vr-sphere-208850267",
+        "vr-sphere-208899724",
+        "vr-sphere-209070374",
+        "vr-sphere-209216703",
+        "vr-sphere-209350531",
+        "vr-sphere-209477004",
+        "vr-sphere-209508132",
+        "vr-sphere-210192030",
+        "vr-sphere-210255623",
+        "vr-sphere-210885457",
+        "vr-sphere-211649979",
+        "vr-sphere-213013668",
+        "vr-sphere-213076150",
+        "vr-sphere-213429007",
+        "vr-sphere-214460158",
+        "vr-sphere-214462083",
+        "vr-sphere-215145646",
+        "vr-sphere-215426594",
+        "vr-sphere-215646176",
+        "vr-sphere-216702085",
+        "vr-sphere-217295592",
+        "vr-sphere-217420521",
+        "vr-sphere-217996901",
+        "vr-sphere-218013894",
+        "vr-sphere-219218962",
+        "vr-sphere-219232446",
+        "vr-sphere-219839627",
+        "vr-sphere-219995633",
+        "vr-sphere-221177580",
+        "vr-sphere-221194576",
+        "vr-sphere-221492684",
+        "vr-sphere-222246130",
+        "vr-sphere-222434857",
+        "vr-sphere-223040177",
+        "vr-sphere-223224189",
+        "vr-sphere-223810298",
+        "vr-sphere-223907974",
+        "vr-sphere-224118049",
+        "vr-sphere-224347965",
+        "vr-sphere-224348112",
+        "vr-sphere-224508895",
+        "vr-sphere-225359182",
+        "vr-sphere-225838387",
+        "vr-sphere-225994618",
+        "vr-sphere-226254570",
+        "vr-sphere-227049832",
+        "vr-sphere-227802359",
+        "vr-sphere-227883287",
+        "vr-sphere-228340676",
+        "vr-sphere-228615194",
+        "vr-sphere-230120439",
+        "vr-sphere-230120570",
+        "vr-sphere-230203485",
+        "vr-sphere-230205728",
+        "vr-sphere-231891226",
+        "vr-sphere-232861544",
+        "vr-sphere-232864740",
+        "vr-sphere-234365797",
+        "vr-sphere-234366142",
+        "vr-sphere-235306546",
+        "vr-sphere-236724002",
+        "vr-sphere-236751768",
+        "vr-sphere-236906956",
+        "vr-sphere-237279094",
+        "vr-sphere-237578701",
+        "vr-sphere-238088415",
+        "vr-sphere-238461264",
+        "vr-sphere-242175531",
+        "vr-sphere-242518241",
+        "vr-sphere-242523855",
+        "vr-sphere-243644619",
+        "vr-sphere-246134799",
+        "vr-sphere-246490667",
+        "vr-sphere-247509871",
+        "vr-sphere-247556154",
+        "vr-sphere-247556478",
+        "vr-sphere-253488200",
+        "vr-sphere-253766175",
+        "vr-sphere-254417764",
+        "vr-sphere-254891442",
+        "vr-sphere-255255452",
+        "vr-sphere-255540142",
+        "vr-sphere-256178189",
+        "vr-sphere-257216595",
+        "vr-sphere-258351894",
+        "vr-sphere-259342758",
+        "vr-sphere-259405678",
+        "vr-sphere-261346436",
+        "vr-sphere-261452524",
+        "vr-sphere-262632664",
+        "vr-sphere-264940653",
+        "vr-sphere-265223194",
+        "vr-sphere-265224724",
+        "vr-sphere-265224869",
+        "vr-sphere-265224954",
+        "vr-sphere-267721345",
+        "vr-sphere-271092535",
+        "vr-sphere-271652404",
+        "vr-sphere-272622297",
+        "vr-sphere-273549228",
+        "vr-sphere-275490290",
+        "vr-sphere-276158319",
+        "vr-sphere-283104288",
+        "vr-sphere-286797190",
+        "vr-sphere-287185379",
+        "vr-sphere-288741767",
+        "vr-sphere-289223620",
+        "vr-sphere-291492518",
+        "vr-sphere-294605723",
+        "vr-sphere-2jYXM4LY5n0",
+        "vr-sphere-308594871",
+        "vr-sphere-309581148",
+        "vr-sphere-309584482",
+        "vr-sphere-313952643",
+        "vr-sphere-319201488",
+        "vr-sphere-321746668",
+        "vr-sphere-321749471",
+        "vr-sphere-325406671",
+        "vr-sphere-328377731",
+        "vr-sphere-329816908",
+        "vr-sphere-330985250",
+        "vr-sphere-330986252",
+        "vr-sphere-334093731",
+        "vr-sphere-336118175",
+        "vr-sphere-340422644",
+        "vr-sphere-346516518",
+        "vr-sphere-346848548",
+        "vr-sphere-348053126",
+        "vr-sphere-348054075",
+        "vr-sphere-353059227",
+        "vr-sphere-361222287",
+        "vr-sphere-362442640",
+        "vr-sphere-371513126",
+        "vr-sphere-383835133",
+        "vr-sphere-385558767",
+        "vr-sphere-388452380",
+        "vr-sphere-389479667",
+        "vr-sphere-389846835",
+        "vr-sphere-392949494",
+        "vr-sphere-397376332",
+        "vr-sphere-397643517",
+        "vr-sphere-398365616",
+        "vr-sphere-399760868",
+        "vr-sphere-399837524",
+        "vr-sphere-417351345",
+        "vr-sphere-425995481",
+        "vr-sphere-426133049",
+        "vr-sphere-427195791",
+        "vr-sphere-429449704",
+        "vr-sphere-442701113",
+        "vr-sphere-452960512",
+        "vr-sphere-463341271",
+        "vr-sphere-465669406",
+        "vr-sphere-475763050",
+        "vr-sphere-477098495",
+        "vr-sphere-479886667",
+        "vr-sphere-481733201",
+        "vr-sphere-481746439",
+        "vr-sphere-486598111",
+        "vr-sphere-486667420",
+        "vr-sphere-488227838",
+        "vr-sphere-495633398",
+        "vr-sphere-495637478",
+        "vr-sphere-495639014",
+        "vr-sphere-502131600",
+        "vr-sphere-522375144",
+        "vr-sphere-523538219",
+        "vr-sphere-523548202",
+        "vr-sphere-530950069",
+        "vr-sphere-534945193",
+        "vr-sphere-568589195",
+        "vr-sphere-579598740",
+        "vr-sphere-579713422",
+        "vr-sphere-651499716",
+        "vr-sphere-666652713",
+        "vr-sphere-676430024",
+        "vr-sphere-683330763",
+        "vr-sphere-719813117",
+        "vr-sphere-725882964",
+        "vr-sphere-725883078",
+        "vr-sphere-725883206",
+        "vr-sphere-731800915",
+        "vr-sphere-731808888",
+        "vr-sphere-731819011",
+        "vr-sphere-736206560",
+        "vr-sphere-746885204",
+        "vr-sphere-746886686",
+        "vr-sphere-747177629",
+        "vr-sphere-767391986",
+        "vr-sphere-779197363",
+        "vr-sphere-7wqlmB6xGbE",
+        "vr-sphere-9lC3VPu7sRA",
+        "vr-sphere-AKcNTAQ0f7g",
+        "vr-sphere-B9MFGLcDfgA",
+        "vr-sphere-DalMndtf4dw",
+        "vr-sphere-JUKeuAcqivo",
+        "vr-sphere-LpMKp7c4JZ8",
+        "vr-sphere-Mjcwyyl8f5A",
+        "vr-sphere-NYUd6NzRaRI",
+        "vr-sphere-NsJIgWZgC6E",
+        "vr-sphere-O-_AwgYxUW0",
+        "vr-sphere-PDHu0qnkgu8",
+        "vr-sphere-RGgBIhbMRNY",
+        "vr-sphere-V9XkVyuTMN0",
+        "vr-sphere-cBrdU5aDyD8",
+        "vr-sphere-fazxJmEAawQ",
+        "vr-sphere-sudMIz4Cyrc",
+        "vr-sphere-191886956",
+        "vr-sphere-207461532",
+        "vr-sphere-207467399",
+        "vr-sphere-207638532",
+        "vr-sphere-208364455",
+        "vr-sphere-208366140",
+        "vr-sphere-209302878",
+        "vr-sphere-209522681",
+        "vr-sphere-210548909",
+        "vr-sphere-210724422",
+        "vr-sphere-210736479",
+        "vr-sphere-211393776",
+        "vr-sphere-211468747",
+        "vr-sphere-211505552",
+        "vr-sphere-211538492",
+        "vr-sphere-211557912",
+        "vr-sphere-213981241",
+        "vr-sphere-214177421",
+        "vr-sphere-215351114",
+        "vr-sphere-215517145",
+        "vr-sphere-217690165",
+        "vr-sphere-219132018",
+        "vr-sphere-225639704",
+        "vr-sphere-225992594",
+        "vr-sphere-228852047",
+        "vr-sphere-229932318",
+        "vr-sphere-230694231",
+        "vr-sphere-235470710",
+        "vr-sphere-236198016",
+        "vr-sphere-236936197",
+        "vr-sphere-237260048",
+        "vr-sphere-237462461",
+        "vr-sphere-240682116",
+        "vr-sphere-242512165",
+        "vr-sphere-245521169",
+        "vr-sphere-246950003",
+        "vr-sphere-250010484",
+        "vr-sphere-257145010",
+        "vr-sphere-259085942",
+        "vr-sphere-259210066",
+        "vr-sphere-259524135",
+        "vr-sphere-260913612",
+        "vr-sphere-261558222"
+      ]
+    }
+  ],
+  "polygonSources": 32,
+  "distinctVideoSources": 256,
+  "videoSourceFrames": 9
+}

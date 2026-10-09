@@ -1,0 +1,114 @@
+{
+  "louvre": {
+    "bbox": [
+      2.3305,
+      48.8585,
+      2.3395,
+      48.8635
+    ],
+    "url": "https://api.openstreetmap.org/api/0.6/map?bbox=2.3305,48.8585,2.3395,48.8635",
+    "originalSnapshotSHA256": "5377fe611275243d146ac7408275bbc303cf08afe638b5ecc338f095efd46861",
+    "subsetSHA256": "fb5c84f0de415a69d6b2a2f05428e41d5e58b156da6f6253f96ba58013cf44c7",
+    "license": "ODbL-1.0",
+    "retrieved": "2026-10-08",
+    "filter": "Building/building:part/highway way centroids inside bbox; referenced nodes and source tags retained; no relations or other feature classes."
+  },
+  "venice": {
+    "bbox": [
+      12.329,
+      45.43,
+      12.342,
+      45.438
+    ],
+    "url": "https://api.openstreetmap.org/api/0.6/map?bbox=12.329,45.43,12.342,45.438",
+    "originalSnapshotSHA256": "cc29e859247478a1f3ba0fa10d888fd564707df66a275b7a01f7726550eab46f",
+    "subsetSHA256": "3fb0ba61759ed77f48480cc1bacbe3f05d83084210a2bb0ee41d795872f9762c",
+    "license": "ODbL-1.0",
+    "retrieved": "2026-10-08",
+    "filter": "Building/building:part/highway way centroids inside bbox; referenced nodes and source tags retained; no relations or other feature classes."
+  },
+  "prague": {
+    "bbox": [
+      14.416,
+      50.083,
+      14.426,
+      50.09
+    ],
+    "url": "https://api.openstreetmap.org/api/0.6/map?bbox=14.416,50.083,14.426,50.09",
+    "originalSnapshotSHA256": "5a90d90ffee206a942ee44296cfcec282abbd6afa551a9e6b7ae27fd6dce9566",
+    "subsetSHA256": "5d047281ad1ab19686e4edf6025cc4df4a1b6b77e9990b540a850b8dad01ea55",
+    "license": "ODbL-1.0",
+    "retrieved": "2026-10-08",
+    "filter": "Building/building:part/highway way centroids inside bbox; referenced nodes and source tags retained; no relations or other feature classes."
+  },
+  "rome": {
+    "bbox": [
+      12.47,
+      41.895,
+      12.48,
+      41.903
+    ],
+    "url": "https://api.openstreetmap.org/api/0.6/map?bbox=12.47,41.895,12.48,41.903",
+    "originalSnapshotSHA256": "96e8962f1c75c62483bf11fde95a2392c506d7743f6c1263c19b1809d9ddecb1",
+    "subsetSHA256": "d98ae58de21b6f03a08dcd740ba73ac4590f3af9f2b910d9bcadc69dfdd17de4",
+    "license": "ODbL-1.0",
+    "retrieved": "2026-10-08",
+    "filter": "Building/building:part/highway way centroids inside bbox; referenced nodes and source tags retained; no relations or other feature classes."
+  },
+  "barcelona": {
+    "bbox": [
+      2.171,
+      41.38,
+      2.181,
+      41.387
+    ],
+    "url": "https://api.openstreetmap.org/api/0.6/map?bbox=2.171,41.38,2.181,41.387",
+    "originalSnapshotSHA256": "4faef95ae1d1563cd5358c946255b713578bb2230b5855f087c4342d41571e42",
+    "subsetSHA256": "399939ef74f50ec036847b3c569116ce68cae9aa5ea5d2a2ebcda4011eec67f3",
+    "license": "ODbL-1.0",
+    "retrieved": "2026-10-08",
+    "filter": "Building/building:part/highway way centroids inside bbox; referenced nodes and source tags retained; no relations or other feature classes."
+  },
+  "kyoto": {
+    "bbox": [
+      135.775,
+      35,
+      135.784,
+      35.008
+    ],
+    "url": "https://api.openstreetmap.org/api/0.6/map?bbox=135.775,35,135.784,35.008",
+    "originalSnapshotSHA256": "fd6723fa6b9015a5b0dff517c4af2e752718e33724ad567f12a1b2e939bf1c26",
+    "subsetSHA256": "da1022c2d24ccd8b4e423ad864ba7cfffaf368d8e38c721ba3cde6f780342bed",
+    "license": "ODbL-1.0",
+    "retrieved": "2026-10-08",
+    "filter": "Building/building:part/highway way centroids inside bbox; referenced nodes and source tags retained; no relations or other feature classes."
+  },
+  "westminster": {
+    "bbox": [
+      -0.135,
+      51.497,
+      -0.119,
+      51.504
+    ],
+    "url": "https://api.openstreetmap.org/api/0.6/map?bbox=-0.135,51.497,-0.119,51.504",
+    "originalSnapshotSHA256": "31d4aaf40bc3fee896c18aace52ce425ec969c450429a03756d3ad49b967dc00",
+    "subsetSHA256": "84e8d99067183fef5ee3d167d7bdcdbcc642a0b2d474c1898f7c75c53de86bef",
+    "license": "ODbL-1.0",
+    "retrieved": "2026-10-08",
+    "filter": "Building/building:part/highway way centroids inside bbox; referenced nodes and source tags retained; no relations or other feature classes."
+  },
+  "manhattan": {
+    "bbox": [
+      -74.01,
+      40.705,
+      -73.999,
+      40.713
+    ],
+    "url": "https://api.openstreetmap.org/api/0.6/map?bbox=-74.01,40.705,-73.999,40.713",
+    "originalSnapshotSHA256": "5913148d6441d26ccbca1cc66d825c70286d6026310f46d1d8f1bdeb336c1439",
+    "subsetSHA256": "24509b4aab32b35971ce55c2c6be02f7d9cbf20b81004afc82d88439d3ff5243",
+    "license": "ODbL-1.0",
+    "retrieved": "2026-10-08",
+    "filter": "Building/building:part/highway way centroids inside bbox; referenced nodes and source tags retained; no relations or other feature classes."
+  }
+}

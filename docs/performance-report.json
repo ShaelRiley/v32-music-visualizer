@@ -15,8 +15,8 @@
       ],
       "samples": 60,
       "frameIntervalMedianMs": 50.099999999999454,
-      "frameIntervalP95Ms": 116.59999999999945,
-      "maxMs": 116.69999999999982,
+      "frameIntervalP95Ms": 66.70000000000073,
+      "maxMs": 83.40000000000055,
       "intervalsOver16_7ms": 60,
       "intervalsOver33_3ms": 60
     },
@@ -32,7 +32,7 @@
       "samples": 60,
       "frameIntervalMedianMs": 133.40000000000146,
       "frameIntervalP95Ms": 200,
-      "maxMs": 216.70000000000073,
+      "maxMs": 216.6999999999989,
       "intervalsOver16_7ms": 60,
       "intervalsOver33_3ms": 60
     },
@@ -46,9 +46,9 @@
         720
       ],
       "samples": 60,
-      "frameIntervalMedianMs": 166.8000000000029,
-      "frameIntervalP95Ms": 266.7000000000007,
-      "maxMs": 350,
+      "frameIntervalMedianMs": 316.7000000000007,
+      "frameIntervalP95Ms": 366.7000000000007,
+      "maxMs": 366.70000000000437,
       "intervalsOver16_7ms": 60,
       "intervalsOver33_3ms": 60
     }
@@ -56,12 +56,12 @@
   "transitions": {
     "samples": 64,
     "method": "scene replacement plus first rendered frame and synchronous readback",
-    "medianMs": 51.899999998509884,
-    "p95Ms": 77.80000000074506,
-    "maxMs": 96.60000000149012,
-    "maxTrackedLayerResources": 30,
+    "medianMs": 90.60000000149012,
+    "p95Ms": 103.29999999701977,
+    "maxMs": 106,
+    "maxTrackedLayerResources": 27,
     "resourcesMatchLayerBound": true,
-    "finalTrackedLayerResources": 25
+    "finalTrackedLayerResources": 22
   },
   "target60fpsVerified": false
 }

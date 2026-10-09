@@ -1,0 +1,25 @@
+UGC360 Dataset (CC BY-SA 4.0)
+Andy Regensky, Marc Windsheimer, Fabian Brand and André Kaup
+Beyond Perspective: Neural 360-Degree Video Compression, ICCV 2025
+https://huggingface.co/datasets/FAU-LMS/UGC360
+Pinned dataset revision: 99f74d256df961695968f6f39d58e1b004ce0a59
+
+Selected original videos are CC BY, CC BY-SA or CC0 according to the
+per-clip UGC360 metadata. No ND or NC source was selected. The metadata
+records licence families; it does not specify each original licence version.
+Original video URLs, available creator names, source frame SHA-256 values,
+publication dates and the dataset CSV are retained. Where current platform
+metadata is unavailable, attribution uses the source link and all information
+supplied by UGC360. Individual sources remain subject to their original licences.
+
+Changes by Video32 / Shael Riley, 2026:
+Nine consecutive source frames reduced to spherical studies. One 180-degree
+hemisphere selected for visible content. Each local image patch is matched
+against the unchanged 32 canonical 8x16 glyph masks; colors are RGB565.
+Slow forward/reverse playback, viewing sweeps and musical geometric bending
+are added. No audio, full-length movie or reconstructed depth is included.
+
+The bundled image data, derived glyph fabrics and associated video metadata
+are offered under Creative Commons Attribution-ShareAlike 4.0 International.
+https://creativecommons.org/licenses/by-sa/4.0/
+This licence does not replace the separate MIT licence of the renderer code.

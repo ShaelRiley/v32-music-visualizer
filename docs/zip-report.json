@@ -1,0 +1,10 @@
+{
+  "file": "dist/Video32-Chrome-Extension.zip",
+  "bytes": 31291422,
+  "entries": 121,
+  "sha256": "d094c84bf90b903c9686311faa47da9bb0eb474d4b2214a31720af16f5a12d69",
+  "allCRCsValid": true,
+  "allEntryBytesMatchUnpackedBuild": true,
+  "runtimeExcludesDevelopmentFiles": true,
+  "version": "0.2.0"
+}

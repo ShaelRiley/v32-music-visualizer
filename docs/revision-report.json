@@ -1,0 +1,2355 @@
+{
+  "version": "0.2.0",
+  "environment": "Chromium 151.0.7922.34; software SwiftShader; synthetic features, no physical listening or GPU test",
+  "errors": [],
+  "framing": [
+    {
+      "id": "ribbon-01",
+      "pixels": 0.13625434027777777,
+      "tiles": 0.5347222222222222,
+      "glError": 0,
+      "baselineTiles": 0.2569444444444444
+    },
+    {
+      "id": "torus-01",
+      "pixels": 0.1974262152777778,
+      "tiles": 0.5833333333333334,
+      "glError": 0,
+      "baselineTiles": 0.19444444444444445
+    },
+    {
+      "id": "shell-01",
+      "pixels": 0.11390625,
+      "tiles": 0.4305555555555556,
+      "glError": 0,
+      "baselineTiles": 0.2013888888888889
+    },
+    {
+      "id": "helix-01",
+      "pixels": 0.18601128472222223,
+      "tiles": 0.7361111111111112,
+      "glError": 0,
+      "baselineTiles": 0.20833333333333334
+    },
+    {
+      "id": "wave-01",
+      "pixels": 0.055716145833333335,
+      "tiles": 0.5,
+      "glError": 0,
+      "baselineTiles": 0.375
+    },
+    {
+      "id": "gyroid-01",
+      "pixels": 0.07963541666666667,
+      "tiles": 0.6319444444444444,
+      "glError": 0,
+      "baselineTiles": 0.3611111111111111
+    },
+    {
+      "id": "knot-01",
+      "pixels": 0.17327690972222223,
+      "tiles": 0.5416666666666666,
+      "glError": 0,
+      "baselineTiles": 0.1388888888888889
+    },
+    {
+      "id": "branch-01",
+      "pixels": 0.06432725694444444,
+      "tiles": 0.4583333333333333,
+      "glError": 0,
+      "baselineTiles": 0.2986111111111111
+    },
+    {
+      "id": "cell-01",
+      "pixels": 0.179765625,
+      "tiles": 0.5486111111111112,
+      "glError": 0,
+      "baselineTiles": 0.16666666666666666
+    },
+    {
+      "id": "spiral-01",
+      "pixels": 0.1496267361111111,
+      "tiles": 0.4652777777777778,
+      "glError": 0,
+      "baselineTiles": 0.1875
+    },
+    {
+      "id": "cone-01",
+      "pixels": 0.1609201388888889,
+      "tiles": 0.5486111111111112,
+      "glError": 0,
+      "baselineTiles": 0.1597222222222222
+    },
+    {
+      "id": "saddle-01",
+      "pixels": 0.10881076388888888,
+      "tiles": 0.4305555555555556,
+      "glError": 0,
+      "baselineTiles": 0.22916666666666666
+    },
+    {
+      "id": "catenoid-01",
+      "pixels": 0.14745225694444444,
+      "tiles": 0.5347222222222222,
+      "glError": 0,
+      "baselineTiles": 0.25
+    },
+    {
+      "id": "mobius-01",
+      "pixels": 0.19652777777777777,
+      "tiles": 0.5625,
+      "glError": 0,
+      "baselineTiles": 0.1388888888888889
+    },
+    {
+      "id": "klein-01",
+      "pixels": 0.18790364583333333,
+      "tiles": 0.4166666666666667,
+      "glError": 0,
+      "baselineTiles": 0.1111111111111111
+    },
+    {
+      "id": "superquadric-01",
+      "pixels": 0.11866753472222222,
+      "tiles": 0.4791666666666667,
+      "glError": 0,
+      "baselineTiles": 0.25
+    },
+    {
+      "id": "rosette-01",
+      "pixels": 0.2594140625,
+      "tiles": 0.6458333333333334,
+      "glError": 0,
+      "baselineTiles": 0.125
+    },
+    {
+      "id": "lattice-01",
+      "pixels": 0.13088107638888888,
+      "tiles": 0.6111111111111112,
+      "glError": 0,
+      "baselineTiles": 0.2777777777777778
+    },
+    {
+      "id": "vortex-01",
+      "pixels": 0.20444010416666666,
+      "tiles": 0.5416666666666666,
+      "glError": 0,
+      "baselineTiles": 0.22916666666666666
+    },
+    {
+      "id": "strata-01",
+      "pixels": 0.10595486111111112,
+      "tiles": 0.5694444444444444,
+      "glError": 0,
+      "baselineTiles": 0.3125
+    },
+    {
+      "id": "iris-01",
+      "pixels": 0.15328125,
+      "tiles": 0.4375,
+      "glError": 0,
+      "baselineTiles": 0.13194444444444445
+    },
+    {
+      "id": "coral-01",
+      "pixels": 0.0385546875,
+      "tiles": 0.4236111111111111,
+      "glError": 0,
+      "baselineTiles": 0.4097222222222222
+    },
+    {
+      "id": "lens-01",
+      "pixels": 0.1267578125,
+      "tiles": 0.4930555555555556,
+      "glError": 0,
+      "baselineTiles": 0.2569444444444444
+    },
+    {
+      "id": "hourglass-01",
+      "pixels": 0.14845920138888888,
+      "tiles": 0.5277777777777778,
+      "glError": 0,
+      "baselineTiles": 0.25
+    },
+    {
+      "id": "tesseract-01",
+      "pixels": 0.06917534722222222,
+      "tiles": 0.5347222222222222,
+      "glError": 0,
+      "baselineTiles": 0.4375
+    },
+    {
+      "id": "crystal-01",
+      "pixels": 0.14360677083333334,
+      "tiles": 0.4166666666666667,
+      "glError": 0,
+      "baselineTiles": 0.1527777777777778
+    },
+    {
+      "id": "scroll-01",
+      "pixels": 0.26706163194444443,
+      "tiles": 0.9097222222222222,
+      "glError": 0,
+      "baselineTiles": 0.3125
+    },
+    {
+      "id": "wavefront-01",
+      "pixels": 0.19033854166666667,
+      "tiles": 0.6805555555555556,
+      "glError": 0,
+      "baselineTiles": 0.1388888888888889
+    },
+    {
+      "id": "braid-01",
+      "pixels": 0.22186197916666667,
+      "tiles": 0.7916666666666666,
+      "glError": 0,
+      "baselineTiles": 0.2013888888888889
+    },
+    {
+      "id": "arch-01",
+      "pixels": 0.337734375,
+      "tiles": 0.8888888888888888,
+      "glError": 0,
+      "baselineTiles": 0.10416666666666667
+    },
+    {
+      "id": "reaction-01",
+      "pixels": 0.12833333333333333,
+      "tiles": 0.6805555555555556,
+      "glError": 0,
+      "baselineTiles": 0.19444444444444445
+    },
+    {
+      "id": "weft-01",
+      "pixels": 0.09842447916666666,
+      "tiles": 0.5763888888888888,
+      "glError": 0,
+      "baselineTiles": 0.2916666666666667
+    }
+  ],
+  "motion": [
+    {
+      "id": "ribbon-01",
+      "samples": 256,
+      "movedShare": 0.99609375,
+      "meanDisplacement": 0.20609494504262693,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "ribbon-02",
+      "samples": 384,
+      "movedShare": 1,
+      "meanDisplacement": 0.24012140263730633,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "ribbon-03",
+      "samples": 384,
+      "movedShare": 1,
+      "meanDisplacement": 0.29284369323977716,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "ribbon-04",
+      "samples": 256,
+      "movedShare": 1,
+      "meanDisplacement": 0.313282819728446,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "ribbon-05",
+      "samples": 256,
+      "movedShare": 1,
+      "meanDisplacement": 0.2634642487351129,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "ribbon-06",
+      "samples": 177,
+      "movedShare": 1,
+      "meanDisplacement": 0.19943523747355596,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "ribbon-07",
+      "samples": 384,
+      "movedShare": 1,
+      "meanDisplacement": 0.25988818865788577,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "ribbon-08",
+      "samples": 384,
+      "movedShare": 1,
+      "meanDisplacement": 0.2160597545905224,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "torus-01",
+      "samples": 256,
+      "movedShare": 1,
+      "meanDisplacement": 0.2324776214958563,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "torus-02",
+      "samples": 384,
+      "movedShare": 1,
+      "meanDisplacement": 0.20346665765889893,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "torus-03",
+      "samples": 384,
+      "movedShare": 1,
+      "meanDisplacement": 0.25331054860546365,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "torus-04",
+      "samples": 256,
+      "movedShare": 1,
+      "meanDisplacement": 0.2512196989162376,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "torus-05",
+      "samples": 256,
+      "movedShare": 1,
+      "meanDisplacement": 0.1982576098103951,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "torus-06",
+      "samples": 251,
+      "movedShare": 1,
+      "meanDisplacement": 0.22180444769931074,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "torus-07",
+      "samples": 384,
+      "movedShare": 1,
+      "meanDisplacement": 0.23022408383831572,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "torus-08",
+      "samples": 384,
+      "movedShare": 1,
+      "meanDisplacement": 0.3081534683995247,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "shell-01",
+      "samples": 256,
+      "movedShare": 1,
+      "meanDisplacement": 0.2293165746640927,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "shell-02",
+      "samples": 384,
+      "movedShare": 1,
+      "meanDisplacement": 0.2238742704052068,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "shell-03",
+      "samples": 384,
+      "movedShare": 1,
+      "meanDisplacement": 0.21322785616809134,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "shell-04",
+      "samples": 256,
+      "movedShare": 1,
+      "meanDisplacement": 0.35814935802376124,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "shell-05",
+      "samples": 256,
+      "movedShare": 1,
+      "meanDisplacement": 0.24917525980986857,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "shell-06",
+      "samples": 256,
+      "movedShare": 1,
+      "meanDisplacement": 0.21901707376507118,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "shell-07",
+      "samples": 384,
+      "movedShare": 1,
+      "meanDisplacement": 0.26432520496055234,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "shell-08",
+      "samples": 384,
+      "movedShare": 1,
+      "meanDisplacement": 0.2951142405024782,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "helix-01",
+      "samples": 256,
+      "movedShare": 1,
+      "meanDisplacement": 0.2762093926362193,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "helix-02",
+      "samples": 384,
+      "movedShare": 1,
+      "meanDisplacement": 0.27337950166564534,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "helix-03",
+      "samples": 384,
+      "movedShare": 1,
+      "meanDisplacement": 0.3254147759066945,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "helix-04",
+      "samples": 256,
+      "movedShare": 1,
+      "meanDisplacement": 0.23357172076537222,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "helix-05",
+      "samples": 256,
+      "movedShare": 1,
+      "meanDisplacement": 0.24947832667170527,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "helix-06",
+      "samples": 255,
+      "movedShare": 1,
+      "meanDisplacement": 0.22126298404261083,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "helix-07",
+      "samples": 384,
+      "movedShare": 1,
+      "meanDisplacement": 0.22227308752776218,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "helix-08",
+      "samples": 384,
+      "movedShare": 1,
+      "meanDisplacement": 0.2687794481628066,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "wave-01",
+      "samples": 256,
+      "movedShare": 1,
+      "meanDisplacement": 0.298263492563064,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "wave-02",
+      "samples": 384,
+      "movedShare": 0.9973958333333334,
+      "meanDisplacement": 0.2674551775235512,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "wave-03",
+      "samples": 384,
+      "movedShare": 1,
+      "meanDisplacement": 0.30357002205407607,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "wave-04",
+      "samples": 256,
+      "movedShare": 1,
+      "meanDisplacement": 0.2818471923216865,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "wave-05",
+      "samples": 256,
+      "movedShare": 1,
+      "meanDisplacement": 0.25351802236983506,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "wave-06",
+      "samples": 253,
+      "movedShare": 1,
+      "meanDisplacement": 0.22350185777651219,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "wave-07",
+      "samples": 384,
+      "movedShare": 1,
+      "meanDisplacement": 0.2834107638026191,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "wave-08",
+      "samples": 384,
+      "movedShare": 1,
+      "meanDisplacement": 0.2815961253810703,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "gyroid-01",
+      "samples": 256,
+      "movedShare": 1,
+      "meanDisplacement": 0.2249544451065664,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "gyroid-02",
+      "samples": 384,
+      "movedShare": 1,
+      "meanDisplacement": 0.301552762909701,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "gyroid-03",
+      "samples": 384,
+      "movedShare": 1,
+      "meanDisplacement": 0.3178527355007759,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "gyroid-04",
+      "samples": 256,
+      "movedShare": 1,
+      "meanDisplacement": 0.31634546991736445,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "gyroid-05",
+      "samples": 256,
+      "movedShare": 1,
+      "meanDisplacement": 0.23899218839157865,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "gyroid-06",
+      "samples": 252,
+      "movedShare": 1,
+      "meanDisplacement": 0.216408663267485,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "gyroid-07",
+      "samples": 384,
+      "movedShare": 1,
+      "meanDisplacement": 0.18830472469701634,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "gyroid-08",
+      "samples": 384,
+      "movedShare": 1,
+      "meanDisplacement": 0.42849564015859637,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "knot-01",
+      "samples": 256,
+      "movedShare": 1,
+      "meanDisplacement": 0.19877398345372485,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "knot-02",
+      "samples": 384,
+      "movedShare": 1,
+      "meanDisplacement": 0.20723164421387072,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "knot-03",
+      "samples": 384,
+      "movedShare": 1,
+      "meanDisplacement": 0.3406935726610026,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "knot-04",
+      "samples": 256,
+      "movedShare": 1,
+      "meanDisplacement": 0.21972786248902676,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "knot-05",
+      "samples": 256,
+      "movedShare": 1,
+      "meanDisplacement": 0.24325968667327236,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "knot-06",
+      "samples": 249,
+      "movedShare": 1,
+      "meanDisplacement": 0.20089600613412412,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "knot-07",
+      "samples": 384,
+      "movedShare": 1,
+      "meanDisplacement": 0.29857256077858524,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "knot-08",
+      "samples": 384,
+      "movedShare": 1,
+      "meanDisplacement": 0.2677027619603098,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "branch-01",
+      "samples": 256,
+      "movedShare": 1,
+      "meanDisplacement": 0.26504259993191337,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "branch-02",
+      "samples": 384,
+      "movedShare": 1,
+      "meanDisplacement": 0.24272389374587777,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "branch-03",
+      "samples": 384,
+      "movedShare": 1,
+      "meanDisplacement": 0.32111003768904306,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "branch-04",
+      "samples": 256,
+      "movedShare": 0.99609375,
+      "meanDisplacement": 0.2596671649016362,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "branch-05",
+      "samples": 256,
+      "movedShare": 1,
+      "meanDisplacement": 0.1915742669648461,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "branch-06",
+      "samples": 255,
+      "movedShare": 1,
+      "meanDisplacement": 0.22513251701204687,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "branch-07",
+      "samples": 384,
+      "movedShare": 1,
+      "meanDisplacement": 0.23481100112040332,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "branch-08",
+      "samples": 384,
+      "movedShare": 1,
+      "meanDisplacement": 0.4590017876891676,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "cell-01",
+      "samples": 256,
+      "movedShare": 0.99609375,
+      "meanDisplacement": 0.2107016819782334,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "cell-02",
+      "samples": 384,
+      "movedShare": 1,
+      "meanDisplacement": 0.19640449043909272,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "cell-03",
+      "samples": 384,
+      "movedShare": 1,
+      "meanDisplacement": 0.32755618679923415,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "cell-04",
+      "samples": 256,
+      "movedShare": 1,
+      "meanDisplacement": 0.2623956061170039,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "cell-05",
+      "samples": 256,
+      "movedShare": 1,
+      "meanDisplacement": 0.19905258361670178,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "cell-06",
+      "samples": 249,
+      "movedShare": 1,
+      "meanDisplacement": 0.18661612367342545,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "cell-07",
+      "samples": 384,
+      "movedShare": 1,
+      "meanDisplacement": 0.2204259444510799,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "cell-08",
+      "samples": 384,
+      "movedShare": 1,
+      "meanDisplacement": 0.39073653076597026,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "spiral-01",
+      "samples": 256,
+      "movedShare": 1,
+      "meanDisplacement": 0.2059884842997514,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "spiral-02",
+      "samples": 384,
+      "movedShare": 1,
+      "meanDisplacement": 0.31679217060268994,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "spiral-03",
+      "samples": 384,
+      "movedShare": 1,
+      "meanDisplacement": 0.33010014963654327,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "spiral-04",
+      "samples": 256,
+      "movedShare": 1,
+      "meanDisplacement": 0.20109802292772316,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "spiral-05",
+      "samples": 256,
+      "movedShare": 1,
+      "meanDisplacement": 0.24915739651179655,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "spiral-06",
+      "samples": 250,
+      "movedShare": 1,
+      "meanDisplacement": 0.20834874536666778,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "spiral-07",
+      "samples": 384,
+      "movedShare": 0.9973958333333334,
+      "meanDisplacement": 0.24807114293524155,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "spiral-08",
+      "samples": 384,
+      "movedShare": 1,
+      "meanDisplacement": 0.27183175346249416,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "cone-01",
+      "samples": 256,
+      "movedShare": 1,
+      "meanDisplacement": 0.24822923386885334,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "cone-02",
+      "samples": 384,
+      "movedShare": 1,
+      "meanDisplacement": 0.24109269818362933,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "cone-03",
+      "samples": 384,
+      "movedShare": 1,
+      "meanDisplacement": 0.31862164934041237,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "cone-04",
+      "samples": 256,
+      "movedShare": 1,
+      "meanDisplacement": 0.2636881461513834,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "cone-05",
+      "samples": 256,
+      "movedShare": 1,
+      "meanDisplacement": 0.20826318543364844,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "cone-06",
+      "samples": 253,
+      "movedShare": 1,
+      "meanDisplacement": 0.21814886606443679,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "cone-07",
+      "samples": 384,
+      "movedShare": 0.9973958333333334,
+      "meanDisplacement": 0.3239989386264096,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "cone-08",
+      "samples": 384,
+      "movedShare": 1,
+      "meanDisplacement": 0.2504343072722215,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "saddle-01",
+      "samples": 256,
+      "movedShare": 1,
+      "meanDisplacement": 0.2545115461057851,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "saddle-02",
+      "samples": 384,
+      "movedShare": 0.9973958333333334,
+      "meanDisplacement": 0.2341277549909563,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "saddle-03",
+      "samples": 384,
+      "movedShare": 1,
+      "meanDisplacement": 0.33526276182364406,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "saddle-04",
+      "samples": 256,
+      "movedShare": 1,
+      "meanDisplacement": 0.43005187795095756,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "saddle-05",
+      "samples": 256,
+      "movedShare": 1,
+      "meanDisplacement": 0.19314847406855767,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "saddle-06",
+      "samples": 254,
+      "movedShare": 1,
+      "meanDisplacement": 0.20578430208291038,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "saddle-07",
+      "samples": 384,
+      "movedShare": 1,
+      "meanDisplacement": 0.20599310966088544,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "saddle-08",
+      "samples": 384,
+      "movedShare": 1,
+      "meanDisplacement": 0.18207782319843943,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "catenoid-01",
+      "samples": 256,
+      "movedShare": 1,
+      "meanDisplacement": 0.21742016338938494,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "catenoid-02",
+      "samples": 384,
+      "movedShare": 1,
+      "meanDisplacement": 0.22348365113250304,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "catenoid-03",
+      "samples": 384,
+      "movedShare": 1,
+      "meanDisplacement": 0.33130815633589084,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "catenoid-04",
+      "samples": 256,
+      "movedShare": 0.99609375,
+      "meanDisplacement": 0.26778780610544206,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "catenoid-05",
+      "samples": 256,
+      "movedShare": 1,
+      "meanDisplacement": 0.1916443191458743,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "catenoid-06",
+      "samples": 230,
+      "movedShare": 1,
+      "meanDisplacement": 0.23958085555225983,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "catenoid-07",
+      "samples": 384,
+      "movedShare": 1,
+      "meanDisplacement": 0.2756548390786299,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "catenoid-08",
+      "samples": 384,
+      "movedShare": 1,
+      "meanDisplacement": 0.33805620904875067,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "mobius-01",
+      "samples": 256,
+      "movedShare": 1,
+      "meanDisplacement": 0.21747494815152513,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "mobius-02",
+      "samples": 384,
+      "movedShare": 1,
+      "meanDisplacement": 0.25857936412030114,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "mobius-03",
+      "samples": 384,
+      "movedShare": 1,
+      "meanDisplacement": 0.32224307713046113,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "mobius-04",
+      "samples": 256,
+      "movedShare": 1,
+      "meanDisplacement": 0.2312369245725098,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "mobius-05",
+      "samples": 256,
+      "movedShare": 1,
+      "meanDisplacement": 0.23205578864065787,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "mobius-06",
+      "samples": 188,
+      "movedShare": 1,
+      "meanDisplacement": 0.20159139942835086,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "mobius-07",
+      "samples": 384,
+      "movedShare": 1,
+      "meanDisplacement": 0.2808321986630092,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "mobius-08",
+      "samples": 384,
+      "movedShare": 1,
+      "meanDisplacement": 0.31925292045350834,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "klein-01",
+      "samples": 256,
+      "movedShare": 1,
+      "meanDisplacement": 0.20507364666172453,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "klein-02",
+      "samples": 384,
+      "movedShare": 1,
+      "meanDisplacement": 0.2520327386218987,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "klein-03",
+      "samples": 384,
+      "movedShare": 1,
+      "meanDisplacement": 0.3332885305308885,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "klein-04",
+      "samples": 256,
+      "movedShare": 1,
+      "meanDisplacement": 0.2359835749179022,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "klein-05",
+      "samples": 256,
+      "movedShare": 1,
+      "meanDisplacement": 0.18610399701090144,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "klein-06",
+      "samples": 225,
+      "movedShare": 1,
+      "meanDisplacement": 0.20299964272116405,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "klein-07",
+      "samples": 384,
+      "movedShare": 1,
+      "meanDisplacement": 0.250568496262525,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "klein-08",
+      "samples": 384,
+      "movedShare": 1,
+      "meanDisplacement": 0.3102598357630945,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "superquadric-01",
+      "samples": 256,
+      "movedShare": 0.99609375,
+      "meanDisplacement": 0.21492183160629424,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "superquadric-02",
+      "samples": 384,
+      "movedShare": 1,
+      "meanDisplacement": 0.21135138491553582,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "superquadric-03",
+      "samples": 384,
+      "movedShare": 1,
+      "meanDisplacement": 0.3231290101029069,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "superquadric-04",
+      "samples": 256,
+      "movedShare": 1,
+      "meanDisplacement": 0.3163172671619474,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "superquadric-05",
+      "samples": 256,
+      "movedShare": 1,
+      "meanDisplacement": 0.24971828501577162,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "superquadric-06",
+      "samples": 255,
+      "movedShare": 1,
+      "meanDisplacement": 0.19357919009734736,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "superquadric-07",
+      "samples": 384,
+      "movedShare": 1,
+      "meanDisplacement": 0.3297163719599783,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "superquadric-08",
+      "samples": 384,
+      "movedShare": 1,
+      "meanDisplacement": 0.28152696099676416,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "rosette-01",
+      "samples": 256,
+      "movedShare": 1,
+      "meanDisplacement": 0.2012222943640279,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "rosette-02",
+      "samples": 384,
+      "movedShare": 1,
+      "meanDisplacement": 0.31023379618988983,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "rosette-03",
+      "samples": 384,
+      "movedShare": 1,
+      "meanDisplacement": 0.3227393653552267,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "rosette-04",
+      "samples": 256,
+      "movedShare": 1,
+      "meanDisplacement": 0.26041332148521995,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "rosette-05",
+      "samples": 256,
+      "movedShare": 1,
+      "meanDisplacement": 0.2096302689757376,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "rosette-06",
+      "samples": 181,
+      "movedShare": 1,
+      "meanDisplacement": 0.19185764048662546,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "rosette-07",
+      "samples": 384,
+      "movedShare": 1,
+      "meanDisplacement": 0.25092825652327977,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "rosette-08",
+      "samples": 384,
+      "movedShare": 1,
+      "meanDisplacement": 0.19108532911774845,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "lattice-01",
+      "samples": 256,
+      "movedShare": 1,
+      "meanDisplacement": 0.21722406435503266,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "lattice-02",
+      "samples": 384,
+      "movedShare": 1,
+      "meanDisplacement": 0.3869136056750027,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "lattice-03",
+      "samples": 384,
+      "movedShare": 1,
+      "meanDisplacement": 0.3450108943272798,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "lattice-04",
+      "samples": 256,
+      "movedShare": 0.99609375,
+      "meanDisplacement": 0.27447540621047284,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "lattice-05",
+      "samples": 256,
+      "movedShare": 1,
+      "meanDisplacement": 0.24146845168488673,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "lattice-06",
+      "samples": 252,
+      "movedShare": 1,
+      "meanDisplacement": 0.1957211951136518,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "lattice-07",
+      "samples": 384,
+      "movedShare": 1,
+      "meanDisplacement": 0.26222852645128086,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "lattice-08",
+      "samples": 384,
+      "movedShare": 1,
+      "meanDisplacement": 0.2344962121993445,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "vortex-01",
+      "samples": 256,
+      "movedShare": 1,
+      "meanDisplacement": 0.19994902376616666,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "vortex-02",
+      "samples": 384,
+      "movedShare": 1,
+      "meanDisplacement": 0.22316093798837391,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "vortex-03",
+      "samples": 384,
+      "movedShare": 1,
+      "meanDisplacement": 0.3135037884230997,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "vortex-04",
+      "samples": 256,
+      "movedShare": 1,
+      "meanDisplacement": 0.2368363842258583,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "vortex-05",
+      "samples": 256,
+      "movedShare": 1,
+      "meanDisplacement": 0.21748068031950984,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "vortex-06",
+      "samples": 252,
+      "movedShare": 1,
+      "meanDisplacement": 0.19650181783739043,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "vortex-07",
+      "samples": 384,
+      "movedShare": 1,
+      "meanDisplacement": 0.21043606333604958,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "vortex-08",
+      "samples": 384,
+      "movedShare": 1,
+      "meanDisplacement": 0.22794947294054949,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "strata-01",
+      "samples": 256,
+      "movedShare": 1,
+      "meanDisplacement": 0.2406763393545654,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "strata-02",
+      "samples": 384,
+      "movedShare": 0.9973958333333334,
+      "meanDisplacement": 0.2148507846427166,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "strata-03",
+      "samples": 384,
+      "movedShare": 1,
+      "meanDisplacement": 0.31608629226106727,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "strata-04",
+      "samples": 256,
+      "movedShare": 0.99609375,
+      "meanDisplacement": 0.32620761249301,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "strata-05",
+      "samples": 256,
+      "movedShare": 1,
+      "meanDisplacement": 0.237783738678239,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "strata-06",
+      "samples": 248,
+      "movedShare": 1,
+      "meanDisplacement": 0.20299466098802219,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "strata-07",
+      "samples": 384,
+      "movedShare": 1,
+      "meanDisplacement": 0.20840538736507866,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "strata-08",
+      "samples": 384,
+      "movedShare": 1,
+      "meanDisplacement": 0.29409843349512793,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "iris-01",
+      "samples": 256,
+      "movedShare": 1,
+      "meanDisplacement": 0.2148387778872442,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "iris-02",
+      "samples": 384,
+      "movedShare": 1,
+      "meanDisplacement": 0.24163215506177074,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "iris-03",
+      "samples": 384,
+      "movedShare": 1,
+      "meanDisplacement": 0.32960600223459663,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "iris-04",
+      "samples": 256,
+      "movedShare": 1,
+      "meanDisplacement": 0.27886762733542064,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "iris-05",
+      "samples": 256,
+      "movedShare": 1,
+      "meanDisplacement": 0.23954267357007542,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "iris-06",
+      "samples": 250,
+      "movedShare": 1,
+      "meanDisplacement": 0.2144010017532344,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "iris-07",
+      "samples": 384,
+      "movedShare": 1,
+      "meanDisplacement": 0.23394451556740323,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "iris-08",
+      "samples": 384,
+      "movedShare": 1,
+      "meanDisplacement": 0.35702139423958856,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "coral-01",
+      "samples": 256,
+      "movedShare": 1,
+      "meanDisplacement": 0.26353631768322094,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "coral-02",
+      "samples": 384,
+      "movedShare": 1,
+      "meanDisplacement": 0.2543833247365729,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "coral-03",
+      "samples": 384,
+      "movedShare": 1,
+      "meanDisplacement": 0.31460125950613144,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "coral-04",
+      "samples": 256,
+      "movedShare": 1,
+      "meanDisplacement": 0.22703602325739694,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "coral-05",
+      "samples": 256,
+      "movedShare": 1,
+      "meanDisplacement": 0.20614278611177486,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "coral-06",
+      "samples": 248,
+      "movedShare": 1,
+      "meanDisplacement": 0.20154045466027382,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "coral-07",
+      "samples": 384,
+      "movedShare": 1,
+      "meanDisplacement": 0.23194830662706312,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "coral-08",
+      "samples": 384,
+      "movedShare": 1,
+      "meanDisplacement": 0.4499911284523081,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "lens-01",
+      "samples": 256,
+      "movedShare": 1,
+      "meanDisplacement": 0.2798855186906658,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "lens-02",
+      "samples": 384,
+      "movedShare": 1,
+      "meanDisplacement": 0.3112811767683255,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "lens-03",
+      "samples": 384,
+      "movedShare": 1,
+      "meanDisplacement": 0.31828438695874994,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "lens-04",
+      "samples": 256,
+      "movedShare": 1,
+      "meanDisplacement": 0.18771176369343986,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "lens-05",
+      "samples": 256,
+      "movedShare": 1,
+      "meanDisplacement": 0.24301473662487272,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "lens-06",
+      "samples": 217,
+      "movedShare": 1,
+      "meanDisplacement": 0.18603990487322486,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "lens-07",
+      "samples": 384,
+      "movedShare": 1,
+      "meanDisplacement": 0.24487362523744052,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "lens-08",
+      "samples": 384,
+      "movedShare": 1,
+      "meanDisplacement": 0.20697508967338527,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "hourglass-01",
+      "samples": 256,
+      "movedShare": 1,
+      "meanDisplacement": 0.21962227386354663,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "hourglass-02",
+      "samples": 384,
+      "movedShare": 1,
+      "meanDisplacement": 0.23581980278225848,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "hourglass-03",
+      "samples": 384,
+      "movedShare": 0.9947916666666666,
+      "meanDisplacement": 0.3055329222103709,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "hourglass-04",
+      "samples": 256,
+      "movedShare": 0.99609375,
+      "meanDisplacement": 0.25993920368567053,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "hourglass-05",
+      "samples": 256,
+      "movedShare": 1,
+      "meanDisplacement": 0.21148909196749216,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "hourglass-06",
+      "samples": 244,
+      "movedShare": 1,
+      "meanDisplacement": 0.19552677678949235,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "hourglass-07",
+      "samples": 384,
+      "movedShare": 1,
+      "meanDisplacement": 0.21175333901247173,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "hourglass-08",
+      "samples": 384,
+      "movedShare": 1,
+      "meanDisplacement": 0.23861564523299375,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "tesseract-01",
+      "samples": 256,
+      "movedShare": 1,
+      "meanDisplacement": 0.4271169796425087,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "tesseract-02",
+      "samples": 384,
+      "movedShare": 1,
+      "meanDisplacement": 0.21387459405240716,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "tesseract-03",
+      "samples": 384,
+      "movedShare": 1,
+      "meanDisplacement": 0.31210061621048607,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "tesseract-04",
+      "samples": 256,
+      "movedShare": 1,
+      "meanDisplacement": 0.4144398635516575,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "tesseract-05",
+      "samples": 256,
+      "movedShare": 1,
+      "meanDisplacement": 0.24142302483490688,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "tesseract-06",
+      "samples": 255,
+      "movedShare": 1,
+      "meanDisplacement": 0.19925432899177828,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "tesseract-07",
+      "samples": 384,
+      "movedShare": 1,
+      "meanDisplacement": 0.3552041169606841,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "tesseract-08",
+      "samples": 384,
+      "movedShare": 0.9947916666666666,
+      "meanDisplacement": 0.28656553461967976,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "crystal-01",
+      "samples": 256,
+      "movedShare": 1,
+      "meanDisplacement": 0.21863750787764338,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "crystal-02",
+      "samples": 384,
+      "movedShare": 1,
+      "meanDisplacement": 0.3332735476505821,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "crystal-03",
+      "samples": 384,
+      "movedShare": 1,
+      "meanDisplacement": 0.3419725216414458,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "crystal-04",
+      "samples": 256,
+      "movedShare": 1,
+      "meanDisplacement": 0.24591374982720215,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "crystal-05",
+      "samples": 256,
+      "movedShare": 1,
+      "meanDisplacement": 0.24383109069299197,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "crystal-06",
+      "samples": 247,
+      "movedShare": 1,
+      "meanDisplacement": 0.21094756219137525,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "crystal-07",
+      "samples": 384,
+      "movedShare": 1,
+      "meanDisplacement": 0.3273727985932641,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "crystal-08",
+      "samples": 384,
+      "movedShare": 1,
+      "meanDisplacement": 0.2898525975570582,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "scroll-01",
+      "samples": 256,
+      "movedShare": 1,
+      "meanDisplacement": 0.2770424501226843,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "scroll-02",
+      "samples": 384,
+      "movedShare": 1,
+      "meanDisplacement": 0.3206703981741495,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "scroll-03",
+      "samples": 384,
+      "movedShare": 1,
+      "meanDisplacement": 0.3927372403141864,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "scroll-04",
+      "samples": 256,
+      "movedShare": 1,
+      "meanDisplacement": 0.3111674709557088,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "scroll-05",
+      "samples": 256,
+      "movedShare": 1,
+      "meanDisplacement": 0.2501671212944024,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "scroll-06",
+      "samples": 252,
+      "movedShare": 1,
+      "meanDisplacement": 0.2012731767757458,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "scroll-07",
+      "samples": 384,
+      "movedShare": 1,
+      "meanDisplacement": 0.24380385645204397,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "scroll-08",
+      "samples": 384,
+      "movedShare": 0.9973958333333334,
+      "meanDisplacement": 0.2236609691451412,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "wavefront-01",
+      "samples": 256,
+      "movedShare": 1,
+      "meanDisplacement": 0.2518434450049145,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "wavefront-02",
+      "samples": 384,
+      "movedShare": 0.9973958333333334,
+      "meanDisplacement": 0.23438981134653877,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "wavefront-03",
+      "samples": 384,
+      "movedShare": 1,
+      "meanDisplacement": 0.31404837365352173,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "wavefront-04",
+      "samples": 256,
+      "movedShare": 0.99609375,
+      "meanDisplacement": 0.20797341625204643,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "wavefront-05",
+      "samples": 256,
+      "movedShare": 1,
+      "meanDisplacement": 0.21381361382775024,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "wavefront-06",
+      "samples": 251,
+      "movedShare": 1,
+      "meanDisplacement": 0.19749839364059366,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "wavefront-07",
+      "samples": 384,
+      "movedShare": 1,
+      "meanDisplacement": 0.24453293978718046,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "wavefront-08",
+      "samples": 384,
+      "movedShare": 1,
+      "meanDisplacement": 0.3638423037495376,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "braid-01",
+      "samples": 256,
+      "movedShare": 1,
+      "meanDisplacement": 0.2504477761366979,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "braid-02",
+      "samples": 384,
+      "movedShare": 1,
+      "meanDisplacement": 0.286148482385818,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "braid-03",
+      "samples": 384,
+      "movedShare": 1,
+      "meanDisplacement": 0.33865703869286623,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "braid-04",
+      "samples": 256,
+      "movedShare": 1,
+      "meanDisplacement": 0.36334505938251216,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "braid-05",
+      "samples": 256,
+      "movedShare": 1,
+      "meanDisplacement": 0.23731256692228797,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "braid-06",
+      "samples": 253,
+      "movedShare": 1,
+      "meanDisplacement": 0.20461590625473372,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "braid-07",
+      "samples": 384,
+      "movedShare": 1,
+      "meanDisplacement": 0.21288943225686263,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "braid-08",
+      "samples": 384,
+      "movedShare": 1,
+      "meanDisplacement": 0.24861174236144887,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "arch-01",
+      "samples": 256,
+      "movedShare": 0.99609375,
+      "meanDisplacement": 0.24096758500279247,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "arch-02",
+      "samples": 384,
+      "movedShare": 1,
+      "meanDisplacement": 0.2223053406744165,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "arch-03",
+      "samples": 384,
+      "movedShare": 1,
+      "meanDisplacement": 0.35308922278221416,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "arch-04",
+      "samples": 256,
+      "movedShare": 1,
+      "meanDisplacement": 0.21847940315839842,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "arch-05",
+      "samples": 256,
+      "movedShare": 1,
+      "meanDisplacement": 0.2507460215719956,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "arch-06",
+      "samples": 253,
+      "movedShare": 1,
+      "meanDisplacement": 0.2005036045021554,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "arch-07",
+      "samples": 384,
+      "movedShare": 1,
+      "meanDisplacement": 0.2554166182865257,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "arch-08",
+      "samples": 384,
+      "movedShare": 1,
+      "meanDisplacement": 0.37230740353940145,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "reaction-01",
+      "samples": 256,
+      "movedShare": 1,
+      "meanDisplacement": 0.2241766172997359,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "reaction-02",
+      "samples": 384,
+      "movedShare": 1,
+      "meanDisplacement": 0.22253475066630724,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "reaction-03",
+      "samples": 384,
+      "movedShare": 1,
+      "meanDisplacement": 0.3323815028244998,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "reaction-04",
+      "samples": 256,
+      "movedShare": 0.99609375,
+      "meanDisplacement": 0.23236379530617327,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "reaction-05",
+      "samples": 256,
+      "movedShare": 1,
+      "meanDisplacement": 0.22176387147688784,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "reaction-06",
+      "samples": 253,
+      "movedShare": 1,
+      "meanDisplacement": 0.20112617928026474,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "reaction-07",
+      "samples": 384,
+      "movedShare": 1,
+      "meanDisplacement": 0.22889801558676584,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "reaction-08",
+      "samples": 384,
+      "movedShare": 1,
+      "meanDisplacement": 0.2196877837043341,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "weft-01",
+      "samples": 256,
+      "movedShare": 1,
+      "meanDisplacement": 0.31942746801520955,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "weft-02",
+      "samples": 384,
+      "movedShare": 1,
+      "meanDisplacement": 0.215827871423276,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "weft-03",
+      "samples": 384,
+      "movedShare": 1,
+      "meanDisplacement": 0.3324313381048049,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "weft-04",
+      "samples": 256,
+      "movedShare": 0.99609375,
+      "meanDisplacement": 0.24716534772165835,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "weft-05",
+      "samples": 256,
+      "movedShare": 1,
+      "meanDisplacement": 0.26380100251315214,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "weft-06",
+      "samples": 248,
+      "movedShare": 1,
+      "meanDisplacement": 0.20358983660549568,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "weft-07",
+      "samples": 384,
+      "movedShare": 1,
+      "meanDisplacement": 0.25490678863750854,
+      "colorChanges": 0,
+      "glError": 0
+    },
+    {
+      "id": "weft-08",
+      "samples": 384,
+      "movedShare": 1,
+      "meanDisplacement": 0.1924638613843788,
+      "colorChanges": 0,
+      "glError": 0
+    }
+  ],
+  "fullscreen": {
+    "nativeEntered": false,
+    "scope": "DOM fullscreen-state emulation; physical fullscreen still requires device qualification",
+    "observedOverlays": [
+      {
+        "id": "HEADER",
+        "opacity": "0",
+        "visibility": "hidden",
+        "inert": true
+      },
+      {
+        "id": "inspector",
+        "opacity": "0",
+        "visibility": "hidden",
+        "inert": true
+      },
+      {
+        "id": "FOOTER",
+        "opacity": "0",
+        "visibility": "hidden",
+        "inert": true
+      },
+      {
+        "id": "catalog",
+        "opacity": "0",
+        "visibility": "hidden",
+        "inert": true
+      },
+      {
+        "id": "toast",
+        "opacity": "0",
+        "visibility": "hidden",
+        "inert": true
+      },
+      {
+        "id": "failure",
+        "opacity": "0",
+        "visibility": "hidden",
+        "inert": true
+      },
+      {
+        "id": "reveal",
+        "opacity": "0",
+        "visibility": "hidden",
+        "inert": true
+      }
+    ],
+    "idleHidesEveryOverlay": true,
+    "newMessagesStayHidden": true,
+    "mouseRevealsControls": true,
+    "keyboardRevealsControls": true,
+    "exitRestoresControls": true
+  },
+  "defaults": {
+    "mode": "shuffle",
+    "paletteCycle": true
+  },
+  "framingSummary": {
+    "baselineMeanTiles": 0.2298177083333334,
+    "meanTiles": 0.5666232638888888,
+    "minTiles": 0.4166666666666667,
+    "improved": 32
+  },
+  "paletteCycle": {
+    "changed": true,
+    "kind": "library",
+    "staysWhenOff": true
+  },
+  "fluidity": {
+    "changesBetweenAnalysisTicks": true,
+    "analysisPoseRetained": true,
+    "blend": 0.5,
+    "glError": 0
+  }
+}

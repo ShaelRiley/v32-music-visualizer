@@ -22,7 +22,13 @@ try{
  await page.locator('#file').setInputFiles(await makeFixture());await page.waitForTimeout(200);await page.locator('#pause').click();const before=await page.evaluate(()=>({state:window.__V32.getState(),audio:document.getElementById('audio').currentTime}));await page.waitForTimeout(650);const after=await page.evaluate(()=>({state:window.__V32.getState(),audio:document.getElementById('audio').currentTime}));assert.equal(before.state.paused,true);assert.equal(after.state.clock,before.state.clock);assert(after.audio>before.audio+.4);report.pauseFreezesVisualsWhileFileContinues=true;
  await page.locator('#pause').click();await page.locator('#hold').click();const beforeHold=await page.evaluate(()=>window.__V32.getState());await page.waitForTimeout(350);const afterHold=await page.evaluate(()=>window.__V32.getState());assert.equal(afterHold.held,true);assert.equal(afterHold.current.id,beforeHold.current.id);assert(afterHold.clock>beforeHold.clock);report.holdFlagPreservesAnimation=true;
  await page.evaluate(()=>{const a=window.__V32;for(let i=0;i<45;i++)a.display(a.generateDiscovery('history-'+i).scene,true);});assert.equal(await page.evaluate(()=>window.__V32.metrics().history),40);report.historyBound=40;
- await page.locator('#stopAudio').click();assert.equal(await page.evaluate(()=>window.__V32.getState().source),'idle');assert.equal(errors.length,0);
+ await page.locator('#stopAudio').click();assert.equal(await page.evaluate(()=>window.__V32.getState().source),'idle');
+ await page.locator('[data-setting="paletteCycle"]').uncheck();report.bankStartup=[];
+ for(const [mode,bank]of [['spaces','spaces'],['video','video'],['library','regular']]){
+  await page.locator('[data-setting="mode"]').selectOption(mode);await page.reload();await page.waitForFunction(()=>window.__V32?.renderer.paletteReady&&window.__V32.renderer.spaceReady);
+  const restored=await page.evaluate(()=>{const a=window.__V32,s=a.getState();return {mode:s.settings.mode,bank:s.current.space?'spaces':s.current.video?'video':'regular',paletteCycle:s.settings.paletteCycle,glError:a.renderer.gl.getError()};});
+  assert.equal(restored.mode,mode);assert.equal(restored.bank,bank);assert.equal(restored.paletteCycle,false);assert.equal(restored.glError,0);report.bankStartup.push(restored);await page.locator('#controls').click();
+ }assert.equal(errors.length,0);
  console.log('UI persistence, retention, import/export and audio/pause checks passed');
 }catch(e){report.failure=e.message;console.error(e);process.exitCode=1;}
 await writeFile('docs/ui-report.json',JSON.stringify(report,null,2));await browser.close();server.close();

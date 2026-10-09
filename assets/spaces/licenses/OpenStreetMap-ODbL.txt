@@ -1,0 +1,5 @@
+© OpenStreetMap contributors.
+The source subsets in vendor/spaces/osm and their derived point fabrics in assets/spaces/data (OSM sources and bundle ranges identified in manifest.json) are available under ODbL 1.0:
+https://opendatacommons.org/licenses/odbl/1-0/
+https://www.openstreetmap.org/copyright
+Original URLs, snapshot hashes and transformations are recorded in the manifests.

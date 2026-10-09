@@ -1,0 +1,181 @@
+{
+  "commit": "2a01390ee0cca552951c5fa62b7d73bbd7fc2115",
+  "environment": "Chromium headless shell 151.0.7922.34; SwiftShader; development adapter",
+  "resolution": [
+    640,
+    360
+  ],
+  "time": 7,
+  "budget": 8500,
+  "features": {
+    "level": 0.5,
+    "bass": 0.6,
+    "mid": 0.4,
+    "treble": 0.3,
+    "onset": 0.7,
+    "trend": 0.55
+  },
+  "metric": "Fraction of 16 by 9 screen tiles containing artwork; each tile is 40 by 40 pixels. Separate nonblack-pixel fraction is not screen extent.",
+  "presets": [
+    {
+      "id": "ribbon-01",
+      "pixels": 0.04276909722222222,
+      "tiles": 0.2569444444444444
+    },
+    {
+      "id": "torus-01",
+      "pixels": 0.06313802083333334,
+      "tiles": 0.19444444444444445
+    },
+    {
+      "id": "shell-01",
+      "pixels": 0.05170138888888889,
+      "tiles": 0.2013888888888889
+    },
+    {
+      "id": "helix-01",
+      "pixels": 0.054496527777777776,
+      "tiles": 0.20833333333333334
+    },
+    {
+      "id": "wave-01",
+      "pixels": 0.07830729166666667,
+      "tiles": 0.375
+    },
+    {
+      "id": "gyroid-01",
+      "pixels": 0.06994357638888889,
+      "tiles": 0.3611111111111111
+    },
+    {
+      "id": "knot-01",
+      "pixels": 0.04615451388888889,
+      "tiles": 0.1388888888888889
+    },
+    {
+      "id": "branch-01",
+      "pixels": 0.06509114583333334,
+      "tiles": 0.2986111111111111
+    },
+    {
+      "id": "cell-01",
+      "pixels": 0.04650173611111111,
+      "tiles": 0.16666666666666666
+    },
+    {
+      "id": "spiral-01",
+      "pixels": 0.055438368055555555,
+      "tiles": 0.1875
+    },
+    {
+      "id": "cone-01",
+      "pixels": 0.051666666666666666,
+      "tiles": 0.1597222222222222
+    },
+    {
+      "id": "saddle-01",
+      "pixels": 0.062452256944444444,
+      "tiles": 0.22916666666666666
+    },
+    {
+      "id": "catenoid-01",
+      "pixels": 0.05507378472222222,
+      "tiles": 0.25
+    },
+    {
+      "id": "mobius-01",
+      "pixels": 0.04979600694444444,
+      "tiles": 0.1388888888888889
+    },
+    {
+      "id": "klein-01",
+      "pixels": 0.0432421875,
+      "tiles": 0.1111111111111111
+    },
+    {
+      "id": "superquadric-01",
+      "pixels": 0.05462673611111111,
+      "tiles": 0.25
+    },
+    {
+      "id": "rosette-01",
+      "pixels": 0.04045138888888889,
+      "tiles": 0.125
+    },
+    {
+      "id": "lattice-01",
+      "pixels": 0.05430555555555556,
+      "tiles": 0.2777777777777778
+    },
+    {
+      "id": "vortex-01",
+      "pixels": 0.05815104166666667,
+      "tiles": 0.22916666666666666
+    },
+    {
+      "id": "strata-01",
+      "pixels": 0.07903645833333334,
+      "tiles": 0.3125
+    },
+    {
+      "id": "iris-01",
+      "pixels": 0.05293836805555555,
+      "tiles": 0.13194444444444445
+    },
+    {
+      "id": "coral-01",
+      "pixels": 0.08418402777777778,
+      "tiles": 0.4097222222222222
+    },
+    {
+      "id": "lens-01",
+      "pixels": 0.07061197916666667,
+      "tiles": 0.2569444444444444
+    },
+    {
+      "id": "hourglass-01",
+      "pixels": 0.05859375,
+      "tiles": 0.25
+    },
+    {
+      "id": "tesseract-01",
+      "pixels": 0.06404079861111112,
+      "tiles": 0.4375
+    },
+    {
+      "id": "crystal-01",
+      "pixels": 0.041167534722222225,
+      "tiles": 0.1527777777777778
+    },
+    {
+      "id": "scroll-01",
+      "pixels": 0.043897569444444444,
+      "tiles": 0.3125
+    },
+    {
+      "id": "wavefront-01",
+      "pixels": 0.05102864583333333,
+      "tiles": 0.1388888888888889
+    },
+    {
+      "id": "braid-01",
+      "pixels": 0.05409722222222222,
+      "tiles": 0.2013888888888889
+    },
+    {
+      "id": "arch-01",
+      "pixels": 0.037508680555555556,
+      "tiles": 0.10416666666666667
+    },
+    {
+      "id": "reaction-01",
+      "pixels": 0.0506640625,
+      "tiles": 0.19444444444444445
+    },
+    {
+      "id": "weft-01",
+      "pixels": 0.06480902777777778,
+      "tiles": 0.2916666666666667
+    }
+  ]
+}
